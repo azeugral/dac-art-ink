@@ -428,16 +428,44 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
 .fatos li { font: 400 13px/1 var(--f-rotulo); padding: 10px 12px; border: 1px solid var(--linha); border-radius: 999px; color: var(--apagado); }
 
 /* ---------- rodapé ---------- */
-.rodape { border-top: 1px solid var(--linha); background: var(--preto); margin-top: 0; }
-.rodape-in { max-width: var(--max); margin: 0 auto; padding: 48px var(--gutter) 32px; display: grid; gap: 32px; }
-@media (min-width: 900px) { .rodape-in { grid-template-columns: 1.2fr 1fr 1fr; } }
-.rodape img { height: 56px; width: auto; }
-.rodape h2 { font: 700 12px/1 var(--f-rotulo); letter-spacing: .16em; color: var(--neon); margin-bottom: 14px; }
-.rodape ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
-.rodape a { text-decoration: none; color: var(--apagado); display: inline-block; padding: 6px 0; }
+.rodape { border-top: 1px solid var(--linha); background: var(--preto); }
+.rodape-in { max-width: var(--max); margin: 0 auto; padding: clamp(40px, 5vw, 64px) var(--gutter) 28px; }
+
+/* faixa da marca: logo · frase · CTA, tudo numa linha no desktop */
+.rodape-marca {
+  display: grid; gap: 18px 40px; align-items: center;
+  padding-bottom: clamp(28px, 4vw, 40px); border-bottom: 1px solid var(--linha);
+}
+@media (min-width: 900px) { .rodape-marca { grid-template-columns: auto 1fr auto; } }
+.rodape-marca img { width: clamp(180px, 22vw, 260px); height: auto; }
+.rodape-marca p { margin: 0; max-width: 46ch; color: var(--apagado); font-size: 15px; }
+
+/* colunas de informação, horizontais */
+.rodape-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 20px; padding: clamp(28px, 4vw, 40px) 0; }
+@media (min-width: 800px) { .rodape-cols { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px; } }
+.rodape h2 { font: 700 11px/1 var(--f-rotulo); letter-spacing: .18em; text-transform: uppercase; color: var(--neon); margin: 0 0 14px; }
+.rodape ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.rodape li { font-size: 15px; color: var(--apagado); overflow-wrap: anywhere; }
+.rodape-dados li { padding: 6px 0; }
+.rodape a { text-decoration: none; color: var(--apagado); display: inline-block; padding: 6px 0; transition: color var(--t); }
 .rodape a:hover { color: var(--menta); }
-.rodape p { color: var(--apagado); font-size: 15px; margin: 14px 0 0; }
-.rodape-fim { grid-column: 1 / -1; font: 400 12px/1.5 var(--f-rotulo); color: #6b6b72; border-top: 1px solid var(--linha); padding-top: 20px; }
+.rodape .botao { color: #000; padding: 0 22px; justify-self: start; }
+.rodape .botao:hover { color: #000; }
+
+.rodape-fim {
+  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px 24px;
+  padding-top: 20px; border-top: 1px solid var(--linha);
+  font: 400 12px/1.5 var(--f-rotulo); color: #75757d;
+}
+.assinatura a {
+  padding: 4px 0; margin-left: 4px; color: var(--texto); font-weight: 700; letter-spacing: .28em;
+  border-bottom: 1px solid transparent;
+}
+.assinatura a:hover { color: var(--menta); border-bottom-color: var(--menta); }
+@media (max-width: 640px) {
+  .rodape-fim { flex-direction: column; align-items: flex-start; padding-bottom: 72px; } /* espaço para o botão do WhatsApp */
+  .rodape .botao { width: 100%; }
+}
 
 .zap {
   position: fixed; right: 16px; bottom: 16px; z-index: 50;
