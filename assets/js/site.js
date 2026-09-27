@@ -200,7 +200,7 @@
       const s = porSlug[slug] && !porSlug[slug].oculta ? porSlug[slug] : visiveis[0];
       filtros.querySelectorAll(".filtro").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.slug === s.slug)));
       const ativo = filtros.querySelector(`[data-slug="${s.slug}"]`);
-      filtros.scrollTo({ left: ativo.offsetLeft - (filtros.clientWidth - ativo.offsetWidth) / 2, behavior: "smooth" });
+      filtros.scrollTo({ left: ativo.offsetLeft - (filtros.clientWidth - ativo.offsetWidth) / 2, behavior: rolar ? "smooth" : "auto" });
       alvo.replaceChildren();
       galerias.clear();
 
