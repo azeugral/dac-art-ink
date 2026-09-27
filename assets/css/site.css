@@ -458,3 +458,4 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
 .coracao { color: var(--neon); }
+.como h2 .neon { white-space: nowrap; }
