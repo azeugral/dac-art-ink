@@ -2,7 +2,7 @@
 (() => {
   const WHATSAPP = "5512996436334";
 
-  const topo = document.querySelector(".topo");
+  const topo = document.querySelector(".barra");
   const medir = () => topo && document.documentElement.style.setProperty("--altura-topo", topo.offsetHeight + "px");
   medir();
   addEventListener("resize", medir);

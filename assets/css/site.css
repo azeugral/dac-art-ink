@@ -44,45 +44,60 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .pular { position: absolute; left: -999px; top: 8px; z-index: 100; background: var(--lima); color: #000; padding: 8px 12px; font-family: var(--f-rotulo); }
 .pular:focus { left: 8px; }
 
-/* ---------- topo ---------- */
-.gotas {
-  height: clamp(44px, 7vw, 84px);
-  background: url("../img/gotas.webp") repeat-x top left / auto 100%;
-  pointer-events: none;
-}
+/* ---------- topo: logo grande centralizado, menu logo abaixo ---------- */
 .topo {
+  display: grid; place-items: center;
+  padding: clamp(36px, 6vw, 72px) var(--gutter) clamp(22px, 3.2vw, 36px);
+  background: radial-gradient(ellipse 60% 70% at 50% 58%, color-mix(in srgb, var(--menta) 7%, transparent), transparent 70%);
+}
+.topo-logo { display: block; border-radius: var(--raio); }
+.topo-logo img {
+  width: min(620px, 80vw); height: auto;
+  filter: drop-shadow(0 0 22px color-mix(in srgb, var(--menta) 26%, transparent)) drop-shadow(0 0 30px color-mix(in srgb, var(--neon-fundo) 14%, transparent));
+}
+body.interna .topo { padding: clamp(24px, 4vw, 44px) var(--gutter) clamp(16px, 2.4vw, 26px); }
+body.interna .topo-logo img { width: min(380px, 64vw); }
+
+.barra {
   position: sticky; top: 0; z-index: 40;
-  background: color-mix(in srgb, var(--preto) 88%, transparent);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--linha);
+  background: color-mix(in srgb, var(--preto) 86%, transparent);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  border-top: 1px solid var(--linha); border-bottom: 1px solid var(--linha);
 }
-.topo-in {
-  max-width: var(--max); margin: 0 auto; padding: 10px var(--gutter);
-  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+.menu {
+  display: flex; justify-content: center; gap: clamp(4px, 4.5vw, 64px);
+  max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); list-style: none;
 }
-.topo-logo img { height: 42px; width: auto; }
-.menu { display: flex; gap: clamp(6px, 2vw, 28px); list-style: none; margin: 0; padding: 0; }
 .menu a {
-  display: inline-flex; align-items: center; gap: 4px;
-  font: 700 13px/1 var(--f-rotulo); letter-spacing: .08em; text-transform: uppercase;
-  text-decoration: none; padding: 10px 4px; color: var(--apagado);
+  position: relative; display: inline-flex; align-items: center; gap: 4px;
+  font: 700 13px/1 var(--f-rotulo); letter-spacing: .14em; text-transform: uppercase;
+  text-decoration: none; padding: 18px 6px; color: var(--apagado);
   transition: color var(--t);
 }
-.menu a:hover, .menu a[aria-current="page"] { color: var(--menta); }
-.menu a[aria-current="page"] { text-shadow: 0 0 12px color-mix(in srgb, var(--menta) 60%, transparent); }
-.menu .ext::after { content: "↗"; font-size: 11px; }
+.menu a::before {
+  content: ""; position: absolute; left: 6px; right: 6px; bottom: -1px; height: 2px;
+  background: var(--menta); box-shadow: 0 0 12px var(--menta);
+  transform: scaleX(0); transition: transform var(--t);
+}
+.menu a:hover { color: var(--texto); }
+.menu a:hover::before { transform: scaleX(.4); }
+.menu a[aria-current="page"] { color: var(--menta); }
+.menu a[aria-current="page"]::before { transform: scaleX(1); }
+.menu .ext::after { content: "↗"; font-size: 11px; letter-spacing: 0; }
 
 @media (max-width: 640px) {
-  .topo-in { flex-direction: column; gap: 2px; padding-top: 8px; padding-bottom: 0; }
-  .topo-logo img { height: 34px; }
-  .menu { width: 100%; justify-content: space-between; }
-  .menu a { font-size: 12px; letter-spacing: .04em; padding: 12px 2px; }
+  .topo { padding: 28px var(--gutter) 20px; }
+  body.interna .topo { padding: 20px var(--gutter) 14px; }
+  .menu { justify-content: space-between; padding: 0 calc(var(--gutter) - 4px); }
+  .menu a { font-size: 12px; letter-spacing: .06em; padding: 16px 4px; }
+}
+@media (max-width: 360px) {
+  .menu a { font-size: 11px; letter-spacing: .02em; padding: 16px 2px; }
 }
 
 /* ---------- estrutura ---------- */
 .miolo { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
-.secao { padding: clamp(48px, 8vw, 96px) 0; }
+.secao { padding-top: clamp(48px, 8vw, 96px); padding-bottom: clamp(48px, 8vw, 96px); }
 .secao + .secao { border-top: 1px solid var(--linha); }
 
 .rotulo {
@@ -118,17 +133,15 @@ h3 { font-size: clamp(26px, 3.4vw, 36px); }
 .botoes { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
 
 /* ---------- home ---------- */
-.hero { text-align: center; padding: clamp(24px, 6vw, 64px) 0 clamp(40px, 7vw, 80px); }
-.hero-logo { width: min(640px, 86vw); margin: 0 auto; filter: drop-shadow(0 0 24px color-mix(in srgb, var(--menta) 28%, transparent)); }
-.hero-frase { margin-top: clamp(20px, 3vw, 32px); font-size: clamp(36px, 6.4vw, 76px); }
+.hero { text-align: center; padding-top: clamp(36px, 6vw, 72px); padding-bottom: clamp(40px, 7vw, 80px); }
+.hero-frase { font-size: clamp(36px, 6.4vw, 76px); }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .hero-sub { font: 400 14px/1.7 var(--f-rotulo); letter-spacing: .06em; color: var(--apagado); margin: 16px auto 0; max-width: 56ch; }
 
 @media (max-width: 640px) {
   /* no celular a home vira o "link da bio": as portas precisam aparecer na primeira tela */
-  .hero { padding: 20px 0 22px; }
-  .hero-logo { width: 62vw; }
-  .hero-frase { font-size: 34px; margin-top: 14px; }
+  .hero { padding-top: 22px; padding-bottom: 22px; }
+  .hero-frase { font-size: 34px; }
   .hero-sub { font-size: 12px; margin-top: 10px; }
   .hero .botoes { display: none; }
 }

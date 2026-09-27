@@ -23,6 +23,7 @@ for frag in sorted((RAIZ / "tools" / "paginas").glob("*.html")):
     cab = re.sub(r'(<meta property="og:title" content=")[^"]*', lambda m: m.group(1) + html.escape(meta["titulo"], quote=True), cab)
     cab = re.sub(r'(<meta property="og:description" content=")[^"]*', lambda m: m.group(1) + html.escape(meta["descricao"], quote=True), cab)
     cab = cab.replace('<link rel="preload" as="image" href="assets/img/logo.webp">\n', "")
+    cab = cab.replace("<body>", '<body class="interna">', 1)  # logo menor nas páginas internas
     if meta.get("ativo"):
         cab = cab.replace(f'<a href="{meta["ativo"]}">', f'<a href="{meta["ativo"]}" aria-current="page">', 1)
     (RAIZ / frag.name).write_text(f'{cab}<main id="conteudo">\n{corpo}  </main>{depois}', encoding="utf-8")
