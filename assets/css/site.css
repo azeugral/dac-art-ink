@@ -195,6 +195,16 @@ h3 { font-size: clamp(26px, 3.4vw, 36px); }
 }
 @media (min-width: 900px) { .serie-cab { grid-template-columns: auto 1fr; } }
 .serie-cab h2 { font-size: clamp(44px, 7vw, 88px); }
+@media (max-width: 640px) {
+  /* no celular as obras precisam aparecer logo: topo da página e da série mais enxutos */
+  [data-trabalhos] { margin-top: 0; }
+  .cabeca-pagina:has(+ .filtros) { padding: 18px 0 14px; }
+  .cabeca-pagina:has(+ .filtros) h1 { font-size: 52px; }
+  .cabeca-pagina:has(+ .filtros) .intro { display: none; }
+  .serie-cab { padding: 22px 0 16px; margin-bottom: 18px; gap: 8px; }
+  .serie-cab h2 { font-size: 34px; }
+  .serie-cab p { font-size: 14px; }
+}
 .serie-cab p { color: var(--apagado); max-width: 62ch; margin: 0; font-size: clamp(15px, 1.6vw, 17px); }
 
 .grupo + .grupo { margin-top: clamp(40px, 6vw, 72px); }
