@@ -14,7 +14,8 @@
           "w": 1440,
           "h": 1799,
           "t": "assets/obras/tattoos/060-t.webp",
-          "g": "assets/obras/tattoos/060-g.webp"
+          "g": "assets/obras/tattoos/060-g.webp",
+          "m": "assets/obras/tattoos/060-m.webp"
         },
         {
           "arquivo": "059.jpg",
@@ -25,7 +26,8 @@
           "w": 1440,
           "h": 1800,
           "t": "assets/obras/tattoos/059-t.webp",
-          "g": "assets/obras/tattoos/059-g.webp"
+          "g": "assets/obras/tattoos/059-g.webp",
+          "m": "assets/obras/tattoos/059-m.webp"
         },
         {
           "arquivo": "058.jpg",
@@ -36,7 +38,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/tattoos/058-t.webp",
-          "g": "assets/obras/tattoos/058-g.webp"
+          "g": "assets/obras/tattoos/058-g.webp",
+          "m": "assets/obras/tattoos/058-m.webp"
         },
         {
           "arquivo": "057.jpg",
@@ -47,7 +50,8 @@
           "w": 1440,
           "h": 1800,
           "t": "assets/obras/tattoos/057-t.webp",
-          "g": "assets/obras/tattoos/057-g.webp"
+          "g": "assets/obras/tattoos/057-g.webp",
+          "m": "assets/obras/tattoos/057-m.webp"
         },
         {
           "arquivo": "001.jpg",
@@ -58,7 +62,8 @@
           "w": 1125,
           "h": 2000,
           "t": "assets/obras/tattoos/001-t.webp",
-          "g": "assets/obras/tattoos/001-g.webp"
+          "g": "assets/obras/tattoos/001-g.webp",
+          "m": "assets/obras/tattoos/001-m.webp"
         },
         {
           "arquivo": "002.jpg",
@@ -68,7 +73,8 @@
           "w": 1254,
           "h": 1254,
           "t": "assets/obras/tattoos/002-t.webp",
-          "g": "assets/obras/tattoos/002-g.webp"
+          "g": "assets/obras/tattoos/002-g.webp",
+          "m": "assets/obras/tattoos/002-m.webp"
         },
         {
           "arquivo": "003.jpg",
@@ -78,7 +84,8 @@
           "w": 1254,
           "h": 1254,
           "t": "assets/obras/tattoos/003-t.webp",
-          "g": "assets/obras/tattoos/003-g.webp"
+          "g": "assets/obras/tattoos/003-g.webp",
+          "m": "assets/obras/tattoos/003-m.webp"
         },
         {
           "arquivo": "004.jpg",
@@ -88,7 +95,8 @@
           "w": 820,
           "h": 784,
           "t": "assets/obras/tattoos/004-t.webp",
-          "g": "assets/obras/tattoos/004-g.webp"
+          "g": "assets/obras/tattoos/004-g.webp",
+          "m": "assets/obras/tattoos/004-m.webp"
         },
         {
           "arquivo": "005.jpg",
@@ -98,7 +106,8 @@
           "w": 897,
           "h": 997,
           "t": "assets/obras/tattoos/005-t.webp",
-          "g": "assets/obras/tattoos/005-g.webp"
+          "g": "assets/obras/tattoos/005-g.webp",
+          "m": "assets/obras/tattoos/005-m.webp"
         },
         {
           "arquivo": "006.jpg",
@@ -108,7 +117,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/tattoos/006-t.webp",
-          "g": "assets/obras/tattoos/006-g.webp"
+          "g": "assets/obras/tattoos/006-g.webp",
+          "m": "assets/obras/tattoos/006-m.webp"
         },
         {
           "arquivo": "007.png",
@@ -118,7 +128,8 @@
           "w": 1080,
           "h": 1440,
           "t": "assets/obras/tattoos/007-t.webp",
-          "g": "assets/obras/tattoos/007-g.webp"
+          "g": "assets/obras/tattoos/007-g.webp",
+          "m": "assets/obras/tattoos/007-m.webp"
         },
         {
           "arquivo": "008.png",
@@ -128,7 +139,8 @@
           "w": 1080,
           "h": 1069,
           "t": "assets/obras/tattoos/008-t.webp",
-          "g": "assets/obras/tattoos/008-g.webp"
+          "g": "assets/obras/tattoos/008-g.webp",
+          "m": "assets/obras/tattoos/008-m.webp"
         },
         {
           "arquivo": "009.jpg",
@@ -138,7 +150,8 @@
           "w": 1050,
           "h": 1050,
           "t": "assets/obras/tattoos/009-t.webp",
-          "g": "assets/obras/tattoos/009-g.webp"
+          "g": "assets/obras/tattoos/009-g.webp",
+          "m": "assets/obras/tattoos/009-m.webp"
         },
         {
           "arquivo": "010.jpg",
@@ -148,7 +161,8 @@
           "w": 960,
           "h": 1280,
           "t": "assets/obras/tattoos/010-t.webp",
-          "g": "assets/obras/tattoos/010-g.webp"
+          "g": "assets/obras/tattoos/010-g.webp",
+          "m": "assets/obras/tattoos/010-m.webp"
         },
         {
           "arquivo": "011.jpg",
@@ -158,7 +172,8 @@
           "w": 949,
           "h": 1280,
           "t": "assets/obras/tattoos/011-t.webp",
-          "g": "assets/obras/tattoos/011-g.webp"
+          "g": "assets/obras/tattoos/011-g.webp",
+          "m": "assets/obras/tattoos/011-m.webp"
         },
         {
           "arquivo": "012.jpg",
@@ -168,7 +183,8 @@
           "w": 982,
           "h": 982,
           "t": "assets/obras/tattoos/012-t.webp",
-          "g": "assets/obras/tattoos/012-g.webp"
+          "g": "assets/obras/tattoos/012-g.webp",
+          "m": "assets/obras/tattoos/012-m.webp"
         },
         {
           "arquivo": "013.jpg",
@@ -178,7 +194,8 @@
           "w": 1086,
           "h": 1086,
           "t": "assets/obras/tattoos/013-t.webp",
-          "g": "assets/obras/tattoos/013-g.webp"
+          "g": "assets/obras/tattoos/013-g.webp",
+          "m": "assets/obras/tattoos/013-m.webp"
         },
         {
           "arquivo": "014.jpg",
@@ -188,7 +205,8 @@
           "w": 640,
           "h": 640,
           "t": "assets/obras/tattoos/014-t.webp",
-          "g": "assets/obras/tattoos/014-g.webp"
+          "g": "assets/obras/tattoos/014-g.webp",
+          "m": "assets/obras/tattoos/014-m.webp"
         },
         {
           "arquivo": "015.jpg",
@@ -198,7 +216,8 @@
           "w": 662,
           "h": 570,
           "t": "assets/obras/tattoos/015-t.webp",
-          "g": "assets/obras/tattoos/015-g.webp"
+          "g": "assets/obras/tattoos/015-g.webp",
+          "m": "assets/obras/tattoos/015-m.webp"
         },
         {
           "arquivo": "016.jpg",
@@ -208,7 +227,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/tattoos/016-t.webp",
-          "g": "assets/obras/tattoos/016-g.webp"
+          "g": "assets/obras/tattoos/016-g.webp",
+          "m": "assets/obras/tattoos/016-m.webp"
         },
         {
           "arquivo": "017.jpg",
@@ -218,7 +238,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/tattoos/017-t.webp",
-          "g": "assets/obras/tattoos/017-g.webp"
+          "g": "assets/obras/tattoos/017-g.webp",
+          "m": "assets/obras/tattoos/017-m.webp"
         },
         {
           "arquivo": "018.jpg",
@@ -228,7 +249,8 @@
           "w": 960,
           "h": 1280,
           "t": "assets/obras/tattoos/018-t.webp",
-          "g": "assets/obras/tattoos/018-g.webp"
+          "g": "assets/obras/tattoos/018-g.webp",
+          "m": "assets/obras/tattoos/018-m.webp"
         },
         {
           "arquivo": "019.jpg",
@@ -238,7 +260,8 @@
           "w": 990,
           "h": 1280,
           "t": "assets/obras/tattoos/019-t.webp",
-          "g": "assets/obras/tattoos/019-g.webp"
+          "g": "assets/obras/tattoos/019-g.webp",
+          "m": "assets/obras/tattoos/019-m.webp"
         },
         {
           "arquivo": "020.jpg",
@@ -248,7 +271,8 @@
           "w": 531,
           "h": 720,
           "t": "assets/obras/tattoos/020-t.webp",
-          "g": "assets/obras/tattoos/020-g.webp"
+          "g": "assets/obras/tattoos/020-g.webp",
+          "m": "assets/obras/tattoos/020-m.webp"
         },
         {
           "arquivo": "021.jpg",
@@ -258,7 +282,8 @@
           "w": 853,
           "h": 1280,
           "t": "assets/obras/tattoos/021-t.webp",
-          "g": "assets/obras/tattoos/021-g.webp"
+          "g": "assets/obras/tattoos/021-g.webp",
+          "m": "assets/obras/tattoos/021-m.webp"
         },
         {
           "arquivo": "022.jpg",
@@ -268,7 +293,8 @@
           "w": 920,
           "h": 1280,
           "t": "assets/obras/tattoos/022-t.webp",
-          "g": "assets/obras/tattoos/022-g.webp"
+          "g": "assets/obras/tattoos/022-g.webp",
+          "m": "assets/obras/tattoos/022-m.webp"
         },
         {
           "arquivo": "023.jpg",
@@ -278,7 +304,8 @@
           "w": 960,
           "h": 1280,
           "t": "assets/obras/tattoos/023-t.webp",
-          "g": "assets/obras/tattoos/023-g.webp"
+          "g": "assets/obras/tattoos/023-g.webp",
+          "m": "assets/obras/tattoos/023-m.webp"
         },
         {
           "arquivo": "024.png",
@@ -288,7 +315,8 @@
           "w": 1080,
           "h": 1440,
           "t": "assets/obras/tattoos/024-t.webp",
-          "g": "assets/obras/tattoos/024-g.webp"
+          "g": "assets/obras/tattoos/024-g.webp",
+          "m": "assets/obras/tattoos/024-m.webp"
         },
         {
           "arquivo": "025.jpg",
@@ -298,7 +326,8 @@
           "w": 960,
           "h": 1280,
           "t": "assets/obras/tattoos/025-t.webp",
-          "g": "assets/obras/tattoos/025-g.webp"
+          "g": "assets/obras/tattoos/025-g.webp",
+          "m": "assets/obras/tattoos/025-m.webp"
         },
         {
           "arquivo": "026.jpg",
@@ -308,7 +337,8 @@
           "w": 1024,
           "h": 1024,
           "t": "assets/obras/tattoos/026-t.webp",
-          "g": "assets/obras/tattoos/026-g.webp"
+          "g": "assets/obras/tattoos/026-g.webp",
+          "m": "assets/obras/tattoos/026-m.webp"
         },
         {
           "arquivo": "027.jpg",
@@ -318,7 +348,8 @@
           "w": 1024,
           "h": 1024,
           "t": "assets/obras/tattoos/027-t.webp",
-          "g": "assets/obras/tattoos/027-g.webp"
+          "g": "assets/obras/tattoos/027-g.webp",
+          "m": "assets/obras/tattoos/027-m.webp"
         },
         {
           "arquivo": "028.jpg",
@@ -328,7 +359,8 @@
           "w": 931,
           "h": 1280,
           "t": "assets/obras/tattoos/028-t.webp",
-          "g": "assets/obras/tattoos/028-g.webp"
+          "g": "assets/obras/tattoos/028-g.webp",
+          "m": "assets/obras/tattoos/028-m.webp"
         },
         {
           "arquivo": "029.jpg",
@@ -338,7 +370,8 @@
           "w": 1024,
           "h": 1536,
           "t": "assets/obras/tattoos/029-t.webp",
-          "g": "assets/obras/tattoos/029-g.webp"
+          "g": "assets/obras/tattoos/029-g.webp",
+          "m": "assets/obras/tattoos/029-m.webp"
         },
         {
           "arquivo": "030.jpg",
@@ -348,7 +381,8 @@
           "w": 1080,
           "h": 1440,
           "t": "assets/obras/tattoos/030-t.webp",
-          "g": "assets/obras/tattoos/030-g.webp"
+          "g": "assets/obras/tattoos/030-g.webp",
+          "m": "assets/obras/tattoos/030-m.webp"
         },
         {
           "arquivo": "031.jpeg",
@@ -358,7 +392,8 @@
           "w": 586,
           "h": 780,
           "t": "assets/obras/tattoos/031-t.webp",
-          "g": "assets/obras/tattoos/031-g.webp"
+          "g": "assets/obras/tattoos/031-g.webp",
+          "m": "assets/obras/tattoos/031-m.webp"
         },
         {
           "arquivo": "032.jpeg",
@@ -368,7 +403,8 @@
           "w": 828,
           "h": 1280,
           "t": "assets/obras/tattoos/032-t.webp",
-          "g": "assets/obras/tattoos/032-g.webp"
+          "g": "assets/obras/tattoos/032-g.webp",
+          "m": "assets/obras/tattoos/032-m.webp"
         },
         {
           "arquivo": "033.jpeg",
@@ -378,7 +414,8 @@
           "w": 960,
           "h": 1280,
           "t": "assets/obras/tattoos/033-t.webp",
-          "g": "assets/obras/tattoos/033-g.webp"
+          "g": "assets/obras/tattoos/033-g.webp",
+          "m": "assets/obras/tattoos/033-m.webp"
         },
         {
           "arquivo": "034.jpeg",
@@ -388,7 +425,8 @@
           "w": 1163,
           "h": 1171,
           "t": "assets/obras/tattoos/034-t.webp",
-          "g": "assets/obras/tattoos/034-g.webp"
+          "g": "assets/obras/tattoos/034-g.webp",
+          "m": "assets/obras/tattoos/034-m.webp"
         },
         {
           "arquivo": "035.jpeg",
@@ -398,7 +436,8 @@
           "w": 506,
           "h": 780,
           "t": "assets/obras/tattoos/035-t.webp",
-          "g": "assets/obras/tattoos/035-g.webp"
+          "g": "assets/obras/tattoos/035-g.webp",
+          "m": "assets/obras/tattoos/035-m.webp"
         },
         {
           "arquivo": "036.png",
@@ -408,7 +447,8 @@
           "w": 1080,
           "h": 1350,
           "t": "assets/obras/tattoos/036-t.webp",
-          "g": "assets/obras/tattoos/036-g.webp"
+          "g": "assets/obras/tattoos/036-g.webp",
+          "m": "assets/obras/tattoos/036-m.webp"
         },
         {
           "arquivo": "037.jpeg",
@@ -418,7 +458,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/tattoos/037-t.webp",
-          "g": "assets/obras/tattoos/037-g.webp"
+          "g": "assets/obras/tattoos/037-g.webp",
+          "m": "assets/obras/tattoos/037-m.webp"
         },
         {
           "arquivo": "038.jpeg",
@@ -428,7 +469,8 @@
           "w": 1024,
           "h": 1280,
           "t": "assets/obras/tattoos/038-t.webp",
-          "g": "assets/obras/tattoos/038-g.webp"
+          "g": "assets/obras/tattoos/038-g.webp",
+          "m": "assets/obras/tattoos/038-m.webp"
         },
         {
           "arquivo": "039.jpg",
@@ -439,7 +481,8 @@
           "w": 1077,
           "h": 1347,
           "t": "assets/obras/tattoos/039-t.webp",
-          "g": "assets/obras/tattoos/039-g.webp"
+          "g": "assets/obras/tattoos/039-g.webp",
+          "m": "assets/obras/tattoos/039-m.webp"
         },
         {
           "arquivo": "040.jpg",
@@ -449,7 +492,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/tattoos/040-t.webp",
-          "g": "assets/obras/tattoos/040-g.webp"
+          "g": "assets/obras/tattoos/040-g.webp",
+          "m": "assets/obras/tattoos/040-m.webp"
         },
         {
           "arquivo": "041.jpg",
@@ -459,7 +503,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/tattoos/041-t.webp",
-          "g": "assets/obras/tattoos/041-g.webp"
+          "g": "assets/obras/tattoos/041-g.webp",
+          "m": "assets/obras/tattoos/041-m.webp"
         },
         {
           "arquivo": "042.jpg",
@@ -470,7 +515,8 @@
           "w": 1440,
           "h": 1800,
           "t": "assets/obras/tattoos/042-t.webp",
-          "g": "assets/obras/tattoos/042-g.webp"
+          "g": "assets/obras/tattoos/042-g.webp",
+          "m": "assets/obras/tattoos/042-m.webp"
         },
         {
           "arquivo": "043.png",
@@ -480,7 +526,8 @@
           "w": 1080,
           "h": 1350,
           "t": "assets/obras/tattoos/043-t.webp",
-          "g": "assets/obras/tattoos/043-g.webp"
+          "g": "assets/obras/tattoos/043-g.webp",
+          "m": "assets/obras/tattoos/043-m.webp"
         },
         {
           "arquivo": "046.png",
@@ -490,7 +537,8 @@
           "w": 1280,
           "h": 1280,
           "t": "assets/obras/tattoos/046-t.webp",
-          "g": "assets/obras/tattoos/046-g.webp"
+          "g": "assets/obras/tattoos/046-g.webp",
+          "m": "assets/obras/tattoos/046-m.webp"
         },
         {
           "arquivo": "047.jpg",
@@ -501,7 +549,8 @@
           "w": 900,
           "h": 1125,
           "t": "assets/obras/tattoos/047-t.webp",
-          "g": "assets/obras/tattoos/047-g.webp"
+          "g": "assets/obras/tattoos/047-g.webp",
+          "m": "assets/obras/tattoos/047-m.webp"
         },
         {
           "arquivo": "048.jpg",
@@ -512,7 +561,8 @@
           "w": 899,
           "h": 1123,
           "t": "assets/obras/tattoos/048-t.webp",
-          "g": "assets/obras/tattoos/048-g.webp"
+          "g": "assets/obras/tattoos/048-g.webp",
+          "m": "assets/obras/tattoos/048-m.webp"
         },
         {
           "arquivo": "049.jpg",
@@ -523,7 +573,8 @@
           "w": 1280,
           "h": 1276,
           "t": "assets/obras/tattoos/049-t.webp",
-          "g": "assets/obras/tattoos/049-g.webp"
+          "g": "assets/obras/tattoos/049-g.webp",
+          "m": "assets/obras/tattoos/049-m.webp"
         },
         {
           "arquivo": "050.png",
@@ -533,7 +584,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/tattoos/050-t.webp",
-          "g": "assets/obras/tattoos/050-g.webp"
+          "g": "assets/obras/tattoos/050-g.webp",
+          "m": "assets/obras/tattoos/050-m.webp"
         },
         {
           "arquivo": "051.png",
@@ -544,7 +596,8 @@
           "h": 931,
           "t": "assets/obras/tattoos/051-t.webp",
           "g": "assets/obras/tattoos/051-g.webp",
-          "enquadrar": "inteira"
+          "enquadrar": "inteira",
+          "m": "assets/obras/tattoos/051-m.webp"
         },
         {
           "arquivo": "052.jpg",
@@ -555,7 +608,8 @@
           "w": 1350,
           "h": 1687,
           "t": "assets/obras/tattoos/052-t.webp",
-          "g": "assets/obras/tattoos/052-g.webp"
+          "g": "assets/obras/tattoos/052-g.webp",
+          "m": "assets/obras/tattoos/052-m.webp"
         },
         {
           "arquivo": "053.jpg",
@@ -565,7 +619,8 @@
           "w": 720,
           "h": 960,
           "t": "assets/obras/tattoos/053-t.webp",
-          "g": "assets/obras/tattoos/053-g.webp"
+          "g": "assets/obras/tattoos/053-g.webp",
+          "m": "assets/obras/tattoos/053-m.webp"
         }
       ]
     },
@@ -581,7 +636,8 @@
           "w": 1024,
           "h": 1280,
           "t": "assets/obras/digital/001-t.webp",
-          "g": "assets/obras/digital/001-g.webp"
+          "g": "assets/obras/digital/001-g.webp",
+          "m": "assets/obras/digital/001-m.webp"
         },
         {
           "arquivo": "002.png",
@@ -590,7 +646,8 @@
           "w": 1024,
           "h": 1280,
           "t": "assets/obras/digital/002-t.webp",
-          "g": "assets/obras/digital/002-g.webp"
+          "g": "assets/obras/digital/002-g.webp",
+          "m": "assets/obras/digital/002-m.webp"
         },
         {
           "arquivo": "003.png",
@@ -599,7 +656,8 @@
           "w": 460,
           "h": 552,
           "t": "assets/obras/digital/003-t.webp",
-          "g": "assets/obras/digital/003-g.webp"
+          "g": "assets/obras/digital/003-g.webp",
+          "m": "assets/obras/digital/003-m.webp"
         },
         {
           "arquivo": "004.png",
@@ -608,7 +666,8 @@
           "w": 1920,
           "h": 1109,
           "t": "assets/obras/digital/004-t.webp",
-          "g": "assets/obras/digital/004-g.webp"
+          "g": "assets/obras/digital/004-g.webp",
+          "m": "assets/obras/digital/004-m.webp"
         },
         {
           "arquivo": "005.png",
@@ -617,7 +676,8 @@
           "w": 604,
           "h": 604,
           "t": "assets/obras/digital/005-t.webp",
-          "g": "assets/obras/digital/005-g.webp"
+          "g": "assets/obras/digital/005-g.webp",
+          "m": "assets/obras/digital/005-m.webp"
         },
         {
           "arquivo": "006.png",
@@ -626,7 +686,8 @@
           "w": 2000,
           "h": 1561,
           "t": "assets/obras/digital/006-t.webp",
-          "g": "assets/obras/digital/006-g.webp"
+          "g": "assets/obras/digital/006-g.webp",
+          "m": "assets/obras/digital/006-m.webp"
         },
         {
           "arquivo": "007.png",
@@ -635,7 +696,8 @@
           "w": 1187,
           "h": 1531,
           "t": "assets/obras/digital/007-t.webp",
-          "g": "assets/obras/digital/007-g.webp"
+          "g": "assets/obras/digital/007-g.webp",
+          "m": "assets/obras/digital/007-m.webp"
         },
         {
           "arquivo": "008.png",
@@ -644,7 +706,8 @@
           "w": 1598,
           "h": 2000,
           "t": "assets/obras/digital/008-t.webp",
-          "g": "assets/obras/digital/008-g.webp"
+          "g": "assets/obras/digital/008-g.webp",
+          "m": "assets/obras/digital/008-m.webp"
         },
         {
           "arquivo": "009.png",
@@ -653,7 +716,8 @@
           "w": 2000,
           "h": 1901,
           "t": "assets/obras/digital/009-t.webp",
-          "g": "assets/obras/digital/009-g.webp"
+          "g": "assets/obras/digital/009-g.webp",
+          "m": "assets/obras/digital/009-m.webp"
         },
         {
           "arquivo": "010.png",
@@ -662,7 +726,8 @@
           "w": 2000,
           "h": 2000,
           "t": "assets/obras/digital/010-t.webp",
-          "g": "assets/obras/digital/010-g.webp"
+          "g": "assets/obras/digital/010-g.webp",
+          "m": "assets/obras/digital/010-m.webp"
         },
         {
           "arquivo": "011.png",
@@ -671,7 +736,8 @@
           "w": 1920,
           "h": 1888,
           "t": "assets/obras/digital/011-t.webp",
-          "g": "assets/obras/digital/011-g.webp"
+          "g": "assets/obras/digital/011-g.webp",
+          "m": "assets/obras/digital/011-m.webp"
         },
         {
           "arquivo": "012.png",
@@ -680,7 +746,8 @@
           "w": 1753,
           "h": 2000,
           "t": "assets/obras/digital/012-t.webp",
-          "g": "assets/obras/digital/012-g.webp"
+          "g": "assets/obras/digital/012-g.webp",
+          "m": "assets/obras/digital/012-m.webp"
         },
         {
           "arquivo": "013.png",
@@ -689,7 +756,8 @@
           "w": 1920,
           "h": 1760,
           "t": "assets/obras/digital/013-t.webp",
-          "g": "assets/obras/digital/013-g.webp"
+          "g": "assets/obras/digital/013-g.webp",
+          "m": "assets/obras/digital/013-m.webp"
         },
         {
           "arquivo": "014.png",
@@ -698,7 +766,8 @@
           "w": 1912,
           "h": 2000,
           "t": "assets/obras/digital/014-t.webp",
-          "g": "assets/obras/digital/014-g.webp"
+          "g": "assets/obras/digital/014-g.webp",
+          "m": "assets/obras/digital/014-m.webp"
         },
         {
           "arquivo": "015.png",
@@ -707,7 +776,8 @@
           "w": 856,
           "h": 743,
           "t": "assets/obras/digital/015-t.webp",
-          "g": "assets/obras/digital/015-g.webp"
+          "g": "assets/obras/digital/015-g.webp",
+          "m": "assets/obras/digital/015-m.webp"
         },
         {
           "arquivo": "016.png",
@@ -716,7 +786,8 @@
           "w": 1865,
           "h": 2000,
           "t": "assets/obras/digital/016-t.webp",
-          "g": "assets/obras/digital/016-g.webp"
+          "g": "assets/obras/digital/016-g.webp",
+          "m": "assets/obras/digital/016-m.webp"
         },
         {
           "arquivo": "017.gif",
@@ -725,7 +796,8 @@
           "w": 1080,
           "h": 1350,
           "t": "assets/obras/digital/017-t.webp",
-          "g": "assets/obras/digital/017-g.webp"
+          "g": "assets/obras/digital/017-g.webp",
+          "m": "assets/obras/digital/017-m.webp"
         },
         {
           "arquivo": "018.gif",
@@ -734,7 +806,8 @@
           "w": 1920,
           "h": 1080,
           "t": "assets/obras/digital/018-t.webp",
-          "g": "assets/obras/digital/018-g.webp"
+          "g": "assets/obras/digital/018-g.webp",
+          "m": "assets/obras/digital/018-m.webp"
         },
         {
           "arquivo": "019.gif",
@@ -743,7 +816,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/digital/019-t.webp",
-          "g": "assets/obras/digital/019-g.webp"
+          "g": "assets/obras/digital/019-g.webp",
+          "m": "assets/obras/digital/019-m.webp"
         },
         {
           "arquivo": "020.png",
@@ -752,7 +826,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/digital/020-t.webp",
-          "g": "assets/obras/digital/020-g.webp"
+          "g": "assets/obras/digital/020-g.webp",
+          "m": "assets/obras/digital/020-m.webp"
         },
         {
           "arquivo": "021.png",
@@ -761,7 +836,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/digital/021-t.webp",
-          "g": "assets/obras/digital/021-g.webp"
+          "g": "assets/obras/digital/021-g.webp",
+          "m": "assets/obras/digital/021-m.webp"
         },
         {
           "arquivo": "022.png",
@@ -770,7 +846,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/digital/022-t.webp",
-          "g": "assets/obras/digital/022-g.webp"
+          "g": "assets/obras/digital/022-g.webp",
+          "m": "assets/obras/digital/022-m.webp"
         },
         {
           "arquivo": "023.png",
@@ -779,7 +856,8 @@
           "w": 1920,
           "h": 960,
           "t": "assets/obras/digital/023-t.webp",
-          "g": "assets/obras/digital/023-g.webp"
+          "g": "assets/obras/digital/023-g.webp",
+          "m": "assets/obras/digital/023-m.webp"
         },
         {
           "arquivo": "024.png",
@@ -788,7 +866,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/digital/024-t.webp",
-          "g": "assets/obras/digital/024-g.webp"
+          "g": "assets/obras/digital/024-g.webp",
+          "m": "assets/obras/digital/024-m.webp"
         },
         {
           "arquivo": "025.png",
@@ -797,7 +876,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/digital/025-t.webp",
-          "g": "assets/obras/digital/025-g.webp"
+          "g": "assets/obras/digital/025-g.webp",
+          "m": "assets/obras/digital/025-m.webp"
         },
         {
           "arquivo": "026.png",
@@ -806,7 +886,8 @@
           "w": 1080,
           "h": 1350,
           "t": "assets/obras/digital/026-t.webp",
-          "g": "assets/obras/digital/026-g.webp"
+          "g": "assets/obras/digital/026-g.webp",
+          "m": "assets/obras/digital/026-m.webp"
         },
         {
           "arquivo": "027.png",
@@ -815,7 +896,8 @@
           "w": 1080,
           "h": 1350,
           "t": "assets/obras/digital/027-t.webp",
-          "g": "assets/obras/digital/027-g.webp"
+          "g": "assets/obras/digital/027-g.webp",
+          "m": "assets/obras/digital/027-m.webp"
         },
         {
           "arquivo": "028.png",
@@ -824,7 +906,8 @@
           "w": 1080,
           "h": 1350,
           "t": "assets/obras/digital/028-t.webp",
-          "g": "assets/obras/digital/028-g.webp"
+          "g": "assets/obras/digital/028-g.webp",
+          "m": "assets/obras/digital/028-m.webp"
         },
         {
           "arquivo": "029.png",
@@ -833,7 +916,8 @@
           "w": 1080,
           "h": 1350,
           "t": "assets/obras/digital/029-t.webp",
-          "g": "assets/obras/digital/029-g.webp"
+          "g": "assets/obras/digital/029-g.webp",
+          "m": "assets/obras/digital/029-m.webp"
         },
         {
           "arquivo": "030.png",
@@ -842,7 +926,8 @@
           "w": 1080,
           "h": 1350,
           "t": "assets/obras/digital/030-t.webp",
-          "g": "assets/obras/digital/030-g.webp"
+          "g": "assets/obras/digital/030-g.webp",
+          "m": "assets/obras/digital/030-m.webp"
         },
         {
           "arquivo": "031.png",
@@ -851,7 +936,8 @@
           "w": 1080,
           "h": 1350,
           "t": "assets/obras/digital/031-t.webp",
-          "g": "assets/obras/digital/031-g.webp"
+          "g": "assets/obras/digital/031-g.webp",
+          "m": "assets/obras/digital/031-m.webp"
         },
         {
           "arquivo": "032.png",
@@ -860,7 +946,8 @@
           "w": 1080,
           "h": 1350,
           "t": "assets/obras/digital/032-t.webp",
-          "g": "assets/obras/digital/032-g.webp"
+          "g": "assets/obras/digital/032-g.webp",
+          "m": "assets/obras/digital/032-m.webp"
         },
         {
           "arquivo": "033.png",
@@ -869,7 +956,8 @@
           "w": 1080,
           "h": 1350,
           "t": "assets/obras/digital/033-t.webp",
-          "g": "assets/obras/digital/033-g.webp"
+          "g": "assets/obras/digital/033-g.webp",
+          "m": "assets/obras/digital/033-m.webp"
         },
         {
           "arquivo": "034.png",
@@ -878,7 +966,8 @@
           "w": 1080,
           "h": 1350,
           "t": "assets/obras/digital/034-t.webp",
-          "g": "assets/obras/digital/034-g.webp"
+          "g": "assets/obras/digital/034-g.webp",
+          "m": "assets/obras/digital/034-m.webp"
         },
         {
           "arquivo": "035.png",
@@ -887,7 +976,8 @@
           "w": 1080,
           "h": 1440,
           "t": "assets/obras/digital/035-t.webp",
-          "g": "assets/obras/digital/035-g.webp"
+          "g": "assets/obras/digital/035-g.webp",
+          "m": "assets/obras/digital/035-m.webp"
         },
         {
           "arquivo": "036.png",
@@ -896,7 +986,8 @@
           "w": 1080,
           "h": 1440,
           "t": "assets/obras/digital/036-t.webp",
-          "g": "assets/obras/digital/036-g.webp"
+          "g": "assets/obras/digital/036-g.webp",
+          "m": "assets/obras/digital/036-m.webp"
         },
         {
           "arquivo": "037.png",
@@ -905,7 +996,8 @@
           "w": 1080,
           "h": 1440,
           "t": "assets/obras/digital/037-t.webp",
-          "g": "assets/obras/digital/037-g.webp"
+          "g": "assets/obras/digital/037-g.webp",
+          "m": "assets/obras/digital/037-m.webp"
         },
         {
           "arquivo": "038.png",
@@ -914,7 +1006,8 @@
           "w": 1080,
           "h": 1440,
           "t": "assets/obras/digital/038-t.webp",
-          "g": "assets/obras/digital/038-g.webp"
+          "g": "assets/obras/digital/038-g.webp",
+          "m": "assets/obras/digital/038-m.webp"
         },
         {
           "arquivo": "039.png",
@@ -923,7 +1016,8 @@
           "w": 1080,
           "h": 1440,
           "t": "assets/obras/digital/039-t.webp",
-          "g": "assets/obras/digital/039-g.webp"
+          "g": "assets/obras/digital/039-g.webp",
+          "m": "assets/obras/digital/039-m.webp"
         }
       ]
     },
@@ -939,7 +1033,8 @@
           "w": 518,
           "h": 765,
           "t": "assets/obras/mao/001-t.webp",
-          "g": "assets/obras/mao/001-g.webp"
+          "g": "assets/obras/mao/001-g.webp",
+          "m": "assets/obras/mao/001-m.webp"
         },
         {
           "arquivo": "002.png",
@@ -948,7 +1043,8 @@
           "w": 549,
           "h": 823,
           "t": "assets/obras/mao/002-t.webp",
-          "g": "assets/obras/mao/002-g.webp"
+          "g": "assets/obras/mao/002-g.webp",
+          "m": "assets/obras/mao/002-m.webp"
         },
         {
           "arquivo": "003.png",
@@ -957,7 +1053,8 @@
           "w": 587,
           "h": 548,
           "t": "assets/obras/mao/003-t.webp",
-          "g": "assets/obras/mao/003-g.webp"
+          "g": "assets/obras/mao/003-g.webp",
+          "m": "assets/obras/mao/003-m.webp"
         },
         {
           "arquivo": "004.png",
@@ -966,7 +1063,8 @@
           "w": 610,
           "h": 991,
           "t": "assets/obras/mao/004-t.webp",
-          "g": "assets/obras/mao/004-g.webp"
+          "g": "assets/obras/mao/004-g.webp",
+          "m": "assets/obras/mao/004-m.webp"
         },
         {
           "arquivo": "005.jpg",
@@ -975,7 +1073,8 @@
           "w": 686,
           "h": 918,
           "t": "assets/obras/mao/005-t.webp",
-          "g": "assets/obras/mao/005-g.webp"
+          "g": "assets/obras/mao/005-g.webp",
+          "m": "assets/obras/mao/005-m.webp"
         },
         {
           "arquivo": "006.jpg",
@@ -984,7 +1083,8 @@
           "w": 704,
           "h": 980,
           "t": "assets/obras/mao/006-t.webp",
-          "g": "assets/obras/mao/006-g.webp"
+          "g": "assets/obras/mao/006-g.webp",
+          "m": "assets/obras/mao/006-m.webp"
         },
         {
           "arquivo": "007.jpg",
@@ -993,7 +1093,8 @@
           "w": 1016,
           "h": 1021,
           "t": "assets/obras/mao/007-t.webp",
-          "g": "assets/obras/mao/007-g.webp"
+          "g": "assets/obras/mao/007-g.webp",
+          "m": "assets/obras/mao/007-m.webp"
         },
         {
           "arquivo": "008.jpg",
@@ -1002,7 +1103,8 @@
           "w": 624,
           "h": 798,
           "t": "assets/obras/mao/008-t.webp",
-          "g": "assets/obras/mao/008-g.webp"
+          "g": "assets/obras/mao/008-g.webp",
+          "m": "assets/obras/mao/008-m.webp"
         },
         {
           "arquivo": "009.jpg",
@@ -1011,7 +1113,8 @@
           "w": 688,
           "h": 750,
           "t": "assets/obras/mao/009-t.webp",
-          "g": "assets/obras/mao/009-g.webp"
+          "g": "assets/obras/mao/009-g.webp",
+          "m": "assets/obras/mao/009-m.webp"
         },
         {
           "arquivo": "010.jpeg",
@@ -1020,7 +1123,8 @@
           "w": 822,
           "h": 860,
           "t": "assets/obras/mao/010-t.webp",
-          "g": "assets/obras/mao/010-g.webp"
+          "g": "assets/obras/mao/010-g.webp",
+          "m": "assets/obras/mao/010-m.webp"
         },
         {
           "arquivo": "011.jpg",
@@ -1029,7 +1133,8 @@
           "w": 991,
           "h": 708,
           "t": "assets/obras/mao/011-t.webp",
-          "g": "assets/obras/mao/011-g.webp"
+          "g": "assets/obras/mao/011-g.webp",
+          "m": "assets/obras/mao/011-m.webp"
         },
         {
           "arquivo": "012.jpg",
@@ -1038,7 +1143,8 @@
           "w": 1024,
           "h": 1024,
           "t": "assets/obras/mao/012-t.webp",
-          "g": "assets/obras/mao/012-g.webp"
+          "g": "assets/obras/mao/012-g.webp",
+          "m": "assets/obras/mao/012-m.webp"
         },
         {
           "arquivo": "013.jpg",
@@ -1047,7 +1153,8 @@
           "w": 621,
           "h": 480,
           "t": "assets/obras/mao/013-t.webp",
-          "g": "assets/obras/mao/013-g.webp"
+          "g": "assets/obras/mao/013-g.webp",
+          "m": "assets/obras/mao/013-m.webp"
         },
         {
           "arquivo": "014.jpg",
@@ -1056,7 +1163,8 @@
           "w": 1024,
           "h": 1024,
           "t": "assets/obras/mao/014-t.webp",
-          "g": "assets/obras/mao/014-g.webp"
+          "g": "assets/obras/mao/014-g.webp",
+          "m": "assets/obras/mao/014-m.webp"
         },
         {
           "arquivo": "015.png",
@@ -1065,7 +1173,8 @@
           "w": 450,
           "h": 600,
           "t": "assets/obras/mao/015-t.webp",
-          "g": "assets/obras/mao/015-g.webp"
+          "g": "assets/obras/mao/015-g.webp",
+          "m": "assets/obras/mao/015-m.webp"
         },
         {
           "arquivo": "016.jpg",
@@ -1074,7 +1183,8 @@
           "w": 908,
           "h": 630,
           "t": "assets/obras/mao/016-t.webp",
-          "g": "assets/obras/mao/016-g.webp"
+          "g": "assets/obras/mao/016-g.webp",
+          "m": "assets/obras/mao/016-m.webp"
         },
         {
           "arquivo": "017.png",
@@ -1083,7 +1193,8 @@
           "w": 853,
           "h": 1280,
           "t": "assets/obras/mao/017-t.webp",
-          "g": "assets/obras/mao/017-g.webp"
+          "g": "assets/obras/mao/017-g.webp",
+          "m": "assets/obras/mao/017-m.webp"
         },
         {
           "arquivo": "018.png",
@@ -1092,7 +1203,8 @@
           "w": 1024,
           "h": 1280,
           "t": "assets/obras/mao/018-t.webp",
-          "g": "assets/obras/mao/018-g.webp"
+          "g": "assets/obras/mao/018-g.webp",
+          "m": "assets/obras/mao/018-m.webp"
         },
         {
           "arquivo": "019.png",
@@ -1101,7 +1213,8 @@
           "w": 853,
           "h": 1198,
           "t": "assets/obras/mao/019-t.webp",
-          "g": "assets/obras/mao/019-g.webp"
+          "g": "assets/obras/mao/019-g.webp",
+          "m": "assets/obras/mao/019-m.webp"
         },
         {
           "arquivo": "020.png",
@@ -1110,7 +1223,8 @@
           "w": 1080,
           "h": 1350,
           "t": "assets/obras/mao/020-t.webp",
-          "g": "assets/obras/mao/020-g.webp"
+          "g": "assets/obras/mao/020-g.webp",
+          "m": "assets/obras/mao/020-m.webp"
         },
         {
           "arquivo": "021.png",
@@ -1119,7 +1233,8 @@
           "w": 1520,
           "h": 2000,
           "t": "assets/obras/mao/021-t.webp",
-          "g": "assets/obras/mao/021-g.webp"
+          "g": "assets/obras/mao/021-g.webp",
+          "m": "assets/obras/mao/021-m.webp"
         },
         {
           "arquivo": "022.png",
@@ -1128,7 +1243,8 @@
           "w": 2000,
           "h": 1125,
           "t": "assets/obras/mao/022-t.webp",
-          "g": "assets/obras/mao/022-g.webp"
+          "g": "assets/obras/mao/022-g.webp",
+          "m": "assets/obras/mao/022-m.webp"
         },
         {
           "arquivo": "023.png",
@@ -1137,7 +1253,8 @@
           "w": 2000,
           "h": 1879,
           "t": "assets/obras/mao/023-t.webp",
-          "g": "assets/obras/mao/023-g.webp"
+          "g": "assets/obras/mao/023-g.webp",
+          "m": "assets/obras/mao/023-m.webp"
         }
       ]
     },
@@ -1154,7 +1271,8 @@
           "w": 1080,
           "h": 1440,
           "t": "assets/obras/paineis/001-t.webp",
-          "g": "assets/obras/paineis/001-g.webp"
+          "g": "assets/obras/paineis/001-g.webp",
+          "m": "assets/obras/paineis/001-m.webp"
         },
         {
           "arquivo": "002.png",
@@ -1164,7 +1282,8 @@
           "w": 1080,
           "h": 1440,
           "t": "assets/obras/paineis/002-t.webp",
-          "g": "assets/obras/paineis/002-g.webp"
+          "g": "assets/obras/paineis/002-g.webp",
+          "m": "assets/obras/paineis/002-m.webp"
         },
         {
           "arquivo": "003.png",
@@ -1174,7 +1293,8 @@
           "w": 1080,
           "h": 831,
           "t": "assets/obras/paineis/003-t.webp",
-          "g": "assets/obras/paineis/003-g.webp"
+          "g": "assets/obras/paineis/003-g.webp",
+          "m": "assets/obras/paineis/003-m.webp"
         },
         {
           "arquivo": "004.png",
@@ -1184,7 +1304,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/paineis/004-t.webp",
-          "g": "assets/obras/paineis/004-g.webp"
+          "g": "assets/obras/paineis/004-g.webp",
+          "m": "assets/obras/paineis/004-m.webp"
         },
         {
           "arquivo": "005.png",
@@ -1194,7 +1315,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/paineis/005-t.webp",
-          "g": "assets/obras/paineis/005-g.webp"
+          "g": "assets/obras/paineis/005-g.webp",
+          "m": "assets/obras/paineis/005-m.webp"
         },
         {
           "arquivo": "006.png",
@@ -1204,7 +1326,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/paineis/006-t.webp",
-          "g": "assets/obras/paineis/006-g.webp"
+          "g": "assets/obras/paineis/006-g.webp",
+          "m": "assets/obras/paineis/006-m.webp"
         },
         {
           "arquivo": "007.png",
@@ -1214,7 +1337,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/paineis/007-t.webp",
-          "g": "assets/obras/paineis/007-g.webp"
+          "g": "assets/obras/paineis/007-g.webp",
+          "m": "assets/obras/paineis/007-m.webp"
         },
         {
           "arquivo": "008.png",
@@ -1224,7 +1348,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/paineis/008-t.webp",
-          "g": "assets/obras/paineis/008-g.webp"
+          "g": "assets/obras/paineis/008-g.webp",
+          "m": "assets/obras/paineis/008-m.webp"
         },
         {
           "arquivo": "009.png",
@@ -1234,7 +1359,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/paineis/009-t.webp",
-          "g": "assets/obras/paineis/009-g.webp"
+          "g": "assets/obras/paineis/009-g.webp",
+          "m": "assets/obras/paineis/009-m.webp"
         },
         {
           "arquivo": "010.png",
@@ -1244,7 +1370,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/paineis/010-t.webp",
-          "g": "assets/obras/paineis/010-g.webp"
+          "g": "assets/obras/paineis/010-g.webp",
+          "m": "assets/obras/paineis/010-m.webp"
         },
         {
           "arquivo": "011.png",
@@ -1254,7 +1381,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/paineis/011-t.webp",
-          "g": "assets/obras/paineis/011-g.webp"
+          "g": "assets/obras/paineis/011-g.webp",
+          "m": "assets/obras/paineis/011-m.webp"
         },
         {
           "arquivo": "012.png",
@@ -1264,7 +1392,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/paineis/012-t.webp",
-          "g": "assets/obras/paineis/012-g.webp"
+          "g": "assets/obras/paineis/012-g.webp",
+          "m": "assets/obras/paineis/012-m.webp"
         },
         {
           "arquivo": "013.png",
@@ -1274,7 +1403,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/paineis/013-t.webp",
-          "g": "assets/obras/paineis/013-g.webp"
+          "g": "assets/obras/paineis/013-g.webp",
+          "m": "assets/obras/paineis/013-m.webp"
         },
         {
           "arquivo": "014.png",
@@ -1284,7 +1414,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/paineis/014-t.webp",
-          "g": "assets/obras/paineis/014-g.webp"
+          "g": "assets/obras/paineis/014-g.webp",
+          "m": "assets/obras/paineis/014-m.webp"
         },
         {
           "arquivo": "015.png",
@@ -1294,7 +1425,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/paineis/015-t.webp",
-          "g": "assets/obras/paineis/015-g.webp"
+          "g": "assets/obras/paineis/015-g.webp",
+          "m": "assets/obras/paineis/015-m.webp"
         },
         {
           "arquivo": "016.png",
@@ -1304,7 +1436,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/paineis/016-t.webp",
-          "g": "assets/obras/paineis/016-g.webp"
+          "g": "assets/obras/paineis/016-g.webp",
+          "m": "assets/obras/paineis/016-m.webp"
         },
         {
           "arquivo": "017.png",
@@ -1314,7 +1447,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/paineis/017-t.webp",
-          "g": "assets/obras/paineis/017-g.webp"
+          "g": "assets/obras/paineis/017-g.webp",
+          "m": "assets/obras/paineis/017-m.webp"
         }
       ]
     },
@@ -1330,7 +1464,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/001-t.webp",
-          "g": "assets/obras/miksang/001-g.webp"
+          "g": "assets/obras/miksang/001-g.webp",
+          "m": "assets/obras/miksang/001-m.webp"
         },
         {
           "arquivo": "002.png",
@@ -1339,7 +1474,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/002-t.webp",
-          "g": "assets/obras/miksang/002-g.webp"
+          "g": "assets/obras/miksang/002-g.webp",
+          "m": "assets/obras/miksang/002-m.webp"
         },
         {
           "arquivo": "003.png",
@@ -1348,7 +1484,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/003-t.webp",
-          "g": "assets/obras/miksang/003-g.webp"
+          "g": "assets/obras/miksang/003-g.webp",
+          "m": "assets/obras/miksang/003-m.webp"
         },
         {
           "arquivo": "004.png",
@@ -1357,7 +1494,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/004-t.webp",
-          "g": "assets/obras/miksang/004-g.webp"
+          "g": "assets/obras/miksang/004-g.webp",
+          "m": "assets/obras/miksang/004-m.webp"
         },
         {
           "arquivo": "005.png",
@@ -1366,7 +1504,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/005-t.webp",
-          "g": "assets/obras/miksang/005-g.webp"
+          "g": "assets/obras/miksang/005-g.webp",
+          "m": "assets/obras/miksang/005-m.webp"
         },
         {
           "arquivo": "006.png",
@@ -1375,7 +1514,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/006-t.webp",
-          "g": "assets/obras/miksang/006-g.webp"
+          "g": "assets/obras/miksang/006-g.webp",
+          "m": "assets/obras/miksang/006-m.webp"
         },
         {
           "arquivo": "007.png",
@@ -1384,7 +1524,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/007-t.webp",
-          "g": "assets/obras/miksang/007-g.webp"
+          "g": "assets/obras/miksang/007-g.webp",
+          "m": "assets/obras/miksang/007-m.webp"
         },
         {
           "arquivo": "008.png",
@@ -1393,7 +1534,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/008-t.webp",
-          "g": "assets/obras/miksang/008-g.webp"
+          "g": "assets/obras/miksang/008-g.webp",
+          "m": "assets/obras/miksang/008-m.webp"
         },
         {
           "arquivo": "009.png",
@@ -1402,7 +1544,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/009-t.webp",
-          "g": "assets/obras/miksang/009-g.webp"
+          "g": "assets/obras/miksang/009-g.webp",
+          "m": "assets/obras/miksang/009-m.webp"
         },
         {
           "arquivo": "010.png",
@@ -1411,7 +1554,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/010-t.webp",
-          "g": "assets/obras/miksang/010-g.webp"
+          "g": "assets/obras/miksang/010-g.webp",
+          "m": "assets/obras/miksang/010-m.webp"
         },
         {
           "arquivo": "011.png",
@@ -1420,7 +1564,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/011-t.webp",
-          "g": "assets/obras/miksang/011-g.webp"
+          "g": "assets/obras/miksang/011-g.webp",
+          "m": "assets/obras/miksang/011-m.webp"
         },
         {
           "arquivo": "012.png",
@@ -1429,7 +1574,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/012-t.webp",
-          "g": "assets/obras/miksang/012-g.webp"
+          "g": "assets/obras/miksang/012-g.webp",
+          "m": "assets/obras/miksang/012-m.webp"
         },
         {
           "arquivo": "013.png",
@@ -1438,7 +1584,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/013-t.webp",
-          "g": "assets/obras/miksang/013-g.webp"
+          "g": "assets/obras/miksang/013-g.webp",
+          "m": "assets/obras/miksang/013-m.webp"
         },
         {
           "arquivo": "014.png",
@@ -1447,7 +1594,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/014-t.webp",
-          "g": "assets/obras/miksang/014-g.webp"
+          "g": "assets/obras/miksang/014-g.webp",
+          "m": "assets/obras/miksang/014-m.webp"
         },
         {
           "arquivo": "015.png",
@@ -1456,7 +1604,8 @@
           "w": 900,
           "h": 1600,
           "t": "assets/obras/miksang/015-t.webp",
-          "g": "assets/obras/miksang/015-g.webp"
+          "g": "assets/obras/miksang/015-g.webp",
+          "m": "assets/obras/miksang/015-m.webp"
         },
         {
           "arquivo": "016.png",
@@ -1465,7 +1614,8 @@
           "w": 719,
           "h": 1280,
           "t": "assets/obras/miksang/016-t.webp",
-          "g": "assets/obras/miksang/016-g.webp"
+          "g": "assets/obras/miksang/016-g.webp",
+          "m": "assets/obras/miksang/016-m.webp"
         },
         {
           "arquivo": "017.png",
@@ -1474,7 +1624,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/017-t.webp",
-          "g": "assets/obras/miksang/017-g.webp"
+          "g": "assets/obras/miksang/017-g.webp",
+          "m": "assets/obras/miksang/017-m.webp"
         },
         {
           "arquivo": "018.png",
@@ -1483,7 +1634,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/018-t.webp",
-          "g": "assets/obras/miksang/018-g.webp"
+          "g": "assets/obras/miksang/018-g.webp",
+          "m": "assets/obras/miksang/018-m.webp"
         },
         {
           "arquivo": "019.png",
@@ -1492,7 +1644,8 @@
           "w": 952,
           "h": 1280,
           "t": "assets/obras/miksang/019-t.webp",
-          "g": "assets/obras/miksang/019-g.webp"
+          "g": "assets/obras/miksang/019-g.webp",
+          "m": "assets/obras/miksang/019-m.webp"
         },
         {
           "arquivo": "020.png",
@@ -1501,7 +1654,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/020-t.webp",
-          "g": "assets/obras/miksang/020-g.webp"
+          "g": "assets/obras/miksang/020-g.webp",
+          "m": "assets/obras/miksang/020-m.webp"
         },
         {
           "arquivo": "021.png",
@@ -1510,7 +1664,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/021-t.webp",
-          "g": "assets/obras/miksang/021-g.webp"
+          "g": "assets/obras/miksang/021-g.webp",
+          "m": "assets/obras/miksang/021-m.webp"
         },
         {
           "arquivo": "022.png",
@@ -1519,7 +1674,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/022-t.webp",
-          "g": "assets/obras/miksang/022-g.webp"
+          "g": "assets/obras/miksang/022-g.webp",
+          "m": "assets/obras/miksang/022-m.webp"
         },
         {
           "arquivo": "023.png",
@@ -1528,7 +1684,8 @@
           "w": 1080,
           "h": 1350,
           "t": "assets/obras/miksang/023-t.webp",
-          "g": "assets/obras/miksang/023-g.webp"
+          "g": "assets/obras/miksang/023-g.webp",
+          "m": "assets/obras/miksang/023-m.webp"
         },
         {
           "arquivo": "024.png",
@@ -1537,7 +1694,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/024-t.webp",
-          "g": "assets/obras/miksang/024-g.webp"
+          "g": "assets/obras/miksang/024-g.webp",
+          "m": "assets/obras/miksang/024-m.webp"
         },
         {
           "arquivo": "025.png",
@@ -1546,7 +1704,8 @@
           "w": 1080,
           "h": 1350,
           "t": "assets/obras/miksang/025-t.webp",
-          "g": "assets/obras/miksang/025-g.webp"
+          "g": "assets/obras/miksang/025-g.webp",
+          "m": "assets/obras/miksang/025-m.webp"
         },
         {
           "arquivo": "026.png",
@@ -1555,7 +1714,8 @@
           "w": 1080,
           "h": 1350,
           "t": "assets/obras/miksang/026-t.webp",
-          "g": "assets/obras/miksang/026-g.webp"
+          "g": "assets/obras/miksang/026-g.webp",
+          "m": "assets/obras/miksang/026-m.webp"
         },
         {
           "arquivo": "027.png",
@@ -1564,7 +1724,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/027-t.webp",
-          "g": "assets/obras/miksang/027-g.webp"
+          "g": "assets/obras/miksang/027-g.webp",
+          "m": "assets/obras/miksang/027-m.webp"
         },
         {
           "arquivo": "028.png",
@@ -1573,7 +1734,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/028-t.webp",
-          "g": "assets/obras/miksang/028-g.webp"
+          "g": "assets/obras/miksang/028-g.webp",
+          "m": "assets/obras/miksang/028-m.webp"
         },
         {
           "arquivo": "029.png",
@@ -1582,7 +1744,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/029-t.webp",
-          "g": "assets/obras/miksang/029-g.webp"
+          "g": "assets/obras/miksang/029-g.webp",
+          "m": "assets/obras/miksang/029-m.webp"
         },
         {
           "arquivo": "030.png",
@@ -1591,7 +1754,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/030-t.webp",
-          "g": "assets/obras/miksang/030-g.webp"
+          "g": "assets/obras/miksang/030-g.webp",
+          "m": "assets/obras/miksang/030-m.webp"
         },
         {
           "arquivo": "031.png",
@@ -1600,7 +1764,8 @@
           "w": 719,
           "h": 1280,
           "t": "assets/obras/miksang/031-t.webp",
-          "g": "assets/obras/miksang/031-g.webp"
+          "g": "assets/obras/miksang/031-g.webp",
+          "m": "assets/obras/miksang/031-m.webp"
         },
         {
           "arquivo": "032.png",
@@ -1609,7 +1774,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/032-t.webp",
-          "g": "assets/obras/miksang/032-g.webp"
+          "g": "assets/obras/miksang/032-g.webp",
+          "m": "assets/obras/miksang/032-m.webp"
         },
         {
           "arquivo": "033.png",
@@ -1618,7 +1784,8 @@
           "w": 919,
           "h": 1280,
           "t": "assets/obras/miksang/033-t.webp",
-          "g": "assets/obras/miksang/033-g.webp"
+          "g": "assets/obras/miksang/033-g.webp",
+          "m": "assets/obras/miksang/033-m.webp"
         },
         {
           "arquivo": "034.png",
@@ -1627,7 +1794,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/034-t.webp",
-          "g": "assets/obras/miksang/034-g.webp"
+          "g": "assets/obras/miksang/034-g.webp",
+          "m": "assets/obras/miksang/034-m.webp"
         },
         {
           "arquivo": "035.png",
@@ -1636,7 +1804,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/035-t.webp",
-          "g": "assets/obras/miksang/035-g.webp"
+          "g": "assets/obras/miksang/035-g.webp",
+          "m": "assets/obras/miksang/035-m.webp"
         },
         {
           "arquivo": "036.png",
@@ -1645,7 +1814,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/036-t.webp",
-          "g": "assets/obras/miksang/036-g.webp"
+          "g": "assets/obras/miksang/036-g.webp",
+          "m": "assets/obras/miksang/036-m.webp"
         },
         {
           "arquivo": "037.png",
@@ -1654,7 +1824,8 @@
           "w": 960,
           "h": 1280,
           "t": "assets/obras/miksang/037-t.webp",
-          "g": "assets/obras/miksang/037-g.webp"
+          "g": "assets/obras/miksang/037-g.webp",
+          "m": "assets/obras/miksang/037-m.webp"
         },
         {
           "arquivo": "038.png",
@@ -1663,7 +1834,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/038-t.webp",
-          "g": "assets/obras/miksang/038-g.webp"
+          "g": "assets/obras/miksang/038-g.webp",
+          "m": "assets/obras/miksang/038-m.webp"
         },
         {
           "arquivo": "039.png",
@@ -1672,7 +1844,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/039-t.webp",
-          "g": "assets/obras/miksang/039-g.webp"
+          "g": "assets/obras/miksang/039-g.webp",
+          "m": "assets/obras/miksang/039-m.webp"
         },
         {
           "arquivo": "040.png",
@@ -1681,7 +1854,8 @@
           "w": 960,
           "h": 1280,
           "t": "assets/obras/miksang/040-t.webp",
-          "g": "assets/obras/miksang/040-g.webp"
+          "g": "assets/obras/miksang/040-g.webp",
+          "m": "assets/obras/miksang/040-m.webp"
         },
         {
           "arquivo": "041.png",
@@ -1690,7 +1864,8 @@
           "w": 960,
           "h": 1280,
           "t": "assets/obras/miksang/041-t.webp",
-          "g": "assets/obras/miksang/041-g.webp"
+          "g": "assets/obras/miksang/041-g.webp",
+          "m": "assets/obras/miksang/041-m.webp"
         },
         {
           "arquivo": "042.png",
@@ -1699,7 +1874,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/042-t.webp",
-          "g": "assets/obras/miksang/042-g.webp"
+          "g": "assets/obras/miksang/042-g.webp",
+          "m": "assets/obras/miksang/042-m.webp"
         },
         {
           "arquivo": "043.png",
@@ -1708,7 +1884,8 @@
           "w": 719,
           "h": 1280,
           "t": "assets/obras/miksang/043-t.webp",
-          "g": "assets/obras/miksang/043-g.webp"
+          "g": "assets/obras/miksang/043-g.webp",
+          "m": "assets/obras/miksang/043-m.webp"
         },
         {
           "arquivo": "044.png",
@@ -1717,7 +1894,8 @@
           "w": 960,
           "h": 1280,
           "t": "assets/obras/miksang/044-t.webp",
-          "g": "assets/obras/miksang/044-g.webp"
+          "g": "assets/obras/miksang/044-g.webp",
+          "m": "assets/obras/miksang/044-m.webp"
         },
         {
           "arquivo": "045.png",
@@ -1726,7 +1904,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/045-t.webp",
-          "g": "assets/obras/miksang/045-g.webp"
+          "g": "assets/obras/miksang/045-g.webp",
+          "m": "assets/obras/miksang/045-m.webp"
         },
         {
           "arquivo": "046.png",
@@ -1735,7 +1914,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/046-t.webp",
-          "g": "assets/obras/miksang/046-g.webp"
+          "g": "assets/obras/miksang/046-g.webp",
+          "m": "assets/obras/miksang/046-m.webp"
         },
         {
           "arquivo": "047.png",
@@ -1744,7 +1924,8 @@
           "w": 1280,
           "h": 720,
           "t": "assets/obras/miksang/047-t.webp",
-          "g": "assets/obras/miksang/047-g.webp"
+          "g": "assets/obras/miksang/047-g.webp",
+          "m": "assets/obras/miksang/047-m.webp"
         },
         {
           "arquivo": "048.png",
@@ -1753,7 +1934,8 @@
           "w": 960,
           "h": 1280,
           "t": "assets/obras/miksang/048-t.webp",
-          "g": "assets/obras/miksang/048-g.webp"
+          "g": "assets/obras/miksang/048-g.webp",
+          "m": "assets/obras/miksang/048-m.webp"
         },
         {
           "arquivo": "049.png",
@@ -1762,7 +1944,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/049-t.webp",
-          "g": "assets/obras/miksang/049-g.webp"
+          "g": "assets/obras/miksang/049-g.webp",
+          "m": "assets/obras/miksang/049-m.webp"
         },
         {
           "arquivo": "050.png",
@@ -1771,7 +1954,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/050-t.webp",
-          "g": "assets/obras/miksang/050-g.webp"
+          "g": "assets/obras/miksang/050-g.webp",
+          "m": "assets/obras/miksang/050-m.webp"
         },
         {
           "arquivo": "051.png",
@@ -1780,7 +1964,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/051-t.webp",
-          "g": "assets/obras/miksang/051-g.webp"
+          "g": "assets/obras/miksang/051-g.webp",
+          "m": "assets/obras/miksang/051-m.webp"
         },
         {
           "arquivo": "052.png",
@@ -1789,7 +1974,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/052-t.webp",
-          "g": "assets/obras/miksang/052-g.webp"
+          "g": "assets/obras/miksang/052-g.webp",
+          "m": "assets/obras/miksang/052-m.webp"
         },
         {
           "arquivo": "053.png",
@@ -1798,7 +1984,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/053-t.webp",
-          "g": "assets/obras/miksang/053-g.webp"
+          "g": "assets/obras/miksang/053-g.webp",
+          "m": "assets/obras/miksang/053-m.webp"
         },
         {
           "arquivo": "054.png",
@@ -1807,7 +1994,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/054-t.webp",
-          "g": "assets/obras/miksang/054-g.webp"
+          "g": "assets/obras/miksang/054-g.webp",
+          "m": "assets/obras/miksang/054-m.webp"
         },
         {
           "arquivo": "055.png",
@@ -1816,7 +2004,8 @@
           "w": 1024,
           "h": 768,
           "t": "assets/obras/miksang/055-t.webp",
-          "g": "assets/obras/miksang/055-g.webp"
+          "g": "assets/obras/miksang/055-g.webp",
+          "m": "assets/obras/miksang/055-m.webp"
         },
         {
           "arquivo": "056.png",
@@ -1825,7 +2014,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/056-t.webp",
-          "g": "assets/obras/miksang/056-g.webp"
+          "g": "assets/obras/miksang/056-g.webp",
+          "m": "assets/obras/miksang/056-m.webp"
         },
         {
           "arquivo": "057.png",
@@ -1834,7 +2024,8 @@
           "w": 960,
           "h": 1280,
           "t": "assets/obras/miksang/057-t.webp",
-          "g": "assets/obras/miksang/057-g.webp"
+          "g": "assets/obras/miksang/057-g.webp",
+          "m": "assets/obras/miksang/057-m.webp"
         },
         {
           "arquivo": "058.png",
@@ -1843,7 +2034,8 @@
           "w": 1280,
           "h": 960,
           "t": "assets/obras/miksang/058-t.webp",
-          "g": "assets/obras/miksang/058-g.webp"
+          "g": "assets/obras/miksang/058-g.webp",
+          "m": "assets/obras/miksang/058-m.webp"
         },
         {
           "arquivo": "059.png",
@@ -1852,7 +2044,8 @@
           "w": 841,
           "h": 1024,
           "t": "assets/obras/miksang/059-t.webp",
-          "g": "assets/obras/miksang/059-g.webp"
+          "g": "assets/obras/miksang/059-g.webp",
+          "m": "assets/obras/miksang/059-m.webp"
         },
         {
           "arquivo": "060.png",
@@ -1861,7 +2054,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/060-t.webp",
-          "g": "assets/obras/miksang/060-g.webp"
+          "g": "assets/obras/miksang/060-g.webp",
+          "m": "assets/obras/miksang/060-m.webp"
         },
         {
           "arquivo": "061.png",
@@ -1870,7 +2064,8 @@
           "w": 1280,
           "h": 960,
           "t": "assets/obras/miksang/061-t.webp",
-          "g": "assets/obras/miksang/061-g.webp"
+          "g": "assets/obras/miksang/061-g.webp",
+          "m": "assets/obras/miksang/061-m.webp"
         },
         {
           "arquivo": "062.png",
@@ -1879,7 +2074,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/062-t.webp",
-          "g": "assets/obras/miksang/062-g.webp"
+          "g": "assets/obras/miksang/062-g.webp",
+          "m": "assets/obras/miksang/062-m.webp"
         },
         {
           "arquivo": "063.png",
@@ -1888,7 +2084,8 @@
           "w": 1346,
           "h": 1600,
           "t": "assets/obras/miksang/063-t.webp",
-          "g": "assets/obras/miksang/063-g.webp"
+          "g": "assets/obras/miksang/063-g.webp",
+          "m": "assets/obras/miksang/063-m.webp"
         },
         {
           "arquivo": "064.png",
@@ -1897,7 +2094,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/064-t.webp",
-          "g": "assets/obras/miksang/064-g.webp"
+          "g": "assets/obras/miksang/064-g.webp",
+          "m": "assets/obras/miksang/064-m.webp"
         },
         {
           "arquivo": "065.png",
@@ -1906,7 +2104,8 @@
           "w": 768,
           "h": 1024,
           "t": "assets/obras/miksang/065-t.webp",
-          "g": "assets/obras/miksang/065-g.webp"
+          "g": "assets/obras/miksang/065-g.webp",
+          "m": "assets/obras/miksang/065-m.webp"
         },
         {
           "arquivo": "066.png",
@@ -1915,7 +2114,8 @@
           "w": 768,
           "h": 1024,
           "t": "assets/obras/miksang/066-t.webp",
-          "g": "assets/obras/miksang/066-g.webp"
+          "g": "assets/obras/miksang/066-g.webp",
+          "m": "assets/obras/miksang/066-m.webp"
         },
         {
           "arquivo": "067.png",
@@ -1924,7 +2124,8 @@
           "w": 1280,
           "h": 622,
           "t": "assets/obras/miksang/067-t.webp",
-          "g": "assets/obras/miksang/067-g.webp"
+          "g": "assets/obras/miksang/067-g.webp",
+          "m": "assets/obras/miksang/067-m.webp"
         },
         {
           "arquivo": "068.png",
@@ -1933,7 +2134,8 @@
           "w": 719,
           "h": 1280,
           "t": "assets/obras/miksang/068-t.webp",
-          "g": "assets/obras/miksang/068-g.webp"
+          "g": "assets/obras/miksang/068-g.webp",
+          "m": "assets/obras/miksang/068-m.webp"
         },
         {
           "arquivo": "069.png",
@@ -1942,7 +2144,8 @@
           "w": 540,
           "h": 960,
           "t": "assets/obras/miksang/069-t.webp",
-          "g": "assets/obras/miksang/069-g.webp"
+          "g": "assets/obras/miksang/069-g.webp",
+          "m": "assets/obras/miksang/069-m.webp"
         },
         {
           "arquivo": "070.png",
@@ -1951,7 +2154,8 @@
           "w": 960,
           "h": 565,
           "t": "assets/obras/miksang/070-t.webp",
-          "g": "assets/obras/miksang/070-g.webp"
+          "g": "assets/obras/miksang/070-g.webp",
+          "m": "assets/obras/miksang/070-m.webp"
         },
         {
           "arquivo": "071.png",
@@ -1960,7 +2164,8 @@
           "w": 1024,
           "h": 768,
           "t": "assets/obras/miksang/071-t.webp",
-          "g": "assets/obras/miksang/071-g.webp"
+          "g": "assets/obras/miksang/071-g.webp",
+          "m": "assets/obras/miksang/071-m.webp"
         },
         {
           "arquivo": "072.png",
@@ -1969,7 +2174,8 @@
           "w": 1600,
           "h": 1382,
           "t": "assets/obras/miksang/072-t.webp",
-          "g": "assets/obras/miksang/072-g.webp"
+          "g": "assets/obras/miksang/072-g.webp",
+          "m": "assets/obras/miksang/072-m.webp"
         },
         {
           "arquivo": "073.png",
@@ -1978,7 +2184,8 @@
           "w": 768,
           "h": 1024,
           "t": "assets/obras/miksang/073-t.webp",
-          "g": "assets/obras/miksang/073-g.webp"
+          "g": "assets/obras/miksang/073-g.webp",
+          "m": "assets/obras/miksang/073-m.webp"
         },
         {
           "arquivo": "074.png",
@@ -1987,7 +2194,8 @@
           "w": 1024,
           "h": 768,
           "t": "assets/obras/miksang/074-t.webp",
-          "g": "assets/obras/miksang/074-g.webp"
+          "g": "assets/obras/miksang/074-g.webp",
+          "m": "assets/obras/miksang/074-m.webp"
         },
         {
           "arquivo": "075.png",
@@ -1996,7 +2204,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/075-t.webp",
-          "g": "assets/obras/miksang/075-g.webp"
+          "g": "assets/obras/miksang/075-g.webp",
+          "m": "assets/obras/miksang/075-m.webp"
         },
         {
           "arquivo": "076.png",
@@ -2005,7 +2214,8 @@
           "w": 1024,
           "h": 768,
           "t": "assets/obras/miksang/076-t.webp",
-          "g": "assets/obras/miksang/076-g.webp"
+          "g": "assets/obras/miksang/076-g.webp",
+          "m": "assets/obras/miksang/076-m.webp"
         },
         {
           "arquivo": "077.png",
@@ -2014,7 +2224,8 @@
           "w": 1024,
           "h": 768,
           "t": "assets/obras/miksang/077-t.webp",
-          "g": "assets/obras/miksang/077-g.webp"
+          "g": "assets/obras/miksang/077-g.webp",
+          "m": "assets/obras/miksang/077-m.webp"
         },
         {
           "arquivo": "078.png",
@@ -2023,7 +2234,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/078-t.webp",
-          "g": "assets/obras/miksang/078-g.webp"
+          "g": "assets/obras/miksang/078-g.webp",
+          "m": "assets/obras/miksang/078-m.webp"
         },
         {
           "arquivo": "079.png",
@@ -2032,7 +2244,8 @@
           "w": 728,
           "h": 1024,
           "t": "assets/obras/miksang/079-t.webp",
-          "g": "assets/obras/miksang/079-g.webp"
+          "g": "assets/obras/miksang/079-g.webp",
+          "m": "assets/obras/miksang/079-m.webp"
         },
         {
           "arquivo": "080.png",
@@ -2041,7 +2254,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/080-t.webp",
-          "g": "assets/obras/miksang/080-g.webp"
+          "g": "assets/obras/miksang/080-g.webp",
+          "m": "assets/obras/miksang/080-m.webp"
         },
         {
           "arquivo": "081.png",
@@ -2050,7 +2264,8 @@
           "w": 1024,
           "h": 1022,
           "t": "assets/obras/miksang/081-t.webp",
-          "g": "assets/obras/miksang/081-g.webp"
+          "g": "assets/obras/miksang/081-g.webp",
+          "m": "assets/obras/miksang/081-m.webp"
         },
         {
           "arquivo": "082.png",
@@ -2059,7 +2274,8 @@
           "w": 1280,
           "h": 1058,
           "t": "assets/obras/miksang/082-t.webp",
-          "g": "assets/obras/miksang/082-g.webp"
+          "g": "assets/obras/miksang/082-g.webp",
+          "m": "assets/obras/miksang/082-m.webp"
         },
         {
           "arquivo": "083.png",
@@ -2068,7 +2284,8 @@
           "w": 1024,
           "h": 767,
           "t": "assets/obras/miksang/083-t.webp",
-          "g": "assets/obras/miksang/083-g.webp"
+          "g": "assets/obras/miksang/083-g.webp",
+          "m": "assets/obras/miksang/083-m.webp"
         },
         {
           "arquivo": "084.png",
@@ -2077,7 +2294,8 @@
           "w": 1280,
           "h": 960,
           "t": "assets/obras/miksang/084-t.webp",
-          "g": "assets/obras/miksang/084-g.webp"
+          "g": "assets/obras/miksang/084-g.webp",
+          "m": "assets/obras/miksang/084-m.webp"
         },
         {
           "arquivo": "085.png",
@@ -2086,7 +2304,8 @@
           "w": 768,
           "h": 1024,
           "t": "assets/obras/miksang/085-t.webp",
-          "g": "assets/obras/miksang/085-g.webp"
+          "g": "assets/obras/miksang/085-g.webp",
+          "m": "assets/obras/miksang/085-m.webp"
         },
         {
           "arquivo": "086.png",
@@ -2095,7 +2314,8 @@
           "w": 1280,
           "h": 1126,
           "t": "assets/obras/miksang/086-t.webp",
-          "g": "assets/obras/miksang/086-g.webp"
+          "g": "assets/obras/miksang/086-g.webp",
+          "m": "assets/obras/miksang/086-m.webp"
         },
         {
           "arquivo": "087.png",
@@ -2104,7 +2324,8 @@
           "w": 1024,
           "h": 697,
           "t": "assets/obras/miksang/087-t.webp",
-          "g": "assets/obras/miksang/087-g.webp"
+          "g": "assets/obras/miksang/087-g.webp",
+          "m": "assets/obras/miksang/087-m.webp"
         },
         {
           "arquivo": "088.png",
@@ -2113,7 +2334,8 @@
           "w": 960,
           "h": 540,
           "t": "assets/obras/miksang/088-t.webp",
-          "g": "assets/obras/miksang/088-g.webp"
+          "g": "assets/obras/miksang/088-g.webp",
+          "m": "assets/obras/miksang/088-m.webp"
         },
         {
           "arquivo": "089.png",
@@ -2122,7 +2344,8 @@
           "w": 960,
           "h": 720,
           "t": "assets/obras/miksang/089-t.webp",
-          "g": "assets/obras/miksang/089-g.webp"
+          "g": "assets/obras/miksang/089-g.webp",
+          "m": "assets/obras/miksang/089-m.webp"
         },
         {
           "arquivo": "090.png",
@@ -2131,7 +2354,8 @@
           "w": 768,
           "h": 1024,
           "t": "assets/obras/miksang/090-t.webp",
-          "g": "assets/obras/miksang/090-g.webp"
+          "g": "assets/obras/miksang/090-g.webp",
+          "m": "assets/obras/miksang/090-m.webp"
         },
         {
           "arquivo": "091.png",
@@ -2140,7 +2364,8 @@
           "w": 1024,
           "h": 722,
           "t": "assets/obras/miksang/091-t.webp",
-          "g": "assets/obras/miksang/091-g.webp"
+          "g": "assets/obras/miksang/091-g.webp",
+          "m": "assets/obras/miksang/091-m.webp"
         },
         {
           "arquivo": "092.png",
@@ -2149,7 +2374,8 @@
           "w": 720,
           "h": 540,
           "t": "assets/obras/miksang/092-t.webp",
-          "g": "assets/obras/miksang/092-g.webp"
+          "g": "assets/obras/miksang/092-g.webp",
+          "m": "assets/obras/miksang/092-m.webp"
         },
         {
           "arquivo": "093.png",
@@ -2158,7 +2384,8 @@
           "w": 1920,
           "h": 1870,
           "t": "assets/obras/miksang/093-t.webp",
-          "g": "assets/obras/miksang/093-g.webp"
+          "g": "assets/obras/miksang/093-g.webp",
+          "m": "assets/obras/miksang/093-m.webp"
         },
         {
           "arquivo": "094.png",
@@ -2167,7 +2394,8 @@
           "w": 1500,
           "h": 2000,
           "t": "assets/obras/miksang/094-t.webp",
-          "g": "assets/obras/miksang/094-g.webp"
+          "g": "assets/obras/miksang/094-g.webp",
+          "m": "assets/obras/miksang/094-m.webp"
         },
         {
           "arquivo": "095.png",
@@ -2176,7 +2404,8 @@
           "w": 1500,
           "h": 2000,
           "t": "assets/obras/miksang/095-t.webp",
-          "g": "assets/obras/miksang/095-g.webp"
+          "g": "assets/obras/miksang/095-g.webp",
+          "m": "assets/obras/miksang/095-m.webp"
         },
         {
           "arquivo": "096.png",
@@ -2185,7 +2414,8 @@
           "w": 1440,
           "h": 1440,
           "t": "assets/obras/miksang/096-t.webp",
-          "g": "assets/obras/miksang/096-g.webp"
+          "g": "assets/obras/miksang/096-g.webp",
+          "m": "assets/obras/miksang/096-m.webp"
         },
         {
           "arquivo": "097.png",
@@ -2194,7 +2424,8 @@
           "w": 2000,
           "h": 1500,
           "t": "assets/obras/miksang/097-t.webp",
-          "g": "assets/obras/miksang/097-g.webp"
+          "g": "assets/obras/miksang/097-g.webp",
+          "m": "assets/obras/miksang/097-m.webp"
         },
         {
           "arquivo": "098.png",
@@ -2203,7 +2434,8 @@
           "w": 1500,
           "h": 2000,
           "t": "assets/obras/miksang/098-t.webp",
-          "g": "assets/obras/miksang/098-g.webp"
+          "g": "assets/obras/miksang/098-g.webp",
+          "m": "assets/obras/miksang/098-m.webp"
         },
         {
           "arquivo": "099.png",
@@ -2212,7 +2444,8 @@
           "w": 960,
           "h": 540,
           "t": "assets/obras/miksang/099-t.webp",
-          "g": "assets/obras/miksang/099-g.webp"
+          "g": "assets/obras/miksang/099-g.webp",
+          "m": "assets/obras/miksang/099-m.webp"
         },
         {
           "arquivo": "100.png",
@@ -2221,7 +2454,8 @@
           "w": 720,
           "h": 540,
           "t": "assets/obras/miksang/100-t.webp",
-          "g": "assets/obras/miksang/100-g.webp"
+          "g": "assets/obras/miksang/100-g.webp",
+          "m": "assets/obras/miksang/100-m.webp"
         },
         {
           "arquivo": "101.png",
@@ -2230,7 +2464,8 @@
           "w": 960,
           "h": 720,
           "t": "assets/obras/miksang/101-t.webp",
-          "g": "assets/obras/miksang/101-g.webp"
+          "g": "assets/obras/miksang/101-g.webp",
+          "m": "assets/obras/miksang/101-m.webp"
         },
         {
           "arquivo": "102.png",
@@ -2239,7 +2474,8 @@
           "w": 960,
           "h": 480,
           "t": "assets/obras/miksang/102-t.webp",
-          "g": "assets/obras/miksang/102-g.webp"
+          "g": "assets/obras/miksang/102-g.webp",
+          "m": "assets/obras/miksang/102-m.webp"
         },
         {
           "arquivo": "103.png",
@@ -2248,7 +2484,8 @@
           "w": 960,
           "h": 681,
           "t": "assets/obras/miksang/103-t.webp",
-          "g": "assets/obras/miksang/103-g.webp"
+          "g": "assets/obras/miksang/103-g.webp",
+          "m": "assets/obras/miksang/103-m.webp"
         },
         {
           "arquivo": "104.png",
@@ -2257,7 +2494,8 @@
           "w": 960,
           "h": 540,
           "t": "assets/obras/miksang/104-t.webp",
-          "g": "assets/obras/miksang/104-g.webp"
+          "g": "assets/obras/miksang/104-g.webp",
+          "m": "assets/obras/miksang/104-m.webp"
         },
         {
           "arquivo": "105.png",
@@ -2266,7 +2504,8 @@
           "w": 960,
           "h": 540,
           "t": "assets/obras/miksang/105-t.webp",
-          "g": "assets/obras/miksang/105-g.webp"
+          "g": "assets/obras/miksang/105-g.webp",
+          "m": "assets/obras/miksang/105-m.webp"
         },
         {
           "arquivo": "106.png",
@@ -2275,7 +2514,8 @@
           "w": 960,
           "h": 598,
           "t": "assets/obras/miksang/106-t.webp",
-          "g": "assets/obras/miksang/106-g.webp"
+          "g": "assets/obras/miksang/106-g.webp",
+          "m": "assets/obras/miksang/106-m.webp"
         },
         {
           "arquivo": "107.png",
@@ -2284,7 +2524,8 @@
           "w": 1280,
           "h": 549,
           "t": "assets/obras/miksang/107-t.webp",
-          "g": "assets/obras/miksang/107-g.webp"
+          "g": "assets/obras/miksang/107-g.webp",
+          "m": "assets/obras/miksang/107-m.webp"
         },
         {
           "arquivo": "108.png",
@@ -2293,7 +2534,8 @@
           "w": 1920,
           "h": 1475,
           "t": "assets/obras/miksang/108-t.webp",
-          "g": "assets/obras/miksang/108-g.webp"
+          "g": "assets/obras/miksang/108-g.webp",
+          "m": "assets/obras/miksang/108-m.webp"
         },
         {
           "arquivo": "109.png",
@@ -2302,7 +2544,8 @@
           "w": 1500,
           "h": 2000,
           "t": "assets/obras/miksang/109-t.webp",
-          "g": "assets/obras/miksang/109-g.webp"
+          "g": "assets/obras/miksang/109-g.webp",
+          "m": "assets/obras/miksang/109-m.webp"
         },
         {
           "arquivo": "110.png",
@@ -2311,7 +2554,8 @@
           "w": 1920,
           "h": 1151,
           "t": "assets/obras/miksang/110-t.webp",
-          "g": "assets/obras/miksang/110-g.webp"
+          "g": "assets/obras/miksang/110-g.webp",
+          "m": "assets/obras/miksang/110-m.webp"
         },
         {
           "arquivo": "111.png",
@@ -2320,7 +2564,8 @@
           "w": 1920,
           "h": 1080,
           "t": "assets/obras/miksang/111-t.webp",
-          "g": "assets/obras/miksang/111-g.webp"
+          "g": "assets/obras/miksang/111-g.webp",
+          "m": "assets/obras/miksang/111-m.webp"
         },
         {
           "arquivo": "112.png",
@@ -2329,7 +2574,8 @@
           "w": 1715,
           "h": 1042,
           "t": "assets/obras/miksang/112-t.webp",
-          "g": "assets/obras/miksang/112-g.webp"
+          "g": "assets/obras/miksang/112-g.webp",
+          "m": "assets/obras/miksang/112-m.webp"
         },
         {
           "arquivo": "113.png",
@@ -2338,7 +2584,8 @@
           "w": 960,
           "h": 540,
           "t": "assets/obras/miksang/113-t.webp",
-          "g": "assets/obras/miksang/113-g.webp"
+          "g": "assets/obras/miksang/113-g.webp",
+          "m": "assets/obras/miksang/113-m.webp"
         },
         {
           "arquivo": "114.png",
@@ -2347,7 +2594,8 @@
           "w": 1920,
           "h": 1080,
           "t": "assets/obras/miksang/114-t.webp",
-          "g": "assets/obras/miksang/114-g.webp"
+          "g": "assets/obras/miksang/114-g.webp",
+          "m": "assets/obras/miksang/114-m.webp"
         },
         {
           "arquivo": "115.png",
@@ -2356,7 +2604,8 @@
           "w": 1024,
           "h": 768,
           "t": "assets/obras/miksang/115-t.webp",
-          "g": "assets/obras/miksang/115-g.webp"
+          "g": "assets/obras/miksang/115-g.webp",
+          "m": "assets/obras/miksang/115-m.webp"
         },
         {
           "arquivo": "116.png",
@@ -2365,7 +2614,8 @@
           "w": 1024,
           "h": 768,
           "t": "assets/obras/miksang/116-t.webp",
-          "g": "assets/obras/miksang/116-g.webp"
+          "g": "assets/obras/miksang/116-g.webp",
+          "m": "assets/obras/miksang/116-m.webp"
         },
         {
           "arquivo": "117.png",
@@ -2374,7 +2624,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/miksang/117-t.webp",
-          "g": "assets/obras/miksang/117-g.webp"
+          "g": "assets/obras/miksang/117-g.webp",
+          "m": "assets/obras/miksang/117-m.webp"
         },
         {
           "arquivo": "118.png",
@@ -2383,7 +2634,8 @@
           "w": 1200,
           "h": 1600,
           "t": "assets/obras/miksang/118-t.webp",
-          "g": "assets/obras/miksang/118-g.webp"
+          "g": "assets/obras/miksang/118-g.webp",
+          "m": "assets/obras/miksang/118-m.webp"
         },
         {
           "arquivo": "119.png",
@@ -2392,7 +2644,8 @@
           "w": 960,
           "h": 554,
           "t": "assets/obras/miksang/119-t.webp",
-          "g": "assets/obras/miksang/119-g.webp"
+          "g": "assets/obras/miksang/119-g.webp",
+          "m": "assets/obras/miksang/119-m.webp"
         },
         {
           "arquivo": "120.png",
@@ -2401,7 +2654,8 @@
           "w": 960,
           "h": 540,
           "t": "assets/obras/miksang/120-t.webp",
-          "g": "assets/obras/miksang/120-g.webp"
+          "g": "assets/obras/miksang/120-g.webp",
+          "m": "assets/obras/miksang/120-m.webp"
         }
       ]
     },
@@ -2417,7 +2671,8 @@
           "w": 1024,
           "h": 1536,
           "t": "assets/obras/tecido/001-t.webp",
-          "g": "assets/obras/tecido/001-g.webp"
+          "g": "assets/obras/tecido/001-g.webp",
+          "m": "assets/obras/tecido/001-m.webp"
         },
         {
           "arquivo": "002.jpg",
@@ -2426,7 +2681,8 @@
           "w": 900,
           "h": 1600,
           "t": "assets/obras/tecido/002-t.webp",
-          "g": "assets/obras/tecido/002-g.webp"
+          "g": "assets/obras/tecido/002-g.webp",
+          "m": "assets/obras/tecido/002-m.webp"
         },
         {
           "arquivo": "003.jpeg",
@@ -2435,7 +2691,8 @@
           "w": 1280,
           "h": 1280,
           "t": "assets/obras/tecido/003-t.webp",
-          "g": "assets/obras/tecido/003-g.webp"
+          "g": "assets/obras/tecido/003-g.webp",
+          "m": "assets/obras/tecido/003-m.webp"
         },
         {
           "arquivo": "004.png",
@@ -2444,7 +2701,8 @@
           "w": 752,
           "h": 1350,
           "t": "assets/obras/tecido/004-t.webp",
-          "g": "assets/obras/tecido/004-g.webp"
+          "g": "assets/obras/tecido/004-g.webp",
+          "m": "assets/obras/tecido/004-m.webp"
         },
         {
           "arquivo": "005.jpeg",
@@ -2453,7 +2711,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/tecido/005-t.webp",
-          "g": "assets/obras/tecido/005-g.webp"
+          "g": "assets/obras/tecido/005-g.webp",
+          "m": "assets/obras/tecido/005-m.webp"
         },
         {
           "arquivo": "006.jpeg",
@@ -2462,7 +2721,8 @@
           "w": 720,
           "h": 1280,
           "t": "assets/obras/tecido/006-t.webp",
-          "g": "assets/obras/tecido/006-g.webp"
+          "g": "assets/obras/tecido/006-g.webp",
+          "m": "assets/obras/tecido/006-m.webp"
         },
         {
           "arquivo": "007.jpg",
@@ -2471,7 +2731,8 @@
           "w": 1024,
           "h": 1024,
           "t": "assets/obras/tecido/007-t.webp",
-          "g": "assets/obras/tecido/007-g.webp"
+          "g": "assets/obras/tecido/007-g.webp",
+          "m": "assets/obras/tecido/007-m.webp"
         },
         {
           "arquivo": "008.jpg",
@@ -2480,7 +2741,8 @@
           "w": 1024,
           "h": 1021,
           "t": "assets/obras/tecido/008-t.webp",
-          "g": "assets/obras/tecido/008-g.webp"
+          "g": "assets/obras/tecido/008-g.webp",
+          "m": "assets/obras/tecido/008-m.webp"
         },
         {
           "arquivo": "009.jpg",
@@ -2489,7 +2751,8 @@
           "w": 1024,
           "h": 1024,
           "t": "assets/obras/tecido/009-t.webp",
-          "g": "assets/obras/tecido/009-g.webp"
+          "g": "assets/obras/tecido/009-g.webp",
+          "m": "assets/obras/tecido/009-m.webp"
         },
         {
           "arquivo": "010.jpg",
@@ -2498,7 +2761,8 @@
           "w": 1024,
           "h": 1024,
           "t": "assets/obras/tecido/010-t.webp",
-          "g": "assets/obras/tecido/010-g.webp"
+          "g": "assets/obras/tecido/010-g.webp",
+          "m": "assets/obras/tecido/010-m.webp"
         },
         {
           "arquivo": "011.jpg",
@@ -2507,7 +2771,8 @@
           "w": 960,
           "h": 1280,
           "t": "assets/obras/tecido/011-t.webp",
-          "g": "assets/obras/tecido/011-g.webp"
+          "g": "assets/obras/tecido/011-g.webp",
+          "m": "assets/obras/tecido/011-m.webp"
         },
         {
           "arquivo": "012.jpg",
@@ -2516,7 +2781,8 @@
           "w": 960,
           "h": 1280,
           "t": "assets/obras/tecido/012-t.webp",
-          "g": "assets/obras/tecido/012-g.webp"
+          "g": "assets/obras/tecido/012-g.webp",
+          "m": "assets/obras/tecido/012-m.webp"
         },
         {
           "arquivo": "013.jpg",
@@ -2525,7 +2791,8 @@
           "w": 1024,
           "h": 762,
           "t": "assets/obras/tecido/013-t.webp",
-          "g": "assets/obras/tecido/013-g.webp"
+          "g": "assets/obras/tecido/013-g.webp",
+          "m": "assets/obras/tecido/013-m.webp"
         },
         {
           "arquivo": "014.jpg",
@@ -2534,7 +2801,8 @@
           "w": 1024,
           "h": 768,
           "t": "assets/obras/tecido/014-t.webp",
-          "g": "assets/obras/tecido/014-g.webp"
+          "g": "assets/obras/tecido/014-g.webp",
+          "m": "assets/obras/tecido/014-m.webp"
         },
         {
           "arquivo": "015.jpg",
@@ -2543,7 +2811,8 @@
           "w": 841,
           "h": 1024,
           "t": "assets/obras/tecido/015-t.webp",
-          "g": "assets/obras/tecido/015-g.webp"
+          "g": "assets/obras/tecido/015-g.webp",
+          "m": "assets/obras/tecido/015-m.webp"
         },
         {
           "arquivo": "016.jpg",
@@ -2552,7 +2821,8 @@
           "w": 1024,
           "h": 768,
           "t": "assets/obras/tecido/016-t.webp",
-          "g": "assets/obras/tecido/016-g.webp"
+          "g": "assets/obras/tecido/016-g.webp",
+          "m": "assets/obras/tecido/016-m.webp"
         },
         {
           "arquivo": "017.jpg",
@@ -2561,7 +2831,8 @@
           "w": 1024,
           "h": 836,
           "t": "assets/obras/tecido/017-t.webp",
-          "g": "assets/obras/tecido/017-g.webp"
+          "g": "assets/obras/tecido/017-g.webp",
+          "m": "assets/obras/tecido/017-m.webp"
         },
         {
           "arquivo": "018.jpg",
@@ -2570,7 +2841,8 @@
           "w": 787,
           "h": 1024,
           "t": "assets/obras/tecido/018-t.webp",
-          "g": "assets/obras/tecido/018-g.webp"
+          "g": "assets/obras/tecido/018-g.webp",
+          "m": "assets/obras/tecido/018-m.webp"
         },
         {
           "arquivo": "019.jpg",
@@ -2579,7 +2851,8 @@
           "w": 768,
           "h": 1024,
           "t": "assets/obras/tecido/019-t.webp",
-          "g": "assets/obras/tecido/019-g.webp"
+          "g": "assets/obras/tecido/019-g.webp",
+          "m": "assets/obras/tecido/019-m.webp"
         },
         {
           "arquivo": "020.jpg",
@@ -2588,7 +2861,8 @@
           "w": 768,
           "h": 1024,
           "t": "assets/obras/tecido/020-t.webp",
-          "g": "assets/obras/tecido/020-g.webp"
+          "g": "assets/obras/tecido/020-g.webp",
+          "m": "assets/obras/tecido/020-m.webp"
         },
         {
           "arquivo": "021.jpg",
@@ -2597,7 +2871,8 @@
           "w": 768,
           "h": 1024,
           "t": "assets/obras/tecido/021-t.webp",
-          "g": "assets/obras/tecido/021-g.webp"
+          "g": "assets/obras/tecido/021-g.webp",
+          "m": "assets/obras/tecido/021-m.webp"
         },
         {
           "arquivo": "022.jpg",
@@ -2606,7 +2881,8 @@
           "w": 885,
           "h": 1024,
           "t": "assets/obras/tecido/022-t.webp",
-          "g": "assets/obras/tecido/022-g.webp"
+          "g": "assets/obras/tecido/022-g.webp",
+          "m": "assets/obras/tecido/022-m.webp"
         },
         {
           "arquivo": "023.jpg",
@@ -2615,7 +2891,8 @@
           "w": 1024,
           "h": 768,
           "t": "assets/obras/tecido/023-t.webp",
-          "g": "assets/obras/tecido/023-g.webp"
+          "g": "assets/obras/tecido/023-g.webp",
+          "m": "assets/obras/tecido/023-m.webp"
         },
         {
           "arquivo": "024.jpg",
@@ -2624,7 +2901,8 @@
           "w": 1024,
           "h": 768,
           "t": "assets/obras/tecido/024-t.webp",
-          "g": "assets/obras/tecido/024-g.webp"
+          "g": "assets/obras/tecido/024-g.webp",
+          "m": "assets/obras/tecido/024-m.webp"
         },
         {
           "arquivo": "025.jpg",
@@ -2633,7 +2911,8 @@
           "w": 768,
           "h": 1024,
           "t": "assets/obras/tecido/025-t.webp",
-          "g": "assets/obras/tecido/025-g.webp"
+          "g": "assets/obras/tecido/025-g.webp",
+          "m": "assets/obras/tecido/025-m.webp"
         },
         {
           "arquivo": "026.jpg",
@@ -2642,7 +2921,8 @@
           "w": 843,
           "h": 1024,
           "t": "assets/obras/tecido/026-t.webp",
-          "g": "assets/obras/tecido/026-g.webp"
+          "g": "assets/obras/tecido/026-g.webp",
+          "m": "assets/obras/tecido/026-m.webp"
         },
         {
           "arquivo": "027.jpg",
@@ -2651,7 +2931,8 @@
           "w": 1024,
           "h": 1024,
           "t": "assets/obras/tecido/027-t.webp",
-          "g": "assets/obras/tecido/027-g.webp"
+          "g": "assets/obras/tecido/027-g.webp",
+          "m": "assets/obras/tecido/027-m.webp"
         },
         {
           "arquivo": "028.jpg",
@@ -2660,7 +2941,8 @@
           "w": 1024,
           "h": 1024,
           "t": "assets/obras/tecido/028-t.webp",
-          "g": "assets/obras/tecido/028-g.webp"
+          "g": "assets/obras/tecido/028-g.webp",
+          "m": "assets/obras/tecido/028-m.webp"
         },
         {
           "arquivo": "029.jpg",
@@ -2669,7 +2951,8 @@
           "w": 1024,
           "h": 1024,
           "t": "assets/obras/tecido/029-t.webp",
-          "g": "assets/obras/tecido/029-g.webp"
+          "g": "assets/obras/tecido/029-g.webp",
+          "m": "assets/obras/tecido/029-m.webp"
         }
       ]
     },
@@ -2685,7 +2968,8 @@
           "w": 640,
           "h": 451,
           "t": "assets/obras/papel/001-t.webp",
-          "g": "assets/obras/papel/001-g.webp"
+          "g": "assets/obras/papel/001-g.webp",
+          "m": "assets/obras/papel/001-m.webp"
         },
         {
           "arquivo": "002.jpg",
@@ -2694,7 +2978,8 @@
           "w": 640,
           "h": 452,
           "t": "assets/obras/papel/002-t.webp",
-          "g": "assets/obras/papel/002-g.webp"
+          "g": "assets/obras/papel/002-g.webp",
+          "m": "assets/obras/papel/002-m.webp"
         },
         {
           "arquivo": "003.jpg",
@@ -2703,7 +2988,8 @@
           "w": 1038,
           "h": 1280,
           "t": "assets/obras/papel/003-t.webp",
-          "g": "assets/obras/papel/003-g.webp"
+          "g": "assets/obras/papel/003-g.webp",
+          "m": "assets/obras/papel/003-m.webp"
         },
         {
           "arquivo": "004.jpg",
@@ -2712,7 +2998,8 @@
           "w": 994,
           "h": 1280,
           "t": "assets/obras/papel/004-t.webp",
-          "g": "assets/obras/papel/004-g.webp"
+          "g": "assets/obras/papel/004-g.webp",
+          "m": "assets/obras/papel/004-m.webp"
         },
         {
           "arquivo": "005.jpg",
@@ -2721,7 +3008,8 @@
           "w": 1024,
           "h": 720,
           "t": "assets/obras/papel/005-t.webp",
-          "g": "assets/obras/papel/005-g.webp"
+          "g": "assets/obras/papel/005-g.webp",
+          "m": "assets/obras/papel/005-m.webp"
         },
         {
           "arquivo": "006.jpg",
@@ -2730,7 +3018,8 @@
           "w": 1280,
           "h": 1280,
           "t": "assets/obras/papel/006-t.webp",
-          "g": "assets/obras/papel/006-g.webp"
+          "g": "assets/obras/papel/006-g.webp",
+          "m": "assets/obras/papel/006-m.webp"
         },
         {
           "arquivo": "007.jpg",
@@ -2739,7 +3028,8 @@
           "w": 1200,
           "h": 1261,
           "t": "assets/obras/papel/007-t.webp",
-          "g": "assets/obras/papel/007-g.webp"
+          "g": "assets/obras/papel/007-g.webp",
+          "m": "assets/obras/papel/007-m.webp"
         },
         {
           "arquivo": "008.png",
@@ -2748,7 +3038,8 @@
           "w": 1024,
           "h": 768,
           "t": "assets/obras/papel/008-t.webp",
-          "g": "assets/obras/papel/008-g.webp"
+          "g": "assets/obras/papel/008-g.webp",
+          "m": "assets/obras/papel/008-m.webp"
         },
         {
           "arquivo": "009.png",
@@ -2757,7 +3048,8 @@
           "w": 1024,
           "h": 768,
           "t": "assets/obras/papel/009-t.webp",
-          "g": "assets/obras/papel/009-g.webp"
+          "g": "assets/obras/papel/009-g.webp",
+          "m": "assets/obras/papel/009-m.webp"
         },
         {
           "arquivo": "010.png",
@@ -2766,7 +3058,8 @@
           "w": 768,
           "h": 1024,
           "t": "assets/obras/papel/010-t.webp",
-          "g": "assets/obras/papel/010-g.webp"
+          "g": "assets/obras/papel/010-g.webp",
+          "m": "assets/obras/papel/010-m.webp"
         },
         {
           "arquivo": "011.png",
@@ -2775,7 +3068,8 @@
           "w": 1024,
           "h": 767,
           "t": "assets/obras/papel/011-t.webp",
-          "g": "assets/obras/papel/011-g.webp"
+          "g": "assets/obras/papel/011-g.webp",
+          "m": "assets/obras/papel/011-m.webp"
         },
         {
           "arquivo": "012.jpg",
@@ -2784,7 +3078,8 @@
           "w": 924,
           "h": 1024,
           "t": "assets/obras/papel/012-t.webp",
-          "g": "assets/obras/papel/012-g.webp"
+          "g": "assets/obras/papel/012-g.webp",
+          "m": "assets/obras/papel/012-m.webp"
         },
         {
           "arquivo": "013.png",
@@ -2793,7 +3088,8 @@
           "w": 899,
           "h": 1024,
           "t": "assets/obras/papel/013-t.webp",
-          "g": "assets/obras/papel/013-g.webp"
+          "g": "assets/obras/papel/013-g.webp",
+          "m": "assets/obras/papel/013-m.webp"
         },
         {
           "arquivo": "014.jpg",
@@ -2802,7 +3098,8 @@
           "w": 768,
           "h": 1024,
           "t": "assets/obras/papel/014-t.webp",
-          "g": "assets/obras/papel/014-g.webp"
+          "g": "assets/obras/papel/014-g.webp",
+          "m": "assets/obras/papel/014-m.webp"
         },
         {
           "arquivo": "015.jpg",
@@ -2811,7 +3108,8 @@
           "w": 768,
           "h": 1024,
           "t": "assets/obras/papel/015-t.webp",
-          "g": "assets/obras/papel/015-g.webp"
+          "g": "assets/obras/papel/015-g.webp",
+          "m": "assets/obras/papel/015-m.webp"
         },
         {
           "arquivo": "016.jpg",
@@ -2820,7 +3118,8 @@
           "w": 768,
           "h": 1024,
           "t": "assets/obras/papel/016-t.webp",
-          "g": "assets/obras/papel/016-g.webp"
+          "g": "assets/obras/papel/016-g.webp",
+          "m": "assets/obras/papel/016-m.webp"
         }
       ]
     },
@@ -2837,7 +3136,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/flash/001-t.webp",
-          "g": "assets/obras/flash/001-g.webp"
+          "g": "assets/obras/flash/001-g.webp",
+          "m": "assets/obras/flash/001-m.webp"
         },
         {
           "arquivo": "002.jpg",
@@ -2846,7 +3146,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/flash/002-t.webp",
-          "g": "assets/obras/flash/002-g.webp"
+          "g": "assets/obras/flash/002-g.webp",
+          "m": "assets/obras/flash/002-m.webp"
         },
         {
           "arquivo": "003.jpg",
@@ -2855,7 +3156,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/flash/003-t.webp",
-          "g": "assets/obras/flash/003-g.webp"
+          "g": "assets/obras/flash/003-g.webp",
+          "m": "assets/obras/flash/003-m.webp"
         },
         {
           "arquivo": "004.jpg",
@@ -2864,7 +3166,8 @@
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/flash/004-t.webp",
-          "g": "assets/obras/flash/004-g.webp"
+          "g": "assets/obras/flash/004-g.webp",
+          "m": "assets/obras/flash/004-m.webp"
         }
       ]
     }

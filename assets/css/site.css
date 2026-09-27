@@ -181,12 +181,51 @@ h3 { font-size: clamp(26px, 3.4vw, 36px); }
 }
 .filtro:hover { color: var(--texto); border-color: var(--apagado); }
 .filtro[aria-pressed="true"] { background: var(--menta); border-color: var(--menta); color: #000; }
-.filtro small { font-weight: 400; opacity: .7; margin-left: 4px; }
+@media (max-width: 900px) {
+  .filtros { -webkit-mask-image: linear-gradient(to right, transparent 0, #000 var(--gutter), #000 calc(100% - 40px), transparent 100%);
+             mask-image: linear-gradient(to right, transparent 0, #000 var(--gutter), #000 calc(100% - 40px), transparent 100%); }
+}
 
-.serie-cab { padding: clamp(28px, 4vw, 44px) 0 20px; }
-.serie-cab p { color: var(--apagado); max-width: 70ch; margin: 12px 0 0; }
-.grupo-titulo { font: 700 13px/1 var(--f-rotulo); letter-spacing: .14em; text-transform: uppercase; color: var(--neon); margin: 36px 0 14px; grid-column: 1 / -1; }
-.grupo-titulo:first-child { margin-top: 0; }
+/* ---------- galeria da página Trabalhos (linhas justificadas) ---------- */
+[data-trabalhos] { padding-bottom: clamp(56px, 8vw, 104px); }
+.serie-cab {
+  display: grid; gap: 14px 48px; align-items: end;
+  padding: clamp(36px, 5vw, 64px) 0 clamp(20px, 3vw, 32px);
+  border-bottom: 1px solid var(--linha); margin-bottom: clamp(28px, 4vw, 48px);
+}
+@media (min-width: 900px) { .serie-cab { grid-template-columns: auto 1fr; } }
+.serie-cab h2 { font-size: clamp(44px, 7vw, 88px); }
+.serie-cab p { color: var(--apagado); max-width: 62ch; margin: 0; font-size: clamp(15px, 1.6vw, 17px); }
+
+.grupo + .grupo { margin-top: clamp(40px, 6vw, 72px); }
+.grupo-titulo {
+  display: flex; align-items: center; gap: 16px;
+  font: 700 12px/1 var(--f-rotulo); letter-spacing: .18em; text-transform: uppercase;
+  color: var(--neon); margin: 0 0 clamp(14px, 2vw, 20px);
+}
+.grupo-titulo::after { content: ""; flex: 1; height: 1px; background: linear-gradient(to right, var(--linha), transparent); }
+
+.galeria { display: grid; gap: var(--vao, 10px); }
+.galeria-linha { display: flex; }
+.galeria-linha.curta { justify-content: center; }
+.obra.solta { flex: none; aspect-ratio: auto; background: var(--placa); }
+.obra.solta img { opacity: 0; transition: opacity 500ms ease, transform 600ms cubic-bezier(.2,.7,.2,1), filter var(--t); }
+.obra.solta.pronta img { opacity: 1; }
+.obra.solta::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.04);
+  background: linear-gradient(to top, rgba(0,0,0,.72), transparent 45%);
+  opacity: 0; transition: opacity var(--t);
+}
+.obra.solta .etq { z-index: 1; }
+@media (hover: hover) {
+  .obra.solta:hover::after, .obra.solta:focus-visible::after { opacity: 1; }
+  .obra.solta:hover img { transform: scale(1.03); }
+}
+@media (hover: none) {
+  /* no celular a legenda fica fora da imagem para não cobrir a obra */
+  .obra.solta .etq { display: none; }
+}
 
 .grade { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; padding-bottom: 64px; }
 @media (min-width: 700px) { .grade { grid-template-columns: repeat(3, 1fr); gap: 8px; } }

@@ -5,7 +5,8 @@ Uso:  python tools/processar_imagens.py
 - Lê conteudo/obras.json (séries, ordem, legendas).
 - Arquivos novos em originais/<serie>/ que ainda não estão no JSON entram no fim da série.
 - Para cada obra gera, em assets/obras/<serie>/:
-    <nome>-t.webp  miniatura da grade, 4:5, 800x1000
+    <nome>-t.webp  miniatura 4:5, 800x1000 (faixas da home e do orçamento)
+    <nome>-m.webp  galeria da página Trabalhos, proporção original, altura até 720 px
     <nome>-g.webp  visualização ampliada, proporção original, lado maior até 2000 px
 - Escreve assets/js/obras.js, que o site lê.
 Só reprocessa o que mudou. Precisa de Python 3 e Pillow (pip install pillow).
@@ -20,7 +21,8 @@ SAIDA = RAIZ / "assets" / "obras"
 CONTEUDO = RAIZ / "conteudo" / "obras.json"
 EXTS = {".jpg", ".jpeg", ".png", ".webp", ".tif", ".tiff"}
 
-GRADE = (800, 1000)          # 4:5
+GRADE = (800, 1000)          # 4:5, faixas da home e do orçamento
+GALERIA = (1400, 720)        # página Trabalhos: proporção original, altura até 720 px (linhas de até 360 px em tela retina)
 AMPLIADA = 2000              # lado maior
 QUAL_GRADE, QUAL_AMPLIADA = 78, 82
 FUNDO = (5, 5, 5)
@@ -73,13 +75,17 @@ def main():
                 print(f"  ! não encontrado: {src.relative_to(RAIZ)}")
                 continue
             stem = Path(item["arquivo"]).stem
-            t, g = destino / f"{stem}-t.webp", destino / f"{stem}-g.webp"
+            t, m, g = (destino / f"{stem}-{s}.webp" for s in ("t", "m", "g"))
             total += 1
-            novo = not (t.exists() and g.exists()) or min(t.stat().st_mtime, g.stat().st_mtime) < src.stat().st_mtime
+            saidas = (t, m, g)
+            novo = not all(f.exists() for f in saidas) or min(f.stat().st_mtime for f in saidas) < src.stat().st_mtime
             if novo or "w" not in item:
                 im = abrir(src)
                 if novo:
                     enquadrar(im, serie["slug"], item).save(t, "WEBP", quality=QUAL_GRADE, method=6)
+                    med = im.copy()
+                    med.thumbnail(GALERIA, Image.LANCZOS)
+                    med.save(m, "WEBP", quality=QUAL_GRADE, method=6)
                     amp = im.copy()
                     amp.thumbnail((AMPLIADA, AMPLIADA), Image.LANCZOS)
                     amp.save(g, "WEBP", quality=QUAL_AMPLIADA, method=6)
@@ -87,11 +93,12 @@ def main():
                 with Image.open(g) as gi:
                     item["w"], item["h"] = gi.size
             item["t"] = f"assets/obras/{serie['slug']}/{stem}-t.webp"
+            item["m"] = f"assets/obras/{serie['slug']}/{stem}-m.webp"
             item["g"] = f"assets/obras/{serie['slug']}/{stem}-g.webp"
 
     CONTEUDO.write_text(json.dumps(dados, ensure_ascii=False, indent=2), encoding="utf-8")
     publico = {"series": [{k: v for k, v in s.items()} | {"itens": [
-        {k: i[k] for k in ("t", "g", "w", "h", "legenda", "grupo", "ano", "cicatrizada") if i.get(k) not in (None, "")}
+        {k: i[k] for k in ("t", "m", "g", "w", "h", "legenda", "grupo", "ano", "cicatrizada") if i.get(k) not in (None, "")}
         for i in s["itens"] if "t" in i]} for s in dados["series"]]}
     js = RAIZ / "assets" / "js" / "obras.js"
     js.parent.mkdir(parents=True, exist_ok=True)

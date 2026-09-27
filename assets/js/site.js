@@ -18,17 +18,19 @@
     return partes.join(" · ");
   }
 
-  function botaoObra(s, it, i, lista) {
+  function botaoObra(s, it, i, lista, galeria = false) {
     const b = document.createElement("button");
     b.type = "button";
-    b.className = "obra";
+    b.className = galeria ? "obra solta" : "obra";
     const leg = legendaDe(s, it);
     b.setAttribute("aria-label", `Ampliar: ${s.titulo}${leg ? ", " + leg : ""}`);
-    const img = new Image(800, 1000);
-    img.src = it.t;
+    const img = galeria ? new Image(it.w, it.h) : new Image(800, 1000);
     img.alt = "";
     img.loading = i < 8 ? "eager" : "lazy";
     img.decoding = "async";
+    img.addEventListener("load", () => b.classList.add("pronta"), { once: true });
+    img.src = galeria ? it.m : it.t;
+    if (img.complete) b.classList.add("pronta");
     b.append(img);
     if (leg) {
       const e = document.createElement("span");
@@ -113,43 +115,141 @@
       b.type = "button";
       b.className = "filtro";
       b.dataset.slug = s.slug;
-      b.innerHTML = `${s.titulo}<small>${s.itens.length}</small>`;
+      b.textContent = s.titulo;
       b.onclick = () => { history.replaceState(null, "", "#" + s.slug); render(s.slug, true); };
       filtros.append(b);
     });
+
+    /* Linhas justificadas, como no portfólio: a obra aparece inteira, todas as imagens de uma linha têm a
+       mesma altura e a linha fecha exatamente na largura da coluna. A altura-alvo acompanha a tela. */
+    function alturaAlvo(largura) {
+      if (largura < 420) return 168;
+      if (largura < 640) return 190;
+      if (largura < 900) return 210;
+      if (largura < 1200) return 250;
+      return 290;
+    }
+    function justificar(galeria) {
+      const largura = galeria.clientWidth;
+      if (!largura) return;
+      const vao = largura < 640 ? 6 : 10;
+      const alvoH = alturaAlvo(largura);
+      const obrasEl = [...galeria.querySelectorAll(".obra")];
+      // proporção limitada para panoramas e verticais extremas não virarem tiras
+      const razao = (el) => Math.min(2.4, Math.max(0.45, Number(el.dataset.razao)));
+      const alturaDe = (els) => (largura - vao * (els.length - 1)) / els.reduce((s, el) => s + razao(el), 0);
+
+      // 1. Monta as linhas. Cada uma quebra no ponto em que a altura fica mais perto do alvo:
+      //    com a obra atual (linha mais baixa) ou sem ela (linha mais alta, e a obra abre a próxima).
+      const linhas = [];
+      let linha = [];
+      obrasEl.forEach((el) => {
+        linha.push(el);
+        const soma = linha.reduce((s, e) => s + razao(e), 0);
+        if (soma * alvoH + vao * (linha.length - 1) < largura) return;
+        const hSem = linha.length > 1 ? alturaDe(linha.slice(0, -1)) : Infinity;
+        if (Math.abs(hSem - alvoH) < Math.abs(alturaDe(linha) - alvoH)) {
+          linhas.push(linha.slice(0, -1));
+          linha = [el];
+        } else {
+          linhas.push(linha);
+          linha = [];
+        }
+      });
+
+      // 2. Sobra no fim: se esticada ficaria desproporcional, tenta juntar à linha anterior;
+      //    se nem assim ficar bom, mantém a altura-alvo e centraliza.
+      let alturaUltima = null;
+      if (linha.length) {
+        const hSozinha = alturaDe(linha);
+        if (hSozinha <= alvoH * 1.6) linhas.push(linha);
+        else if (linhas.length && alturaDe([...linhas[linhas.length - 1], ...linha]) >= alvoH * 0.62) {
+          linhas[linhas.length - 1].push(...linha);
+        } else {
+          linhas.push(linha);
+          alturaUltima = alvoH;
+        }
+      }
+
+      // 3. Desenha
+      galeria.replaceChildren();
+      linhas.forEach((els, i) => {
+        const h = i === linhas.length - 1 && alturaUltima ? alturaUltima : alturaDe(els);
+        const div = document.createElement("div");
+        div.className = i === linhas.length - 1 && alturaUltima ? "galeria-linha curta" : "galeria-linha";
+        div.style.gap = vao + "px";
+        els.forEach((el) => {
+          el.style.width = (razao(el) * h).toFixed(2) + "px";
+          el.style.height = h.toFixed(2) + "px";
+          div.append(el);
+        });
+        galeria.append(div);
+      });
+      galeria.style.setProperty("--vao", vao + "px");
+    }
+    const galerias = new Set();
+    let ultimaLargura = 0;
+    new ResizeObserver(() => {
+      const w = alvo.clientWidth;
+      if (Math.abs(w - ultimaLargura) < 2) return;
+      ultimaLargura = w;
+      galerias.forEach(justificar);
+    }).observe(alvo);
+
     function render(slug, rolar) {
       const s = porSlug[slug] && !porSlug[slug].oculta ? porSlug[slug] : visiveis[0];
       filtros.querySelectorAll(".filtro").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.slug === s.slug)));
-      filtros.querySelector(`[data-slug="${s.slug}"]`).scrollIntoView({ block: "nearest", inline: "center" });
-      alvo.innerHTML = "";
+      const ativo = filtros.querySelector(`[data-slug="${s.slug}"]`);
+      filtros.scrollTo({ left: ativo.offsetLeft - (filtros.clientWidth - ativo.offsetWidth) / 2, behavior: "smooth" });
+      alvo.replaceChildren();
+      galerias.clear();
+
       const cab = document.createElement("header");
       cab.className = "serie-cab";
       const h = document.createElement("h2");
       h.textContent = s.titulo;
-      const p = document.createElement("p");
-      p.textContent = s.texto || "";
-      cab.append(h, p);
-      const grade = document.createElement("div");
-      grade.className = "grade";
-      // Nas tattoos o grupo é a técnica e aparece na legenda; nas outras séries vira subtítulo na grade.
+      cab.append(h);
+      if (s.texto) {
+        const p = document.createElement("p");
+        p.textContent = s.texto;
+        cab.append(p);
+      }
+      alvo.append(cab);
+
+      // Nas tattoos o grupo é a técnica e aparece na legenda; nas outras séries cada grupo vira um bloco com título.
       const usaGrupos = s.slug !== "tattoos" && s.itens.some((i) => i.grupo);
       const grupos = usaGrupos ? [...new Set(s.itens.map((i) => i.grupo || ""))] : [""];
-      const ordenados = grupos.flatMap((g) => (usaGrupos ? s.itens.filter((i) => (i.grupo || "") === g) : s.itens));
-      const lista = ordenados.map((it) => ({ s, it }));
-      let ultimo = null;
-      ordenados.forEach((it, n) => {
-        if (usaGrupos && it.grupo && it.grupo !== ultimo) {
+      const blocos = grupos.map((g) => ({ g, itens: usaGrupos ? s.itens.filter((i) => (i.grupo || "") === g) : s.itens }));
+      const lista = blocos.flatMap((b) => b.itens.map((it) => ({ s, it })));
+      let n = 0;
+      blocos.forEach(({ g, itens }) => {
+        const bloco = document.createElement("section");
+        bloco.className = "grupo";
+        if (g) {
           const gt = document.createElement("h3");
           gt.className = "grupo-titulo";
-          gt.textContent = it.grupo;
-          grade.append(gt);
+          gt.textContent = g;
+          bloco.append(gt);
+          bloco.setAttribute("aria-label", g);
         }
-        ultimo = it.grupo;
-        grade.append(botaoObra(s, it, n, lista));
+        const galeria = document.createElement("div");
+        galeria.className = "galeria";
+        itens.forEach((it) => {
+          const el = botaoObra(s, it, n++, lista, true);
+          el.dataset.razao = (it.w / it.h).toFixed(4);
+          galeria.append(el);
+        });
+        bloco.append(galeria);
+        alvo.append(bloco);
+        galerias.add(galeria);
+        justificar(galeria);
       });
-      alvo.append(cab, grade);
+
       document.title = `${s.titulo} · Trabalhos · DAC ART INK`;
-      if (rolar) alvo.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+      if (rolar) {
+        const y = alvo.getBoundingClientRect().top + scrollY - (parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--altura-topo")) || 64) - filtros.offsetHeight - 8;
+        scrollTo({ top: y, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+      }
     }
     render(location.hash.slice(1), false);
     addEventListener("hashchange", () => render(location.hash.slice(1), true));
