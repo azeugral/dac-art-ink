@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Instrument+Sans:wght@400;600&family=Space+Mono:wght@400;700&display=swap">
-  <link rel="stylesheet" href="assets/css/site.css?v=10">
+  <link rel="stylesheet" href="assets/css/site.css?v=12">
   <link rel="preload" as="image" href="assets/img/logo.webp">
 </head>
 <body>
@@ -129,17 +129,55 @@
       <div class="grade" data-faixa="tattoos:8"></div>
     </section>
 
-    <section class="miolo secao">
-      <p class="rotulo">Como funciona</p>
-      <h2>Do desenho <span class="neon">à pele</span></h2>
+    <!-- COMO FUNCIONA: texto da página de agendamento do portfólio da Dani, organizado em passos -->
+    <section class="miolo secao como" aria-labelledby="como-titulo">
+      <div class="como-cab">
+        <div>
+          <p class="rotulo">Como funciona</p>
+          <h2 id="como-titulo">Do desenho <span class="neon">à pele</span></h2>
+          <p class="intro">Obrigada pelo interesse no meu trabalho! <span class="coracao" aria-hidden="true">♡</span> Tudo o que você precisa saber antes de agendar está aqui.</p>
+        </div>
+        <aside class="como-local" aria-label="Onde eu atendo">
+          <p class="rotulo">Onde eu atendo</p>
+          <p class="como-cidade">São José dos Campos <span>· zona sul</span></p>
+          <p>Não mora perto? Me chama para combinarmos: eu tatuo em outras cidades também.</p>
+        </aside>
+      </div>
+
       <ol class="passos">
-        <li><strong>Manda a ideia</strong><p>Preenche o orçamento com a ideia, o local e o tamanho. A mensagem já chega pronta no meu WhatsApp.</p></li>
-        <li><strong>Reserva com sinal</strong><p>Combinamos o valor e o horário. O sinal reserva a data e é descontado do total no dia.</p></li>
-        <li><strong>Dia da sessão</strong><p>Você chega com a pele cuidada e sai com uma peça única, feita dentro da minha linguagem.</p></li>
+        <li>
+          <strong>Escolha uma arte autoral</strong>
+          <p>Tenho um portfólio exclusivo de artes autorais, para quem quer uma arte única na pele. Também faço composição de artes e projetos maiores.</p>
+          <p class="nota">✦ Alguns desenhos podem ser feitos em mais de uma pessoa, mas recebem alterações a cada nova tatuagem. Mesmo que alguém escolha o mesmo desenho que você, <em>nenhuma tattoo é exatamente igual à outra.</em></p>
+        </li>
+        <li>
+          <strong>Ou mande a sua ideia</strong>
+          <p>Quer um desenho customizado? Envie a ideia com os detalhes, as cores e o tamanho desejado.</p>
+          <p class="nota">✦ O desenho é feito dentro do meu estilo, alinhado à minha linguagem artística.</p>
+        </li>
+        <li class="passo-sinal">
+          <strong>Reserve com o sinal</strong>
+          <p>Para reservar o horário é preciso pagar um sinal, calculado de acordo com o valor da tatuagem e informado no agendamento.</p>
+          <ul class="sinal">
+            <li><span>Abatido</span> do total no dia da sessão</li>
+            <li><span>Cobre</span> a preparação e o desenvolvimento da sua tattoo</li>
+            <li><span>1 reagendamento</span> pedindo com 48 h de antecedência</li>
+            <li><span>Não é devolvido</span> em cancelamento ou falta sem aviso</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Cuide antes e depois</strong>
+          <p>Siga os cuidados pré e pós-tattoo para garantir o melhor resultado da arte na sua pele.</p>
+          <p class="nota"><a href="cuidados.html">✦ Ver todos os cuidados →</a></p>
+        </li>
       </ol>
-      <div class="botoes">
-        <a class="botao" href="orcamento.html">Pedir orçamento</a>
-        <a class="botao vazado" href="cuidados.html">Cuidados pré e pós</a>
+
+      <div class="como-fim">
+        <p class="garantia">Eu garanto que a sua tattoo nova vai ser <span class="menta">incrível e muito estilosa!</span> ;)</p>
+        <div class="botoes">
+          <a class="botao" href="orcamento.html">Pedir orçamento</a>
+          <a class="botao vazado" href="cuidados.html">Cuidados pré e pós</a>
+        </div>
       </div>
     </section>
   </main>
@@ -178,7 +216,7 @@
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-1 1.2-.4.2-.7.1a8.2 8.2 0 0 1-4-3.5c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.8.4 3.5 3.5 0 0 0-1.1 2.6 6 6 0 0 0 1.3 3.2 13.8 13.8 0 0 0 5.3 4.7c2 .8 2.7.9 3.7.8a3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.2-.3-.3-.6-.4ZM12 21.8a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8Zm8.4-18.2A11.8 11.8 0 0 0 1.8 17.8L.1 24l6.4-1.7a11.8 11.8 0 0 0 5.5 1.4A11.8 11.8 0 0 0 20.4 3.6Z"/></svg>
   </a>
 
-  <script src="assets/js/obras.js?v=10" defer></script>
-  <script src="assets/js/site.js?v=10" defer></script>
+  <script src="assets/js/obras.js?v=12" defer></script>
+  <script src="assets/js/site.js?v=12" defer></script>
 </body>
 </html>
