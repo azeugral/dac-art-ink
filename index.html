@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Instrument+Sans:wght@400;600&family=Space+Mono:wght@400;700&display=swap">
-  <link rel="stylesheet" href="assets/css/site.css?v=7">
+  <link rel="stylesheet" href="assets/css/site.css?v=9">
   <link rel="preload" as="image" href="assets/img/logo.webp">
 </head>
 <body>
@@ -45,24 +45,76 @@
       </div>
     </section>
 
-    <section class="miolo" aria-label="Atalhos">
-      <div class="portas">
-        <a class="porta surge" href="trabalhos.html">
-          <img src="assets/obras/tattoos/052-t.webp" alt="" width="800" height="1000">
-          <span class="porta-txt"><strong>Trabalhos</strong><span>tattoo, ilustração, pintura, fotografia</span></span>
-        </a>
-        <a class="porta surge d1" href="sobre.html">
-          <img src="assets/img/retrato.webp" alt="" width="960" height="1280">
-          <span class="porta-txt"><strong>Sobre</strong><span>quem é a Dani e onde ela atende</span></span>
-        </a>
-        <a class="porta surge d2" href="https://dacgaleria.com" target="_blank" rel="noopener">
-          <img src="assets/obras/paineis/005-m.webp" alt="" width="800" height="1000">
-          <span class="porta-txt"><strong>Loja ↗</strong><span>peças autorais na DAC Galeria</span></span>
-        </a>
-        <a class="porta destaque surge d3" href="orcamento.html">
-          <img src="assets/obras/flash/001-m.webp" alt="" width="800" height="1000">
-          <span class="porta-txt"><strong>Orçamento</strong><span>manda a ideia, eu respondo no WhatsApp</span></span>
-        </a>
+    <!-- VITRINE: produtos da DAC Galeria (Nuvemshop). Preço e parcelas conferidos em 27/09/2026.
+         Para trocar um produto: foto em assets/loja/<slug>-1.webp (e -2 para o hover, 640x763), link, nome e preço. -->
+    <section class="miolo secao vitrine" aria-labelledby="vitrine-titulo">
+      <div class="faixa-cab">
+        <div>
+          <p class="rotulo">DAC Galeria · loja</p>
+          <h2 id="vitrine-titulo">Peças <span class="neon">autorais</span></h2>
+        </div>
+        <a href="https://dacgaleria.com/produtos/" target="_blank" rel="noopener">Ver vitrine completa ↗</a>
+      </div>
+      <ul class="produtos">
+        <li class="produto surge">
+          <a class="produto-foto" href="https://dacgaleria.com/produtos/iter-duo-mini-telas/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+            <img src="assets/loja/iter-duo-mini-telas-1.webp" alt="" width="640" height="763" loading="lazy">
+            <img class="alt" src="assets/loja/iter-duo-mini-telas-2.webp" alt="" width="640" height="763" loading="lazy">
+            <span class="selo">Peça única</span>
+          </a>
+          <div class="produto-info">
+            <p class="produto-cat">Telas</p>
+            <h3><a href="https://dacgaleria.com/produtos/iter-duo-mini-telas/" target="_blank" rel="noopener">ITER · Duo de mini telas pintadas à mão</a></h3>
+            <p class="preco">R$ 180,00</p>
+            <p class="parcela">4x de <strong>R$ 45,00</strong> sem juros</p>
+            <a class="botao produto-comprar" href="https://dacgaleria.com/produtos/iter-duo-mini-telas/" target="_blank" rel="noopener" aria-label="Comprar ITER · Duo de mini telas, R$ 180,00">Comprar</a>
+          </div>
+        </li>
+        <li class="produto surge d1">
+          <a class="produto-foto" href="https://dacgaleria.com/produtos/boneco-baby-inked/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+            <img src="assets/loja/boneco-baby-inked-1.webp" alt="" width="640" height="763" loading="lazy">
+            <img class="alt" src="assets/loja/boneco-baby-inked-2.webp" alt="" width="640" height="763" loading="lazy">
+            <span class="selo">Peça única</span>
+          </a>
+          <div class="produto-info">
+            <p class="produto-cat">Artefatos</p>
+            <h3><a href="https://dacgaleria.com/produtos/boneco-baby-inked/" target="_blank" rel="noopener">Boneco Baby Inked</a></h3>
+            <p class="preco">R$ 120,00</p>
+            <p class="parcela">4x de <strong>R$ 30,00</strong> sem juros</p>
+            <a class="botao produto-comprar" href="https://dacgaleria.com/produtos/boneco-baby-inked/" target="_blank" rel="noopener" aria-label="Comprar Boneco Baby Inked, R$ 120,00">Comprar</a>
+          </div>
+        </li>
+        <li class="produto surge d2">
+          <a class="produto-foto" href="https://dacgaleria.com/produtos/quadro-decorativo-stay-rad/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+            <img src="assets/loja/quadro-decorativo-stay-rad-1.webp" alt="" width="640" height="763" loading="lazy">
+            <img class="alt" src="assets/loja/quadro-decorativo-stay-rad-2.webp" alt="" width="640" height="763" loading="lazy">
+            <span class="selo">Peça única</span>
+          </a>
+          <div class="produto-info">
+            <p class="produto-cat">Quadros</p>
+            <h3><a href="https://dacgaleria.com/produtos/quadro-decorativo-stay-rad/" target="_blank" rel="noopener">Quadro decorativo STAY RAD</a></h3>
+            <p class="preco">R$ 115,00</p>
+            <p class="parcela">4x de <strong>R$ 28,75</strong> sem juros</p>
+            <a class="botao produto-comprar" href="https://dacgaleria.com/produtos/quadro-decorativo-stay-rad/" target="_blank" rel="noopener" aria-label="Comprar Quadro decorativo STAY RAD, R$ 115,00">Comprar</a>
+          </div>
+        </li>
+        <li class="produto surge d3">
+          <a class="produto-foto" href="https://dacgaleria.com/produtos/especime-recuperado-modelo-t01/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+            <img src="assets/loja/especime-recuperado-modelo-t01-1.webp" alt="" width="640" height="763" loading="lazy">
+            <img class="alt" src="assets/loja/especime-recuperado-modelo-t01-2.webp" alt="" width="640" height="763" loading="lazy">
+            <span class="selo">Peça única</span>
+          </a>
+          <div class="produto-info">
+            <p class="produto-cat">Artefatos</p>
+            <h3><a href="https://dacgaleria.com/produtos/especime-recuperado-modelo-t01/" target="_blank" rel="noopener">Espécime Recuperado · Modelo T-01</a></h3>
+            <p class="preco">R$ 38,00</p>
+            <p class="parcela">4x de <strong>R$ 9,50</strong> sem juros</p>
+            <a class="botao produto-comprar" href="https://dacgaleria.com/produtos/especime-recuperado-modelo-t01/" target="_blank" rel="noopener" aria-label="Comprar Espécime Recuperado · Modelo T-01, R$ 38,00">Comprar</a>
+          </div>
+        </li>
+      </ul>
+      <div class="botoes vitrine-cta">
+        <a class="botao vazado" href="https://dacgaleria.com/produtos/" target="_blank" rel="noopener">Ver vitrine completa ↗</a>
       </div>
     </section>
 
@@ -126,7 +178,7 @@
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-1 1.2-.4.2-.7.1a8.2 8.2 0 0 1-4-3.5c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.8.4 3.5 3.5 0 0 0-1.1 2.6 6 6 0 0 0 1.3 3.2 13.8 13.8 0 0 0 5.3 4.7c2 .8 2.7.9 3.7.8a3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.2-.3-.3-.6-.4ZM12 21.8a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8Zm8.4-18.2A11.8 11.8 0 0 0 1.8 17.8L.1 24l6.4-1.7a11.8 11.8 0 0 0 5.5 1.4A11.8 11.8 0 0 0 20.4 3.6Z"/></svg>
   </a>
 
-  <script src="assets/js/obras.js?v=7" defer></script>
-  <script src="assets/js/site.js?v=7" defer></script>
+  <script src="assets/js/obras.js?v=9" defer></script>
+  <script src="assets/js/site.js?v=9" defer></script>
 </body>
 </html>
