@@ -449,7 +449,7 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
 .rodape-dados li { padding: 6px 0; }
 .rodape a { text-decoration: none; color: var(--apagado); display: inline-block; padding: 6px 0; transition: color var(--t); }
 .rodape a:hover { color: var(--menta); }
-.rodape .botao { color: #000; padding: 0 22px; justify-self: start; }
+.rodape .botao { display: inline-flex; color: #000; padding: 0 22px; justify-self: start; }
 .rodape .botao:hover { color: #000; }
 
 .rodape-fim {
