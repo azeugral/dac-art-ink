@@ -170,7 +170,11 @@ h3 { font-size: clamp(26px, 3.4vw, 36px); }
 }
 .produto-info { display: flex; flex-direction: column; flex: 1; padding-top: 14px; }
 .produto-cat { margin: 0 0 6px; font: 700 11px/1 var(--f-rotulo); letter-spacing: .14em; text-transform: uppercase; color: var(--neon); }
-.produto h3 { font: 600 16px/1.3 var(--f-texto); text-transform: none; letter-spacing: 0; margin: 0; }
+.produto h3 {
+  font: 600 16px/1.3 var(--f-texto); text-transform: none; letter-spacing: 0; margin: 0;
+  /* sempre 2 linhas reservadas: os preços ficam alinhados entre os cards */
+  min-height: 2.6em; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
 .produto h3 a { text-decoration: none; }
 .produto h3 a:hover { color: var(--menta); }
 .preco { margin: 10px 0 0; font: 800 26px/1 var(--f-titulo); color: var(--texto); letter-spacing: .01em; }
