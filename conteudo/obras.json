@@ -1,0 +1,2872 @@
+{
+  "series": [
+    {
+      "slug": "tattoos",
+      "titulo": "Tattoos",
+      "texto": "Handpoke, híbrida (handpoke + máquina) e máquina artesanal. A maioria das fotos é da tatuagem já cicatrizada.",
+      "itens": [
+        {
+          "arquivo": "060.jpg",
+          "legenda": "",
+          "grupo": null,
+          "cicatrizada": null,
+          "origem": "instagram",
+          "w": 1440,
+          "h": 1799,
+          "t": "assets/obras/tattoos/060-t.webp",
+          "g": "assets/obras/tattoos/060-g.webp"
+        },
+        {
+          "arquivo": "059.jpg",
+          "legenda": "",
+          "grupo": null,
+          "cicatrizada": null,
+          "origem": "instagram",
+          "w": 1440,
+          "h": 1800,
+          "t": "assets/obras/tattoos/059-t.webp",
+          "g": "assets/obras/tattoos/059-g.webp"
+        },
+        {
+          "arquivo": "058.jpg",
+          "legenda": "",
+          "grupo": null,
+          "cicatrizada": null,
+          "origem": "instagram",
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/tattoos/058-t.webp",
+          "g": "assets/obras/tattoos/058-g.webp"
+        },
+        {
+          "arquivo": "057.jpg",
+          "legenda": "",
+          "grupo": null,
+          "cicatrizada": null,
+          "origem": "instagram",
+          "w": 1440,
+          "h": 1800,
+          "t": "assets/obras/tattoos/057-t.webp",
+          "g": "assets/obras/tattoos/057-g.webp"
+        },
+        {
+          "arquivo": "001.jpg",
+          "legenda": "",
+          "grupo": null,
+          "cicatrizada": false,
+          "origem": "instagram",
+          "w": 1125,
+          "h": 2000,
+          "t": "assets/obras/tattoos/001-t.webp",
+          "g": "assets/obras/tattoos/001-g.webp"
+        },
+        {
+          "arquivo": "002.jpg",
+          "legenda": "",
+          "grupo": null,
+          "cicatrizada": false,
+          "w": 1254,
+          "h": 1254,
+          "t": "assets/obras/tattoos/002-t.webp",
+          "g": "assets/obras/tattoos/002-g.webp"
+        },
+        {
+          "arquivo": "003.jpg",
+          "legenda": "",
+          "grupo": null,
+          "cicatrizada": false,
+          "w": 1254,
+          "h": 1254,
+          "t": "assets/obras/tattoos/003-t.webp",
+          "g": "assets/obras/tattoos/003-g.webp"
+        },
+        {
+          "arquivo": "004.jpg",
+          "legenda": "",
+          "grupo": null,
+          "cicatrizada": false,
+          "w": 820,
+          "h": 784,
+          "t": "assets/obras/tattoos/004-t.webp",
+          "g": "assets/obras/tattoos/004-g.webp"
+        },
+        {
+          "arquivo": "005.jpg",
+          "legenda": "",
+          "grupo": null,
+          "cicatrizada": false,
+          "w": 897,
+          "h": 997,
+          "t": "assets/obras/tattoos/005-t.webp",
+          "g": "assets/obras/tattoos/005-g.webp"
+        },
+        {
+          "arquivo": "006.jpg",
+          "legenda": "",
+          "grupo": null,
+          "cicatrizada": false,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/tattoos/006-t.webp",
+          "g": "assets/obras/tattoos/006-g.webp"
+        },
+        {
+          "arquivo": "007.png",
+          "legenda": "",
+          "grupo": null,
+          "cicatrizada": false,
+          "w": 1080,
+          "h": 1440,
+          "t": "assets/obras/tattoos/007-t.webp",
+          "g": "assets/obras/tattoos/007-g.webp"
+        },
+        {
+          "arquivo": "008.png",
+          "legenda": "",
+          "grupo": null,
+          "cicatrizada": false,
+          "w": 1080,
+          "h": 1069,
+          "t": "assets/obras/tattoos/008-t.webp",
+          "g": "assets/obras/tattoos/008-g.webp"
+        },
+        {
+          "arquivo": "009.jpg",
+          "legenda": "",
+          "grupo": null,
+          "cicatrizada": false,
+          "w": 1050,
+          "h": 1050,
+          "t": "assets/obras/tattoos/009-t.webp",
+          "g": "assets/obras/tattoos/009-g.webp"
+        },
+        {
+          "arquivo": "010.jpg",
+          "legenda": "",
+          "grupo": "Híbrida",
+          "cicatrizada": true,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/tattoos/010-t.webp",
+          "g": "assets/obras/tattoos/010-g.webp"
+        },
+        {
+          "arquivo": "011.jpg",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": true,
+          "w": 949,
+          "h": 1280,
+          "t": "assets/obras/tattoos/011-t.webp",
+          "g": "assets/obras/tattoos/011-g.webp"
+        },
+        {
+          "arquivo": "012.jpg",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": true,
+          "w": 982,
+          "h": 982,
+          "t": "assets/obras/tattoos/012-t.webp",
+          "g": "assets/obras/tattoos/012-g.webp"
+        },
+        {
+          "arquivo": "013.jpg",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": true,
+          "w": 1086,
+          "h": 1086,
+          "t": "assets/obras/tattoos/013-t.webp",
+          "g": "assets/obras/tattoos/013-g.webp"
+        },
+        {
+          "arquivo": "014.jpg",
+          "legenda": "",
+          "grupo": "Máquina",
+          "cicatrizada": true,
+          "w": 640,
+          "h": 640,
+          "t": "assets/obras/tattoos/014-t.webp",
+          "g": "assets/obras/tattoos/014-g.webp"
+        },
+        {
+          "arquivo": "015.jpg",
+          "legenda": "",
+          "grupo": "Híbrida",
+          "cicatrizada": true,
+          "w": 662,
+          "h": 570,
+          "t": "assets/obras/tattoos/015-t.webp",
+          "g": "assets/obras/tattoos/015-g.webp"
+        },
+        {
+          "arquivo": "016.jpg",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": true,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/tattoos/016-t.webp",
+          "g": "assets/obras/tattoos/016-g.webp"
+        },
+        {
+          "arquivo": "017.jpg",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": true,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/tattoos/017-t.webp",
+          "g": "assets/obras/tattoos/017-g.webp"
+        },
+        {
+          "arquivo": "018.jpg",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": true,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/tattoos/018-t.webp",
+          "g": "assets/obras/tattoos/018-g.webp"
+        },
+        {
+          "arquivo": "019.jpg",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": true,
+          "w": 990,
+          "h": 1280,
+          "t": "assets/obras/tattoos/019-t.webp",
+          "g": "assets/obras/tattoos/019-g.webp"
+        },
+        {
+          "arquivo": "020.jpg",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": true,
+          "w": 531,
+          "h": 720,
+          "t": "assets/obras/tattoos/020-t.webp",
+          "g": "assets/obras/tattoos/020-g.webp"
+        },
+        {
+          "arquivo": "021.jpg",
+          "legenda": "",
+          "grupo": "Híbrida",
+          "cicatrizada": true,
+          "w": 853,
+          "h": 1280,
+          "t": "assets/obras/tattoos/021-t.webp",
+          "g": "assets/obras/tattoos/021-g.webp"
+        },
+        {
+          "arquivo": "022.jpg",
+          "legenda": "",
+          "grupo": "Máquina",
+          "cicatrizada": true,
+          "w": 920,
+          "h": 1280,
+          "t": "assets/obras/tattoos/022-t.webp",
+          "g": "assets/obras/tattoos/022-g.webp"
+        },
+        {
+          "arquivo": "023.jpg",
+          "legenda": "",
+          "grupo": "Máquina",
+          "cicatrizada": true,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/tattoos/023-t.webp",
+          "g": "assets/obras/tattoos/023-g.webp"
+        },
+        {
+          "arquivo": "024.png",
+          "legenda": "",
+          "grupo": "Máquina",
+          "cicatrizada": true,
+          "w": 1080,
+          "h": 1440,
+          "t": "assets/obras/tattoos/024-t.webp",
+          "g": "assets/obras/tattoos/024-g.webp"
+        },
+        {
+          "arquivo": "025.jpg",
+          "legenda": "",
+          "grupo": "Máquina",
+          "cicatrizada": false,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/tattoos/025-t.webp",
+          "g": "assets/obras/tattoos/025-g.webp"
+        },
+        {
+          "arquivo": "026.jpg",
+          "legenda": "",
+          "grupo": "Máquina",
+          "cicatrizada": true,
+          "w": 1024,
+          "h": 1024,
+          "t": "assets/obras/tattoos/026-t.webp",
+          "g": "assets/obras/tattoos/026-g.webp"
+        },
+        {
+          "arquivo": "027.jpg",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": true,
+          "w": 1024,
+          "h": 1024,
+          "t": "assets/obras/tattoos/027-t.webp",
+          "g": "assets/obras/tattoos/027-g.webp"
+        },
+        {
+          "arquivo": "028.jpg",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": true,
+          "w": 931,
+          "h": 1280,
+          "t": "assets/obras/tattoos/028-t.webp",
+          "g": "assets/obras/tattoos/028-g.webp"
+        },
+        {
+          "arquivo": "029.jpg",
+          "legenda": "",
+          "grupo": "Híbrida",
+          "cicatrizada": true,
+          "w": 1024,
+          "h": 1536,
+          "t": "assets/obras/tattoos/029-t.webp",
+          "g": "assets/obras/tattoos/029-g.webp"
+        },
+        {
+          "arquivo": "030.jpg",
+          "legenda": "",
+          "grupo": "Máquina",
+          "cicatrizada": true,
+          "w": 1080,
+          "h": 1440,
+          "t": "assets/obras/tattoos/030-t.webp",
+          "g": "assets/obras/tattoos/030-g.webp"
+        },
+        {
+          "arquivo": "031.jpeg",
+          "legenda": "",
+          "grupo": "Máquina",
+          "cicatrizada": true,
+          "w": 586,
+          "h": 780,
+          "t": "assets/obras/tattoos/031-t.webp",
+          "g": "assets/obras/tattoos/031-g.webp"
+        },
+        {
+          "arquivo": "032.jpeg",
+          "legenda": "",
+          "grupo": "Híbrida",
+          "cicatrizada": true,
+          "w": 828,
+          "h": 1280,
+          "t": "assets/obras/tattoos/032-t.webp",
+          "g": "assets/obras/tattoos/032-g.webp"
+        },
+        {
+          "arquivo": "033.jpeg",
+          "legenda": "",
+          "grupo": "Híbrida",
+          "cicatrizada": true,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/tattoos/033-t.webp",
+          "g": "assets/obras/tattoos/033-g.webp"
+        },
+        {
+          "arquivo": "034.jpeg",
+          "legenda": "",
+          "grupo": "Híbrida",
+          "cicatrizada": true,
+          "w": 1163,
+          "h": 1171,
+          "t": "assets/obras/tattoos/034-t.webp",
+          "g": "assets/obras/tattoos/034-g.webp"
+        },
+        {
+          "arquivo": "035.jpeg",
+          "legenda": "",
+          "grupo": "Híbrida",
+          "cicatrizada": true,
+          "w": 506,
+          "h": 780,
+          "t": "assets/obras/tattoos/035-t.webp",
+          "g": "assets/obras/tattoos/035-g.webp"
+        },
+        {
+          "arquivo": "036.png",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": true,
+          "w": 1080,
+          "h": 1350,
+          "t": "assets/obras/tattoos/036-t.webp",
+          "g": "assets/obras/tattoos/036-g.webp"
+        },
+        {
+          "arquivo": "037.jpeg",
+          "legenda": "",
+          "grupo": "Híbrida",
+          "cicatrizada": true,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/tattoos/037-t.webp",
+          "g": "assets/obras/tattoos/037-g.webp"
+        },
+        {
+          "arquivo": "038.jpeg",
+          "legenda": "",
+          "grupo": "Híbrida",
+          "cicatrizada": true,
+          "w": 1024,
+          "h": 1280,
+          "t": "assets/obras/tattoos/038-t.webp",
+          "g": "assets/obras/tattoos/038-g.webp"
+        },
+        {
+          "arquivo": "039.jpg",
+          "legenda": "",
+          "grupo": "Híbrida",
+          "cicatrizada": true,
+          "origem": "instagram",
+          "w": 1077,
+          "h": 1347,
+          "t": "assets/obras/tattoos/039-t.webp",
+          "g": "assets/obras/tattoos/039-g.webp"
+        },
+        {
+          "arquivo": "040.jpg",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": true,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/tattoos/040-t.webp",
+          "g": "assets/obras/tattoos/040-g.webp"
+        },
+        {
+          "arquivo": "041.jpg",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": false,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/tattoos/041-t.webp",
+          "g": "assets/obras/tattoos/041-g.webp"
+        },
+        {
+          "arquivo": "042.jpg",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": false,
+          "origem": "instagram",
+          "w": 1440,
+          "h": 1800,
+          "t": "assets/obras/tattoos/042-t.webp",
+          "g": "assets/obras/tattoos/042-g.webp"
+        },
+        {
+          "arquivo": "043.png",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": true,
+          "w": 1080,
+          "h": 1350,
+          "t": "assets/obras/tattoos/043-t.webp",
+          "g": "assets/obras/tattoos/043-g.webp"
+        },
+        {
+          "arquivo": "046.png",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": true,
+          "w": 1280,
+          "h": 1280,
+          "t": "assets/obras/tattoos/046-t.webp",
+          "g": "assets/obras/tattoos/046-g.webp"
+        },
+        {
+          "arquivo": "047.jpg",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": false,
+          "origem": "instagram",
+          "w": 900,
+          "h": 1125,
+          "t": "assets/obras/tattoos/047-t.webp",
+          "g": "assets/obras/tattoos/047-g.webp"
+        },
+        {
+          "arquivo": "048.jpg",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": true,
+          "origem": "instagram",
+          "w": 899,
+          "h": 1123,
+          "t": "assets/obras/tattoos/048-t.webp",
+          "g": "assets/obras/tattoos/048-g.webp"
+        },
+        {
+          "arquivo": "049.jpg",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": false,
+          "origem": "instagram",
+          "w": 1280,
+          "h": 1276,
+          "t": "assets/obras/tattoos/049-t.webp",
+          "g": "assets/obras/tattoos/049-g.webp"
+        },
+        {
+          "arquivo": "050.png",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": false,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/tattoos/050-t.webp",
+          "g": "assets/obras/tattoos/050-g.webp"
+        },
+        {
+          "arquivo": "051.png",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": false,
+          "w": 1920,
+          "h": 931,
+          "t": "assets/obras/tattoos/051-t.webp",
+          "g": "assets/obras/tattoos/051-g.webp",
+          "enquadrar": "inteira"
+        },
+        {
+          "arquivo": "052.jpg",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": true,
+          "origem": "instagram",
+          "w": 1350,
+          "h": 1687,
+          "t": "assets/obras/tattoos/052-t.webp",
+          "g": "assets/obras/tattoos/052-g.webp"
+        },
+        {
+          "arquivo": "053.jpg",
+          "legenda": "",
+          "grupo": "Máquina artesanal",
+          "cicatrizada": false,
+          "w": 720,
+          "h": 960,
+          "t": "assets/obras/tattoos/053-t.webp",
+          "g": "assets/obras/tattoos/053-g.webp"
+        }
+      ]
+    },
+    {
+      "slug": "digital",
+      "titulo": "Ilustração digital",
+      "texto": "Conceitual, cartoon, delírios visuais e as coleções subverso: neøkid (2025) e totem (2026).",
+      "itens": [
+        {
+          "arquivo": "001.png",
+          "legenda": "",
+          "grupo": "Conceitual",
+          "w": 1024,
+          "h": 1280,
+          "t": "assets/obras/digital/001-t.webp",
+          "g": "assets/obras/digital/001-g.webp"
+        },
+        {
+          "arquivo": "002.png",
+          "legenda": "",
+          "grupo": "Conceitual",
+          "w": 1024,
+          "h": 1280,
+          "t": "assets/obras/digital/002-t.webp",
+          "g": "assets/obras/digital/002-g.webp"
+        },
+        {
+          "arquivo": "003.png",
+          "legenda": "",
+          "grupo": "Cartoon",
+          "w": 460,
+          "h": 552,
+          "t": "assets/obras/digital/003-t.webp",
+          "g": "assets/obras/digital/003-g.webp"
+        },
+        {
+          "arquivo": "004.png",
+          "legenda": "",
+          "grupo": "Cartoon",
+          "w": 1920,
+          "h": 1109,
+          "t": "assets/obras/digital/004-t.webp",
+          "g": "assets/obras/digital/004-g.webp"
+        },
+        {
+          "arquivo": "005.png",
+          "legenda": "",
+          "grupo": "Cartoon",
+          "w": 604,
+          "h": 604,
+          "t": "assets/obras/digital/005-t.webp",
+          "g": "assets/obras/digital/005-g.webp"
+        },
+        {
+          "arquivo": "006.png",
+          "legenda": "",
+          "grupo": "Cartoon",
+          "w": 2000,
+          "h": 1561,
+          "t": "assets/obras/digital/006-t.webp",
+          "g": "assets/obras/digital/006-g.webp"
+        },
+        {
+          "arquivo": "007.png",
+          "legenda": "",
+          "grupo": "Cartoon",
+          "w": 1187,
+          "h": 1531,
+          "t": "assets/obras/digital/007-t.webp",
+          "g": "assets/obras/digital/007-g.webp"
+        },
+        {
+          "arquivo": "008.png",
+          "legenda": "",
+          "grupo": "Cartoon",
+          "w": 1598,
+          "h": 2000,
+          "t": "assets/obras/digital/008-t.webp",
+          "g": "assets/obras/digital/008-g.webp"
+        },
+        {
+          "arquivo": "009.png",
+          "legenda": "",
+          "grupo": "Cartoon",
+          "w": 2000,
+          "h": 1901,
+          "t": "assets/obras/digital/009-t.webp",
+          "g": "assets/obras/digital/009-g.webp"
+        },
+        {
+          "arquivo": "010.png",
+          "legenda": "",
+          "grupo": "Cartoon",
+          "w": 2000,
+          "h": 2000,
+          "t": "assets/obras/digital/010-t.webp",
+          "g": "assets/obras/digital/010-g.webp"
+        },
+        {
+          "arquivo": "011.png",
+          "legenda": "",
+          "grupo": "Cartoon",
+          "w": 1920,
+          "h": 1888,
+          "t": "assets/obras/digital/011-t.webp",
+          "g": "assets/obras/digital/011-g.webp"
+        },
+        {
+          "arquivo": "012.png",
+          "legenda": "",
+          "grupo": "Cartoon",
+          "w": 1753,
+          "h": 2000,
+          "t": "assets/obras/digital/012-t.webp",
+          "g": "assets/obras/digital/012-g.webp"
+        },
+        {
+          "arquivo": "013.png",
+          "legenda": "",
+          "grupo": "Cartoon",
+          "w": 1920,
+          "h": 1760,
+          "t": "assets/obras/digital/013-t.webp",
+          "g": "assets/obras/digital/013-g.webp"
+        },
+        {
+          "arquivo": "014.png",
+          "legenda": "",
+          "grupo": "Cartoon",
+          "w": 1912,
+          "h": 2000,
+          "t": "assets/obras/digital/014-t.webp",
+          "g": "assets/obras/digital/014-g.webp"
+        },
+        {
+          "arquivo": "015.png",
+          "legenda": "",
+          "grupo": "Cartoon",
+          "w": 856,
+          "h": 743,
+          "t": "assets/obras/digital/015-t.webp",
+          "g": "assets/obras/digital/015-g.webp"
+        },
+        {
+          "arquivo": "016.png",
+          "legenda": "",
+          "grupo": "Cartoon",
+          "w": 1865,
+          "h": 2000,
+          "t": "assets/obras/digital/016-t.webp",
+          "g": "assets/obras/digital/016-g.webp"
+        },
+        {
+          "arquivo": "017.gif",
+          "legenda": "",
+          "grupo": "Delírios Visuais",
+          "w": 1080,
+          "h": 1350,
+          "t": "assets/obras/digital/017-t.webp",
+          "g": "assets/obras/digital/017-g.webp"
+        },
+        {
+          "arquivo": "018.gif",
+          "legenda": "",
+          "grupo": "Delírios Visuais",
+          "w": 1920,
+          "h": 1080,
+          "t": "assets/obras/digital/018-t.webp",
+          "g": "assets/obras/digital/018-g.webp"
+        },
+        {
+          "arquivo": "019.gif",
+          "legenda": "",
+          "grupo": "Delírios Visuais",
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/digital/019-t.webp",
+          "g": "assets/obras/digital/019-g.webp"
+        },
+        {
+          "arquivo": "020.png",
+          "legenda": "",
+          "grupo": "Delírios Visuais",
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/digital/020-t.webp",
+          "g": "assets/obras/digital/020-g.webp"
+        },
+        {
+          "arquivo": "021.png",
+          "legenda": "",
+          "grupo": "Delírios Visuais",
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/digital/021-t.webp",
+          "g": "assets/obras/digital/021-g.webp"
+        },
+        {
+          "arquivo": "022.png",
+          "legenda": "",
+          "grupo": "Delírios Visuais",
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/digital/022-t.webp",
+          "g": "assets/obras/digital/022-g.webp"
+        },
+        {
+          "arquivo": "023.png",
+          "legenda": "",
+          "grupo": "Delírios Visuais",
+          "w": 1920,
+          "h": 960,
+          "t": "assets/obras/digital/023-t.webp",
+          "g": "assets/obras/digital/023-g.webp"
+        },
+        {
+          "arquivo": "024.png",
+          "legenda": "",
+          "grupo": "Delírios Visuais",
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/digital/024-t.webp",
+          "g": "assets/obras/digital/024-g.webp"
+        },
+        {
+          "arquivo": "025.png",
+          "legenda": "",
+          "grupo": "Delírios Visuais",
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/digital/025-t.webp",
+          "g": "assets/obras/digital/025-g.webp"
+        },
+        {
+          "arquivo": "026.png",
+          "legenda": "",
+          "grupo": "Coleção neøkid · 2025",
+          "w": 1080,
+          "h": 1350,
+          "t": "assets/obras/digital/026-t.webp",
+          "g": "assets/obras/digital/026-g.webp"
+        },
+        {
+          "arquivo": "027.png",
+          "legenda": "",
+          "grupo": "Coleção neøkid · 2025",
+          "w": 1080,
+          "h": 1350,
+          "t": "assets/obras/digital/027-t.webp",
+          "g": "assets/obras/digital/027-g.webp"
+        },
+        {
+          "arquivo": "028.png",
+          "legenda": "",
+          "grupo": "Coleção neøkid · 2025",
+          "w": 1080,
+          "h": 1350,
+          "t": "assets/obras/digital/028-t.webp",
+          "g": "assets/obras/digital/028-g.webp"
+        },
+        {
+          "arquivo": "029.png",
+          "legenda": "",
+          "grupo": "Coleção neøkid · 2025",
+          "w": 1080,
+          "h": 1350,
+          "t": "assets/obras/digital/029-t.webp",
+          "g": "assets/obras/digital/029-g.webp"
+        },
+        {
+          "arquivo": "030.png",
+          "legenda": "",
+          "grupo": "Coleção neøkid · 2025",
+          "w": 1080,
+          "h": 1350,
+          "t": "assets/obras/digital/030-t.webp",
+          "g": "assets/obras/digital/030-g.webp"
+        },
+        {
+          "arquivo": "031.png",
+          "legenda": "",
+          "grupo": "Coleção neøkid · 2025",
+          "w": 1080,
+          "h": 1350,
+          "t": "assets/obras/digital/031-t.webp",
+          "g": "assets/obras/digital/031-g.webp"
+        },
+        {
+          "arquivo": "032.png",
+          "legenda": "",
+          "grupo": "Coleção neøkid · 2025",
+          "w": 1080,
+          "h": 1350,
+          "t": "assets/obras/digital/032-t.webp",
+          "g": "assets/obras/digital/032-g.webp"
+        },
+        {
+          "arquivo": "033.png",
+          "legenda": "",
+          "grupo": "Coleção neøkid · 2025",
+          "w": 1080,
+          "h": 1350,
+          "t": "assets/obras/digital/033-t.webp",
+          "g": "assets/obras/digital/033-g.webp"
+        },
+        {
+          "arquivo": "034.png",
+          "legenda": "",
+          "grupo": "Coleção neøkid · 2025",
+          "w": 1080,
+          "h": 1350,
+          "t": "assets/obras/digital/034-t.webp",
+          "g": "assets/obras/digital/034-g.webp"
+        },
+        {
+          "arquivo": "035.png",
+          "legenda": "",
+          "grupo": "Coleção totem · 2026",
+          "w": 1080,
+          "h": 1440,
+          "t": "assets/obras/digital/035-t.webp",
+          "g": "assets/obras/digital/035-g.webp"
+        },
+        {
+          "arquivo": "036.png",
+          "legenda": "",
+          "grupo": "Coleção totem · 2026",
+          "w": 1080,
+          "h": 1440,
+          "t": "assets/obras/digital/036-t.webp",
+          "g": "assets/obras/digital/036-g.webp"
+        },
+        {
+          "arquivo": "037.png",
+          "legenda": "",
+          "grupo": "Coleção totem · 2026",
+          "w": 1080,
+          "h": 1440,
+          "t": "assets/obras/digital/037-t.webp",
+          "g": "assets/obras/digital/037-g.webp"
+        },
+        {
+          "arquivo": "038.png",
+          "legenda": "",
+          "grupo": "Coleção totem · 2026",
+          "w": 1080,
+          "h": 1440,
+          "t": "assets/obras/digital/038-t.webp",
+          "g": "assets/obras/digital/038-g.webp"
+        },
+        {
+          "arquivo": "039.png",
+          "legenda": "",
+          "grupo": "Coleção totem · 2026",
+          "w": 1080,
+          "h": 1440,
+          "t": "assets/obras/digital/039-t.webp",
+          "g": "assets/obras/digital/039-g.webp"
+        }
+      ]
+    },
+    {
+      "slug": "mao",
+      "titulo": "Ilustração à mão",
+      "texto": "Aquarela, blackwork, conceitual e técnica mista.",
+      "itens": [
+        {
+          "arquivo": "001.png",
+          "legenda": "",
+          "grupo": "Aquarela",
+          "w": 518,
+          "h": 765,
+          "t": "assets/obras/mao/001-t.webp",
+          "g": "assets/obras/mao/001-g.webp"
+        },
+        {
+          "arquivo": "002.png",
+          "legenda": "",
+          "grupo": "Aquarela",
+          "w": 549,
+          "h": 823,
+          "t": "assets/obras/mao/002-t.webp",
+          "g": "assets/obras/mao/002-g.webp"
+        },
+        {
+          "arquivo": "003.png",
+          "legenda": "",
+          "grupo": "Aquarela",
+          "w": 587,
+          "h": 548,
+          "t": "assets/obras/mao/003-t.webp",
+          "g": "assets/obras/mao/003-g.webp"
+        },
+        {
+          "arquivo": "004.png",
+          "legenda": "",
+          "grupo": "Aquarela",
+          "w": 610,
+          "h": 991,
+          "t": "assets/obras/mao/004-t.webp",
+          "g": "assets/obras/mao/004-g.webp"
+        },
+        {
+          "arquivo": "005.jpg",
+          "legenda": "",
+          "grupo": "Aquarela",
+          "w": 686,
+          "h": 918,
+          "t": "assets/obras/mao/005-t.webp",
+          "g": "assets/obras/mao/005-g.webp"
+        },
+        {
+          "arquivo": "006.jpg",
+          "legenda": "",
+          "grupo": "Blackwork",
+          "w": 704,
+          "h": 980,
+          "t": "assets/obras/mao/006-t.webp",
+          "g": "assets/obras/mao/006-g.webp"
+        },
+        {
+          "arquivo": "007.jpg",
+          "legenda": "",
+          "grupo": "Blackwork",
+          "w": 1016,
+          "h": 1021,
+          "t": "assets/obras/mao/007-t.webp",
+          "g": "assets/obras/mao/007-g.webp"
+        },
+        {
+          "arquivo": "008.jpg",
+          "legenda": "",
+          "grupo": "Blackwork",
+          "w": 624,
+          "h": 798,
+          "t": "assets/obras/mao/008-t.webp",
+          "g": "assets/obras/mao/008-g.webp"
+        },
+        {
+          "arquivo": "009.jpg",
+          "legenda": "",
+          "grupo": "Blackwork",
+          "w": 688,
+          "h": 750,
+          "t": "assets/obras/mao/009-t.webp",
+          "g": "assets/obras/mao/009-g.webp"
+        },
+        {
+          "arquivo": "010.jpeg",
+          "legenda": "",
+          "grupo": "Blackwork",
+          "w": 822,
+          "h": 860,
+          "t": "assets/obras/mao/010-t.webp",
+          "g": "assets/obras/mao/010-g.webp"
+        },
+        {
+          "arquivo": "011.jpg",
+          "legenda": "",
+          "grupo": "Blackwork",
+          "w": 991,
+          "h": 708,
+          "t": "assets/obras/mao/011-t.webp",
+          "g": "assets/obras/mao/011-g.webp"
+        },
+        {
+          "arquivo": "012.jpg",
+          "legenda": "",
+          "grupo": "Blackwork",
+          "w": 1024,
+          "h": 1024,
+          "t": "assets/obras/mao/012-t.webp",
+          "g": "assets/obras/mao/012-g.webp"
+        },
+        {
+          "arquivo": "013.jpg",
+          "legenda": "",
+          "grupo": "Blackwork",
+          "w": 621,
+          "h": 480,
+          "t": "assets/obras/mao/013-t.webp",
+          "g": "assets/obras/mao/013-g.webp"
+        },
+        {
+          "arquivo": "014.jpg",
+          "legenda": "",
+          "grupo": "Conceitual",
+          "w": 1024,
+          "h": 1024,
+          "t": "assets/obras/mao/014-t.webp",
+          "g": "assets/obras/mao/014-g.webp"
+        },
+        {
+          "arquivo": "015.png",
+          "legenda": "",
+          "grupo": "Conceitual",
+          "w": 450,
+          "h": 600,
+          "t": "assets/obras/mao/015-t.webp",
+          "g": "assets/obras/mao/015-g.webp"
+        },
+        {
+          "arquivo": "016.jpg",
+          "legenda": "",
+          "grupo": "Conceitual",
+          "w": 908,
+          "h": 630,
+          "t": "assets/obras/mao/016-t.webp",
+          "g": "assets/obras/mao/016-g.webp"
+        },
+        {
+          "arquivo": "017.png",
+          "legenda": "",
+          "grupo": "Conceitual",
+          "w": 853,
+          "h": 1280,
+          "t": "assets/obras/mao/017-t.webp",
+          "g": "assets/obras/mao/017-g.webp"
+        },
+        {
+          "arquivo": "018.png",
+          "legenda": "",
+          "grupo": "Conceitual",
+          "w": 1024,
+          "h": 1280,
+          "t": "assets/obras/mao/018-t.webp",
+          "g": "assets/obras/mao/018-g.webp"
+        },
+        {
+          "arquivo": "019.png",
+          "legenda": "",
+          "grupo": "Conceitual",
+          "w": 853,
+          "h": 1198,
+          "t": "assets/obras/mao/019-t.webp",
+          "g": "assets/obras/mao/019-g.webp"
+        },
+        {
+          "arquivo": "020.png",
+          "legenda": "",
+          "grupo": "Conceitual",
+          "w": 1080,
+          "h": 1350,
+          "t": "assets/obras/mao/020-t.webp",
+          "g": "assets/obras/mao/020-g.webp"
+        },
+        {
+          "arquivo": "021.png",
+          "legenda": "Amy Johnson",
+          "grupo": "Técnica mista",
+          "w": 1520,
+          "h": 2000,
+          "t": "assets/obras/mao/021-t.webp",
+          "g": "assets/obras/mao/021-g.webp"
+        },
+        {
+          "arquivo": "022.png",
+          "legenda": "Édith Piaf",
+          "grupo": "Técnica mista",
+          "w": 2000,
+          "h": 1125,
+          "t": "assets/obras/mao/022-t.webp",
+          "g": "assets/obras/mao/022-g.webp"
+        },
+        {
+          "arquivo": "023.png",
+          "legenda": "",
+          "grupo": "Técnica mista",
+          "w": 2000,
+          "h": 1879,
+          "t": "assets/obras/mao/023-t.webp",
+          "g": "assets/obras/mao/023-g.webp"
+        }
+      ]
+    },
+    {
+      "slug": "paineis",
+      "titulo": "Painéis",
+      "texto": "Painéis decorativos pintados, de 2015 a 2024.",
+      "itens": [
+        {
+          "arquivo": "001.png",
+          "legenda": "Entropia",
+          "grupo": null,
+          "ano": 2015,
+          "w": 1080,
+          "h": 1440,
+          "t": "assets/obras/paineis/001-t.webp",
+          "g": "assets/obras/paineis/001-g.webp"
+        },
+        {
+          "arquivo": "002.png",
+          "legenda": "Deeper",
+          "grupo": null,
+          "ano": 2020,
+          "w": 1080,
+          "h": 1440,
+          "t": "assets/obras/paineis/002-t.webp",
+          "g": "assets/obras/paineis/002-g.webp"
+        },
+        {
+          "arquivo": "003.png",
+          "legenda": "Man Walks",
+          "grupo": null,
+          "ano": 2022,
+          "w": 1080,
+          "h": 831,
+          "t": "assets/obras/paineis/003-t.webp",
+          "g": "assets/obras/paineis/003-g.webp"
+        },
+        {
+          "arquivo": "004.png",
+          "legenda": "Off System",
+          "grupo": null,
+          "ano": 2024,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/paineis/004-t.webp",
+          "g": "assets/obras/paineis/004-g.webp"
+        },
+        {
+          "arquivo": "005.png",
+          "legenda": "Off System",
+          "grupo": null,
+          "ano": 2024,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/paineis/005-t.webp",
+          "g": "assets/obras/paineis/005-g.webp"
+        },
+        {
+          "arquivo": "006.png",
+          "legenda": "Off System",
+          "grupo": null,
+          "ano": 2024,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/paineis/006-t.webp",
+          "g": "assets/obras/paineis/006-g.webp"
+        },
+        {
+          "arquivo": "007.png",
+          "legenda": "Blue Instinct",
+          "grupo": null,
+          "ano": 2021,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/paineis/007-t.webp",
+          "g": "assets/obras/paineis/007-g.webp"
+        },
+        {
+          "arquivo": "008.png",
+          "legenda": "Blue Instinct",
+          "grupo": null,
+          "ano": 2021,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/paineis/008-t.webp",
+          "g": "assets/obras/paineis/008-g.webp"
+        },
+        {
+          "arquivo": "009.png",
+          "legenda": "Blue Instinct",
+          "grupo": null,
+          "ano": 2021,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/paineis/009-t.webp",
+          "g": "assets/obras/paineis/009-g.webp"
+        },
+        {
+          "arquivo": "010.png",
+          "legenda": "Órbita Felina",
+          "grupo": null,
+          "ano": 2023,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/paineis/010-t.webp",
+          "g": "assets/obras/paineis/010-g.webp"
+        },
+        {
+          "arquivo": "011.png",
+          "legenda": "Órbita Felina",
+          "grupo": null,
+          "ano": 2023,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/paineis/011-t.webp",
+          "g": "assets/obras/paineis/011-g.webp"
+        },
+        {
+          "arquivo": "012.png",
+          "legenda": "Órbita Felina",
+          "grupo": null,
+          "ano": 2023,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/paineis/012-t.webp",
+          "g": "assets/obras/paineis/012-g.webp"
+        },
+        {
+          "arquivo": "013.png",
+          "legenda": "Órbita Felina",
+          "grupo": null,
+          "ano": 2023,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/paineis/013-t.webp",
+          "g": "assets/obras/paineis/013-g.webp"
+        },
+        {
+          "arquivo": "014.png",
+          "legenda": "Sol & Lua",
+          "grupo": null,
+          "ano": 2023,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/paineis/014-t.webp",
+          "g": "assets/obras/paineis/014-g.webp"
+        },
+        {
+          "arquivo": "015.png",
+          "legenda": "Sol & Lua",
+          "grupo": null,
+          "ano": 2023,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/paineis/015-t.webp",
+          "g": "assets/obras/paineis/015-g.webp"
+        },
+        {
+          "arquivo": "016.png",
+          "legenda": "Sol & Lua",
+          "grupo": null,
+          "ano": 2023,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/paineis/016-t.webp",
+          "g": "assets/obras/paineis/016-g.webp"
+        },
+        {
+          "arquivo": "017.png",
+          "legenda": "Conchas",
+          "grupo": null,
+          "ano": 2021,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/paineis/017-t.webp",
+          "g": "assets/obras/paineis/017-g.webp"
+        }
+      ]
+    },
+    {
+      "slug": "miksang",
+      "titulo": "Fotografia Miksang",
+      "texto": "Miksang é uma palavra tibetana que significa “bom olho”: uma fotografia contemplativa, em que o olhar acompanha a mente em silêncio. As imagens tendem a devolver quem olha ao estado de contemplação de quem fotografou.",
+      "itens": [
+        {
+          "arquivo": "001.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/001-t.webp",
+          "g": "assets/obras/miksang/001-g.webp"
+        },
+        {
+          "arquivo": "002.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/002-t.webp",
+          "g": "assets/obras/miksang/002-g.webp"
+        },
+        {
+          "arquivo": "003.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/003-t.webp",
+          "g": "assets/obras/miksang/003-g.webp"
+        },
+        {
+          "arquivo": "004.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/004-t.webp",
+          "g": "assets/obras/miksang/004-g.webp"
+        },
+        {
+          "arquivo": "005.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/005-t.webp",
+          "g": "assets/obras/miksang/005-g.webp"
+        },
+        {
+          "arquivo": "006.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/006-t.webp",
+          "g": "assets/obras/miksang/006-g.webp"
+        },
+        {
+          "arquivo": "007.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/007-t.webp",
+          "g": "assets/obras/miksang/007-g.webp"
+        },
+        {
+          "arquivo": "008.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/008-t.webp",
+          "g": "assets/obras/miksang/008-g.webp"
+        },
+        {
+          "arquivo": "009.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/009-t.webp",
+          "g": "assets/obras/miksang/009-g.webp"
+        },
+        {
+          "arquivo": "010.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/010-t.webp",
+          "g": "assets/obras/miksang/010-g.webp"
+        },
+        {
+          "arquivo": "011.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/011-t.webp",
+          "g": "assets/obras/miksang/011-g.webp"
+        },
+        {
+          "arquivo": "012.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/012-t.webp",
+          "g": "assets/obras/miksang/012-g.webp"
+        },
+        {
+          "arquivo": "013.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/013-t.webp",
+          "g": "assets/obras/miksang/013-g.webp"
+        },
+        {
+          "arquivo": "014.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/014-t.webp",
+          "g": "assets/obras/miksang/014-g.webp"
+        },
+        {
+          "arquivo": "015.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 900,
+          "h": 1600,
+          "t": "assets/obras/miksang/015-t.webp",
+          "g": "assets/obras/miksang/015-g.webp"
+        },
+        {
+          "arquivo": "016.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 719,
+          "h": 1280,
+          "t": "assets/obras/miksang/016-t.webp",
+          "g": "assets/obras/miksang/016-g.webp"
+        },
+        {
+          "arquivo": "017.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/017-t.webp",
+          "g": "assets/obras/miksang/017-g.webp"
+        },
+        {
+          "arquivo": "018.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/018-t.webp",
+          "g": "assets/obras/miksang/018-g.webp"
+        },
+        {
+          "arquivo": "019.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 952,
+          "h": 1280,
+          "t": "assets/obras/miksang/019-t.webp",
+          "g": "assets/obras/miksang/019-g.webp"
+        },
+        {
+          "arquivo": "020.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/020-t.webp",
+          "g": "assets/obras/miksang/020-g.webp"
+        },
+        {
+          "arquivo": "021.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/021-t.webp",
+          "g": "assets/obras/miksang/021-g.webp"
+        },
+        {
+          "arquivo": "022.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/022-t.webp",
+          "g": "assets/obras/miksang/022-g.webp"
+        },
+        {
+          "arquivo": "023.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1080,
+          "h": 1350,
+          "t": "assets/obras/miksang/023-t.webp",
+          "g": "assets/obras/miksang/023-g.webp"
+        },
+        {
+          "arquivo": "024.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/024-t.webp",
+          "g": "assets/obras/miksang/024-g.webp"
+        },
+        {
+          "arquivo": "025.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1080,
+          "h": 1350,
+          "t": "assets/obras/miksang/025-t.webp",
+          "g": "assets/obras/miksang/025-g.webp"
+        },
+        {
+          "arquivo": "026.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1080,
+          "h": 1350,
+          "t": "assets/obras/miksang/026-t.webp",
+          "g": "assets/obras/miksang/026-g.webp"
+        },
+        {
+          "arquivo": "027.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/027-t.webp",
+          "g": "assets/obras/miksang/027-g.webp"
+        },
+        {
+          "arquivo": "028.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/028-t.webp",
+          "g": "assets/obras/miksang/028-g.webp"
+        },
+        {
+          "arquivo": "029.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/029-t.webp",
+          "g": "assets/obras/miksang/029-g.webp"
+        },
+        {
+          "arquivo": "030.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/030-t.webp",
+          "g": "assets/obras/miksang/030-g.webp"
+        },
+        {
+          "arquivo": "031.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 719,
+          "h": 1280,
+          "t": "assets/obras/miksang/031-t.webp",
+          "g": "assets/obras/miksang/031-g.webp"
+        },
+        {
+          "arquivo": "032.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/032-t.webp",
+          "g": "assets/obras/miksang/032-g.webp"
+        },
+        {
+          "arquivo": "033.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 919,
+          "h": 1280,
+          "t": "assets/obras/miksang/033-t.webp",
+          "g": "assets/obras/miksang/033-g.webp"
+        },
+        {
+          "arquivo": "034.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/034-t.webp",
+          "g": "assets/obras/miksang/034-g.webp"
+        },
+        {
+          "arquivo": "035.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/035-t.webp",
+          "g": "assets/obras/miksang/035-g.webp"
+        },
+        {
+          "arquivo": "036.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/036-t.webp",
+          "g": "assets/obras/miksang/036-g.webp"
+        },
+        {
+          "arquivo": "037.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/miksang/037-t.webp",
+          "g": "assets/obras/miksang/037-g.webp"
+        },
+        {
+          "arquivo": "038.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/038-t.webp",
+          "g": "assets/obras/miksang/038-g.webp"
+        },
+        {
+          "arquivo": "039.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/039-t.webp",
+          "g": "assets/obras/miksang/039-g.webp"
+        },
+        {
+          "arquivo": "040.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/miksang/040-t.webp",
+          "g": "assets/obras/miksang/040-g.webp"
+        },
+        {
+          "arquivo": "041.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/miksang/041-t.webp",
+          "g": "assets/obras/miksang/041-g.webp"
+        },
+        {
+          "arquivo": "042.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/042-t.webp",
+          "g": "assets/obras/miksang/042-g.webp"
+        },
+        {
+          "arquivo": "043.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 719,
+          "h": 1280,
+          "t": "assets/obras/miksang/043-t.webp",
+          "g": "assets/obras/miksang/043-g.webp"
+        },
+        {
+          "arquivo": "044.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/miksang/044-t.webp",
+          "g": "assets/obras/miksang/044-g.webp"
+        },
+        {
+          "arquivo": "045.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/045-t.webp",
+          "g": "assets/obras/miksang/045-g.webp"
+        },
+        {
+          "arquivo": "046.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/046-t.webp",
+          "g": "assets/obras/miksang/046-g.webp"
+        },
+        {
+          "arquivo": "047.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1280,
+          "h": 720,
+          "t": "assets/obras/miksang/047-t.webp",
+          "g": "assets/obras/miksang/047-g.webp"
+        },
+        {
+          "arquivo": "048.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/miksang/048-t.webp",
+          "g": "assets/obras/miksang/048-g.webp"
+        },
+        {
+          "arquivo": "049.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/049-t.webp",
+          "g": "assets/obras/miksang/049-g.webp"
+        },
+        {
+          "arquivo": "050.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/050-t.webp",
+          "g": "assets/obras/miksang/050-g.webp"
+        },
+        {
+          "arquivo": "051.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/051-t.webp",
+          "g": "assets/obras/miksang/051-g.webp"
+        },
+        {
+          "arquivo": "052.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/052-t.webp",
+          "g": "assets/obras/miksang/052-g.webp"
+        },
+        {
+          "arquivo": "053.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/053-t.webp",
+          "g": "assets/obras/miksang/053-g.webp"
+        },
+        {
+          "arquivo": "054.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/054-t.webp",
+          "g": "assets/obras/miksang/054-g.webp"
+        },
+        {
+          "arquivo": "055.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 768,
+          "t": "assets/obras/miksang/055-t.webp",
+          "g": "assets/obras/miksang/055-g.webp"
+        },
+        {
+          "arquivo": "056.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/056-t.webp",
+          "g": "assets/obras/miksang/056-g.webp"
+        },
+        {
+          "arquivo": "057.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/miksang/057-t.webp",
+          "g": "assets/obras/miksang/057-g.webp"
+        },
+        {
+          "arquivo": "058.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1280,
+          "h": 960,
+          "t": "assets/obras/miksang/058-t.webp",
+          "g": "assets/obras/miksang/058-g.webp"
+        },
+        {
+          "arquivo": "059.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 841,
+          "h": 1024,
+          "t": "assets/obras/miksang/059-t.webp",
+          "g": "assets/obras/miksang/059-g.webp"
+        },
+        {
+          "arquivo": "060.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/060-t.webp",
+          "g": "assets/obras/miksang/060-g.webp"
+        },
+        {
+          "arquivo": "061.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1280,
+          "h": 960,
+          "t": "assets/obras/miksang/061-t.webp",
+          "g": "assets/obras/miksang/061-g.webp"
+        },
+        {
+          "arquivo": "062.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/062-t.webp",
+          "g": "assets/obras/miksang/062-g.webp"
+        },
+        {
+          "arquivo": "063.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1346,
+          "h": 1600,
+          "t": "assets/obras/miksang/063-t.webp",
+          "g": "assets/obras/miksang/063-g.webp"
+        },
+        {
+          "arquivo": "064.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/064-t.webp",
+          "g": "assets/obras/miksang/064-g.webp"
+        },
+        {
+          "arquivo": "065.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 768,
+          "h": 1024,
+          "t": "assets/obras/miksang/065-t.webp",
+          "g": "assets/obras/miksang/065-g.webp"
+        },
+        {
+          "arquivo": "066.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 768,
+          "h": 1024,
+          "t": "assets/obras/miksang/066-t.webp",
+          "g": "assets/obras/miksang/066-g.webp"
+        },
+        {
+          "arquivo": "067.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1280,
+          "h": 622,
+          "t": "assets/obras/miksang/067-t.webp",
+          "g": "assets/obras/miksang/067-g.webp"
+        },
+        {
+          "arquivo": "068.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 719,
+          "h": 1280,
+          "t": "assets/obras/miksang/068-t.webp",
+          "g": "assets/obras/miksang/068-g.webp"
+        },
+        {
+          "arquivo": "069.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 540,
+          "h": 960,
+          "t": "assets/obras/miksang/069-t.webp",
+          "g": "assets/obras/miksang/069-g.webp"
+        },
+        {
+          "arquivo": "070.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 565,
+          "t": "assets/obras/miksang/070-t.webp",
+          "g": "assets/obras/miksang/070-g.webp"
+        },
+        {
+          "arquivo": "071.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 768,
+          "t": "assets/obras/miksang/071-t.webp",
+          "g": "assets/obras/miksang/071-g.webp"
+        },
+        {
+          "arquivo": "072.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1600,
+          "h": 1382,
+          "t": "assets/obras/miksang/072-t.webp",
+          "g": "assets/obras/miksang/072-g.webp"
+        },
+        {
+          "arquivo": "073.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 768,
+          "h": 1024,
+          "t": "assets/obras/miksang/073-t.webp",
+          "g": "assets/obras/miksang/073-g.webp"
+        },
+        {
+          "arquivo": "074.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 768,
+          "t": "assets/obras/miksang/074-t.webp",
+          "g": "assets/obras/miksang/074-g.webp"
+        },
+        {
+          "arquivo": "075.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/075-t.webp",
+          "g": "assets/obras/miksang/075-g.webp"
+        },
+        {
+          "arquivo": "076.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 768,
+          "t": "assets/obras/miksang/076-t.webp",
+          "g": "assets/obras/miksang/076-g.webp"
+        },
+        {
+          "arquivo": "077.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 768,
+          "t": "assets/obras/miksang/077-t.webp",
+          "g": "assets/obras/miksang/077-g.webp"
+        },
+        {
+          "arquivo": "078.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/078-t.webp",
+          "g": "assets/obras/miksang/078-g.webp"
+        },
+        {
+          "arquivo": "079.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 728,
+          "h": 1024,
+          "t": "assets/obras/miksang/079-t.webp",
+          "g": "assets/obras/miksang/079-g.webp"
+        },
+        {
+          "arquivo": "080.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/080-t.webp",
+          "g": "assets/obras/miksang/080-g.webp"
+        },
+        {
+          "arquivo": "081.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 1022,
+          "t": "assets/obras/miksang/081-t.webp",
+          "g": "assets/obras/miksang/081-g.webp"
+        },
+        {
+          "arquivo": "082.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1280,
+          "h": 1058,
+          "t": "assets/obras/miksang/082-t.webp",
+          "g": "assets/obras/miksang/082-g.webp"
+        },
+        {
+          "arquivo": "083.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 767,
+          "t": "assets/obras/miksang/083-t.webp",
+          "g": "assets/obras/miksang/083-g.webp"
+        },
+        {
+          "arquivo": "084.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1280,
+          "h": 960,
+          "t": "assets/obras/miksang/084-t.webp",
+          "g": "assets/obras/miksang/084-g.webp"
+        },
+        {
+          "arquivo": "085.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 768,
+          "h": 1024,
+          "t": "assets/obras/miksang/085-t.webp",
+          "g": "assets/obras/miksang/085-g.webp"
+        },
+        {
+          "arquivo": "086.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1280,
+          "h": 1126,
+          "t": "assets/obras/miksang/086-t.webp",
+          "g": "assets/obras/miksang/086-g.webp"
+        },
+        {
+          "arquivo": "087.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 697,
+          "t": "assets/obras/miksang/087-t.webp",
+          "g": "assets/obras/miksang/087-g.webp"
+        },
+        {
+          "arquivo": "088.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 540,
+          "t": "assets/obras/miksang/088-t.webp",
+          "g": "assets/obras/miksang/088-g.webp"
+        },
+        {
+          "arquivo": "089.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 720,
+          "t": "assets/obras/miksang/089-t.webp",
+          "g": "assets/obras/miksang/089-g.webp"
+        },
+        {
+          "arquivo": "090.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 768,
+          "h": 1024,
+          "t": "assets/obras/miksang/090-t.webp",
+          "g": "assets/obras/miksang/090-g.webp"
+        },
+        {
+          "arquivo": "091.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 722,
+          "t": "assets/obras/miksang/091-t.webp",
+          "g": "assets/obras/miksang/091-g.webp"
+        },
+        {
+          "arquivo": "092.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 540,
+          "t": "assets/obras/miksang/092-t.webp",
+          "g": "assets/obras/miksang/092-g.webp"
+        },
+        {
+          "arquivo": "093.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1920,
+          "h": 1870,
+          "t": "assets/obras/miksang/093-t.webp",
+          "g": "assets/obras/miksang/093-g.webp"
+        },
+        {
+          "arquivo": "094.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1500,
+          "h": 2000,
+          "t": "assets/obras/miksang/094-t.webp",
+          "g": "assets/obras/miksang/094-g.webp"
+        },
+        {
+          "arquivo": "095.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1500,
+          "h": 2000,
+          "t": "assets/obras/miksang/095-t.webp",
+          "g": "assets/obras/miksang/095-g.webp"
+        },
+        {
+          "arquivo": "096.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1440,
+          "h": 1440,
+          "t": "assets/obras/miksang/096-t.webp",
+          "g": "assets/obras/miksang/096-g.webp"
+        },
+        {
+          "arquivo": "097.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 2000,
+          "h": 1500,
+          "t": "assets/obras/miksang/097-t.webp",
+          "g": "assets/obras/miksang/097-g.webp"
+        },
+        {
+          "arquivo": "098.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1500,
+          "h": 2000,
+          "t": "assets/obras/miksang/098-t.webp",
+          "g": "assets/obras/miksang/098-g.webp"
+        },
+        {
+          "arquivo": "099.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 540,
+          "t": "assets/obras/miksang/099-t.webp",
+          "g": "assets/obras/miksang/099-g.webp"
+        },
+        {
+          "arquivo": "100.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 540,
+          "t": "assets/obras/miksang/100-t.webp",
+          "g": "assets/obras/miksang/100-g.webp"
+        },
+        {
+          "arquivo": "101.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 720,
+          "t": "assets/obras/miksang/101-t.webp",
+          "g": "assets/obras/miksang/101-g.webp"
+        },
+        {
+          "arquivo": "102.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 480,
+          "t": "assets/obras/miksang/102-t.webp",
+          "g": "assets/obras/miksang/102-g.webp"
+        },
+        {
+          "arquivo": "103.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 681,
+          "t": "assets/obras/miksang/103-t.webp",
+          "g": "assets/obras/miksang/103-g.webp"
+        },
+        {
+          "arquivo": "104.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 540,
+          "t": "assets/obras/miksang/104-t.webp",
+          "g": "assets/obras/miksang/104-g.webp"
+        },
+        {
+          "arquivo": "105.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 540,
+          "t": "assets/obras/miksang/105-t.webp",
+          "g": "assets/obras/miksang/105-g.webp"
+        },
+        {
+          "arquivo": "106.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 598,
+          "t": "assets/obras/miksang/106-t.webp",
+          "g": "assets/obras/miksang/106-g.webp"
+        },
+        {
+          "arquivo": "107.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1280,
+          "h": 549,
+          "t": "assets/obras/miksang/107-t.webp",
+          "g": "assets/obras/miksang/107-g.webp"
+        },
+        {
+          "arquivo": "108.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1920,
+          "h": 1475,
+          "t": "assets/obras/miksang/108-t.webp",
+          "g": "assets/obras/miksang/108-g.webp"
+        },
+        {
+          "arquivo": "109.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1500,
+          "h": 2000,
+          "t": "assets/obras/miksang/109-t.webp",
+          "g": "assets/obras/miksang/109-g.webp"
+        },
+        {
+          "arquivo": "110.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1920,
+          "h": 1151,
+          "t": "assets/obras/miksang/110-t.webp",
+          "g": "assets/obras/miksang/110-g.webp"
+        },
+        {
+          "arquivo": "111.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1920,
+          "h": 1080,
+          "t": "assets/obras/miksang/111-t.webp",
+          "g": "assets/obras/miksang/111-g.webp"
+        },
+        {
+          "arquivo": "112.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1715,
+          "h": 1042,
+          "t": "assets/obras/miksang/112-t.webp",
+          "g": "assets/obras/miksang/112-g.webp"
+        },
+        {
+          "arquivo": "113.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 540,
+          "t": "assets/obras/miksang/113-t.webp",
+          "g": "assets/obras/miksang/113-g.webp"
+        },
+        {
+          "arquivo": "114.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1920,
+          "h": 1080,
+          "t": "assets/obras/miksang/114-t.webp",
+          "g": "assets/obras/miksang/114-g.webp"
+        },
+        {
+          "arquivo": "115.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 768,
+          "t": "assets/obras/miksang/115-t.webp",
+          "g": "assets/obras/miksang/115-g.webp"
+        },
+        {
+          "arquivo": "116.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 768,
+          "t": "assets/obras/miksang/116-t.webp",
+          "g": "assets/obras/miksang/116-g.webp"
+        },
+        {
+          "arquivo": "117.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/117-t.webp",
+          "g": "assets/obras/miksang/117-g.webp"
+        },
+        {
+          "arquivo": "118.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1200,
+          "h": 1600,
+          "t": "assets/obras/miksang/118-t.webp",
+          "g": "assets/obras/miksang/118-g.webp"
+        },
+        {
+          "arquivo": "119.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 554,
+          "t": "assets/obras/miksang/119-t.webp",
+          "g": "assets/obras/miksang/119-g.webp"
+        },
+        {
+          "arquivo": "120.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 540,
+          "t": "assets/obras/miksang/120-t.webp",
+          "g": "assets/obras/miksang/120-g.webp"
+        }
+      ]
+    },
+    {
+      "slug": "tecido",
+      "titulo": "Arte em tecido",
+      "texto": "Camisetas e peças pintadas à mão, uma a uma.",
+      "itens": [
+        {
+          "arquivo": "001.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 1536,
+          "t": "assets/obras/tecido/001-t.webp",
+          "g": "assets/obras/tecido/001-g.webp"
+        },
+        {
+          "arquivo": "002.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 900,
+          "h": 1600,
+          "t": "assets/obras/tecido/002-t.webp",
+          "g": "assets/obras/tecido/002-g.webp"
+        },
+        {
+          "arquivo": "003.jpeg",
+          "legenda": "",
+          "grupo": null,
+          "w": 1280,
+          "h": 1280,
+          "t": "assets/obras/tecido/003-t.webp",
+          "g": "assets/obras/tecido/003-g.webp"
+        },
+        {
+          "arquivo": "004.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 752,
+          "h": 1350,
+          "t": "assets/obras/tecido/004-t.webp",
+          "g": "assets/obras/tecido/004-g.webp"
+        },
+        {
+          "arquivo": "005.jpeg",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/tecido/005-t.webp",
+          "g": "assets/obras/tecido/005-g.webp"
+        },
+        {
+          "arquivo": "006.jpeg",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/tecido/006-t.webp",
+          "g": "assets/obras/tecido/006-g.webp"
+        },
+        {
+          "arquivo": "007.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 1024,
+          "t": "assets/obras/tecido/007-t.webp",
+          "g": "assets/obras/tecido/007-g.webp"
+        },
+        {
+          "arquivo": "008.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 1021,
+          "t": "assets/obras/tecido/008-t.webp",
+          "g": "assets/obras/tecido/008-g.webp"
+        },
+        {
+          "arquivo": "009.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 1024,
+          "t": "assets/obras/tecido/009-t.webp",
+          "g": "assets/obras/tecido/009-g.webp"
+        },
+        {
+          "arquivo": "010.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 1024,
+          "t": "assets/obras/tecido/010-t.webp",
+          "g": "assets/obras/tecido/010-g.webp"
+        },
+        {
+          "arquivo": "011.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/tecido/011-t.webp",
+          "g": "assets/obras/tecido/011-g.webp"
+        },
+        {
+          "arquivo": "012.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/tecido/012-t.webp",
+          "g": "assets/obras/tecido/012-g.webp"
+        },
+        {
+          "arquivo": "013.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 762,
+          "t": "assets/obras/tecido/013-t.webp",
+          "g": "assets/obras/tecido/013-g.webp"
+        },
+        {
+          "arquivo": "014.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 768,
+          "t": "assets/obras/tecido/014-t.webp",
+          "g": "assets/obras/tecido/014-g.webp"
+        },
+        {
+          "arquivo": "015.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 841,
+          "h": 1024,
+          "t": "assets/obras/tecido/015-t.webp",
+          "g": "assets/obras/tecido/015-g.webp"
+        },
+        {
+          "arquivo": "016.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 768,
+          "t": "assets/obras/tecido/016-t.webp",
+          "g": "assets/obras/tecido/016-g.webp"
+        },
+        {
+          "arquivo": "017.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 836,
+          "t": "assets/obras/tecido/017-t.webp",
+          "g": "assets/obras/tecido/017-g.webp"
+        },
+        {
+          "arquivo": "018.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 787,
+          "h": 1024,
+          "t": "assets/obras/tecido/018-t.webp",
+          "g": "assets/obras/tecido/018-g.webp"
+        },
+        {
+          "arquivo": "019.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 768,
+          "h": 1024,
+          "t": "assets/obras/tecido/019-t.webp",
+          "g": "assets/obras/tecido/019-g.webp"
+        },
+        {
+          "arquivo": "020.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 768,
+          "h": 1024,
+          "t": "assets/obras/tecido/020-t.webp",
+          "g": "assets/obras/tecido/020-g.webp"
+        },
+        {
+          "arquivo": "021.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 768,
+          "h": 1024,
+          "t": "assets/obras/tecido/021-t.webp",
+          "g": "assets/obras/tecido/021-g.webp"
+        },
+        {
+          "arquivo": "022.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 885,
+          "h": 1024,
+          "t": "assets/obras/tecido/022-t.webp",
+          "g": "assets/obras/tecido/022-g.webp"
+        },
+        {
+          "arquivo": "023.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 768,
+          "t": "assets/obras/tecido/023-t.webp",
+          "g": "assets/obras/tecido/023-g.webp"
+        },
+        {
+          "arquivo": "024.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 768,
+          "t": "assets/obras/tecido/024-t.webp",
+          "g": "assets/obras/tecido/024-g.webp"
+        },
+        {
+          "arquivo": "025.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 768,
+          "h": 1024,
+          "t": "assets/obras/tecido/025-t.webp",
+          "g": "assets/obras/tecido/025-g.webp"
+        },
+        {
+          "arquivo": "026.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 843,
+          "h": 1024,
+          "t": "assets/obras/tecido/026-t.webp",
+          "g": "assets/obras/tecido/026-g.webp"
+        },
+        {
+          "arquivo": "027.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 1024,
+          "t": "assets/obras/tecido/027-t.webp",
+          "g": "assets/obras/tecido/027-g.webp"
+        },
+        {
+          "arquivo": "028.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 1024,
+          "t": "assets/obras/tecido/028-t.webp",
+          "g": "assets/obras/tecido/028-g.webp"
+        },
+        {
+          "arquivo": "029.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 1024,
+          "t": "assets/obras/tecido/029-t.webp",
+          "g": "assets/obras/tecido/029-g.webp"
+        }
+      ]
+    },
+    {
+      "slug": "papel",
+      "titulo": "Cartões e marcadores",
+      "texto": "Cartões decorativos e marcadores de página feitos à mão.",
+      "itens": [
+        {
+          "arquivo": "001.jpg",
+          "legenda": "",
+          "grupo": "Cartões",
+          "w": 640,
+          "h": 451,
+          "t": "assets/obras/papel/001-t.webp",
+          "g": "assets/obras/papel/001-g.webp"
+        },
+        {
+          "arquivo": "002.jpg",
+          "legenda": "",
+          "grupo": "Cartões",
+          "w": 640,
+          "h": 452,
+          "t": "assets/obras/papel/002-t.webp",
+          "g": "assets/obras/papel/002-g.webp"
+        },
+        {
+          "arquivo": "003.jpg",
+          "legenda": "",
+          "grupo": "Cartões",
+          "w": 1038,
+          "h": 1280,
+          "t": "assets/obras/papel/003-t.webp",
+          "g": "assets/obras/papel/003-g.webp"
+        },
+        {
+          "arquivo": "004.jpg",
+          "legenda": "",
+          "grupo": "Cartões",
+          "w": 994,
+          "h": 1280,
+          "t": "assets/obras/papel/004-t.webp",
+          "g": "assets/obras/papel/004-g.webp"
+        },
+        {
+          "arquivo": "005.jpg",
+          "legenda": "",
+          "grupo": "Cartões",
+          "w": 1024,
+          "h": 720,
+          "t": "assets/obras/papel/005-t.webp",
+          "g": "assets/obras/papel/005-g.webp"
+        },
+        {
+          "arquivo": "006.jpg",
+          "legenda": "",
+          "grupo": "Cartões",
+          "w": 1280,
+          "h": 1280,
+          "t": "assets/obras/papel/006-t.webp",
+          "g": "assets/obras/papel/006-g.webp"
+        },
+        {
+          "arquivo": "007.jpg",
+          "legenda": "",
+          "grupo": "Cartões",
+          "w": 1200,
+          "h": 1261,
+          "t": "assets/obras/papel/007-t.webp",
+          "g": "assets/obras/papel/007-g.webp"
+        },
+        {
+          "arquivo": "008.png",
+          "legenda": "",
+          "grupo": "Marcadores",
+          "w": 1024,
+          "h": 768,
+          "t": "assets/obras/papel/008-t.webp",
+          "g": "assets/obras/papel/008-g.webp"
+        },
+        {
+          "arquivo": "009.png",
+          "legenda": "",
+          "grupo": "Marcadores",
+          "w": 1024,
+          "h": 768,
+          "t": "assets/obras/papel/009-t.webp",
+          "g": "assets/obras/papel/009-g.webp"
+        },
+        {
+          "arquivo": "010.png",
+          "legenda": "",
+          "grupo": "Marcadores",
+          "w": 768,
+          "h": 1024,
+          "t": "assets/obras/papel/010-t.webp",
+          "g": "assets/obras/papel/010-g.webp"
+        },
+        {
+          "arquivo": "011.png",
+          "legenda": "",
+          "grupo": "Marcadores",
+          "w": 1024,
+          "h": 767,
+          "t": "assets/obras/papel/011-t.webp",
+          "g": "assets/obras/papel/011-g.webp"
+        },
+        {
+          "arquivo": "012.jpg",
+          "legenda": "",
+          "grupo": "Marcadores",
+          "w": 924,
+          "h": 1024,
+          "t": "assets/obras/papel/012-t.webp",
+          "g": "assets/obras/papel/012-g.webp"
+        },
+        {
+          "arquivo": "013.png",
+          "legenda": "",
+          "grupo": "Marcadores",
+          "w": 899,
+          "h": 1024,
+          "t": "assets/obras/papel/013-t.webp",
+          "g": "assets/obras/papel/013-g.webp"
+        },
+        {
+          "arquivo": "014.jpg",
+          "legenda": "",
+          "grupo": "Marcadores",
+          "w": 768,
+          "h": 1024,
+          "t": "assets/obras/papel/014-t.webp",
+          "g": "assets/obras/papel/014-g.webp"
+        },
+        {
+          "arquivo": "015.jpg",
+          "legenda": "",
+          "grupo": "Marcadores",
+          "w": 768,
+          "h": 1024,
+          "t": "assets/obras/papel/015-t.webp",
+          "g": "assets/obras/papel/015-g.webp"
+        },
+        {
+          "arquivo": "016.jpg",
+          "legenda": "",
+          "grupo": "Marcadores",
+          "w": 768,
+          "h": 1024,
+          "t": "assets/obras/papel/016-t.webp",
+          "g": "assets/obras/papel/016-g.webp"
+        }
+      ]
+    },
+    {
+      "slug": "flash",
+      "titulo": "Flash disponíveis",
+      "oculta": true,
+      "texto": "Desenhos autorais prontos para tatuar. Cada um recebe variações, então nenhuma tattoo sai igual à outra.",
+      "itens": [
+        {
+          "arquivo": "001.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/flash/001-t.webp",
+          "g": "assets/obras/flash/001-g.webp"
+        },
+        {
+          "arquivo": "002.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/flash/002-t.webp",
+          "g": "assets/obras/flash/002-g.webp"
+        },
+        {
+          "arquivo": "003.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/flash/003-t.webp",
+          "g": "assets/obras/flash/003-g.webp"
+        },
+        {
+          "arquivo": "004.jpg",
+          "legenda": "",
+          "grupo": null,
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/flash/004-t.webp",
+          "g": "assets/obras/flash/004-g.webp"
+        }
+      ]
+    }
+  ]
+}
