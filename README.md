@@ -35,6 +35,13 @@ O conteúdo de cada página fica em `tools/paginas/<pagina>.html`.
 
 Precisa de Python 3 e Pillow (`pip install pillow`).
 
+## Parede de fundo
+A arte underground do fundo (gotas, estrelas à mão, palavras, rabiscos, riscos finos) é gerada por `python tools/gerar_parede.py`:
+- `assets/img/parede-desktop.webp` (1920×1200) e `parede-mobile.webp` (900×1800), transparentes.
+- Composição fixa, posicionada à mão: densa nas bordas, livre no centro. Cores da marca, com o glitch ciano e magenta do coelho DAC.
+- As palavras usam fontes de grafite (Sedgwick Ave Display, Permanent Marker, Rock Salt) de `../_ref/fontes-arte`. Elas só servem para desenhar a arte, o site não as carrega.
+- No site é a camada fixa `.parede` (o conteúdo rola por cima). A intensidade geral fica em `--parede` (0,85 no desktop, 0,7 no celular) e o grão SVG em `--grao`.
+
 ## Vídeos
 Os 2 vídeos do Sobre (`assets/video/dani-1.mp4` e `dani-2.mp4`) vieram do Adobe Portfolio, que só guarda 360 px de largura. Se a Dani tiver os originais, é só substituir os arquivos mantendo o nome. As capas são `*-capa.webp`.
 

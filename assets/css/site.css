@@ -519,6 +519,9 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
   ::view-transition-group(*) { animation-duration: 420ms; animation-timing-function: var(--suave); }
   /* o menu desliza inteiro para a nova posição, sem crossfade entre o item ativo antigo e o novo */
   ::view-transition-old(barra) { animation: none; opacity: 0; }
+  ::view-transition-group(parede) { animation: none; }
+  ::view-transition-old(parede) { animation: none; opacity: 0; }
+  ::view-transition-new(parede) { animation: none; }
   ::view-transition-new(barra) { animation: none; }
   /* ...e o sublinhado da página atual cresce depois que ele chega */
   .menu a[aria-current="page"]::before { animation: sublinha 520ms var(--suave) 260ms both; }
@@ -639,4 +642,22 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
 @media (max-width: 360px) {
   .hero .botoes { flex-direction: column; }
   .hero .botao { flex: none; width: 100%; }
+}
+
+/* ---------- parede de fundo (identidade underground da Dani) ----------
+   Arte gerada por tools/gerar_parede.py. Camada fixa: o conteúdo rola por cima, como vidro sobre a parede.
+   --parede ajusta a intensidade geral; o grão é SVG (quase sem peso). */
+:root { --parede: .85; --grao: .06; }
+/* elemento próprio (não pseudo do body) para ter nome na transição de página: a parede fica parada, sem piscar */
+.parede { position: fixed; inset: 0; z-index: -1; pointer-events: none; view-transition-name: parede; }
+.parede::before, .parede::after { content: ""; position: absolute; inset: 0; }
+.parede::before { background: url("../img/parede-desktop.webp") center top / cover no-repeat; opacity: var(--parede); }
+.parede::after {
+  opacity: var(--grao);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1.6 -.55'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+}
+@media (max-width: 700px), (max-aspect-ratio: 4/5) {
+  /* no celular tudo é coluna de conteúdo: a parede fica um tom abaixo */
+  :root { --parede: .7; }
+  .parede::before { background-image: url("../img/parede-mobile.webp"); }
 }
