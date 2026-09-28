@@ -25,6 +25,7 @@ HTML, CSS e JS puros, sem build. Publicado no GitHub Pages.
 3. Para dar legenda, grupo ou ordem, edite `conteudo/obras.json` e rode o script de novo.
    - `"legenda"`, `"ano"` e `"grupo"` (vira subtítulo na grade; nas tattoos, é a técnica).
    - `"enquadrar": "inteira"` mostra a obra sem corte. `"foco": "topo"` ou `"base"` ajusta o corte.
+   - GIF animado continua animado: vira WebP animado na galeria e na ampliada (ampliada até 1000 px).
 
 Os originais ficam **fora do Git** (`.gitignore`). Só as versões otimizadas sobem.
 
@@ -33,6 +34,9 @@ Edite `index.html` e rode `python tools/montar_paginas.py`, que replica o cabeç
 O conteúdo de cada página fica em `tools/paginas/<pagina>.html`.
 
 Precisa de Python 3 e Pillow (`pip install pillow`).
+
+## Vídeos
+Os 2 vídeos do Sobre (`assets/video/dani-1.mp4` e `dani-2.mp4`) vieram do Adobe Portfolio, que só guarda 360 px de largura. Se a Dani tiver os originais, é só substituir os arquivos mantendo o nome. As capas são `*-capa.webp`.
 
 ## Movimento
 Regra geral: curto, suave e sem chamar atenção. Tudo desliga com "reduzir movimento" do aparelho.
