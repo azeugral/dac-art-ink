@@ -83,7 +83,7 @@
     ".vitrine .faixa-cab", ".produto", ".vitrine-cta", ".secao > .faixa-cab", "[data-faixa] > .obra",
     ".como-cab > *", ".passos > li", ".como-fim",
     ".cabeca-pagina", ".cartao", ".bloco", ".regras > li", ".nao-faco", ".form", ".aviso", ".locais + .intro",
-    ".retrato", ".texto", ".fatos", ".secao .duas > img", ".processo-txt", ".video",
+    ".retrato", ".texto", ".fatos", ".secao .duas > img", ".processo-txt", ".video", ".historia > h2", ".historia-card", ".coelho-dac",
     ".rodape-cols > *", ".rodape-fim",
   ].join(",");
 

@@ -581,3 +581,30 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
   .opcoes.grade-3 { grid-template-columns: 1fr 1fr; }
   .opcoes.grade-3 label:last-child { grid-column: 1 / -1; }
 }
+
+/* ---------- sobre: handpoke, história e coelho DAC ---------- */
+.processo-lista { list-style: none; margin: 22px 0 0; padding: 0; display: grid; gap: 10px; }
+.processo-lista li { position: relative; padding-left: 24px; color: var(--apagado); font-size: 16px; }
+.processo-lista li::before { content: "✦"; position: absolute; left: 0; color: var(--menta); }
+.processo-lista strong { color: var(--texto); font-weight: 600; }
+.processo-frase {
+  margin: 24px 0 0; padding: 16px 18px; border-left: 3px solid var(--neon);
+  background: color-mix(in srgb, var(--neon-fundo) 9%, transparent);
+  font-size: 17px; line-height: 1.5; color: var(--texto);
+}
+
+.historia-cards { display: grid; gap: 14px; margin-top: clamp(24px, 3vw, 36px); }
+@media (min-width: 760px) { .historia-cards { grid-template-columns: 1fr 1fr; } }
+.historia-card { background: var(--placa); border: 1px solid var(--linha); border-top: 3px solid var(--lima); border-radius: var(--raio); padding: clamp(20px, 2.6vw, 30px); }
+.historia-card:nth-child(2) { border-top-color: var(--neon); }
+.historia-marco { margin: 0 0 12px; font: 800 clamp(28px, 3.2vw, 38px)/1 var(--f-titulo); text-transform: uppercase; }
+.historia-marco span { color: var(--apagado); }
+.historia-card p:last-child { margin: 0; color: var(--apagado); font-size: 16px; }
+.historia-card em { color: var(--texto); }
+
+.coelho-dac {
+  margin: 0; aspect-ratio: 1; display: grid; place-items: center;
+  background: radial-gradient(circle at 50% 55%, color-mix(in srgb, var(--neon-fundo) 14%, transparent), transparent 62%), var(--preto);
+  border: 1px solid var(--linha); border-radius: var(--raio);
+}
+.coelho-dac img { width: 100%; height: auto; filter: drop-shadow(0 0 14px color-mix(in srgb, #ff4fd8 30%, transparent)) drop-shadow(0 0 22px color-mix(in srgb, #3ff 18%, transparent)); }
