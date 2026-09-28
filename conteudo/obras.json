@@ -793,31 +793,34 @@
           "arquivo": "017.gif",
           "legenda": "",
           "grupo": "Delírios Visuais",
-          "w": 1080,
-          "h": 1350,
+          "w": 800,
+          "h": 1000,
           "t": "assets/obras/digital/017-t.webp",
           "g": "assets/obras/digital/017-g.webp",
-          "m": "assets/obras/digital/017-m.webp"
+          "m": "assets/obras/digital/017-m.webp",
+          "animada": true
         },
         {
           "arquivo": "018.gif",
           "legenda": "",
           "grupo": "Delírios Visuais",
-          "w": 1920,
-          "h": 1080,
+          "w": 1000,
+          "h": 563,
           "t": "assets/obras/digital/018-t.webp",
           "g": "assets/obras/digital/018-g.webp",
-          "m": "assets/obras/digital/018-m.webp"
+          "m": "assets/obras/digital/018-m.webp",
+          "animada": true
         },
         {
           "arquivo": "019.gif",
           "legenda": "",
           "grupo": "Delírios Visuais",
-          "w": 1080,
-          "h": 1080,
+          "w": 1000,
+          "h": 1000,
           "t": "assets/obras/digital/019-t.webp",
           "g": "assets/obras/digital/019-g.webp",
-          "m": "assets/obras/digital/019-m.webp"
+          "m": "assets/obras/digital/019-m.webp",
+          "animada": true
         },
         {
           "arquivo": "020.png",

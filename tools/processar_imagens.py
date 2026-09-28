@@ -13,7 +13,7 @@ Só reprocessa o que mudou. Precisa de Python 3 e Pillow (pip install pillow).
 """
 import json, sys
 from pathlib import Path
-from PIL import Image, ImageOps
+from PIL import Image, ImageOps, ImageSequence
 
 RAIZ = Path(__file__).resolve().parent.parent
 ORIG = RAIZ / "originais"
@@ -43,6 +43,23 @@ def enquadrar(im, serie, item):
         return fundo
     foco = {"topo": (0.5, 0.2), "base": (0.5, 0.8)}.get(item.get("foco"), (0.5, 0.5))
     return ImageOps.fit(im, GRADE, Image.LANCZOS, centering=foco)
+
+
+def animado(path):
+    with Image.open(path) as im:
+        return getattr(im, "is_animated", False) and im.n_frames > 1
+
+
+def salvar_animado(path, destino, caixa, qualidade):
+    with Image.open(path) as im:
+        quadros, duracoes = [], []
+        for q in ImageSequence.Iterator(im):
+            f = q.convert("RGBA")
+            f.thumbnail(caixa, Image.LANCZOS)
+            quadros.append(f)
+            duracoes.append(q.info.get("duration", im.info.get("duration", 100)) or 100)
+        quadros[0].save(destino, "WEBP", save_all=True, append_images=quadros[1:], duration=duracoes,
+                        loop=0, quality=qualidade, method=4)
 
 
 def abrir(path):
@@ -83,12 +100,18 @@ def main():
                 im = abrir(src)
                 if novo:
                     enquadrar(im, serie["slug"], item).save(t, "WEBP", quality=QUAL_GRADE, method=6)
-                    med = im.copy()
-                    med.thumbnail(GALERIA, Image.LANCZOS)
-                    med.save(m, "WEBP", quality=QUAL_GRADE, method=6)
-                    amp = im.copy()
-                    amp.thumbnail((AMPLIADA, AMPLIADA), Image.LANCZOS)
-                    amp.save(g, "WEBP", quality=QUAL_AMPLIADA, method=6)
+                    if animado(src):
+                        # GIF animado: galeria e ampliada viram WebP animado (bem mais leve que GIF)
+                        salvar_animado(src, m, GALERIA, 72)
+                        salvar_animado(src, g, (1000, 1000), 72)  # animação ampliada: até 1000 px (peso)
+                        item["animada"] = True
+                    else:
+                        med = im.copy()
+                        med.thumbnail(GALERIA, Image.LANCZOS)
+                        med.save(m, "WEBP", quality=QUAL_GRADE, method=6)
+                        amp = im.copy()
+                        amp.thumbnail((AMPLIADA, AMPLIADA), Image.LANCZOS)
+                        amp.save(g, "WEBP", quality=QUAL_AMPLIADA, method=6)
                     feitos += 1
                 with Image.open(g) as gi:
                     item["w"], item["h"] = gi.size
@@ -98,7 +121,7 @@ def main():
 
     CONTEUDO.write_text(json.dumps(dados, ensure_ascii=False, indent=2), encoding="utf-8")
     publico = {"series": [{k: v for k, v in s.items()} | {"itens": [
-        {k: i[k] for k in ("t", "m", "g", "w", "h", "legenda", "grupo", "ano", "cicatrizada") if i.get(k) not in (None, "")}
+        {k: i[k] for k in ("t", "m", "g", "w", "h", "legenda", "grupo", "ano", "cicatrizada", "animada") if i.get(k) not in (None, "")}
         for i in s["itens"] if "t" in i]} for s in dados["series"]]}
     js = RAIZ / "assets" / "js" / "obras.js"
     js.parent.mkdir(parents=True, exist_ok=True)

@@ -12,8 +12,21 @@
   const calmo = matchMedia("(prefers-reduced-motion: reduce)").matches;
   const suave = "cubic-bezier(.2,.7,.2,1)";
 
+  // Troca de página: se o menu já está grudado no topo (página rolada), logo, menu e conteúdo antigo
+  // não deslizam de fora da tela; eles só desbotam com o resto. No topo, o logo e o menu deslizam.
+  addEventListener("pageswap", (e) => {
+    if (!e.viewTransition || !topo) return;
+    if (scrollY > 8 && topo.getBoundingClientRect().top <= 1) {
+      [".topo-logo", ".barra", "main"].forEach((s) => { const el = document.querySelector(s); if (el) el.style.viewTransitionName = "none"; });
+    }
+  });
+  addEventListener("pageshow", () => {
+    [".topo-logo", ".barra", "main"].forEach((s) => { const el = document.querySelector(s); if (el) el.style.viewTransitionName = ""; });
+  });
+
   // Clique fofo: o elemento afunda ao toque e volta com um quique leve.
-  const TOCAVEIS = ".botao, .menu a, .filtro, .obra, .produto-foto, .caixa-btn, .zap, .opcoes span, .faixa-cab > a, .topo-logo";
+  // O menu e o logo ficam de fora: eles participam da transição de página e não podem ser fotografados no meio do quique.
+  const TOCAVEIS = ".botao, .filtro, .obra, .produto-foto, .caixa-btn, .zap, .opcoes span, .faixa-cab > a";
   if (!calmo) {
     let apertado = null;
     const soltar = () => {
@@ -70,7 +83,7 @@
     ".vitrine .faixa-cab", ".produto", ".vitrine-cta", ".secao > .faixa-cab", "[data-faixa] > .obra",
     ".como-cab > *", ".passos > li", ".como-fim",
     ".cabeca-pagina", ".cartao", ".bloco", ".regras > li", ".nao-faco", ".form", ".aviso", ".locais + .intro",
-    ".retrato", ".texto", ".fatos", ".secao .duas > img",
+    ".retrato", ".texto", ".fatos", ".secao .duas > img", ".processo-txt", ".video",
     ".rodape-cols > *", ".rodape-fim",
   ].join(",");
 
@@ -387,7 +400,6 @@
         ...campo("ideia", "Ideia"),
         ...campo("tipo", "Tipo"),
         ...campo("local", "Local do corpo"),
-        ...campo("tamanho", "Tamanho aproximado"),
         ...campo("cor", "Cor"),
         ...campo("tecnica", "Técnica"),
         ...campo("cidade", "Cidade"),
@@ -398,6 +410,15 @@
       window.open(url, "_blank", "noopener");
     });
   }
+
+  /* ---------- vídeos do processo: tocam mudos só enquanto estão na tela ---------- */
+  document.querySelectorAll("video[data-video]").forEach((v) => {
+    if (calmo || !("IntersectionObserver" in window)) { v.controls = true; v.preload = "metadata"; return; }
+    new IntersectionObserver(([e]) => {
+      if (e.isIntersecting) v.play().catch(() => { v.controls = true; });
+      else v.pause();
+    }, { threshold: 0.35 }).observe(v);
+  });
 
   document.querySelectorAll("[data-ano]").forEach((el) => { el.textContent = new Date().getFullYear(); });
 

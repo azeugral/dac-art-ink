@@ -19,10 +19,10 @@ ativo: orcamento.html
             </div>
             <fieldset class="campo">
               <legend>O que você quer</legend>
-              <div class="opcoes">
-                <label><input type="radio" name="tipo" value="Arte autoral / flash da Dani" checked><span>Arte autoral / flash</span></label>
-                <label><input type="radio" name="tipo" value="Desenho customizado (minha ideia)"><span>Minha ideia, no seu estilo</span></label>
-                <label><input type="radio" name="tipo" value="Projeto maior / composição"><span>Projeto maior</span></label>
+              <div class="opcoes lista">
+                <label><input type="radio" name="tipo" value="Arte autoral / flash da Dani" checked><span><b class="op">Arte autoral / flash<small>um desenho do meu portfólio</small></b></span></label>
+                <label><input type="radio" name="tipo" value="Desenho customizado (minha ideia)"><span><b class="op">Minha ideia, no seu estilo<small>desenho customizado</small></b></span></label>
+                <label><input type="radio" name="tipo" value="Projeto maior / composição"><span><b class="op">Projeto maior<small>composição de artes</small></b></span></label>
               </div>
             </fieldset>
             <div class="campo">
@@ -30,19 +30,13 @@ ativo: orcamento.html
               <textarea id="ideia" name="ideia" required placeholder="Ex.: o coelho da coleção neøkid, com traço fino. Ou descreva o que você imagina, com detalhes e referências."></textarea>
               <p class="ajuda">Se tiver imagem de referência, manda no WhatsApp depois.</p>
             </div>
-            <div class="linha2">
-              <div class="campo">
-                <label for="local">Local do corpo</label>
-                <input id="local" name="local" placeholder="Ex.: antebraço">
-              </div>
-              <div class="campo">
-                <label for="tamanho">Tamanho aproximado</label>
-                <input id="tamanho" name="tamanho" placeholder="Ex.: 8 cm">
-              </div>
+            <div class="campo">
+              <label for="local">Local do corpo</label>
+              <input id="local" name="local" placeholder="Ex.: antebraço, costela, panturrilha">
             </div>
             <fieldset class="campo">
               <legend>Cor</legend>
-              <div class="opcoes">
+              <div class="opcoes grade-3">
                 <label><input type="radio" name="cor" value="Preto"><span>Preto</span></label>
                 <label><input type="radio" name="cor" value="Colorida"><span>Colorida</span></label>
                 <label><input type="radio" name="cor" value="Não sei ainda"><span>Não sei ainda</span></label>
@@ -50,7 +44,7 @@ ativo: orcamento.html
             </fieldset>
             <fieldset class="campo">
               <legend>Técnica</legend>
-              <div class="opcoes">
+              <div class="opcoes grade-2">
                 <label><input type="radio" name="tecnica" value="Handpoke"><span>Handpoke</span></label>
                 <label><input type="radio" name="tecnica" value="Híbrida"><span>Híbrida</span></label>
                 <label><input type="radio" name="tecnica" value="Máquina artesanal"><span>Máquina artesanal</span></label>
