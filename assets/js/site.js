@@ -7,6 +7,73 @@
   medir();
   addEventListener("resize", medir);
 
+  /* ---------- movimento ----------
+     Tudo curto e suave; quem pediu "reduzir movimento" no aparelho não vê nada disso. */
+  const calmo = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const suave = "cubic-bezier(.2,.7,.2,1)";
+
+  // Clique fofo: o elemento afunda ao toque e volta com um quique leve.
+  const TOCAVEIS = ".botao, .menu a, .filtro, .obra, .produto-foto, .caixa-btn, .zap, .opcoes span, .faixa-cab > a, .topo-logo";
+  if (!calmo) {
+    let apertado = null;
+    const soltar = () => {
+      if (!apertado) return;
+      const el = apertado;
+      apertado = null;
+      el.getAnimations().forEach((a) => a.id === "aperto" && a.cancel());
+      el.animate(
+        [{ transform: "scale(.95)" }, { transform: "scale(1.025)", offset: 0.55 }, { transform: "scale(1)" }],
+        { duration: 420, easing: suave }
+      );
+    };
+    addEventListener("pointerdown", (e) => {
+      const el = e.target.closest(TOCAVEIS);
+      if (!el || e.button > 0) return;
+      apertado = el;
+      const a = el.animate([{ transform: "scale(1)" }, { transform: "scale(.95)" }], { duration: 110, easing: "ease-out", fill: "forwards" });
+      a.id = "aperto";
+    });
+    ["pointerup", "pointercancel", "dragstart"].forEach((t) => addEventListener(t, soltar));
+    addEventListener("pointerleave", soltar);
+  }
+
+  // Seções aparecem ao entrar na tela. Só o que ainda está abaixo da dobra é escondido,
+  // então nada pisca no carregamento e, sem JavaScript, tudo aparece normalmente.
+  const observador = !calmo && "IntersectionObserver" in window
+    ? new IntersectionObserver((entradas) => {
+        entradas.forEach((e) => {
+          if (!e.isIntersecting) return;
+          e.target.classList.add("visivel");
+          observador.unobserve(e.target);
+        });
+      }, { rootMargin: "0px 0px -6% 0px", threshold: 0.06 })
+    : null;
+  function revelar(els) {
+    if (!observador) return;
+    const porPai = new Map();
+    const novos = els.filter((el) => el.getBoundingClientRect().top >= innerHeight * 0.94);
+    // esconde de uma vez (sem transição); a transição só vale para o aparecer
+    novos.forEach((el) => {
+      const i = porPai.get(el.parentElement) || 0;
+      porPai.set(el.parentElement, i + 1);
+      el.style.setProperty("--i", i % 4); // escalona até 4 itens lado a lado
+      el.style.transition = "none";
+      el.classList.add("revela");
+    });
+    if (novos.length) void novos[0].offsetHeight;
+    novos.forEach((el) => {
+      el.style.transition = "";
+      observador.observe(el);
+    });
+  }
+  const REVELAVEIS = [
+    ".vitrine .faixa-cab", ".produto", ".vitrine-cta", ".secao > .faixa-cab", "[data-faixa] > .obra",
+    ".como-cab > *", ".passos > li", ".como-fim",
+    ".cabeca-pagina", ".cartao", ".bloco", ".regras > li", ".nao-faco", ".form", ".aviso", ".locais + .intro",
+    ".retrato", ".texto", ".fatos", ".secao .duas > img",
+    ".rodape-cols > *", ".rodape-fim",
+  ].join(",");
+
   const obras = window.OBRAS ? window.OBRAS.series : [];
   const porSlug = Object.fromEntries(obras.map((s) => [s.slug, s]));
 
@@ -58,10 +125,12 @@
       </div>
       <div class="caixa-rodape"><p class="caixa-legenda"></p></div>`;
     document.body.append(caixa);
-    caixa.querySelector("[data-fechar]").onclick = () => caixa.close();
+    caixa.querySelector("[data-fechar]").onclick = fechar;
+    caixa.addEventListener("cancel", (e) => { e.preventDefault(); fechar(); }); // tecla Esc
+    caixa.querySelector(".caixa-palco img").addEventListener("load", (e) => e.target.classList.remove("trocando"));
     caixa.querySelector(".ant").onclick = () => ir(-1);
     caixa.querySelector(".prox").onclick = () => ir(1);
-    caixa.addEventListener("click", (e) => { if (e.target === caixa || e.target.classList.contains("caixa-palco")) caixa.close(); });
+    caixa.addEventListener("click", (e) => { if (e.target === caixa || e.target.classList.contains("caixa-palco")) fechar(); });
     caixa.addEventListener("keydown", (e) => {
       if (e.key === "ArrowLeft") ir(-1);
       if (e.key === "ArrowRight") ir(1);
@@ -77,10 +146,17 @@
     });
     caixa.addEventListener("close", () => { document.documentElement.style.overflow = ""; });
   }
+  function fechar() {
+    if (!caixa.open) return;
+    if (calmo) return caixa.close();
+    caixa.animate([{ opacity: 1 }, { opacity: 0 }], { duration: 160, easing: "ease-in" }).finished.then(() => caixa.close());
+  }
   function mostrar() {
     const { s, it } = atual[pos];
     const img = caixa.querySelector(".caixa-palco img");
+    if (img.getAttribute("src") !== it.g) img.classList.add("trocando");
     img.src = it.g;
+    if (img.complete) img.classList.remove("trocando");
     img.width = it.w || 1600;
     img.height = it.h || 2000;
     img.alt = `${s.titulo}${it.legenda ? ": " + it.legenda : ""}`;
@@ -116,7 +192,11 @@
       b.className = "filtro";
       b.dataset.slug = s.slug;
       b.textContent = s.titulo;
-      b.onclick = () => { history.replaceState(null, "", "#" + s.slug); render(s.slug, true); };
+      b.onclick = () => {
+        if (b.getAttribute("aria-pressed") === "true") return;
+        history.replaceState(null, "", "#" + s.slug);
+        trocar(s.slug);
+      };
       filtros.append(b);
     });
 
@@ -248,11 +328,25 @@
       document.title = `${s.titulo} · Trabalhos · DAC ART INK`;
       if (rolar) {
         const y = alvo.getBoundingClientRect().top + scrollY - (parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--altura-topo")) || 64) - filtros.offsetHeight - 8;
-        scrollTo({ top: y, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+        if (y < scrollY) scrollTo({ top: y, behavior: calmo ? "auto" : "smooth" });
       }
+      revelar([...alvo.querySelectorAll(".grupo")]);
+    }
+    // Troca de série: a atual sai num fade rápido e a nova entra subindo de leve.
+    let trocando = null;
+    function trocar(slug) {
+      if (calmo || !alvo.animate) return render(slug, true);
+      trocando?.cancel();
+      trocando = alvo.animate([{ opacity: 1 }, { opacity: 0, transform: "translateY(6px)" }], { duration: 140, easing: "ease-in", fill: "forwards" });
+      trocando.finished.then(() => {
+        render(slug, true);
+        trocando.cancel();
+        trocando = null;
+        alvo.animate([{ opacity: 0, transform: "translateY(12px)" }, { opacity: 1, transform: "none" }], { duration: 420, easing: suave });
+      }).catch(() => {});
     }
     render(location.hash.slice(1), false);
-    addEventListener("hashchange", () => render(location.hash.slice(1), true));
+    addEventListener("hashchange", () => trocar(location.hash.slice(1)));
   }
 
   /* ---------- faixas de destaque (home e orçamento) ---------- */
@@ -306,4 +400,9 @@
   }
 
   document.querySelectorAll("[data-ano]").forEach((el) => { el.textContent = new Date().getFullYear(); });
+
+  // Depois que as faixas foram montadas: prepara o aparecimento de tudo o que está abaixo da dobra.
+  // Ao voltar para uma página (bfcache), mostra tudo de uma vez.
+  revelar([...document.querySelectorAll(REVELAVEIS)]);
+  addEventListener("pageshow", (e) => { if (e.persisted) document.querySelectorAll(".revela").forEach((el) => el.classList.add("visivel")); });
 })();

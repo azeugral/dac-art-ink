@@ -34,6 +34,17 @@ O conteúdo de cada página fica em `tools/paginas/<pagina>.html`.
 
 Precisa de Python 3 e Pillow (`pip install pillow`).
 
+## Movimento
+Regra geral: curto, suave e sem chamar atenção. Tudo desliga com "reduzir movimento" do aparelho.
+- **Troca de página:** View Transitions nativas (Chrome, Edge e Safari recentes). O logo desliza entre o tamanho da home e o das páginas internas, e o conteúdo sai e entra de leve. Nos outros navegadores a troca é normal.
+- **Clique fofo:** botões, menu, filtros, obras e produtos afundam ao toque e voltam com um quique leve (`TOCAVEIS` em `assets/js/site.js`).
+- **Seções ao rolar:** só o que está abaixo da dobra ganha `.revela` e aparece ao entrar na tela (`REVELAVEIS`). Sem JavaScript, tudo aparece normalmente.
+- **Trabalhos:** troca de série com fade; visualização ampliada abre com zoom suave e fecha com fade (Esc também).
+
+## Publicar uma atualização
+1. Suba o número `?v=` do CSS e do JS no `index.html` (evita cache antigo) e rode `python tools/montar_paginas.py`.
+2. `git add -A && git commit && git push`. O GitHub Pages publica em cerca de 1 minuto.
+
 ## Identidade
 Preto, verde-menta do logo `#00e080`, lima das gotas `#48f018`, roxo neon `#d070ff`. Os tokens estão no topo de `assets/css/site.css`.
 Fontes provisórias: Big Shoulders Display, Space Mono e Instrument Sans (CONFIRMAR as fontes originais da Dani).

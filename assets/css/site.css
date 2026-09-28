@@ -23,6 +23,7 @@
   --max: 1280px;
   --raio: 2px;
   --t: 180ms cubic-bezier(.2, .7, .2, 1);
+  --suave: cubic-bezier(.2, .7, .2, 1);
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -42,7 +43,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 :focus-visible { outline: 2px solid var(--lima); outline-offset: 3px; }
 
 .pular { position: absolute; left: -999px; top: 8px; z-index: 100; background: var(--lima); color: #000; padding: 8px 12px; font-family: var(--f-rotulo); }
-.pular:focus { left: 8px; }
+.pular:focus-visible { left: 8px; }
 
 /* ---------- topo: logo grande centralizado, menu logo abaixo ---------- */
 .topo {
@@ -127,7 +128,7 @@ h3 { font-size: clamp(26px, 3.4vw, 36px); }
   transition: background var(--t), color var(--t), box-shadow var(--t), transform var(--t);
 }
 .botao:hover { box-shadow: 0 0 0 4px color-mix(in srgb, var(--menta) 25%, transparent), 0 0 32px color-mix(in srgb, var(--menta) 45%, transparent); }
-.botao:active { transform: translateY(1px); }
+/* o afundar ao toque é feito no JS (clique fofo) */
 .botao.vazado { background: transparent; color: var(--menta); }
 .botao.vazado:hover { background: color-mix(in srgb, var(--menta) 10%, transparent); }
 .botoes { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
@@ -163,7 +164,7 @@ h3 { font-size: clamp(26px, 3.4vw, 36px); }
   .produto:hover .produto-foto .alt { opacity: 1; }
   .produto:hover .produto-foto { border-color: color-mix(in srgb, var(--menta) 50%, transparent); }
 }
-.selo {
+.produto-foto .selo {
   position: absolute; left: 10px; top: 10px; z-index: 1;
   font: 700 10px/1 var(--f-rotulo); letter-spacing: .12em; text-transform: uppercase;
   padding: 7px 9px; border-radius: 999px; color: #000; background: var(--menta);
@@ -188,7 +189,7 @@ h3 { font-size: clamp(26px, 3.4vw, 36px); }
   .preco { font-size: 22px; }
   .parcela { font-size: 12px; }
   .produto-comprar { min-height: 42px; font-size: 12px; padding: 0 10px; }
-  .selo { left: 6px; top: 6px; font-size: 9px; padding: 6px 7px; }
+  .produto-foto .selo { left: 6px; top: 6px; }
   .vitrine .faixa-cab > a { display: none; } /* no celular o CTA fica só no botão abaixo da vitrine */
   .vitrine-cta .botao { width: 100%; }
 }
@@ -473,14 +474,69 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
 .zap:hover { transform: scale(1.06); }
 .zap svg { width: 28px; height: 28px; }
 
-/* ---------- entrada suave ---------- */
+/* ---------- movimento ----------
+   Regra geral: curto, suave e sem chamar atenção. Entradas de 400 a 700 ms com desaceleração,
+   saídas mais rápidas que entradas. Tudo some com "reduzir movimento". */
 @media (prefers-reduced-motion: no-preference) {
-  .surge { animation: surge 700ms cubic-bezier(.2,.7,.2,1) both; }
+  html { scroll-behavior: smooth; }
+
+  /* entrada da abertura da home */
+  .surge { animation: surge 700ms var(--suave) both; }
   .surge.d1 { animation-delay: 80ms; } .surge.d2 { animation-delay: 160ms; } .surge.d3 { animation-delay: 240ms; }
   @keyframes surge { from { opacity: 0; transform: translateY(12px); } }
+
+  /* seções aparecendo ao rolar (a classe .revela só é posta pelo JS no que está abaixo da dobra) */
+  .revela {
+    opacity: 0; transform: translateY(18px);
+    transition: opacity 650ms ease, transform 750ms var(--suave);
+    transition-delay: calc(var(--i, 0) * 80ms);
+  }
+  .revela.visivel { opacity: 1; transform: none; }
+
+  /* troca de página: o logo desliza de um tamanho para o outro e o conteúdo sai e entra de leve */
+  @view-transition { navigation: auto; }
+  .topo-logo { view-transition-name: logo; }
+  .barra { view-transition-name: barra; }
+  main { view-transition-name: conteudo; }
+  ::view-transition-group(*) { animation-duration: 420ms; animation-timing-function: var(--suave); }
+  ::view-transition-old(conteudo) { animation: 160ms ease-in both pagina-sai; }
+  ::view-transition-new(conteudo) { animation: 480ms var(--suave) 80ms both pagina-entra; }
+  ::view-transition-old(root) { animation: 160ms ease-in both desbota; }
+  ::view-transition-new(root) { animation: 360ms ease-out 80ms both aparece; }
+  @keyframes pagina-sai { to { opacity: 0; transform: translateY(-8px); } }
+  @keyframes pagina-entra { from { opacity: 0; transform: translateY(14px); } }
+  @keyframes desbota { to { opacity: 0; } }
+  @keyframes aparece { from { opacity: 0; } }
+
+  /* visualização ampliada */
+  .caixa[open] { animation: aparece 240ms ease-out; }
+  .caixa[open] .caixa-palco img { animation: obra-abre 460ms var(--suave); }
+  .caixa-palco img { transition: opacity 240ms ease; }
+  .caixa-palco img.trocando { opacity: 0; }
+  @keyframes obra-abre { from { opacity: 0; transform: scale(.96); } }
+
+  /* sublinhado do menu cresce do centro */
+  .menu a::before { transform-origin: center; transition: transform 320ms var(--suave); }
 }
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { animation: none !important; transition: none !important; }
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
 .coracao { color: var(--neon); }
 .como h2 .neon { white-space: nowrap; }
+
+/* ---------- alvos de toque (auditoria de 27/09): tudo que é clicável com pelo menos ~40 px ---------- */
+.menu a { min-width: 44px; min-height: 44px; justify-content: center; }
+.assinatura a { display: inline-block; padding: 10px 0; }
+.faixa-cab > a { display: inline-block; padding: 12px 0; }
+.passos .nota a { display: inline-block; padding: 10px 0; }
+.produto h3 a { padding: 8px 0; }
+.produto-foto .selo { font-size: 11px; }
+@media (max-width: 640px) { .produto-foto .selo { font-size: 11px; padding: 6px 8px; } }
+
+/* ---------- refinamentos de leitura (auditoria de 27/09) ---------- */
+.hero-sub span, .como-cidade span { white-space: nowrap; }
+@media (max-width: 640px) {
+  .como-fim .botoes { flex-direction: column; }
+  .como-fim .botao { flex: none; width: 100%; font-size: 13px; }
+}
+.rodape nav a, .rodape-cols > div:last-child a { min-width: 44px; padding-right: 12px; }
