@@ -135,13 +135,13 @@ h3 { font-size: clamp(26px, 3.4vw, 36px); }
 
 /* ---------- home ---------- */
 .hero { text-align: center; padding-top: clamp(36px, 6vw, 72px); padding-bottom: clamp(40px, 7vw, 80px); }
-.hero-frase { font-size: clamp(36px, 6.4vw, 76px); }
+.hero-frase { font-size: clamp(34px, 5.6vw, 72px); line-height: .98; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .hero-sub { font: 400 14px/1.7 var(--f-rotulo); letter-spacing: .06em; color: var(--apagado); margin: 16px auto 0; max-width: 56ch; }
 
 @media (max-width: 640px) {
   .hero { padding-top: 28px; padding-bottom: 8px; }
-  .hero-frase { font-size: 34px; }
+  .hero-frase { font-size: 32px; }
   .hero-sub { font-size: 12px; margin-top: 10px; }
   .hero .botoes { margin-top: 20px; gap: 8px; }
   .hero .botao { flex: 1 1 140px; min-height: 48px; padding: 0 12px; font-size: 12px; }
@@ -499,7 +499,8 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
 
   /* entrada da abertura da home */
   .surge { animation: surge 700ms var(--suave) both; }
-  .surge.d1 { animation-delay: 80ms; } .surge.d2 { animation-delay: 160ms; } .surge.d3 { animation-delay: 240ms; }
+  .surge.d1 { animation-delay: 120ms; } .surge.d2 { animation-delay: 220ms; } .surge.d3 { animation-delay: 320ms; }
+  .surge.d4 { animation-delay: 460ms; } .surge.d5 { animation-delay: 580ms; }
   @keyframes surge { from { opacity: 0; transform: translateY(12px); } }
 
   /* seções aparecendo ao rolar (a classe .revela só é posta pelo JS no que está abaixo da dobra) */
@@ -608,3 +609,34 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
   border: 1px solid var(--linha); border-radius: var(--raio);
 }
 .coelho-dac img { width: 100%; height: auto; filter: drop-shadow(0 0 14px color-mix(in srgb, #ff4fd8 30%, transparent)) drop-shadow(0 0 22px color-mix(in srgb, #3ff 18%, transparent)); }
+
+/* ---------- manifesto da home (post DAC ART INK do Instagram) ---------- */
+.manifesto {
+  display: grid; gap: 14px; max-width: 980px; margin: clamp(26px, 3.6vw, 44px) auto 0;
+  font: 400 15px/1.65 var(--f-rotulo); color: color-mix(in srgb, var(--lima) 45%, var(--texto));
+}
+.manifesto p { margin: 0; }
+.manifesto em { font-style: normal; color: var(--neon); }
+@media (min-width: 780px) {
+  .manifesto { grid-template-columns: repeat(3, 1fr); gap: 0; }
+  .manifesto p { padding: 4px 24px; }
+  .manifesto p + p { border-left: 1px solid var(--linha); }
+}
+.manifesto-fim {
+  margin: clamp(26px, 3.6vw, 40px) auto 0; max-width: 32ch;
+  font: 800 clamp(22px, 2.6vw, 32px)/1.1 var(--f-titulo); text-transform: uppercase; letter-spacing: .01em;
+  color: var(--neon); text-shadow: 0 0 18px color-mix(in srgb, var(--neon-fundo) 55%, transparent);
+}
+.hero .manifesto-fim + .hero-sub { margin-top: clamp(22px, 3vw, 32px); }
+@media (max-width: 640px) {
+  .manifesto { font-size: 14px; gap: 12px; margin-top: 20px; }
+  .manifesto-fim { font-size: 21px; margin-top: 20px; }
+}
+.manifesto-fim { max-width: 46ch; }
+.manifesto-fim span { white-space: nowrap; }
+@media (min-width: 780px) { .manifesto { font-size: 16px; } }
+@media (min-width: 1200px) { .manifesto { font-size: 17px; } }
+@media (max-width: 360px) {
+  .hero .botoes { flex-direction: column; }
+  .hero .botao { flex: none; width: 100%; }
+}
