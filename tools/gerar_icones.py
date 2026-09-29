@@ -1,42 +1,33 @@
-"""Gera favicon e ícones a partir do coelho (traço preto, fundo transparente).
+"""Gera favicon e ícones a partir do coelho (traço preto, fundo transparente), igual ao da DAC Galeria.
 
 Uso: python tools/gerar_icones.py caminho/do/logo.png
-O coelho vai em preto sobre um quadrado claro de cantos arredondados, que aparece bem em aba clara e escura.
-Nos tamanhos pequenos o traço é engrossado para não sumir.
+Favicon e ícones do manifesto: só o contorno, sem fundo.
+apple-touch-icon: o iPhone não aceita transparência (pinta de preto e o traço sumiria), então leva fundo branco.
 """
 import sys
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFilter
+from PIL import Image
 
 RAIZ = Path(__file__).resolve().parent.parent
-FUNDO = (245, 243, 238, 255)
 
 
-def icone(logo, lado, arredondar=True, engrossar=0, margem=0.14):
-    alfa = logo.split()[-1]
-    if engrossar:
-        alfa = alfa.filter(ImageFilter.MaxFilter(engrossar))
-    alfa = alfa.crop(alfa.getbbox())
-    area = int(lado * (1 - 2 * margem))
-    alfa.thumbnail((area, area), Image.LANCZOS)
-    base = Image.new("RGBA", (lado, lado), (0, 0, 0, 0))
-    mascara = Image.new("L", (lado, lado), 0)
-    ImageDraw.Draw(mascara).rounded_rectangle((0, 0, lado - 1, lado - 1), radius=int(lado * 0.22) if arredondar else 0, fill=255)
-    base.paste(Image.new("RGBA", (lado, lado), FUNDO), (0, 0), mascara)
-    preto = Image.new("RGBA", alfa.size, (5, 5, 5, 255))
-    base.paste(preto, ((lado - alfa.width) // 2, (lado - alfa.height) // 2), alfa)
+def icone(logo, lado, margem=0.04, fundo=None):
+    coelho = logo.crop(logo.split()[-1].getbbox())
+    area = round(lado * (1 - 2 * margem))
+    coelho.thumbnail((area, area), Image.LANCZOS)
+    base = Image.new("RGBA", (lado, lado), fundo or (0, 0, 0, 0))
+    base.alpha_composite(coelho, ((lado - coelho.width) // 2, (lado - coelho.height) // 2))
     return base
 
 
 def main():
     logo = Image.open(sys.argv[1]).convert("RGBA")
+    logo = Image.merge("RGBA", (*Image.new("RGB", logo.size, (0, 0, 0)).split(), logo.split()[-1]))  # traço preto puro
     icone(logo, 512).save(RAIZ / "assets/img/icone-512.png")
-    icone(logo, 192, engrossar=9).save(RAIZ / "assets/img/icone-192.png")
-    icone(logo, 180, arredondar=False, engrossar=9).save(RAIZ / "apple-touch-icon.png")
-    icone(logo, 32, engrossar=41, margem=0.08).save(RAIZ / "favicon.png")
-    grandes = icone(logo, 48, engrossar=31, margem=0.08)
-    pequeno = icone(logo, 16, engrossar=61, margem=0.06)
-    grandes.save(RAIZ / "favicon.ico", sizes=[(48, 48), (32, 32), (16, 16)], append_images=[icone(logo, 32, engrossar=41, margem=0.08), pequeno])
+    icone(logo, 192).save(RAIZ / "assets/img/icone-192.png")
+    icone(logo, 180, margem=0.12, fundo=(255, 255, 255, 255)).save(RAIZ / "apple-touch-icon.png")
+    icone(logo, 32).save(RAIZ / "favicon.png")
+    icone(logo, 128).save(RAIZ / "favicon.ico", sizes=[(128, 128), (64, 64), (48, 48), (32, 32), (16, 16)])
     print("ícones gerados")
 
 

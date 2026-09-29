@@ -19,7 +19,7 @@ ativo: trabalhos.html
          Para uma peça nova, copie um <article class="peca"> inteiro e troque os dados.
          - Fotos: originais em originais/acervo/<CÓDIGO>/ (principal.* + galeria/), depois rode
            python tools/processar_acervo.py (gera assets/acervo/<CÓDIGO>/).
-         - Galeria (miniaturas pequenas, não ampliam), vídeo e notas são opcionais: se a peça não tiver, apague o bloco.
+         - Galeria (miniaturas; ao ampliar a foto principal, as setas passam por elas), vídeo e notas são opcionais: se a peça não tiver, apague o bloco.
          - Vídeo: <section class="peca-bloco"><h4 class="peca-rotulo">Vídeo</h4>
                   <video class="peca-video" src="assets/acervo/CÓDIGO/video.mp4" controls playsinline preload="metadata"></video></section>
          - Campo ainda sem dado: <span class="a-preencher">campo a preencher</span>
@@ -45,10 +45,10 @@ ativo: trabalhos.html
         <section class="peca-bloco">
           <h4 class="peca-rotulo">Galeria exclusiva <small>fotos inéditas</small></h4>
           <div class="peca-galeria">
-            <img src="assets/acervo/D-PAQ-2021-05/galeria/01.webp" alt="KIRA, foto inédita 1" width="414" height="520" loading="lazy">
-            <img src="assets/acervo/D-PAQ-2021-05/galeria/02.webp" alt="KIRA, foto inédita 2" width="390" height="520" loading="lazy">
-            <img src="assets/acervo/D-PAQ-2021-05/galeria/03.webp" alt="KIRA, foto inédita 3" width="390" height="520" loading="lazy">
-            <img src="assets/acervo/D-PAQ-2021-05/galeria/04.webp" alt="KIRA, foto inédita 4" width="390" height="520" loading="lazy">
+            <button type="button" data-ampliar="assets/acervo/D-PAQ-2021-05/galeria/01-g.webp" aria-label="Ampliar KIRA, foto inédita 1"><img src="assets/acervo/D-PAQ-2021-05/galeria/01.webp" alt="KIRA, foto inédita 1" width="414" height="520" loading="lazy"></button>
+            <button type="button" data-ampliar="assets/acervo/D-PAQ-2021-05/galeria/02-g.webp" aria-label="Ampliar KIRA, foto inédita 2"><img src="assets/acervo/D-PAQ-2021-05/galeria/02.webp" alt="KIRA, foto inédita 2" width="390" height="520" loading="lazy"></button>
+            <button type="button" data-ampliar="assets/acervo/D-PAQ-2021-05/galeria/03-g.webp" aria-label="Ampliar KIRA, foto inédita 3"><img src="assets/acervo/D-PAQ-2021-05/galeria/03.webp" alt="KIRA, foto inédita 3" width="390" height="520" loading="lazy"></button>
+            <button type="button" data-ampliar="assets/acervo/D-PAQ-2021-05/galeria/04-g.webp" aria-label="Ampliar KIRA, foto inédita 4"><img src="assets/acervo/D-PAQ-2021-05/galeria/04.webp" alt="KIRA, foto inédita 4" width="390" height="520" loading="lazy"></button>
           </div>
         </section>
 
@@ -93,13 +93,13 @@ ativo: trabalhos.html
         <section class="peca-bloco">
           <h4 class="peca-rotulo">Galeria exclusiva <small>fotos inéditas</small></h4>
           <div class="peca-galeria">
-            <img src="assets/acervo/D-TP-2025-02/galeria/01.webp" alt="NEO, foto inédita 1" width="436" height="520" loading="lazy">
-            <img src="assets/acervo/D-TP-2025-02/galeria/02.webp" alt="NEO, foto inédita 2" width="400" height="520" loading="lazy">
-            <img src="assets/acervo/D-TP-2025-02/galeria/03.webp" alt="NEO, foto inédita 3" width="436" height="520" loading="lazy">
-            <img src="assets/acervo/D-TP-2025-02/galeria/04.webp" alt="NEO, foto inédita 4" width="390" height="520" loading="lazy">
-            <img src="assets/acervo/D-TP-2025-02/galeria/05.webp" alt="NEO, foto inédita 5" width="520" height="390" loading="lazy">
-            <img src="assets/acervo/D-TP-2025-02/galeria/06.webp" alt="NEO, foto inédita 6" width="492" height="520" loading="lazy">
-            <img src="assets/acervo/D-TP-2025-02/galeria/07.webp" alt="NEO, foto inédita 7" width="390" height="520" loading="lazy">
+            <button type="button" data-ampliar="assets/acervo/D-TP-2025-02/galeria/01-g.webp" aria-label="Ampliar NEO, foto inédita 1"><img src="assets/acervo/D-TP-2025-02/galeria/01.webp" alt="NEO, foto inédita 1" width="436" height="520" loading="lazy"></button>
+            <button type="button" data-ampliar="assets/acervo/D-TP-2025-02/galeria/02-g.webp" aria-label="Ampliar NEO, foto inédita 2"><img src="assets/acervo/D-TP-2025-02/galeria/02.webp" alt="NEO, foto inédita 2" width="400" height="520" loading="lazy"></button>
+            <button type="button" data-ampliar="assets/acervo/D-TP-2025-02/galeria/03-g.webp" aria-label="Ampliar NEO, foto inédita 3"><img src="assets/acervo/D-TP-2025-02/galeria/03.webp" alt="NEO, foto inédita 3" width="436" height="520" loading="lazy"></button>
+            <button type="button" data-ampliar="assets/acervo/D-TP-2025-02/galeria/04-g.webp" aria-label="Ampliar NEO, foto inédita 4"><img src="assets/acervo/D-TP-2025-02/galeria/04.webp" alt="NEO, foto inédita 4" width="390" height="520" loading="lazy"></button>
+            <button type="button" data-ampliar="assets/acervo/D-TP-2025-02/galeria/05-g.webp" aria-label="Ampliar NEO, foto inédita 5"><img src="assets/acervo/D-TP-2025-02/galeria/05.webp" alt="NEO, foto inédita 5" width="520" height="390" loading="lazy"></button>
+            <button type="button" data-ampliar="assets/acervo/D-TP-2025-02/galeria/06-g.webp" aria-label="Ampliar NEO, foto inédita 6"><img src="assets/acervo/D-TP-2025-02/galeria/06.webp" alt="NEO, foto inédita 6" width="492" height="520" loading="lazy"></button>
+            <button type="button" data-ampliar="assets/acervo/D-TP-2025-02/galeria/07-g.webp" aria-label="Ampliar NEO, foto inédita 7"><img src="assets/acervo/D-TP-2025-02/galeria/07.webp" alt="NEO, foto inédita 7" width="390" height="520" loading="lazy"></button>
           </div>
         </section>
 
@@ -143,11 +143,11 @@ ativo: trabalhos.html
         <section class="peca-bloco">
           <h4 class="peca-rotulo">Galeria exclusiva <small>fotos inéditas</small></h4>
           <div class="peca-galeria">
-            <img src="assets/acervo/D-ATF-2026-02/galeria/01.webp" alt="CONTENÇÃO, foto inédita 1" width="436" height="520" loading="lazy">
-            <img src="assets/acervo/D-ATF-2026-02/galeria/02.webp" alt="CONTENÇÃO, foto inédita 2" width="436" height="520" loading="lazy">
-            <img src="assets/acervo/D-ATF-2026-02/galeria/03.webp" alt="CONTENÇÃO, foto inédita 3" width="436" height="520" loading="lazy">
-            <img src="assets/acervo/D-ATF-2026-02/galeria/04.webp" alt="CONTENÇÃO, foto inédita 4" width="436" height="520" loading="lazy">
-            <img src="assets/acervo/D-ATF-2026-02/galeria/05.webp" alt="CONTENÇÃO, foto inédita 5" width="520" height="324" loading="lazy">
+            <button type="button" data-ampliar="assets/acervo/D-ATF-2026-02/galeria/01-g.webp" aria-label="Ampliar CONTENÇÃO, foto inédita 1"><img src="assets/acervo/D-ATF-2026-02/galeria/01.webp" alt="CONTENÇÃO, foto inédita 1" width="436" height="520" loading="lazy"></button>
+            <button type="button" data-ampliar="assets/acervo/D-ATF-2026-02/galeria/02-g.webp" aria-label="Ampliar CONTENÇÃO, foto inédita 2"><img src="assets/acervo/D-ATF-2026-02/galeria/02.webp" alt="CONTENÇÃO, foto inédita 2" width="436" height="520" loading="lazy"></button>
+            <button type="button" data-ampliar="assets/acervo/D-ATF-2026-02/galeria/03-g.webp" aria-label="Ampliar CONTENÇÃO, foto inédita 3"><img src="assets/acervo/D-ATF-2026-02/galeria/03.webp" alt="CONTENÇÃO, foto inédita 3" width="436" height="520" loading="lazy"></button>
+            <button type="button" data-ampliar="assets/acervo/D-ATF-2026-02/galeria/04-g.webp" aria-label="Ampliar CONTENÇÃO, foto inédita 4"><img src="assets/acervo/D-ATF-2026-02/galeria/04.webp" alt="CONTENÇÃO, foto inédita 4" width="436" height="520" loading="lazy"></button>
+            <button type="button" data-ampliar="assets/acervo/D-ATF-2026-02/galeria/05-g.webp" aria-label="Ampliar CONTENÇÃO, foto inédita 5"><img src="assets/acervo/D-ATF-2026-02/galeria/05.webp" alt="CONTENÇÃO, foto inédita 5" width="520" height="324" loading="lazy"></button>
           </div>
         </section>
 

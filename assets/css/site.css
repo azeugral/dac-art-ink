@@ -352,6 +352,7 @@ h3 { font-size: clamp(26px, 3.4vw, 36px); }
   font: 700 18px/1 var(--f-rotulo); transition: border-color var(--t), color var(--t);
 }
 .caixa-btn:hover { border-color: var(--menta); color: var(--menta); }
+.caixa.uma .caixa-nav { display: none; }
 .caixa-nav { position: absolute; top: calc(50% - 24px); background: rgba(0,0,0,.5); } /* centraliza sem transform: o clique fofo anima o transform */
 .caixa-nav.ant { left: 8px; }
 .caixa-nav.prox { right: 8px; }
@@ -728,9 +729,12 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
 }
 .peca-rotulo::after { content: ""; flex: 1; height: 1px; background: var(--linha); align-self: center; }
 .peca-rotulo small { font-weight: 400; font-size: 11px; letter-spacing: .08em; text-transform: none; color: var(--apagado); }
-/* galeria exclusiva: miniaturas pequenas, sem ampliar */
+/* galeria exclusiva: miniaturas pequenas; ampliam junto com a foto principal (as setas passam por elas) */
 .peca-galeria { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: 8px; max-width: 760px; }
 @media (min-width: 700px) { .peca-galeria { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 10px; } }
+.peca-galeria button { display: block; padding: 0; border: 0; background: none; cursor: zoom-in; overflow: hidden; border-radius: 2px; }
+.peca-galeria img { transition: transform 500ms var(--suave); }
+@media (hover: hover) { .peca-galeria button:hover img { transform: scale(1.04); } }
 .peca-galeria img { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 2px; background: var(--placa); }
 .peca-video { display: block; width: 100%; max-height: 80vh; background: #000; border-radius: 3px; }
 .peca-notas { margin: 0; padding: 0 0 0 20px; max-width: 72ch; font-size: 16px; line-height: 1.6; }

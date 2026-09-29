@@ -6,6 +6,18 @@
       "texto": "Handpoke, híbrida (handpoke + máquina) e máquina artesanal. A maioria das fotos é da tatuagem já cicatrizada.",
       "itens": [
         {
+          "arquivo": "052.jpg",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": true,
+          "origem": "instagram",
+          "w": 1350,
+          "h": 1687,
+          "t": "assets/obras/tattoos/052-t.webp",
+          "g": "assets/obras/tattoos/052-g.webp",
+          "m": "assets/obras/tattoos/052-m.webp"
+        },
+        {
           "arquivo": "061.png",
           "legenda": "",
           "grupo": null,
@@ -407,18 +419,6 @@
           "t": "assets/obras/tattoos/034-t.webp",
           "g": "assets/obras/tattoos/034-g.webp",
           "m": "assets/obras/tattoos/034-m.webp"
-        },
-        {
-          "arquivo": "052.jpg",
-          "legenda": "",
-          "grupo": "Handpoke",
-          "cicatrizada": true,
-          "origem": "instagram",
-          "w": 1350,
-          "h": 1687,
-          "t": "assets/obras/tattoos/052-t.webp",
-          "g": "assets/obras/tattoos/052-g.webp",
-          "m": "assets/obras/tattoos/052-m.webp"
         },
         {
           "arquivo": "035.jpeg",

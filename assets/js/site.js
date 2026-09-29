@@ -41,7 +41,7 @@
 
   // Clique fofo: o elemento afunda ao toque e volta com um quique leve.
   // O menu e o logo ficam de fora: eles participam da transição de página e não podem ser fotografados no meio do quique.
-  const TOCAVEIS = ".botao, .filtro, .obra, .produto-foto, .caixa-btn, .caixa-nav, .zap, .opcoes span, .faixa-cab > a";
+  const TOCAVEIS = ".botao, .filtro, .obra, .produto-foto, .caixa-btn, .caixa-nav, .zap, .peca-foto, .peca-galeria button, .opcoes span, .faixa-cab > a";
   // No toque (celular), o aperto só começa depois de 90 ms e é cancelado se o dedo se mover:
   // assim, rolar a página por cima de uma imagem não faz ela encolher.
   if (!calmo) {
@@ -229,7 +229,8 @@
     img.width = it.w || 1600;
     img.height = it.h || 2000;
     img.alt = `${s.titulo}${it.legenda ? ": " + it.legenda : ""}`;
-    caixa.querySelector(".caixa-cont").textContent = `${pos + 1} / ${atual.length}`;
+    caixa.classList.toggle("uma", atual.length < 2);
+    caixa.querySelector(".caixa-cont").textContent = atual.length < 2 ? "" : `${pos + 1} / ${atual.length}`;
     const leg = legendaDe(s, it);
     caixa.querySelector(".caixa-legenda").innerHTML = "";
     const t = document.createElement("span");
@@ -242,6 +243,7 @@
   }
   // Troca com deslize: a nova entra pelo lado de onde o dedo "puxou" (ou da seta).
   function ir(d, deArrasto = 0) {
+    if (atual.length < 2) return; // uma foto só: nada para trocar (evita a foto "piscar")
     pos = (pos + d + atual.length) % atual.length;
     const foto = caixa.querySelector(".caixa-palco img");
     foto.style.transform = ""; foto.style.opacity = "";
