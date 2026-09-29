@@ -4,23 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Trabalhos · DAC ART INK</title>
-  <meta name="description" content="Tattoos, ilustração digital e à mão, painéis, fotografia Miksang, arte em tecido, cartões e marcadores de Dani Coelho.">
+  <meta name="description" content="Tattoos, ilustração digital e à mão, painéis, fotografia, arte em tecido, cartões e marcadores de Dani Coelho.">
   <!-- PRÉVIA: tirar o noindex quando o domínio definitivo for publicado -->
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#000000">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Trabalhos · DAC ART INK">
-  <meta property="og:description" content="Tattoos, ilustração digital e à mão, painéis, fotografia Miksang, arte em tecido, cartões e marcadores de Dani Coelho.">
+  <meta property="og:description" content="Tattoos, ilustração digital e à mão, painéis, fotografia, arte em tecido, cartões e marcadores de Dani Coelho.">
   <meta property="og:image" content="https://azeugral.github.io/dac-art-ink/assets/img/og.jpg">
   <meta property="og:locale" content="pt_BR">
-  <link rel="icon" href="favicon.ico" sizes="any">
-  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="icon" href="favicon.ico?v=42" sizes="any">
+  <link rel="icon" href="favicon.png?v=42" type="image/png">
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=42">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Instrument+Sans:wght@400;600&family=Space+Mono:wght@400;700&display=swap">
-  <link rel="stylesheet" href="assets/css/site.css?v=41">
+  <link rel="stylesheet" href="assets/css/site.css?v=42">
   <link rel="preload" as="image" href="assets/img/logo-dac-artink.webp">
 </head>
 <body class="interna">
@@ -51,25 +51,29 @@
       </div>
     </div>
 
-    <!-- ARQUIVO DE ACERVO: aparece na aba "Arquivo de acervo" de Trabalhos.
-         Para cada peça, copie um <article class="peca"> inteiro e troque os dados.
-         - Fotos: coloque os arquivos em assets/acervo/ e aponte o src. Galeria, vídeo e notas são opcionais:
-           se a peça não tiver, apague o bloco inteiro.
-         - Na ficha técnica, acrescente quantas linhas <div><dt>…</dt><dd>…</dd></div> precisar.
-         - Campo ainda sem dado: deixe <span class="a-preencher">campo a preencher</span> (ou apague a linha).
+    <!-- ARQUIVO DE ACERVO: aparece na aba "Arquivo de acervo" de Trabalhos, cada peça numa ficha branca.
+         Para uma peça nova, copie um <article class="peca"> inteiro e troque os dados.
+         - Fotos: originais em originais/acervo/<CÓDIGO>/ (principal.* + galeria/), depois rode
+           python tools/processar_acervo.py (gera assets/acervo/<CÓDIGO>/).
+         - Galeria (miniaturas pequenas, não ampliam), vídeo e notas são opcionais: se a peça não tiver, apague o bloco.
+         - Vídeo: <section class="peca-bloco"><h4 class="peca-rotulo">Vídeo</h4>
+                  <video class="peca-video" src="assets/acervo/CÓDIGO/video.mp4" controls playsinline preload="metadata"></video></section>
+         - Campo ainda sem dado: <span class="a-preencher">campo a preencher</span>
          Depois rode: python tools/montar_paginas.py -->
     <template id="acervo">
-      <article class="peca" id="DAC-2023-EXEMPLO">
+      <div class="pecas">
+      <article class="peca" id="D-PAQ-2021-05">
+        <p class="peca-aba" aria-hidden="true">D-PAQ-2021-05</p>
         <div class="peca-topo">
-          <button class="peca-foto" type="button" data-ampliar="assets/obras/paineis/010-g.webp" aria-label="Ampliar foto da peça">
-            <img src="assets/obras/paineis/010-m.webp" alt="Órbita Felina, painel pintado" width="720" height="720" loading="lazy">
+          <button class="peca-foto" type="button" data-ampliar="assets/acervo/D-PAQ-2021-05/principal-g.webp" aria-label="Ampliar foto de KIRA">
+            <img src="assets/acervo/D-PAQ-2021-05/principal-m.webp" alt="KIRA, aquarela e marcador sobre papel: figura feminina com a mão no rosto" width="549" height="823" loading="lazy">
           </button>
 
           <div class="peca-registro">
             <p class="rotulo">Registro de acervo</p>
-            <h3 class="peca-titulo">Órbita Felina</h3>
-            <dl class="peca-codigo"><dt>Código</dt><dd><span class="a-preencher">campo a preencher</span></dd></dl>
-            <p class="peca-tiragem"><span class="a-preencher">campo a preencher</span></p>
+            <h3 class="peca-titulo">KIRA</h3>
+            <dl class="peca-codigo"><dt>Código</dt><dd>D-PAQ-2021-05</dd></dl>
+            <p class="peca-tiragem">Edição única • 01/01</p>
             <p class="peca-selo">✓ Registro autenticado</p>
           </div>
         </div>
@@ -77,33 +81,134 @@
         <section class="peca-bloco">
           <h4 class="peca-rotulo">Galeria exclusiva <small>fotos inéditas</small></h4>
           <div class="peca-galeria">
-            <button type="button" data-ampliar="assets/obras/paineis/011-g.webp" aria-label="Ampliar foto 1"><img src="assets/obras/paineis/011-m.webp" alt="" width="720" height="720" loading="lazy"></button>
-            <button type="button" data-ampliar="assets/obras/paineis/012-g.webp" aria-label="Ampliar foto 2"><img src="assets/obras/paineis/012-m.webp" alt="" width="720" height="720" loading="lazy"></button>
-            <button type="button" data-ampliar="assets/obras/paineis/013-g.webp" aria-label="Ampliar foto 3"><img src="assets/obras/paineis/013-m.webp" alt="" width="720" height="720" loading="lazy"></button>
+            <img src="assets/acervo/D-PAQ-2021-05/galeria/01.webp" alt="KIRA, foto inédita 1" width="414" height="520" loading="lazy">
+            <img src="assets/acervo/D-PAQ-2021-05/galeria/02.webp" alt="KIRA, foto inédita 2" width="390" height="520" loading="lazy">
+            <img src="assets/acervo/D-PAQ-2021-05/galeria/03.webp" alt="KIRA, foto inédita 3" width="390" height="520" loading="lazy">
+            <img src="assets/acervo/D-PAQ-2021-05/galeria/04.webp" alt="KIRA, foto inédita 4" width="390" height="520" loading="lazy">
           </div>
         </section>
 
-        <!-- VÍDEO (opcional): troque o src ou apague o bloco
-        <section class="peca-bloco">
-          <h4 class="peca-rotulo">Vídeo</h4>
-          <video class="peca-video" src="assets/acervo/NOME.mp4" controls playsinline preload="metadata"></video>
-        </section>
-        -->
-
         <section class="peca-bloco">
           <h4 class="peca-rotulo">Notas da artista</h4>
-          <p class="peca-notas"><span class="a-preencher">campo a preencher</span></p>
+          <ul class="peca-notas">
+            <li>A obra parte de experiências relacionadas à ansiedade e à depressão, traduzindo estados emocionais por meio da figura humana.</li>
+            <li>A postura corporal e a expressão da personagem produzem uma sensação de recolhimento, cansaço e introspecção.</li>
+            <li>O corpo funciona como lugar de manifestação de uma experiência interna, transformando um estado psicológico em gesto e imagem.</li>
+            <li>A combinação entre a transparência e a fluidez da aquarela e o traço mais incisivo do marcador cria uma tensão entre delicadeza e rigidez.</li>
+            <li>A irregularidade das linhas e a sobreposição de cores fazem parte da construção da imagem, sem buscar uma representação anatômica rigorosa.</li>
+            <li>A obra não procura ilustrar literalmente a ansiedade ou a depressão, mas traduzir visualmente sensações associadas a esses estados.</li>
+          </ul>
         </section>
 
         <section class="peca-bloco">
           <h4 class="peca-rotulo">Ficha técnica</h4>
           <dl class="peca-ficha">
-            <div><dt>Data de criação</dt><dd>2023</dd></div>
-            <div><dt>Materiais</dt><dd><span class="a-preencher">campo a preencher</span></dd></div>
-            <div><dt>Dimensões</dt><dd><span class="a-preencher">campo a preencher</span></dd></div>
+            <div><dt>Data de criação</dt><dd>2021</dd></div>
+            <div><dt>Materiais</dt><dd>Aquarela e marcador sobre papel Canson</dd></div>
+            <div><dt>Dimensões</dt><dd>13,5 x 21 cm</dd></div>
           </dl>
         </section>
       </article>
+
+      <article class="peca" id="D-TP-2025-02">
+        <p class="peca-aba" aria-hidden="true">D-TP-2025-02</p>
+        <div class="peca-topo">
+          <button class="peca-foto" type="button" data-ampliar="assets/acervo/D-TP-2025-02/principal-g.webp" aria-label="Ampliar foto de NEO">
+            <img src="assets/acervo/D-TP-2025-02/principal-m.webp" alt="NEO, pintura em tela lilás com formas orgânicas em azul, branco e verde" width="923" height="1100" loading="lazy">
+          </button>
+
+          <div class="peca-registro">
+            <p class="rotulo">Registro de acervo</p>
+            <h3 class="peca-titulo">NEO</h3>
+            <dl class="peca-codigo"><dt>Código</dt><dd>D-TP-2025-02</dd></dl>
+            <p class="peca-tiragem">Peça única • 01/01</p>
+            <p class="peca-selo">✓ Registro autenticado</p>
+          </div>
+        </div>
+
+        <section class="peca-bloco">
+          <h4 class="peca-rotulo">Galeria exclusiva <small>fotos inéditas</small></h4>
+          <div class="peca-galeria">
+            <img src="assets/acervo/D-TP-2025-02/galeria/01.webp" alt="NEO, foto inédita 1" width="436" height="520" loading="lazy">
+            <img src="assets/acervo/D-TP-2025-02/galeria/02.webp" alt="NEO, foto inédita 2" width="400" height="520" loading="lazy">
+            <img src="assets/acervo/D-TP-2025-02/galeria/03.webp" alt="NEO, foto inédita 3" width="436" height="520" loading="lazy">
+            <img src="assets/acervo/D-TP-2025-02/galeria/04.webp" alt="NEO, foto inédita 4" width="390" height="520" loading="lazy">
+            <img src="assets/acervo/D-TP-2025-02/galeria/05.webp" alt="NEO, foto inédita 5" width="520" height="390" loading="lazy">
+            <img src="assets/acervo/D-TP-2025-02/galeria/06.webp" alt="NEO, foto inédita 6" width="492" height="520" loading="lazy">
+            <img src="assets/acervo/D-TP-2025-02/galeria/07.webp" alt="NEO, foto inédita 7" width="390" height="520" loading="lazy">
+          </div>
+        </section>
+
+        <section class="peca-bloco">
+          <h4 class="peca-rotulo">Notas da artista</h4>
+          <ul class="peca-notas">
+            <li>NEO integra uma investigação pessoal sobre formas orgânicas, linhas gestuais e sobreposição de cores.</li>
+            <li>A imagem transita entre figuração e abstração, sem buscar representar uma forma reconhecível de maneira literal.</li>
+            <li>O traço irregular, as cores e as formas construídas pela sobreposição constituem elementos recorrentes da linguagem visual da artista.</li>
+            <li>A obra funciona também como uma manifestação direta da identidade gráfica desenvolvida em sua produção, explorando a relação entre gesto, cor e forma.</li>
+            <li>Mais do que representar um objeto específico, NEO concentra-se na construção de uma linguagem própria e na transformação de formas através do desenho e da pintura.</li>
+          </ul>
+        </section>
+
+        <section class="peca-bloco">
+          <h4 class="peca-rotulo">Ficha técnica</h4>
+          <dl class="peca-ficha">
+            <div><dt>Data de criação</dt><dd>2025</dd></div>
+            <div><dt>Materiais</dt><dd>Mista de tinta acrílica e marcadores permanentes</dd></div>
+            <div><dt>Dimensões</dt><dd>15 x 15 cm</dd></div>
+          </dl>
+        </section>
+      </article>
+
+      <article class="peca" id="D-ATF-2026-02">
+        <p class="peca-aba" aria-hidden="true">D-ATF-2026-02</p>
+        <div class="peca-topo">
+          <button class="peca-foto" type="button" data-ampliar="assets/acervo/D-ATF-2026-02/principal-g.webp" aria-label="Ampliar foto de CONTENÇÃO">
+            <img src="assets/acervo/D-ATF-2026-02/principal-m.webp" alt="CONTENÇÃO, arma de brinquedo verde envolta em arame farpado dentro de caixa acrílica" width="923" height="1100" loading="lazy">
+          </button>
+
+          <div class="peca-registro">
+            <p class="rotulo">Registro de acervo</p>
+            <h3 class="peca-titulo">CONTENÇÃO</h3>
+            <dl class="peca-codigo"><dt>Código</dt><dd>D-ATF-2026-02</dd></dl>
+            <p class="peca-tiragem">Peça única • 01/01</p>
+            <p class="peca-selo">✓ Registro autenticado</p>
+          </div>
+        </div>
+
+        <section class="peca-bloco">
+          <h4 class="peca-rotulo">Galeria exclusiva <small>fotos inéditas</small></h4>
+          <div class="peca-galeria">
+            <img src="assets/acervo/D-ATF-2026-02/galeria/01.webp" alt="CONTENÇÃO, foto inédita 1" width="436" height="520" loading="lazy">
+            <img src="assets/acervo/D-ATF-2026-02/galeria/02.webp" alt="CONTENÇÃO, foto inédita 2" width="436" height="520" loading="lazy">
+            <img src="assets/acervo/D-ATF-2026-02/galeria/03.webp" alt="CONTENÇÃO, foto inédita 3" width="436" height="520" loading="lazy">
+            <img src="assets/acervo/D-ATF-2026-02/galeria/04.webp" alt="CONTENÇÃO, foto inédita 4" width="436" height="520" loading="lazy">
+            <img src="assets/acervo/D-ATF-2026-02/galeria/05.webp" alt="CONTENÇÃO, foto inédita 5" width="520" height="324" loading="lazy">
+          </div>
+        </section>
+
+        <section class="peca-bloco">
+          <h4 class="peca-rotulo">Notas da artista</h4>
+          <ul class="peca-notas">
+            <li>A obra parte de uma arma de brinquedo, objeto associado ao universo infantil, que é envolvida por arame farpado e posteriormente encapsulada em uma caixa acrílica.</li>
+            <li>O brinquedo tem sua função e leitura original deslocadas pela intervenção, passando de objeto lúdico a artefato marcado por contenção, limite e conflito.</li>
+            <li>A relação entre infância e amadurecimento aparece através do contraste entre o objeto infantil e materiais associados à restrição e à ameaça.</li>
+            <li>O arame farpado pode funcionar simultaneamente como proteção, impedimento e elemento potencialmente agressivo.</li>
+            <li>O acrílico acrescenta uma segunda camada de contenção: o objeto já está preso pelo arame e, ainda assim, permanece isolado dentro da caixa.</li>
+            <li>A obra explora, portanto, a tensão entre liberdade e limite e as formas de contenção que podem acompanhar o processo de amadurecimento.</li>
+          </ul>
+        </section>
+
+        <section class="peca-bloco">
+          <h4 class="peca-rotulo">Ficha técnica</h4>
+          <dl class="peca-ficha">
+            <div><dt>Data de criação</dt><dd>2026</dd></div>
+            <div><dt>Materiais</dt><dd>Arma de brinquedo, arame farpado, tinta, caixa acrílica e placa metálica de identificação gravada a laser</dd></div>
+            <div><dt>Dimensões</dt><dd>20 x 10 x 12 cm</dd></div>
+          </dl>
+        </section>
+      </article>
+      </div>
     </template>
   </main>
 
@@ -144,7 +249,7 @@
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-1 1.2-.4.2-.7.1a8.2 8.2 0 0 1-4-3.5c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.8.4 3.5 3.5 0 0 0-1.1 2.6 6 6 0 0 0 1.3 3.2 13.8 13.8 0 0 0 5.3 4.7c2 .8 2.7.9 3.7.8a3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.2-.3-.3-.6-.4ZM12 21.8a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8Zm8.4-18.2A11.8 11.8 0 0 0 1.8 17.8L.1 24l6.4-1.7a11.8 11.8 0 0 0 5.5 1.4A11.8 11.8 0 0 0 20.4 3.6Z"/></svg>
   </a>
 
-  <script src="assets/js/obras.js?v=41" defer></script>
-  <script src="assets/js/site.js?v=41" defer></script>
+  <script src="assets/js/obras.js?v=42" defer></script>
+  <script src="assets/js/site.js?v=42" defer></script>
 </body>
 </html>

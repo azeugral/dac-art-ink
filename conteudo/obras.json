@@ -6,64 +6,44 @@
       "texto": "Handpoke, híbrida (handpoke + máquina) e máquina artesanal. A maioria das fotos é da tatuagem já cicatrizada.",
       "itens": [
         {
-          "arquivo": "060.jpg",
+          "arquivo": "061.png",
           "legenda": "",
           "grupo": null,
-          "cicatrizada": null,
-          "origem": "instagram",
-          "w": 1440,
-          "h": 1799,
-          "t": "assets/obras/tattoos/060-t.webp",
-          "g": "assets/obras/tattoos/060-g.webp",
-          "m": "assets/obras/tattoos/060-m.webp"
+          "w": 1080,
+          "h": 1440,
+          "t": "assets/obras/tattoos/061-t.webp",
+          "m": "assets/obras/tattoos/061-m.webp",
+          "g": "assets/obras/tattoos/061-g.webp"
         },
         {
-          "arquivo": "059.jpg",
+          "arquivo": "062.png",
           "legenda": "",
           "grupo": null,
-          "cicatrizada": null,
-          "origem": "instagram",
-          "w": 1440,
-          "h": 1800,
-          "t": "assets/obras/tattoos/059-t.webp",
-          "g": "assets/obras/tattoos/059-g.webp",
-          "m": "assets/obras/tattoos/059-m.webp"
+          "w": 1080,
+          "h": 1440,
+          "t": "assets/obras/tattoos/062-t.webp",
+          "m": "assets/obras/tattoos/062-m.webp",
+          "g": "assets/obras/tattoos/062-g.webp"
         },
         {
-          "arquivo": "058.jpg",
+          "arquivo": "063.jpg",
           "legenda": "",
           "grupo": null,
-          "cicatrizada": null,
-          "origem": "instagram",
+          "w": 674,
+          "h": 1230,
+          "t": "assets/obras/tattoos/063-t.webp",
+          "m": "assets/obras/tattoos/063-m.webp",
+          "g": "assets/obras/tattoos/063-g.webp"
+        },
+        {
+          "arquivo": "064.png",
+          "legenda": "",
+          "grupo": null,
           "w": 1080,
           "h": 1080,
-          "t": "assets/obras/tattoos/058-t.webp",
-          "g": "assets/obras/tattoos/058-g.webp",
-          "m": "assets/obras/tattoos/058-m.webp"
-        },
-        {
-          "arquivo": "057.jpg",
-          "legenda": "",
-          "grupo": null,
-          "cicatrizada": null,
-          "origem": "instagram",
-          "w": 1440,
-          "h": 1800,
-          "t": "assets/obras/tattoos/057-t.webp",
-          "g": "assets/obras/tattoos/057-g.webp",
-          "m": "assets/obras/tattoos/057-m.webp"
-        },
-        {
-          "arquivo": "001.jpg",
-          "legenda": "",
-          "grupo": null,
-          "cicatrizada": false,
-          "origem": "instagram",
-          "w": 1125,
-          "h": 2000,
-          "t": "assets/obras/tattoos/001-t.webp",
-          "g": "assets/obras/tattoos/001-g.webp",
-          "m": "assets/obras/tattoos/001-m.webp"
+          "t": "assets/obras/tattoos/064-t.webp",
+          "m": "assets/obras/tattoos/064-m.webp",
+          "g": "assets/obras/tattoos/064-g.webp"
         },
         {
           "arquivo": "002.jpg",
@@ -429,6 +409,18 @@
           "m": "assets/obras/tattoos/034-m.webp"
         },
         {
+          "arquivo": "052.jpg",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": true,
+          "origem": "instagram",
+          "w": 1350,
+          "h": 1687,
+          "t": "assets/obras/tattoos/052-t.webp",
+          "g": "assets/obras/tattoos/052-g.webp",
+          "m": "assets/obras/tattoos/052-m.webp"
+        },
+        {
           "arquivo": "035.jpeg",
           "legenda": "",
           "grupo": "Pokechine",
@@ -600,18 +592,6 @@
           "m": "assets/obras/tattoos/051-m.webp"
         },
         {
-          "arquivo": "052.jpg",
-          "legenda": "",
-          "grupo": "Handpoke",
-          "cicatrizada": true,
-          "origem": "instagram",
-          "w": 1350,
-          "h": 1687,
-          "t": "assets/obras/tattoos/052-t.webp",
-          "g": "assets/obras/tattoos/052-g.webp",
-          "m": "assets/obras/tattoos/052-m.webp"
-        },
-        {
           "arquivo": "053.jpg",
           "legenda": "",
           "grupo": "Máquina artesanal",
@@ -621,6 +601,1091 @@
           "t": "assets/obras/tattoos/053-t.webp",
           "g": "assets/obras/tattoos/053-g.webp",
           "m": "assets/obras/tattoos/053-m.webp"
+        },
+        {
+          "arquivo": "060.jpg",
+          "legenda": "",
+          "grupo": null,
+          "cicatrizada": null,
+          "origem": "instagram",
+          "w": 1440,
+          "h": 1799,
+          "t": "assets/obras/tattoos/060-t.webp",
+          "g": "assets/obras/tattoos/060-g.webp",
+          "m": "assets/obras/tattoos/060-m.webp"
+        },
+        {
+          "arquivo": "059.jpg",
+          "legenda": "",
+          "grupo": null,
+          "cicatrizada": null,
+          "origem": "instagram",
+          "w": 1440,
+          "h": 1800,
+          "t": "assets/obras/tattoos/059-t.webp",
+          "g": "assets/obras/tattoos/059-g.webp",
+          "m": "assets/obras/tattoos/059-m.webp"
+        },
+        {
+          "arquivo": "058.jpg",
+          "legenda": "",
+          "grupo": null,
+          "cicatrizada": null,
+          "origem": "instagram",
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/tattoos/058-t.webp",
+          "g": "assets/obras/tattoos/058-g.webp",
+          "m": "assets/obras/tattoos/058-m.webp"
+        },
+        {
+          "arquivo": "057.jpg",
+          "legenda": "",
+          "grupo": null,
+          "cicatrizada": null,
+          "origem": "instagram",
+          "w": 1440,
+          "h": 1800,
+          "t": "assets/obras/tattoos/057-t.webp",
+          "g": "assets/obras/tattoos/057-g.webp",
+          "m": "assets/obras/tattoos/057-m.webp"
+        }
+      ]
+    },
+    {
+      "slug": "miksang",
+      "titulo": "Fotografias",
+      "texto": "Miksang é uma palavra tibetana que significa “bom olho”: uma fotografia contemplativa, em que o olhar acompanha a mente em silêncio. As imagens tendem a devolver quem olha ao estado de contemplação de quem fotografou.",
+      "itens": [
+        {
+          "arquivo": "121.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/miksang/121-t.webp",
+          "m": "assets/obras/miksang/121-m.webp",
+          "g": "assets/obras/miksang/121-g.webp"
+        },
+        {
+          "arquivo": "122.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/miksang/122-t.webp",
+          "m": "assets/obras/miksang/122-m.webp",
+          "g": "assets/obras/miksang/122-g.webp"
+        },
+        {
+          "arquivo": "123.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/miksang/123-t.webp",
+          "m": "assets/obras/miksang/123-m.webp",
+          "g": "assets/obras/miksang/123-g.webp"
+        },
+        {
+          "arquivo": "001.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/001-t.webp",
+          "g": "assets/obras/miksang/001-g.webp",
+          "m": "assets/obras/miksang/001-m.webp"
+        },
+        {
+          "arquivo": "003.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/003-t.webp",
+          "g": "assets/obras/miksang/003-g.webp",
+          "m": "assets/obras/miksang/003-m.webp"
+        },
+        {
+          "arquivo": "004.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/004-t.webp",
+          "g": "assets/obras/miksang/004-g.webp",
+          "m": "assets/obras/miksang/004-m.webp"
+        },
+        {
+          "arquivo": "005.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/005-t.webp",
+          "g": "assets/obras/miksang/005-g.webp",
+          "m": "assets/obras/miksang/005-m.webp"
+        },
+        {
+          "arquivo": "006.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/006-t.webp",
+          "g": "assets/obras/miksang/006-g.webp",
+          "m": "assets/obras/miksang/006-m.webp"
+        },
+        {
+          "arquivo": "007.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/007-t.webp",
+          "g": "assets/obras/miksang/007-g.webp",
+          "m": "assets/obras/miksang/007-m.webp"
+        },
+        {
+          "arquivo": "008.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/008-t.webp",
+          "g": "assets/obras/miksang/008-g.webp",
+          "m": "assets/obras/miksang/008-m.webp"
+        },
+        {
+          "arquivo": "009.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/009-t.webp",
+          "g": "assets/obras/miksang/009-g.webp",
+          "m": "assets/obras/miksang/009-m.webp"
+        },
+        {
+          "arquivo": "010.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/010-t.webp",
+          "g": "assets/obras/miksang/010-g.webp",
+          "m": "assets/obras/miksang/010-m.webp"
+        },
+        {
+          "arquivo": "011.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/011-t.webp",
+          "g": "assets/obras/miksang/011-g.webp",
+          "m": "assets/obras/miksang/011-m.webp"
+        },
+        {
+          "arquivo": "012.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/012-t.webp",
+          "g": "assets/obras/miksang/012-g.webp",
+          "m": "assets/obras/miksang/012-m.webp"
+        },
+        {
+          "arquivo": "013.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/013-t.webp",
+          "g": "assets/obras/miksang/013-g.webp",
+          "m": "assets/obras/miksang/013-m.webp"
+        },
+        {
+          "arquivo": "014.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/014-t.webp",
+          "g": "assets/obras/miksang/014-g.webp",
+          "m": "assets/obras/miksang/014-m.webp"
+        },
+        {
+          "arquivo": "016.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 719,
+          "h": 1280,
+          "t": "assets/obras/miksang/016-t.webp",
+          "g": "assets/obras/miksang/016-g.webp",
+          "m": "assets/obras/miksang/016-m.webp"
+        },
+        {
+          "arquivo": "017.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/017-t.webp",
+          "g": "assets/obras/miksang/017-g.webp",
+          "m": "assets/obras/miksang/017-m.webp"
+        },
+        {
+          "arquivo": "018.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/018-t.webp",
+          "g": "assets/obras/miksang/018-g.webp",
+          "m": "assets/obras/miksang/018-m.webp"
+        },
+        {
+          "arquivo": "020.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/020-t.webp",
+          "g": "assets/obras/miksang/020-g.webp",
+          "m": "assets/obras/miksang/020-m.webp"
+        },
+        {
+          "arquivo": "025.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1080,
+          "h": 1350,
+          "t": "assets/obras/miksang/025-t.webp",
+          "g": "assets/obras/miksang/025-g.webp",
+          "m": "assets/obras/miksang/025-m.webp"
+        },
+        {
+          "arquivo": "028.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/028-t.webp",
+          "g": "assets/obras/miksang/028-g.webp",
+          "m": "assets/obras/miksang/028-m.webp"
+        },
+        {
+          "arquivo": "029.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/029-t.webp",
+          "g": "assets/obras/miksang/029-g.webp",
+          "m": "assets/obras/miksang/029-m.webp"
+        },
+        {
+          "arquivo": "030.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/030-t.webp",
+          "g": "assets/obras/miksang/030-g.webp",
+          "m": "assets/obras/miksang/030-m.webp"
+        },
+        {
+          "arquivo": "032.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/032-t.webp",
+          "g": "assets/obras/miksang/032-g.webp",
+          "m": "assets/obras/miksang/032-m.webp"
+        },
+        {
+          "arquivo": "033.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 919,
+          "h": 1280,
+          "t": "assets/obras/miksang/033-t.webp",
+          "g": "assets/obras/miksang/033-g.webp",
+          "m": "assets/obras/miksang/033-m.webp"
+        },
+        {
+          "arquivo": "036.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/036-t.webp",
+          "g": "assets/obras/miksang/036-g.webp",
+          "m": "assets/obras/miksang/036-m.webp"
+        },
+        {
+          "arquivo": "037.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/miksang/037-t.webp",
+          "g": "assets/obras/miksang/037-g.webp",
+          "m": "assets/obras/miksang/037-m.webp"
+        },
+        {
+          "arquivo": "038.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/038-t.webp",
+          "g": "assets/obras/miksang/038-g.webp",
+          "m": "assets/obras/miksang/038-m.webp"
+        },
+        {
+          "arquivo": "039.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/039-t.webp",
+          "g": "assets/obras/miksang/039-g.webp",
+          "m": "assets/obras/miksang/039-m.webp"
+        },
+        {
+          "arquivo": "040.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/miksang/040-t.webp",
+          "g": "assets/obras/miksang/040-g.webp",
+          "m": "assets/obras/miksang/040-m.webp"
+        },
+        {
+          "arquivo": "041.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/miksang/041-t.webp",
+          "g": "assets/obras/miksang/041-g.webp",
+          "m": "assets/obras/miksang/041-m.webp"
+        },
+        {
+          "arquivo": "042.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/042-t.webp",
+          "g": "assets/obras/miksang/042-g.webp",
+          "m": "assets/obras/miksang/042-m.webp"
+        },
+        {
+          "arquivo": "043.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 719,
+          "h": 1280,
+          "t": "assets/obras/miksang/043-t.webp",
+          "g": "assets/obras/miksang/043-g.webp",
+          "m": "assets/obras/miksang/043-m.webp"
+        },
+        {
+          "arquivo": "044.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/miksang/044-t.webp",
+          "g": "assets/obras/miksang/044-g.webp",
+          "m": "assets/obras/miksang/044-m.webp"
+        },
+        {
+          "arquivo": "045.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/045-t.webp",
+          "g": "assets/obras/miksang/045-g.webp",
+          "m": "assets/obras/miksang/045-m.webp"
+        },
+        {
+          "arquivo": "046.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/046-t.webp",
+          "g": "assets/obras/miksang/046-g.webp",
+          "m": "assets/obras/miksang/046-m.webp"
+        },
+        {
+          "arquivo": "047.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1280,
+          "h": 720,
+          "t": "assets/obras/miksang/047-t.webp",
+          "g": "assets/obras/miksang/047-g.webp",
+          "m": "assets/obras/miksang/047-m.webp"
+        },
+        {
+          "arquivo": "049.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/049-t.webp",
+          "g": "assets/obras/miksang/049-g.webp",
+          "m": "assets/obras/miksang/049-m.webp"
+        },
+        {
+          "arquivo": "050.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/050-t.webp",
+          "g": "assets/obras/miksang/050-g.webp",
+          "m": "assets/obras/miksang/050-m.webp"
+        },
+        {
+          "arquivo": "051.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/051-t.webp",
+          "g": "assets/obras/miksang/051-g.webp",
+          "m": "assets/obras/miksang/051-m.webp"
+        },
+        {
+          "arquivo": "052.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/052-t.webp",
+          "g": "assets/obras/miksang/052-g.webp",
+          "m": "assets/obras/miksang/052-m.webp"
+        },
+        {
+          "arquivo": "053.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/053-t.webp",
+          "g": "assets/obras/miksang/053-g.webp",
+          "m": "assets/obras/miksang/053-m.webp"
+        },
+        {
+          "arquivo": "054.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/054-t.webp",
+          "g": "assets/obras/miksang/054-g.webp",
+          "m": "assets/obras/miksang/054-m.webp"
+        },
+        {
+          "arquivo": "055.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 768,
+          "t": "assets/obras/miksang/055-t.webp",
+          "g": "assets/obras/miksang/055-g.webp",
+          "m": "assets/obras/miksang/055-m.webp"
+        },
+        {
+          "arquivo": "056.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/056-t.webp",
+          "g": "assets/obras/miksang/056-g.webp",
+          "m": "assets/obras/miksang/056-m.webp"
+        },
+        {
+          "arquivo": "057.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 1280,
+          "t": "assets/obras/miksang/057-t.webp",
+          "g": "assets/obras/miksang/057-g.webp",
+          "m": "assets/obras/miksang/057-m.webp"
+        },
+        {
+          "arquivo": "059.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 841,
+          "h": 1024,
+          "t": "assets/obras/miksang/059-t.webp",
+          "g": "assets/obras/miksang/059-g.webp",
+          "m": "assets/obras/miksang/059-m.webp"
+        },
+        {
+          "arquivo": "061.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1280,
+          "h": 960,
+          "t": "assets/obras/miksang/061-t.webp",
+          "g": "assets/obras/miksang/061-g.webp",
+          "m": "assets/obras/miksang/061-m.webp"
+        },
+        {
+          "arquivo": "062.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/062-t.webp",
+          "g": "assets/obras/miksang/062-g.webp",
+          "m": "assets/obras/miksang/062-m.webp"
+        },
+        {
+          "arquivo": "063.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1346,
+          "h": 1600,
+          "t": "assets/obras/miksang/063-t.webp",
+          "g": "assets/obras/miksang/063-g.webp",
+          "m": "assets/obras/miksang/063-m.webp"
+        },
+        {
+          "arquivo": "064.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/064-t.webp",
+          "g": "assets/obras/miksang/064-g.webp",
+          "m": "assets/obras/miksang/064-m.webp"
+        },
+        {
+          "arquivo": "065.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 768,
+          "h": 1024,
+          "t": "assets/obras/miksang/065-t.webp",
+          "g": "assets/obras/miksang/065-g.webp",
+          "m": "assets/obras/miksang/065-m.webp"
+        },
+        {
+          "arquivo": "066.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 768,
+          "h": 1024,
+          "t": "assets/obras/miksang/066-t.webp",
+          "g": "assets/obras/miksang/066-g.webp",
+          "m": "assets/obras/miksang/066-m.webp"
+        },
+        {
+          "arquivo": "067.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1280,
+          "h": 622,
+          "t": "assets/obras/miksang/067-t.webp",
+          "g": "assets/obras/miksang/067-g.webp",
+          "m": "assets/obras/miksang/067-m.webp"
+        },
+        {
+          "arquivo": "069.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 540,
+          "h": 960,
+          "t": "assets/obras/miksang/069-t.webp",
+          "g": "assets/obras/miksang/069-g.webp",
+          "m": "assets/obras/miksang/069-m.webp"
+        },
+        {
+          "arquivo": "070.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 565,
+          "t": "assets/obras/miksang/070-t.webp",
+          "g": "assets/obras/miksang/070-g.webp",
+          "m": "assets/obras/miksang/070-m.webp"
+        },
+        {
+          "arquivo": "071.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 768,
+          "t": "assets/obras/miksang/071-t.webp",
+          "g": "assets/obras/miksang/071-g.webp",
+          "m": "assets/obras/miksang/071-m.webp"
+        },
+        {
+          "arquivo": "072.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1600,
+          "h": 1382,
+          "t": "assets/obras/miksang/072-t.webp",
+          "g": "assets/obras/miksang/072-g.webp",
+          "m": "assets/obras/miksang/072-m.webp"
+        },
+        {
+          "arquivo": "073.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 768,
+          "h": 1024,
+          "t": "assets/obras/miksang/073-t.webp",
+          "g": "assets/obras/miksang/073-g.webp",
+          "m": "assets/obras/miksang/073-m.webp"
+        },
+        {
+          "arquivo": "074.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 768,
+          "t": "assets/obras/miksang/074-t.webp",
+          "g": "assets/obras/miksang/074-g.webp",
+          "m": "assets/obras/miksang/074-m.webp"
+        },
+        {
+          "arquivo": "075.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/075-t.webp",
+          "g": "assets/obras/miksang/075-g.webp",
+          "m": "assets/obras/miksang/075-m.webp"
+        },
+        {
+          "arquivo": "077.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 768,
+          "t": "assets/obras/miksang/077-t.webp",
+          "g": "assets/obras/miksang/077-g.webp",
+          "m": "assets/obras/miksang/077-m.webp"
+        },
+        {
+          "arquivo": "078.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/078-t.webp",
+          "g": "assets/obras/miksang/078-g.webp",
+          "m": "assets/obras/miksang/078-m.webp"
+        },
+        {
+          "arquivo": "079.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 728,
+          "h": 1024,
+          "t": "assets/obras/miksang/079-t.webp",
+          "g": "assets/obras/miksang/079-g.webp",
+          "m": "assets/obras/miksang/079-m.webp"
+        },
+        {
+          "arquivo": "080.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/080-t.webp",
+          "g": "assets/obras/miksang/080-g.webp",
+          "m": "assets/obras/miksang/080-m.webp"
+        },
+        {
+          "arquivo": "082.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1280,
+          "h": 1058,
+          "t": "assets/obras/miksang/082-t.webp",
+          "g": "assets/obras/miksang/082-g.webp",
+          "m": "assets/obras/miksang/082-m.webp"
+        },
+        {
+          "arquivo": "084.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1280,
+          "h": 960,
+          "t": "assets/obras/miksang/084-t.webp",
+          "g": "assets/obras/miksang/084-g.webp",
+          "m": "assets/obras/miksang/084-m.webp"
+        },
+        {
+          "arquivo": "085.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 768,
+          "h": 1024,
+          "t": "assets/obras/miksang/085-t.webp",
+          "g": "assets/obras/miksang/085-g.webp",
+          "m": "assets/obras/miksang/085-m.webp"
+        },
+        {
+          "arquivo": "086.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1280,
+          "h": 1126,
+          "t": "assets/obras/miksang/086-t.webp",
+          "g": "assets/obras/miksang/086-g.webp",
+          "m": "assets/obras/miksang/086-m.webp"
+        },
+        {
+          "arquivo": "087.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 697,
+          "t": "assets/obras/miksang/087-t.webp",
+          "g": "assets/obras/miksang/087-g.webp",
+          "m": "assets/obras/miksang/087-m.webp"
+        },
+        {
+          "arquivo": "088.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 540,
+          "t": "assets/obras/miksang/088-t.webp",
+          "g": "assets/obras/miksang/088-g.webp",
+          "m": "assets/obras/miksang/088-m.webp"
+        },
+        {
+          "arquivo": "089.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 720,
+          "t": "assets/obras/miksang/089-t.webp",
+          "g": "assets/obras/miksang/089-g.webp",
+          "m": "assets/obras/miksang/089-m.webp"
+        },
+        {
+          "arquivo": "090.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 768,
+          "h": 1024,
+          "t": "assets/obras/miksang/090-t.webp",
+          "g": "assets/obras/miksang/090-g.webp",
+          "m": "assets/obras/miksang/090-m.webp"
+        },
+        {
+          "arquivo": "091.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 722,
+          "t": "assets/obras/miksang/091-t.webp",
+          "g": "assets/obras/miksang/091-g.webp",
+          "m": "assets/obras/miksang/091-m.webp"
+        },
+        {
+          "arquivo": "092.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 540,
+          "t": "assets/obras/miksang/092-t.webp",
+          "g": "assets/obras/miksang/092-g.webp",
+          "m": "assets/obras/miksang/092-m.webp"
+        },
+        {
+          "arquivo": "094.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1500,
+          "h": 2000,
+          "t": "assets/obras/miksang/094-t.webp",
+          "g": "assets/obras/miksang/094-g.webp",
+          "m": "assets/obras/miksang/094-m.webp"
+        },
+        {
+          "arquivo": "095.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1500,
+          "h": 2000,
+          "t": "assets/obras/miksang/095-t.webp",
+          "g": "assets/obras/miksang/095-g.webp",
+          "m": "assets/obras/miksang/095-m.webp"
+        },
+        {
+          "arquivo": "096.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1440,
+          "h": 1440,
+          "t": "assets/obras/miksang/096-t.webp",
+          "g": "assets/obras/miksang/096-g.webp",
+          "m": "assets/obras/miksang/096-m.webp"
+        },
+        {
+          "arquivo": "097.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 2000,
+          "h": 1500,
+          "t": "assets/obras/miksang/097-t.webp",
+          "g": "assets/obras/miksang/097-g.webp",
+          "m": "assets/obras/miksang/097-m.webp"
+        },
+        {
+          "arquivo": "098.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1500,
+          "h": 2000,
+          "t": "assets/obras/miksang/098-t.webp",
+          "g": "assets/obras/miksang/098-g.webp",
+          "m": "assets/obras/miksang/098-m.webp"
+        },
+        {
+          "arquivo": "099.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 540,
+          "t": "assets/obras/miksang/099-t.webp",
+          "g": "assets/obras/miksang/099-g.webp",
+          "m": "assets/obras/miksang/099-m.webp"
+        },
+        {
+          "arquivo": "100.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 540,
+          "t": "assets/obras/miksang/100-t.webp",
+          "g": "assets/obras/miksang/100-g.webp",
+          "m": "assets/obras/miksang/100-m.webp"
+        },
+        {
+          "arquivo": "101.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 720,
+          "t": "assets/obras/miksang/101-t.webp",
+          "g": "assets/obras/miksang/101-g.webp",
+          "m": "assets/obras/miksang/101-m.webp"
+        },
+        {
+          "arquivo": "102.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 480,
+          "t": "assets/obras/miksang/102-t.webp",
+          "g": "assets/obras/miksang/102-g.webp",
+          "m": "assets/obras/miksang/102-m.webp"
+        },
+        {
+          "arquivo": "103.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 681,
+          "t": "assets/obras/miksang/103-t.webp",
+          "g": "assets/obras/miksang/103-g.webp",
+          "m": "assets/obras/miksang/103-m.webp"
+        },
+        {
+          "arquivo": "104.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 540,
+          "t": "assets/obras/miksang/104-t.webp",
+          "g": "assets/obras/miksang/104-g.webp",
+          "m": "assets/obras/miksang/104-m.webp"
+        },
+        {
+          "arquivo": "105.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 540,
+          "t": "assets/obras/miksang/105-t.webp",
+          "g": "assets/obras/miksang/105-g.webp",
+          "m": "assets/obras/miksang/105-m.webp"
+        },
+        {
+          "arquivo": "106.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 598,
+          "t": "assets/obras/miksang/106-t.webp",
+          "g": "assets/obras/miksang/106-g.webp",
+          "m": "assets/obras/miksang/106-m.webp"
+        },
+        {
+          "arquivo": "107.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1280,
+          "h": 549,
+          "t": "assets/obras/miksang/107-t.webp",
+          "g": "assets/obras/miksang/107-g.webp",
+          "m": "assets/obras/miksang/107-m.webp"
+        },
+        {
+          "arquivo": "108.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1920,
+          "h": 1475,
+          "t": "assets/obras/miksang/108-t.webp",
+          "g": "assets/obras/miksang/108-g.webp",
+          "m": "assets/obras/miksang/108-m.webp"
+        },
+        {
+          "arquivo": "109.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1500,
+          "h": 2000,
+          "t": "assets/obras/miksang/109-t.webp",
+          "g": "assets/obras/miksang/109-g.webp",
+          "m": "assets/obras/miksang/109-m.webp"
+        },
+        {
+          "arquivo": "110.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1920,
+          "h": 1151,
+          "t": "assets/obras/miksang/110-t.webp",
+          "g": "assets/obras/miksang/110-g.webp",
+          "m": "assets/obras/miksang/110-m.webp"
+        },
+        {
+          "arquivo": "111.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1920,
+          "h": 1080,
+          "t": "assets/obras/miksang/111-t.webp",
+          "g": "assets/obras/miksang/111-g.webp",
+          "m": "assets/obras/miksang/111-m.webp"
+        },
+        {
+          "arquivo": "112.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1715,
+          "h": 1042,
+          "t": "assets/obras/miksang/112-t.webp",
+          "g": "assets/obras/miksang/112-g.webp",
+          "m": "assets/obras/miksang/112-m.webp"
+        },
+        {
+          "arquivo": "113.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 540,
+          "t": "assets/obras/miksang/113-t.webp",
+          "g": "assets/obras/miksang/113-g.webp",
+          "m": "assets/obras/miksang/113-m.webp"
+        },
+        {
+          "arquivo": "114.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1920,
+          "h": 1080,
+          "t": "assets/obras/miksang/114-t.webp",
+          "g": "assets/obras/miksang/114-g.webp",
+          "m": "assets/obras/miksang/114-m.webp"
+        },
+        {
+          "arquivo": "115.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 768,
+          "t": "assets/obras/miksang/115-t.webp",
+          "g": "assets/obras/miksang/115-g.webp",
+          "m": "assets/obras/miksang/115-m.webp"
+        },
+        {
+          "arquivo": "116.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1024,
+          "h": 768,
+          "t": "assets/obras/miksang/116-t.webp",
+          "g": "assets/obras/miksang/116-g.webp",
+          "m": "assets/obras/miksang/116-m.webp"
+        },
+        {
+          "arquivo": "117.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 720,
+          "h": 1280,
+          "t": "assets/obras/miksang/117-t.webp",
+          "g": "assets/obras/miksang/117-g.webp",
+          "m": "assets/obras/miksang/117-m.webp"
+        },
+        {
+          "arquivo": "118.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 1200,
+          "h": 1600,
+          "t": "assets/obras/miksang/118-t.webp",
+          "g": "assets/obras/miksang/118-g.webp",
+          "m": "assets/obras/miksang/118-m.webp"
+        },
+        {
+          "arquivo": "119.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 554,
+          "t": "assets/obras/miksang/119-t.webp",
+          "g": "assets/obras/miksang/119-g.webp",
+          "m": "assets/obras/miksang/119-m.webp"
+        },
+        {
+          "arquivo": "120.png",
+          "legenda": "",
+          "grupo": null,
+          "w": 960,
+          "h": 540,
+          "t": "assets/obras/miksang/120-t.webp",
+          "g": "assets/obras/miksang/120-g.webp",
+          "m": "assets/obras/miksang/120-m.webp"
         }
       ]
     },
@@ -1452,1213 +2517,6 @@
           "t": "assets/obras/paineis/017-t.webp",
           "g": "assets/obras/paineis/017-g.webp",
           "m": "assets/obras/paineis/017-m.webp"
-        }
-      ]
-    },
-    {
-      "slug": "miksang",
-      "titulo": "Fotografia Miksang",
-      "texto": "Miksang é uma palavra tibetana que significa “bom olho”: uma fotografia contemplativa, em que o olhar acompanha a mente em silêncio. As imagens tendem a devolver quem olha ao estado de contemplação de quem fotografou.",
-      "itens": [
-        {
-          "arquivo": "001.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/001-t.webp",
-          "g": "assets/obras/miksang/001-g.webp",
-          "m": "assets/obras/miksang/001-m.webp"
-        },
-        {
-          "arquivo": "002.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/002-t.webp",
-          "g": "assets/obras/miksang/002-g.webp",
-          "m": "assets/obras/miksang/002-m.webp"
-        },
-        {
-          "arquivo": "003.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/003-t.webp",
-          "g": "assets/obras/miksang/003-g.webp",
-          "m": "assets/obras/miksang/003-m.webp"
-        },
-        {
-          "arquivo": "004.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/004-t.webp",
-          "g": "assets/obras/miksang/004-g.webp",
-          "m": "assets/obras/miksang/004-m.webp"
-        },
-        {
-          "arquivo": "005.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/005-t.webp",
-          "g": "assets/obras/miksang/005-g.webp",
-          "m": "assets/obras/miksang/005-m.webp"
-        },
-        {
-          "arquivo": "006.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/006-t.webp",
-          "g": "assets/obras/miksang/006-g.webp",
-          "m": "assets/obras/miksang/006-m.webp"
-        },
-        {
-          "arquivo": "007.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/007-t.webp",
-          "g": "assets/obras/miksang/007-g.webp",
-          "m": "assets/obras/miksang/007-m.webp"
-        },
-        {
-          "arquivo": "008.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/008-t.webp",
-          "g": "assets/obras/miksang/008-g.webp",
-          "m": "assets/obras/miksang/008-m.webp"
-        },
-        {
-          "arquivo": "009.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/009-t.webp",
-          "g": "assets/obras/miksang/009-g.webp",
-          "m": "assets/obras/miksang/009-m.webp"
-        },
-        {
-          "arquivo": "010.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/010-t.webp",
-          "g": "assets/obras/miksang/010-g.webp",
-          "m": "assets/obras/miksang/010-m.webp"
-        },
-        {
-          "arquivo": "011.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/011-t.webp",
-          "g": "assets/obras/miksang/011-g.webp",
-          "m": "assets/obras/miksang/011-m.webp"
-        },
-        {
-          "arquivo": "012.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/012-t.webp",
-          "g": "assets/obras/miksang/012-g.webp",
-          "m": "assets/obras/miksang/012-m.webp"
-        },
-        {
-          "arquivo": "013.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/013-t.webp",
-          "g": "assets/obras/miksang/013-g.webp",
-          "m": "assets/obras/miksang/013-m.webp"
-        },
-        {
-          "arquivo": "014.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/014-t.webp",
-          "g": "assets/obras/miksang/014-g.webp",
-          "m": "assets/obras/miksang/014-m.webp"
-        },
-        {
-          "arquivo": "015.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 900,
-          "h": 1600,
-          "t": "assets/obras/miksang/015-t.webp",
-          "g": "assets/obras/miksang/015-g.webp",
-          "m": "assets/obras/miksang/015-m.webp"
-        },
-        {
-          "arquivo": "016.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 719,
-          "h": 1280,
-          "t": "assets/obras/miksang/016-t.webp",
-          "g": "assets/obras/miksang/016-g.webp",
-          "m": "assets/obras/miksang/016-m.webp"
-        },
-        {
-          "arquivo": "017.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/017-t.webp",
-          "g": "assets/obras/miksang/017-g.webp",
-          "m": "assets/obras/miksang/017-m.webp"
-        },
-        {
-          "arquivo": "018.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/018-t.webp",
-          "g": "assets/obras/miksang/018-g.webp",
-          "m": "assets/obras/miksang/018-m.webp"
-        },
-        {
-          "arquivo": "019.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 952,
-          "h": 1280,
-          "t": "assets/obras/miksang/019-t.webp",
-          "g": "assets/obras/miksang/019-g.webp",
-          "m": "assets/obras/miksang/019-m.webp"
-        },
-        {
-          "arquivo": "020.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/020-t.webp",
-          "g": "assets/obras/miksang/020-g.webp",
-          "m": "assets/obras/miksang/020-m.webp"
-        },
-        {
-          "arquivo": "021.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/021-t.webp",
-          "g": "assets/obras/miksang/021-g.webp",
-          "m": "assets/obras/miksang/021-m.webp"
-        },
-        {
-          "arquivo": "022.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/022-t.webp",
-          "g": "assets/obras/miksang/022-g.webp",
-          "m": "assets/obras/miksang/022-m.webp"
-        },
-        {
-          "arquivo": "023.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1080,
-          "h": 1350,
-          "t": "assets/obras/miksang/023-t.webp",
-          "g": "assets/obras/miksang/023-g.webp",
-          "m": "assets/obras/miksang/023-m.webp"
-        },
-        {
-          "arquivo": "024.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/024-t.webp",
-          "g": "assets/obras/miksang/024-g.webp",
-          "m": "assets/obras/miksang/024-m.webp"
-        },
-        {
-          "arquivo": "025.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1080,
-          "h": 1350,
-          "t": "assets/obras/miksang/025-t.webp",
-          "g": "assets/obras/miksang/025-g.webp",
-          "m": "assets/obras/miksang/025-m.webp"
-        },
-        {
-          "arquivo": "026.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1080,
-          "h": 1350,
-          "t": "assets/obras/miksang/026-t.webp",
-          "g": "assets/obras/miksang/026-g.webp",
-          "m": "assets/obras/miksang/026-m.webp"
-        },
-        {
-          "arquivo": "027.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/027-t.webp",
-          "g": "assets/obras/miksang/027-g.webp",
-          "m": "assets/obras/miksang/027-m.webp"
-        },
-        {
-          "arquivo": "028.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/028-t.webp",
-          "g": "assets/obras/miksang/028-g.webp",
-          "m": "assets/obras/miksang/028-m.webp"
-        },
-        {
-          "arquivo": "029.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/029-t.webp",
-          "g": "assets/obras/miksang/029-g.webp",
-          "m": "assets/obras/miksang/029-m.webp"
-        },
-        {
-          "arquivo": "030.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/030-t.webp",
-          "g": "assets/obras/miksang/030-g.webp",
-          "m": "assets/obras/miksang/030-m.webp"
-        },
-        {
-          "arquivo": "031.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 719,
-          "h": 1280,
-          "t": "assets/obras/miksang/031-t.webp",
-          "g": "assets/obras/miksang/031-g.webp",
-          "m": "assets/obras/miksang/031-m.webp"
-        },
-        {
-          "arquivo": "032.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/032-t.webp",
-          "g": "assets/obras/miksang/032-g.webp",
-          "m": "assets/obras/miksang/032-m.webp"
-        },
-        {
-          "arquivo": "033.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 919,
-          "h": 1280,
-          "t": "assets/obras/miksang/033-t.webp",
-          "g": "assets/obras/miksang/033-g.webp",
-          "m": "assets/obras/miksang/033-m.webp"
-        },
-        {
-          "arquivo": "034.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/034-t.webp",
-          "g": "assets/obras/miksang/034-g.webp",
-          "m": "assets/obras/miksang/034-m.webp"
-        },
-        {
-          "arquivo": "035.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/035-t.webp",
-          "g": "assets/obras/miksang/035-g.webp",
-          "m": "assets/obras/miksang/035-m.webp"
-        },
-        {
-          "arquivo": "036.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/036-t.webp",
-          "g": "assets/obras/miksang/036-g.webp",
-          "m": "assets/obras/miksang/036-m.webp"
-        },
-        {
-          "arquivo": "037.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 960,
-          "h": 1280,
-          "t": "assets/obras/miksang/037-t.webp",
-          "g": "assets/obras/miksang/037-g.webp",
-          "m": "assets/obras/miksang/037-m.webp"
-        },
-        {
-          "arquivo": "038.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/038-t.webp",
-          "g": "assets/obras/miksang/038-g.webp",
-          "m": "assets/obras/miksang/038-m.webp"
-        },
-        {
-          "arquivo": "039.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/039-t.webp",
-          "g": "assets/obras/miksang/039-g.webp",
-          "m": "assets/obras/miksang/039-m.webp"
-        },
-        {
-          "arquivo": "040.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 960,
-          "h": 1280,
-          "t": "assets/obras/miksang/040-t.webp",
-          "g": "assets/obras/miksang/040-g.webp",
-          "m": "assets/obras/miksang/040-m.webp"
-        },
-        {
-          "arquivo": "041.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 960,
-          "h": 1280,
-          "t": "assets/obras/miksang/041-t.webp",
-          "g": "assets/obras/miksang/041-g.webp",
-          "m": "assets/obras/miksang/041-m.webp"
-        },
-        {
-          "arquivo": "042.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/042-t.webp",
-          "g": "assets/obras/miksang/042-g.webp",
-          "m": "assets/obras/miksang/042-m.webp"
-        },
-        {
-          "arquivo": "043.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 719,
-          "h": 1280,
-          "t": "assets/obras/miksang/043-t.webp",
-          "g": "assets/obras/miksang/043-g.webp",
-          "m": "assets/obras/miksang/043-m.webp"
-        },
-        {
-          "arquivo": "044.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 960,
-          "h": 1280,
-          "t": "assets/obras/miksang/044-t.webp",
-          "g": "assets/obras/miksang/044-g.webp",
-          "m": "assets/obras/miksang/044-m.webp"
-        },
-        {
-          "arquivo": "045.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/045-t.webp",
-          "g": "assets/obras/miksang/045-g.webp",
-          "m": "assets/obras/miksang/045-m.webp"
-        },
-        {
-          "arquivo": "046.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/046-t.webp",
-          "g": "assets/obras/miksang/046-g.webp",
-          "m": "assets/obras/miksang/046-m.webp"
-        },
-        {
-          "arquivo": "047.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1280,
-          "h": 720,
-          "t": "assets/obras/miksang/047-t.webp",
-          "g": "assets/obras/miksang/047-g.webp",
-          "m": "assets/obras/miksang/047-m.webp"
-        },
-        {
-          "arquivo": "048.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 960,
-          "h": 1280,
-          "t": "assets/obras/miksang/048-t.webp",
-          "g": "assets/obras/miksang/048-g.webp",
-          "m": "assets/obras/miksang/048-m.webp"
-        },
-        {
-          "arquivo": "049.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/049-t.webp",
-          "g": "assets/obras/miksang/049-g.webp",
-          "m": "assets/obras/miksang/049-m.webp"
-        },
-        {
-          "arquivo": "050.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/050-t.webp",
-          "g": "assets/obras/miksang/050-g.webp",
-          "m": "assets/obras/miksang/050-m.webp"
-        },
-        {
-          "arquivo": "051.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/051-t.webp",
-          "g": "assets/obras/miksang/051-g.webp",
-          "m": "assets/obras/miksang/051-m.webp"
-        },
-        {
-          "arquivo": "052.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/052-t.webp",
-          "g": "assets/obras/miksang/052-g.webp",
-          "m": "assets/obras/miksang/052-m.webp"
-        },
-        {
-          "arquivo": "053.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/053-t.webp",
-          "g": "assets/obras/miksang/053-g.webp",
-          "m": "assets/obras/miksang/053-m.webp"
-        },
-        {
-          "arquivo": "054.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/054-t.webp",
-          "g": "assets/obras/miksang/054-g.webp",
-          "m": "assets/obras/miksang/054-m.webp"
-        },
-        {
-          "arquivo": "055.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1024,
-          "h": 768,
-          "t": "assets/obras/miksang/055-t.webp",
-          "g": "assets/obras/miksang/055-g.webp",
-          "m": "assets/obras/miksang/055-m.webp"
-        },
-        {
-          "arquivo": "056.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/056-t.webp",
-          "g": "assets/obras/miksang/056-g.webp",
-          "m": "assets/obras/miksang/056-m.webp"
-        },
-        {
-          "arquivo": "057.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 960,
-          "h": 1280,
-          "t": "assets/obras/miksang/057-t.webp",
-          "g": "assets/obras/miksang/057-g.webp",
-          "m": "assets/obras/miksang/057-m.webp"
-        },
-        {
-          "arquivo": "058.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1280,
-          "h": 960,
-          "t": "assets/obras/miksang/058-t.webp",
-          "g": "assets/obras/miksang/058-g.webp",
-          "m": "assets/obras/miksang/058-m.webp"
-        },
-        {
-          "arquivo": "059.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 841,
-          "h": 1024,
-          "t": "assets/obras/miksang/059-t.webp",
-          "g": "assets/obras/miksang/059-g.webp",
-          "m": "assets/obras/miksang/059-m.webp"
-        },
-        {
-          "arquivo": "060.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/060-t.webp",
-          "g": "assets/obras/miksang/060-g.webp",
-          "m": "assets/obras/miksang/060-m.webp"
-        },
-        {
-          "arquivo": "061.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1280,
-          "h": 960,
-          "t": "assets/obras/miksang/061-t.webp",
-          "g": "assets/obras/miksang/061-g.webp",
-          "m": "assets/obras/miksang/061-m.webp"
-        },
-        {
-          "arquivo": "062.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/062-t.webp",
-          "g": "assets/obras/miksang/062-g.webp",
-          "m": "assets/obras/miksang/062-m.webp"
-        },
-        {
-          "arquivo": "063.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1346,
-          "h": 1600,
-          "t": "assets/obras/miksang/063-t.webp",
-          "g": "assets/obras/miksang/063-g.webp",
-          "m": "assets/obras/miksang/063-m.webp"
-        },
-        {
-          "arquivo": "064.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/064-t.webp",
-          "g": "assets/obras/miksang/064-g.webp",
-          "m": "assets/obras/miksang/064-m.webp"
-        },
-        {
-          "arquivo": "065.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 768,
-          "h": 1024,
-          "t": "assets/obras/miksang/065-t.webp",
-          "g": "assets/obras/miksang/065-g.webp",
-          "m": "assets/obras/miksang/065-m.webp"
-        },
-        {
-          "arquivo": "066.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 768,
-          "h": 1024,
-          "t": "assets/obras/miksang/066-t.webp",
-          "g": "assets/obras/miksang/066-g.webp",
-          "m": "assets/obras/miksang/066-m.webp"
-        },
-        {
-          "arquivo": "067.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1280,
-          "h": 622,
-          "t": "assets/obras/miksang/067-t.webp",
-          "g": "assets/obras/miksang/067-g.webp",
-          "m": "assets/obras/miksang/067-m.webp"
-        },
-        {
-          "arquivo": "068.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 719,
-          "h": 1280,
-          "t": "assets/obras/miksang/068-t.webp",
-          "g": "assets/obras/miksang/068-g.webp",
-          "m": "assets/obras/miksang/068-m.webp"
-        },
-        {
-          "arquivo": "069.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 540,
-          "h": 960,
-          "t": "assets/obras/miksang/069-t.webp",
-          "g": "assets/obras/miksang/069-g.webp",
-          "m": "assets/obras/miksang/069-m.webp"
-        },
-        {
-          "arquivo": "070.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 960,
-          "h": 565,
-          "t": "assets/obras/miksang/070-t.webp",
-          "g": "assets/obras/miksang/070-g.webp",
-          "m": "assets/obras/miksang/070-m.webp"
-        },
-        {
-          "arquivo": "071.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1024,
-          "h": 768,
-          "t": "assets/obras/miksang/071-t.webp",
-          "g": "assets/obras/miksang/071-g.webp",
-          "m": "assets/obras/miksang/071-m.webp"
-        },
-        {
-          "arquivo": "072.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1600,
-          "h": 1382,
-          "t": "assets/obras/miksang/072-t.webp",
-          "g": "assets/obras/miksang/072-g.webp",
-          "m": "assets/obras/miksang/072-m.webp"
-        },
-        {
-          "arquivo": "073.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 768,
-          "h": 1024,
-          "t": "assets/obras/miksang/073-t.webp",
-          "g": "assets/obras/miksang/073-g.webp",
-          "m": "assets/obras/miksang/073-m.webp"
-        },
-        {
-          "arquivo": "074.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1024,
-          "h": 768,
-          "t": "assets/obras/miksang/074-t.webp",
-          "g": "assets/obras/miksang/074-g.webp",
-          "m": "assets/obras/miksang/074-m.webp"
-        },
-        {
-          "arquivo": "075.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/075-t.webp",
-          "g": "assets/obras/miksang/075-g.webp",
-          "m": "assets/obras/miksang/075-m.webp"
-        },
-        {
-          "arquivo": "076.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1024,
-          "h": 768,
-          "t": "assets/obras/miksang/076-t.webp",
-          "g": "assets/obras/miksang/076-g.webp",
-          "m": "assets/obras/miksang/076-m.webp"
-        },
-        {
-          "arquivo": "077.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1024,
-          "h": 768,
-          "t": "assets/obras/miksang/077-t.webp",
-          "g": "assets/obras/miksang/077-g.webp",
-          "m": "assets/obras/miksang/077-m.webp"
-        },
-        {
-          "arquivo": "078.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/078-t.webp",
-          "g": "assets/obras/miksang/078-g.webp",
-          "m": "assets/obras/miksang/078-m.webp"
-        },
-        {
-          "arquivo": "079.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 728,
-          "h": 1024,
-          "t": "assets/obras/miksang/079-t.webp",
-          "g": "assets/obras/miksang/079-g.webp",
-          "m": "assets/obras/miksang/079-m.webp"
-        },
-        {
-          "arquivo": "080.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/080-t.webp",
-          "g": "assets/obras/miksang/080-g.webp",
-          "m": "assets/obras/miksang/080-m.webp"
-        },
-        {
-          "arquivo": "081.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1024,
-          "h": 1022,
-          "t": "assets/obras/miksang/081-t.webp",
-          "g": "assets/obras/miksang/081-g.webp",
-          "m": "assets/obras/miksang/081-m.webp"
-        },
-        {
-          "arquivo": "082.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1280,
-          "h": 1058,
-          "t": "assets/obras/miksang/082-t.webp",
-          "g": "assets/obras/miksang/082-g.webp",
-          "m": "assets/obras/miksang/082-m.webp"
-        },
-        {
-          "arquivo": "083.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1024,
-          "h": 767,
-          "t": "assets/obras/miksang/083-t.webp",
-          "g": "assets/obras/miksang/083-g.webp",
-          "m": "assets/obras/miksang/083-m.webp"
-        },
-        {
-          "arquivo": "084.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1280,
-          "h": 960,
-          "t": "assets/obras/miksang/084-t.webp",
-          "g": "assets/obras/miksang/084-g.webp",
-          "m": "assets/obras/miksang/084-m.webp"
-        },
-        {
-          "arquivo": "085.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 768,
-          "h": 1024,
-          "t": "assets/obras/miksang/085-t.webp",
-          "g": "assets/obras/miksang/085-g.webp",
-          "m": "assets/obras/miksang/085-m.webp"
-        },
-        {
-          "arquivo": "086.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1280,
-          "h": 1126,
-          "t": "assets/obras/miksang/086-t.webp",
-          "g": "assets/obras/miksang/086-g.webp",
-          "m": "assets/obras/miksang/086-m.webp"
-        },
-        {
-          "arquivo": "087.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1024,
-          "h": 697,
-          "t": "assets/obras/miksang/087-t.webp",
-          "g": "assets/obras/miksang/087-g.webp",
-          "m": "assets/obras/miksang/087-m.webp"
-        },
-        {
-          "arquivo": "088.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 960,
-          "h": 540,
-          "t": "assets/obras/miksang/088-t.webp",
-          "g": "assets/obras/miksang/088-g.webp",
-          "m": "assets/obras/miksang/088-m.webp"
-        },
-        {
-          "arquivo": "089.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 960,
-          "h": 720,
-          "t": "assets/obras/miksang/089-t.webp",
-          "g": "assets/obras/miksang/089-g.webp",
-          "m": "assets/obras/miksang/089-m.webp"
-        },
-        {
-          "arquivo": "090.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 768,
-          "h": 1024,
-          "t": "assets/obras/miksang/090-t.webp",
-          "g": "assets/obras/miksang/090-g.webp",
-          "m": "assets/obras/miksang/090-m.webp"
-        },
-        {
-          "arquivo": "091.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1024,
-          "h": 722,
-          "t": "assets/obras/miksang/091-t.webp",
-          "g": "assets/obras/miksang/091-g.webp",
-          "m": "assets/obras/miksang/091-m.webp"
-        },
-        {
-          "arquivo": "092.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 540,
-          "t": "assets/obras/miksang/092-t.webp",
-          "g": "assets/obras/miksang/092-g.webp",
-          "m": "assets/obras/miksang/092-m.webp"
-        },
-        {
-          "arquivo": "093.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1920,
-          "h": 1870,
-          "t": "assets/obras/miksang/093-t.webp",
-          "g": "assets/obras/miksang/093-g.webp",
-          "m": "assets/obras/miksang/093-m.webp"
-        },
-        {
-          "arquivo": "094.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1500,
-          "h": 2000,
-          "t": "assets/obras/miksang/094-t.webp",
-          "g": "assets/obras/miksang/094-g.webp",
-          "m": "assets/obras/miksang/094-m.webp"
-        },
-        {
-          "arquivo": "095.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1500,
-          "h": 2000,
-          "t": "assets/obras/miksang/095-t.webp",
-          "g": "assets/obras/miksang/095-g.webp",
-          "m": "assets/obras/miksang/095-m.webp"
-        },
-        {
-          "arquivo": "096.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1440,
-          "h": 1440,
-          "t": "assets/obras/miksang/096-t.webp",
-          "g": "assets/obras/miksang/096-g.webp",
-          "m": "assets/obras/miksang/096-m.webp"
-        },
-        {
-          "arquivo": "097.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 2000,
-          "h": 1500,
-          "t": "assets/obras/miksang/097-t.webp",
-          "g": "assets/obras/miksang/097-g.webp",
-          "m": "assets/obras/miksang/097-m.webp"
-        },
-        {
-          "arquivo": "098.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1500,
-          "h": 2000,
-          "t": "assets/obras/miksang/098-t.webp",
-          "g": "assets/obras/miksang/098-g.webp",
-          "m": "assets/obras/miksang/098-m.webp"
-        },
-        {
-          "arquivo": "099.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 960,
-          "h": 540,
-          "t": "assets/obras/miksang/099-t.webp",
-          "g": "assets/obras/miksang/099-g.webp",
-          "m": "assets/obras/miksang/099-m.webp"
-        },
-        {
-          "arquivo": "100.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 540,
-          "t": "assets/obras/miksang/100-t.webp",
-          "g": "assets/obras/miksang/100-g.webp",
-          "m": "assets/obras/miksang/100-m.webp"
-        },
-        {
-          "arquivo": "101.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 960,
-          "h": 720,
-          "t": "assets/obras/miksang/101-t.webp",
-          "g": "assets/obras/miksang/101-g.webp",
-          "m": "assets/obras/miksang/101-m.webp"
-        },
-        {
-          "arquivo": "102.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 960,
-          "h": 480,
-          "t": "assets/obras/miksang/102-t.webp",
-          "g": "assets/obras/miksang/102-g.webp",
-          "m": "assets/obras/miksang/102-m.webp"
-        },
-        {
-          "arquivo": "103.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 960,
-          "h": 681,
-          "t": "assets/obras/miksang/103-t.webp",
-          "g": "assets/obras/miksang/103-g.webp",
-          "m": "assets/obras/miksang/103-m.webp"
-        },
-        {
-          "arquivo": "104.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 960,
-          "h": 540,
-          "t": "assets/obras/miksang/104-t.webp",
-          "g": "assets/obras/miksang/104-g.webp",
-          "m": "assets/obras/miksang/104-m.webp"
-        },
-        {
-          "arquivo": "105.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 960,
-          "h": 540,
-          "t": "assets/obras/miksang/105-t.webp",
-          "g": "assets/obras/miksang/105-g.webp",
-          "m": "assets/obras/miksang/105-m.webp"
-        },
-        {
-          "arquivo": "106.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 960,
-          "h": 598,
-          "t": "assets/obras/miksang/106-t.webp",
-          "g": "assets/obras/miksang/106-g.webp",
-          "m": "assets/obras/miksang/106-m.webp"
-        },
-        {
-          "arquivo": "107.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1280,
-          "h": 549,
-          "t": "assets/obras/miksang/107-t.webp",
-          "g": "assets/obras/miksang/107-g.webp",
-          "m": "assets/obras/miksang/107-m.webp"
-        },
-        {
-          "arquivo": "108.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1920,
-          "h": 1475,
-          "t": "assets/obras/miksang/108-t.webp",
-          "g": "assets/obras/miksang/108-g.webp",
-          "m": "assets/obras/miksang/108-m.webp"
-        },
-        {
-          "arquivo": "109.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1500,
-          "h": 2000,
-          "t": "assets/obras/miksang/109-t.webp",
-          "g": "assets/obras/miksang/109-g.webp",
-          "m": "assets/obras/miksang/109-m.webp"
-        },
-        {
-          "arquivo": "110.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1920,
-          "h": 1151,
-          "t": "assets/obras/miksang/110-t.webp",
-          "g": "assets/obras/miksang/110-g.webp",
-          "m": "assets/obras/miksang/110-m.webp"
-        },
-        {
-          "arquivo": "111.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1920,
-          "h": 1080,
-          "t": "assets/obras/miksang/111-t.webp",
-          "g": "assets/obras/miksang/111-g.webp",
-          "m": "assets/obras/miksang/111-m.webp"
-        },
-        {
-          "arquivo": "112.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1715,
-          "h": 1042,
-          "t": "assets/obras/miksang/112-t.webp",
-          "g": "assets/obras/miksang/112-g.webp",
-          "m": "assets/obras/miksang/112-m.webp"
-        },
-        {
-          "arquivo": "113.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 960,
-          "h": 540,
-          "t": "assets/obras/miksang/113-t.webp",
-          "g": "assets/obras/miksang/113-g.webp",
-          "m": "assets/obras/miksang/113-m.webp"
-        },
-        {
-          "arquivo": "114.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1920,
-          "h": 1080,
-          "t": "assets/obras/miksang/114-t.webp",
-          "g": "assets/obras/miksang/114-g.webp",
-          "m": "assets/obras/miksang/114-m.webp"
-        },
-        {
-          "arquivo": "115.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1024,
-          "h": 768,
-          "t": "assets/obras/miksang/115-t.webp",
-          "g": "assets/obras/miksang/115-g.webp",
-          "m": "assets/obras/miksang/115-m.webp"
-        },
-        {
-          "arquivo": "116.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1024,
-          "h": 768,
-          "t": "assets/obras/miksang/116-t.webp",
-          "g": "assets/obras/miksang/116-g.webp",
-          "m": "assets/obras/miksang/116-m.webp"
-        },
-        {
-          "arquivo": "117.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/miksang/117-t.webp",
-          "g": "assets/obras/miksang/117-g.webp",
-          "m": "assets/obras/miksang/117-m.webp"
-        },
-        {
-          "arquivo": "118.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 1200,
-          "h": 1600,
-          "t": "assets/obras/miksang/118-t.webp",
-          "g": "assets/obras/miksang/118-g.webp",
-          "m": "assets/obras/miksang/118-m.webp"
-        },
-        {
-          "arquivo": "119.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 960,
-          "h": 554,
-          "t": "assets/obras/miksang/119-t.webp",
-          "g": "assets/obras/miksang/119-g.webp",
-          "m": "assets/obras/miksang/119-m.webp"
-        },
-        {
-          "arquivo": "120.png",
-          "legenda": "",
-          "grupo": null,
-          "w": 960,
-          "h": 540,
-          "t": "assets/obras/miksang/120-t.webp",
-          "g": "assets/obras/miksang/120-g.webp",
-          "m": "assets/obras/miksang/120-m.webp"
         }
       ]
     },

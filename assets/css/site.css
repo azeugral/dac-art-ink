@@ -600,6 +600,8 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
 .historia-card p:last-child { margin: 0; color: var(--apagado); font-size: 16px; }
 .historia-card em { color: var(--texto); }
 
+.foto-galeria { margin: 0; border: 1px solid var(--linha); border-radius: var(--raio); overflow: hidden; background: var(--placa); }
+.foto-galeria img { display: block; width: 100%; height: auto; }
 .coelho-dac {
   margin: 0; aspect-ratio: 1; display: grid; place-items: center;
   background: radial-gradient(circle at 50% 55%, color-mix(in srgb, var(--neon-fundo) 14%, transparent), transparent 62%), var(--preto);
@@ -679,47 +681,61 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
 @media (max-width: 640px) { .hero-sub.linhas { font-size: clamp(9.5px, 2.75vw, 12px); letter-spacing: .06em; } }
 
 /* ---------- Trabalhos › Arquivo de acervo (registro das peças de exposição) ---------- */
-.peca { padding-bottom: clamp(48px, 7vw, 88px); }
-.peca + .peca { border-top: 1px solid var(--linha); padding-top: clamp(48px, 7vw, 88px); }
-.peca-exemplo {
-  display: inline-block; margin: 0 0 18px; padding: 6px 10px; border: 1px dashed var(--neon); border-radius: var(--raio);
-  font: 700 11px/1.2 var(--f-rotulo); letter-spacing: .12em; text-transform: uppercase; color: var(--neon);
+/* cada peça é uma ficha de arquivo branca (combina com o fundo branco da DAC Galeria).
+   As cores do site são redefinidas dentro da ficha, então os filhos usam os mesmos tokens. */
+.pecas { display: grid; grid-template-columns: minmax(0, 1fr); gap: clamp(28px, 5vw, 56px); padding-bottom: clamp(40px, 6vw, 80px); }
+.peca {
+  --texto: #141414; --apagado: #6a6a6a; --linha: rgba(0, 0, 0, .12); --placa: #efede7; --fundo-ficha: #fbfaf7;
+  position: relative; color: var(--texto); background: var(--fundo-ficha);
+  border-radius: 4px; padding: clamp(20px, 4.2vw, 56px);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 24px 60px -30px rgba(0, 0, 0, .9);
 }
-.peca-topo { display: grid; gap: clamp(22px, 4vw, 56px); align-items: center; }
-@media (min-width: 860px) { .peca-topo { grid-template-columns: 1.15fr .85fr; } }
-.peca-foto, .peca-galeria button {
-  display: block; width: 100%; padding: 0; border: 1px solid var(--linha); border-radius: var(--raio);
+.peca h3, .peca h4 { color: var(--texto); }
+/* etiqueta de arquivo no canto: o código da peça */
+.peca-aba {
+  position: absolute; top: 0; right: clamp(20px, 4.2vw, 56px); transform: translateY(-100%);
+  padding: 7px 14px 6px; border-radius: 4px 4px 0 0; background: var(--fundo-ficha);
+  font: 700 11px/1 var(--f-rotulo); letter-spacing: .16em; text-transform: uppercase; color: var(--apagado);
+}
+.peca-topo { display: grid; grid-template-columns: minmax(0, 1fr); gap: clamp(22px, 4vw, 56px); align-items: center; }
+@media (min-width: 860px) { .peca-topo { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
+.peca-foto {
+  display: block; width: 100%; padding: clamp(12px, 2.4vw, 28px); border: 1px solid var(--linha); border-radius: 3px;
   background: var(--placa); overflow: hidden; cursor: zoom-in;
 }
-.peca-foto img, .peca-galeria img { width: 100%; height: auto; transition: transform 600ms var(--suave); }
-@media (hover: hover) { .peca-foto:hover img, .peca-galeria button:hover img { transform: scale(1.02); } }
+.peca-foto img { display: block; margin-inline: auto; width: auto; max-width: 100%; max-height: min(70vh, 640px); height: auto; box-shadow: 0 10px 30px -14px rgba(0, 0, 0, .45); transition: transform 600ms var(--suave); }
+@media (hover: hover) { .peca-foto:hover img { transform: scale(1.015); } }
 
 /* o registro: título, código com cara de etiqueta de museu, tiragem e selo */
 .peca-registro { border-left: 1px solid var(--linha); padding-left: clamp(18px, 3vw, 36px); }
 @media (max-width: 859px) { .peca-registro { border-left: 0; padding-left: 0; } }
-.peca-titulo { font-size: clamp(38px, 5.6vw, 72px); margin: 4px 0 22px; }
-.peca-codigo { display: inline-grid; grid-auto-flow: column; align-items: center; gap: 12px; margin: 0; padding: 10px 14px; border: 1px solid var(--linha); background: var(--preto); }
-.peca-codigo dt { font: 700 10px/1 var(--f-rotulo); letter-spacing: .18em; text-transform: uppercase; color: var(--apagado); }
-.peca-codigo dd { margin: 0; font: 700 clamp(16px, 1.8vw, 20px)/1 var(--f-rotulo); letter-spacing: .08em; color: var(--texto); }
+.peca .rotulo { color: var(--apagado); }
+.peca-titulo { font-size: clamp(38px, 5.6vw, 72px); margin: 4px 0 22px; overflow-wrap: anywhere; }
+.peca-codigo { display: inline-grid; grid-auto-flow: column; align-items: center; gap: 12px; margin: 0; padding: 10px 14px; border: 1px solid var(--texto); background: transparent; }
+.peca-codigo dt { font: 700 11px/1 var(--f-rotulo); letter-spacing: .18em; text-transform: uppercase; color: var(--apagado); }
+.peca-codigo dd { margin: 0; font: 700 clamp(15px, 1.8vw, 20px)/1 var(--f-rotulo); letter-spacing: .08em; color: var(--texto); }
 .peca-tiragem { margin: 18px 0 0; font: 400 15px/1.4 var(--f-rotulo); letter-spacing: .06em; color: var(--texto); }
 .peca-selo {
   display: inline-flex; align-items: center; gap: 8px; margin: 14px 0 0; padding: 8px 12px; border-radius: 999px;
   font: 700 12px/1 var(--f-rotulo); letter-spacing: .08em; text-transform: uppercase;
-  color: var(--menta); border: 1px solid color-mix(in srgb, var(--menta) 55%, transparent);
-  background: color-mix(in srgb, var(--menta) 8%, transparent);
+  color: #067a44; border: 1px solid color-mix(in srgb, #067a44 45%, transparent); background: color-mix(in srgb, var(--menta) 12%, transparent);
 }
 
-.peca-bloco { margin-top: clamp(36px, 5vw, 56px); }
+.peca-bloco { margin-top: clamp(32px, 4.6vw, 52px); }
 .peca-rotulo {
   display: flex; align-items: baseline; gap: 12px; margin: 0 0 16px;
-  font: 700 12px/1 var(--f-rotulo); letter-spacing: .18em; text-transform: uppercase; color: var(--neon);
+  font: 700 12px/1 var(--f-rotulo); letter-spacing: .18em; text-transform: uppercase; color: var(--texto);
 }
-.peca-rotulo::after { content: ""; flex: 1; height: 1px; background: linear-gradient(to right, var(--linha), transparent); align-self: center; }
-.peca-rotulo small { font-weight: 400; letter-spacing: .08em; text-transform: none; color: var(--apagado); }
-.peca-galeria { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
-@media (min-width: 700px) { .peca-galeria { grid-template-columns: repeat(3, 1fr); gap: 10px; } }
-.peca-video { display: block; width: 100%; max-height: 80vh; background: #000; border: 1px solid var(--linha); border-radius: var(--raio); }
-.peca-notas { margin: 0; max-width: 68ch; padding: 16px 20px; border-left: 3px solid var(--neon); background: color-mix(in srgb, var(--neon-fundo) 8%, transparent); font-size: 17px; line-height: 1.6; }
+.peca-rotulo::after { content: ""; flex: 1; height: 1px; background: var(--linha); align-self: center; }
+.peca-rotulo small { font-weight: 400; font-size: 11px; letter-spacing: .08em; text-transform: none; color: var(--apagado); }
+/* galeria exclusiva: miniaturas pequenas, sem ampliar */
+.peca-galeria { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: 8px; max-width: 760px; }
+@media (min-width: 700px) { .peca-galeria { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 10px; } }
+.peca-galeria img { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 2px; background: var(--placa); }
+.peca-video { display: block; width: 100%; max-height: 80vh; background: #000; border-radius: 3px; }
+.peca-notas { margin: 0; padding: 0 0 0 20px; max-width: 72ch; font-size: 16px; line-height: 1.6; }
+.peca-notas li + li { margin-top: 8px; }
+.peca-notas li::marker { color: #9a3fd0; }
 .peca-ficha { display: grid; gap: 0; margin: 0; border-top: 1px solid var(--linha); }
 @media (min-width: 700px) { .peca-ficha { grid-template-columns: repeat(3, 1fr); } }
 .peca-ficha > div { padding: 14px 0; border-bottom: 1px solid var(--linha); }
@@ -733,8 +749,6 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
 }
 @media (min-width: 1200px) { .filtro { padding: 0 12px; letter-spacing: .045em; } }
 /* legibilidade: nada abaixo de 11 px */
-.peca-codigo dt { font-size: 11px; }
-.peca-rotulo small { font-size: 11px; }
 @media (max-width: 640px) { .hero-sub.linhas { font-size: 11px; letter-spacing: .03em; } }
 
 /* ---------- mobile refinado (30/09) ---------- */
