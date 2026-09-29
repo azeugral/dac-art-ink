@@ -4,8 +4,23 @@
 
   const topo = document.querySelector(".barra");
   const medir = () => topo && document.documentElement.style.setProperty("--altura-topo", topo.offsetHeight + "px");
+  // Menu no celular: se não couber (ex.: escala de texto do Android), reduz a fonte aos poucos até caber.
+  const menu = document.querySelector(".menu");
+  function caberMenu() {
+    if (!menu) return;
+    menu.style.fontSize = "";
+    menu.querySelectorAll("a").forEach((a) => (a.style.fontSize = ""));
+    if (innerWidth > 640) return;
+    let tam = parseFloat(getComputedStyle(menu.querySelector("a")).fontSize);
+    while (menu.scrollWidth > menu.clientWidth + 1 && tam > 8.5) {
+      tam -= 0.5;
+      menu.querySelectorAll("a").forEach((a) => (a.style.fontSize = tam + "px"));
+    }
+  }
+  caberMenu();
+  document.fonts?.ready.then(() => { caberMenu(); medir(); });
   medir();
-  addEventListener("resize", medir);
+  addEventListener("resize", () => { caberMenu(); medir(); });
 
   /* ---------- movimento ----------
      Tudo curto e suave; quem pediu "reduzir movimento" no aparelho não vê nada disso. */
@@ -26,7 +41,7 @@
 
   // Clique fofo: o elemento afunda ao toque e volta com um quique leve.
   // O menu e o logo ficam de fora: eles participam da transição de página e não podem ser fotografados no meio do quique.
-  const TOCAVEIS = ".botao, .filtro, .obra, .produto-foto, .caixa-btn, .zap, .opcoes span, .faixa-cab > a";
+  const TOCAVEIS = ".botao, .filtro, .obra, .produto-foto, .caixa-btn, .caixa-nav, .zap, .opcoes span, .faixa-cab > a";
   // No toque (celular), o aperto só começa depois de 90 ms e é cancelado se o dedo se mover:
   // assim, rolar a página por cima de uma imagem não faz ela encolher.
   if (!calmo) {
@@ -144,9 +159,9 @@
       <div class="caixa-topo"><span class="caixa-cont" aria-live="polite"></span>
         <button class="caixa-btn" data-fechar aria-label="Fechar">✕</button></div>
       <div class="caixa-palco">
-        <button class="caixa-btn caixa-nav ant" aria-label="Anterior">←</button>
+        <button class="caixa-nav ant" aria-label="Anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 4 7 12l8 8"/></svg></button>
         <img alt="">
-        <button class="caixa-btn caixa-nav prox" aria-label="Próxima">→</button>
+        <button class="caixa-nav prox" aria-label="Próxima"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 4 8 8-8 8"/></svg></button>
       </div>
       <div class="caixa-rodape"><p class="caixa-legenda"></p></div>`;
     document.body.append(caixa);
@@ -168,7 +183,7 @@
     const foto = palco.querySelector("img");
     let x0 = null, y0 = 0, t0 = 0, dx = 0;
     palco.addEventListener("pointerdown", (e) => {
-      if (e.target.closest(".caixa-btn") || atual.length < 2) return;
+      if (e.target.closest(".caixa-btn, .caixa-nav") || atual.length < 2) return;
       x0 = e.clientX; y0 = e.clientY; t0 = performance.now(); dx = 0; arrastou = false;
     });
     palco.addEventListener("pointermove", (e) => {

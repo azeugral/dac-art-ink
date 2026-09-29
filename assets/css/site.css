@@ -774,3 +774,39 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
   .assinatura a:hover { color: var(--texto); border-bottom-color: transparent; }
   .produto h3 a:hover { color: inherit; }
 }
+
+/* ---------- ajustes mobile 2 (30/09) ---------- */
+/* setas minimalistas: só ‹ ›, finas, sobre as laterais da foto, com opacidade baixa (desktop e celular) */
+.caixa-nav {
+  position: absolute; top: calc(50% - 32px); bottom: auto; z-index: 2;
+  width: 52px; height: 64px; padding: 0; display: grid; place-items: center;
+  background: none; border: 0; color: #fff; opacity: .42; cursor: pointer;
+  -webkit-backdrop-filter: none; backdrop-filter: none;
+  filter: drop-shadow(0 1px 6px rgba(0, 0, 0, .75));
+  transition: opacity var(--t);
+}
+.caixa-nav svg { width: 30px; height: 30px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.caixa-nav.ant { left: 0; right: auto; }
+.caixa-nav.prox { right: 0; left: auto; }
+@media (hover: hover) { .caixa-nav:hover { opacity: 1; } }
+.caixa-nav:focus-visible { opacity: 1; outline-offset: -4px; }
+@media (max-width: 700px), (pointer: coarse) {
+  .caixa-palco { padding: 0 4px; }
+  .caixa-nav { top: calc(50% - 32px); bottom: auto; background: none; }
+  .caixa-nav.ant { left: 0; } .caixa-nav.prox { right: 0; left: auto; }
+}
+
+/* Trabalhos no celular: menu e filtros viram uma faixa só, compacta */
+@media (max-width: 640px) {
+  .filtros {
+    padding: 8px 16px; gap: 6px;
+    background: color-mix(in srgb, var(--preto) 86%, transparent);
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  }
+  .filtro { min-height: 34px; padding: 0 12px; font-size: 11px; letter-spacing: .04em; }
+  .barra:has(+ main .filtros) { border-bottom-color: transparent; }
+}
+
+/* acervo: campo ainda sem dado */
+.a-preencher { font: italic 400 13px/1.4 var(--f-rotulo); letter-spacing: .02em; color: #6f6f78; }
+.peca-titulo .a-preencher { font-size: 15px; }

@@ -20,12 +20,10 @@ ativo: trabalhos.html
          - Fotos: coloque os arquivos em assets/acervo/ e aponte o src. Galeria, vídeo e notas são opcionais:
            se a peça não tiver, apague o bloco inteiro.
          - Na ficha técnica, acrescente quantas linhas <div><dt>…</dt><dd>…</dd></div> precisar.
-         - Tire a linha "peca-exemplo" quando for uma peça real.
+         - Campo ainda sem dado: deixe <span class="a-preencher">campo a preencher</span> (ou apague a linha).
          Depois rode: python tools/montar_paginas.py -->
     <template id="acervo">
       <article class="peca" id="DAC-2023-EXEMPLO">
-        <p class="peca-exemplo">Exemplo de layout · dados a preencher</p>
-
         <div class="peca-topo">
           <button class="peca-foto" type="button" data-ampliar="assets/obras/paineis/010-g.webp" aria-label="Ampliar foto da peça">
             <img src="assets/obras/paineis/010-m.webp" alt="Órbita Felina, painel pintado" width="720" height="720" loading="lazy">
@@ -34,8 +32,8 @@ ativo: trabalhos.html
           <div class="peca-registro">
             <p class="rotulo">Registro de acervo</p>
             <h3 class="peca-titulo">Órbita Felina</h3>
-            <dl class="peca-codigo"><dt>Código</dt><dd>DAC-2023-000</dd></dl>
-            <p class="peca-tiragem">Peça única • 01/01</p>
+            <dl class="peca-codigo"><dt>Código</dt><dd><span class="a-preencher">campo a preencher</span></dd></dl>
+            <p class="peca-tiragem"><span class="a-preencher">campo a preencher</span></p>
             <p class="peca-selo">✓ Registro autenticado</p>
           </div>
         </div>
@@ -58,15 +56,15 @@ ativo: trabalhos.html
 
         <section class="peca-bloco">
           <h4 class="peca-rotulo">Notas da artista</h4>
-          <p class="peca-notas">Espaço para as notas da artista sobre a peça: contexto, processo, intenção. Se a peça não tiver notas, apague este bloco.</p>
+          <p class="peca-notas"><span class="a-preencher">campo a preencher</span></p>
         </section>
 
         <section class="peca-bloco">
           <h4 class="peca-rotulo">Ficha técnica</h4>
           <dl class="peca-ficha">
             <div><dt>Data de criação</dt><dd>2023</dd></div>
-            <div><dt>Materiais</dt><dd>a preencher</dd></div>
-            <div><dt>Dimensões</dt><dd>a preencher</dd></div>
+            <div><dt>Materiais</dt><dd><span class="a-preencher">campo a preencher</span></dd></div>
+            <div><dt>Dimensões</dt><dd><span class="a-preencher">campo a preencher</span></dd></div>
           </dl>
         </section>
       </article>
