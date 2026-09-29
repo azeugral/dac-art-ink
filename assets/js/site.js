@@ -289,7 +289,51 @@
       galerias.forEach(justificar);
     }).observe(alvo);
 
+    // Arquivo de acervo: peças escritas à mão no <template id="acervo"> de trabalhos.html
+    const modeloAcervo = document.getElementById("acervo");
+    if (modeloAcervo) {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "filtro";
+      b.dataset.slug = "acervo";
+      b.textContent = "Arquivo de acervo";
+      b.onclick = () => {
+        if (b.getAttribute("aria-pressed") === "true") return;
+        history.replaceState(null, "", "#acervo");
+        trocar("acervo");
+      };
+      filtros.append(b);
+    }
+    function renderAcervo(rolar) {
+      filtros.querySelectorAll(".filtro").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.slug === "acervo")));
+      const ativo = filtros.querySelector('[data-slug="acervo"]');
+      filtros.scrollTo({ left: ativo.offsetLeft - (filtros.clientWidth - ativo.offsetWidth) / 2, behavior: rolar ? "smooth" : "auto" });
+      alvo.replaceChildren();
+      galerias.clear();
+      const cab = document.createElement("header");
+      cab.className = "serie-cab";
+      cab.innerHTML = "<h2>Arquivo de acervo</h2><p>Registro das peças que fazem parte do acervo para exposição.</p>";
+      alvo.append(cab, modeloAcervo.content.cloneNode(true));
+      // cada peça amplia as próprias fotos (capa + galeria) na visualização ampliada
+      alvo.querySelectorAll(".peca").forEach((peca) => {
+        const titulo = peca.querySelector(".peca-titulo")?.textContent.trim() || "Arquivo de acervo";
+        const botoes = [...peca.querySelectorAll("[data-ampliar]")];
+        const lista = botoes.map((btn) => {
+          const img = btn.querySelector("img");
+          return { s: { slug: "acervo", titulo }, it: { g: btn.dataset.ampliar, w: img?.width, h: img?.height } };
+        });
+        botoes.forEach((btn, i) => btn.addEventListener("click", () => abrir(lista, i)));
+      });
+      document.title = "Arquivo de acervo · Trabalhos · DAC ART INK";
+      if (rolar) {
+        const y = alvo.getBoundingClientRect().top + scrollY - (parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--altura-topo")) || 64) - filtros.offsetHeight - 8;
+        if (y < scrollY) scrollTo({ top: y, behavior: calmo ? "auto" : "smooth" });
+      }
+      revelar([...alvo.querySelectorAll(".peca")]);
+    }
+
     function render(slug, rolar) {
+      if (slug === "acervo" && modeloAcervo) return renderAcervo(rolar);
       const s = porSlug[slug] && !porSlug[slug].oculta ? porSlug[slug] : visiveis[0];
       filtros.querySelectorAll(".filtro").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.slug === s.slug)));
       const ativo = filtros.querySelector(`[data-slug="${s.slug}"]`);

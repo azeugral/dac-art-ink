@@ -29,6 +29,14 @@ HTML, CSS e JS puros, sem build. Publicado no GitHub Pages.
 
 Os originais ficam **fora do Git** (`.gitignore`). Só as versões otimizadas sobem.
 
+### Arquivo de acervo (aba em Trabalhos)
+Registro das peças do acervo para exposição, escrito à mão (sem script de dados):
+1. Em `tools/paginas/trabalhos.html`, dentro de `<template id="acervo">`, copie um `<article class="peca">` inteiro por peça.
+2. Troque título, código, tiragem, fotos (em `assets/acervo/`), notas e ficha técnica. Galeria, vídeo e notas são opcionais: apague o bloco que a peça não tiver.
+3. Tire a linha `peca-exemplo` quando a peça for real, e apague a peça de exemplo (Órbita Felina).
+4. Rode `python tools/montar_paginas.py`.
+As fotos com `data-ampliar` abrem na visualização ampliada; a aba aparece sozinha nos filtros.
+
 ### Menu, rodapé e contatos
 Edite `index.html` e rode `python tools/montar_paginas.py`, que replica o cabeçalho e o rodapé nas outras páginas.
 O conteúdo de cada página fica em `tools/paginas/<pagina>.html`.

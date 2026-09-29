@@ -677,3 +677,62 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
 /* descrição da abertura: 3 linhas em caixa alta, como a Dani escreveu */
 .hero-sub.linhas { text-transform: uppercase; letter-spacing: .12em; font-size: 13px; line-height: 2; max-width: none; }
 @media (max-width: 640px) { .hero-sub.linhas { font-size: clamp(9.5px, 2.75vw, 12px); letter-spacing: .06em; } }
+
+/* ---------- Trabalhos › Arquivo de acervo (registro das peças de exposição) ---------- */
+.peca { padding-bottom: clamp(48px, 7vw, 88px); }
+.peca + .peca { border-top: 1px solid var(--linha); padding-top: clamp(48px, 7vw, 88px); }
+.peca-exemplo {
+  display: inline-block; margin: 0 0 18px; padding: 6px 10px; border: 1px dashed var(--neon); border-radius: var(--raio);
+  font: 700 11px/1.2 var(--f-rotulo); letter-spacing: .12em; text-transform: uppercase; color: var(--neon);
+}
+.peca-topo { display: grid; gap: clamp(22px, 4vw, 56px); align-items: center; }
+@media (min-width: 860px) { .peca-topo { grid-template-columns: 1.15fr .85fr; } }
+.peca-foto, .peca-galeria button {
+  display: block; width: 100%; padding: 0; border: 1px solid var(--linha); border-radius: var(--raio);
+  background: var(--placa); overflow: hidden; cursor: zoom-in;
+}
+.peca-foto img, .peca-galeria img { width: 100%; height: auto; transition: transform 600ms var(--suave); }
+@media (hover: hover) { .peca-foto:hover img, .peca-galeria button:hover img { transform: scale(1.02); } }
+
+/* o registro: título, código com cara de etiqueta de museu, tiragem e selo */
+.peca-registro { border-left: 1px solid var(--linha); padding-left: clamp(18px, 3vw, 36px); }
+@media (max-width: 859px) { .peca-registro { border-left: 0; padding-left: 0; } }
+.peca-titulo { font-size: clamp(38px, 5.6vw, 72px); margin: 4px 0 22px; }
+.peca-codigo { display: inline-grid; grid-auto-flow: column; align-items: center; gap: 12px; margin: 0; padding: 10px 14px; border: 1px solid var(--linha); background: var(--preto); }
+.peca-codigo dt { font: 700 10px/1 var(--f-rotulo); letter-spacing: .18em; text-transform: uppercase; color: var(--apagado); }
+.peca-codigo dd { margin: 0; font: 700 clamp(16px, 1.8vw, 20px)/1 var(--f-rotulo); letter-spacing: .08em; color: var(--texto); }
+.peca-tiragem { margin: 18px 0 0; font: 400 15px/1.4 var(--f-rotulo); letter-spacing: .06em; color: var(--texto); }
+.peca-selo {
+  display: inline-flex; align-items: center; gap: 8px; margin: 14px 0 0; padding: 8px 12px; border-radius: 999px;
+  font: 700 12px/1 var(--f-rotulo); letter-spacing: .08em; text-transform: uppercase;
+  color: var(--menta); border: 1px solid color-mix(in srgb, var(--menta) 55%, transparent);
+  background: color-mix(in srgb, var(--menta) 8%, transparent);
+}
+
+.peca-bloco { margin-top: clamp(36px, 5vw, 56px); }
+.peca-rotulo {
+  display: flex; align-items: baseline; gap: 12px; margin: 0 0 16px;
+  font: 700 12px/1 var(--f-rotulo); letter-spacing: .18em; text-transform: uppercase; color: var(--neon);
+}
+.peca-rotulo::after { content: ""; flex: 1; height: 1px; background: linear-gradient(to right, var(--linha), transparent); align-self: center; }
+.peca-rotulo small { font-weight: 400; letter-spacing: .08em; text-transform: none; color: var(--apagado); }
+.peca-galeria { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+@media (min-width: 700px) { .peca-galeria { grid-template-columns: repeat(3, 1fr); gap: 10px; } }
+.peca-video { display: block; width: 100%; max-height: 80vh; background: #000; border: 1px solid var(--linha); border-radius: var(--raio); }
+.peca-notas { margin: 0; max-width: 68ch; padding: 16px 20px; border-left: 3px solid var(--neon); background: color-mix(in srgb, var(--neon-fundo) 8%, transparent); font-size: 17px; line-height: 1.6; }
+.peca-ficha { display: grid; gap: 0; margin: 0; border-top: 1px solid var(--linha); }
+@media (min-width: 700px) { .peca-ficha { grid-template-columns: repeat(3, 1fr); } }
+.peca-ficha > div { padding: 14px 0; border-bottom: 1px solid var(--linha); }
+@media (min-width: 700px) { .peca-ficha > div { padding: 16px 18px 16px 0; } }
+.peca-ficha dt { font: 700 11px/1 var(--f-rotulo); letter-spacing: .14em; text-transform: uppercase; color: var(--apagado); }
+.peca-ficha dd { margin: 8px 0 0; font-size: 16px; color: var(--texto); }
+/* filtros no desktop: com a aba Arquivo de acervo são 8; ficam compactos e quebram linha em vez de cortar */
+@media (min-width: 901px) {
+  .filtros { flex-wrap: wrap; overflow: visible; gap: 6px; }
+  .filtro { padding: 0 13px; }
+}
+@media (min-width: 1200px) { .filtro { padding: 0 12px; letter-spacing: .045em; } }
+/* legibilidade: nada abaixo de 11 px */
+.peca-codigo dt { font-size: 11px; }
+.peca-rotulo small { font-size: 11px; }
+@media (max-width: 640px) { .hero-sub.linhas { font-size: 11px; letter-spacing: .03em; } }

@@ -14,3 +14,60 @@ ativo: trabalhos.html
         <noscript><p class="intro">Para ver as imagens, ative o JavaScript ou veja no <a href="https://instagram.com/dac.artink">Instagram @dac.artink</a>.</p></noscript>
       </div>
     </div>
+
+    <!-- ARQUIVO DE ACERVO: aparece na aba "Arquivo de acervo" de Trabalhos.
+         Para cada peça, copie um <article class="peca"> inteiro e troque os dados.
+         - Fotos: coloque os arquivos em assets/acervo/ e aponte o src. Galeria, vídeo e notas são opcionais:
+           se a peça não tiver, apague o bloco inteiro.
+         - Na ficha técnica, acrescente quantas linhas <div><dt>…</dt><dd>…</dd></div> precisar.
+         - Tire a linha "peca-exemplo" quando for uma peça real.
+         Depois rode: python tools/montar_paginas.py -->
+    <template id="acervo">
+      <article class="peca" id="DAC-2023-EXEMPLO">
+        <p class="peca-exemplo">Exemplo de layout · dados a preencher</p>
+
+        <div class="peca-topo">
+          <button class="peca-foto" type="button" data-ampliar="assets/obras/paineis/010-g.webp" aria-label="Ampliar foto da peça">
+            <img src="assets/obras/paineis/010-m.webp" alt="Órbita Felina, painel pintado" width="720" height="720" loading="lazy">
+          </button>
+
+          <div class="peca-registro">
+            <p class="rotulo">Registro de acervo</p>
+            <h3 class="peca-titulo">Órbita Felina</h3>
+            <dl class="peca-codigo"><dt>Código</dt><dd>DAC-2023-000</dd></dl>
+            <p class="peca-tiragem">Peça única • 01/01</p>
+            <p class="peca-selo">✓ Registro autenticado</p>
+          </div>
+        </div>
+
+        <section class="peca-bloco">
+          <h4 class="peca-rotulo">Galeria exclusiva <small>fotos inéditas</small></h4>
+          <div class="peca-galeria">
+            <button type="button" data-ampliar="assets/obras/paineis/011-g.webp" aria-label="Ampliar foto 1"><img src="assets/obras/paineis/011-m.webp" alt="" width="720" height="720" loading="lazy"></button>
+            <button type="button" data-ampliar="assets/obras/paineis/012-g.webp" aria-label="Ampliar foto 2"><img src="assets/obras/paineis/012-m.webp" alt="" width="720" height="720" loading="lazy"></button>
+            <button type="button" data-ampliar="assets/obras/paineis/013-g.webp" aria-label="Ampliar foto 3"><img src="assets/obras/paineis/013-m.webp" alt="" width="720" height="720" loading="lazy"></button>
+          </div>
+        </section>
+
+        <!-- VÍDEO (opcional): troque o src ou apague o bloco
+        <section class="peca-bloco">
+          <h4 class="peca-rotulo">Vídeo</h4>
+          <video class="peca-video" src="assets/acervo/NOME.mp4" controls playsinline preload="metadata"></video>
+        </section>
+        -->
+
+        <section class="peca-bloco">
+          <h4 class="peca-rotulo">Notas da artista</h4>
+          <p class="peca-notas">Espaço para as notas da artista sobre a peça: contexto, processo, intenção. Se a peça não tiver notas, apague este bloco.</p>
+        </section>
+
+        <section class="peca-bloco">
+          <h4 class="peca-rotulo">Ficha técnica</h4>
+          <dl class="peca-ficha">
+            <div><dt>Data de criação</dt><dd>2023</dd></div>
+            <div><dt>Materiais</dt><dd>a preencher</dd></div>
+            <div><dt>Dimensões</dt><dd>a preencher</dd></div>
+          </dl>
+        </section>
+      </article>
+    </template>
