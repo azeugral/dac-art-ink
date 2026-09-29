@@ -20,47 +20,51 @@
         {
           "arquivo": "061.png",
           "legenda": "",
-          "grupo": null,
+          "grupo": "Handpoke",
           "w": 1080,
           "h": 1440,
           "t": "assets/obras/tattoos/061-t.webp",
           "m": "assets/obras/tattoos/061-m.webp",
-          "g": "assets/obras/tattoos/061-g.webp"
+          "g": "assets/obras/tattoos/061-g.webp",
+          "cicatrizada": true
         },
         {
           "arquivo": "062.png",
           "legenda": "",
-          "grupo": null,
+          "grupo": "Handpoke",
           "w": 1080,
           "h": 1440,
           "t": "assets/obras/tattoos/062-t.webp",
           "m": "assets/obras/tattoos/062-m.webp",
-          "g": "assets/obras/tattoos/062-g.webp"
+          "g": "assets/obras/tattoos/062-g.webp",
+          "cicatrizada": true
         },
         {
           "arquivo": "063.jpg",
           "legenda": "",
-          "grupo": null,
+          "grupo": "Handpoke",
           "w": 674,
           "h": 1230,
           "t": "assets/obras/tattoos/063-t.webp",
           "m": "assets/obras/tattoos/063-m.webp",
-          "g": "assets/obras/tattoos/063-g.webp"
+          "g": "assets/obras/tattoos/063-g.webp",
+          "cicatrizada": true
         },
         {
           "arquivo": "064.png",
           "legenda": "",
-          "grupo": null,
+          "grupo": "Handpoke",
           "w": 1080,
           "h": 1080,
           "t": "assets/obras/tattoos/064-t.webp",
           "m": "assets/obras/tattoos/064-m.webp",
-          "g": "assets/obras/tattoos/064-g.webp"
+          "g": "assets/obras/tattoos/064-g.webp",
+          "cicatrizada": false
         },
         {
           "arquivo": "002.jpg",
           "legenda": "",
-          "grupo": null,
+          "grupo": "Máquina",
           "cicatrizada": false,
           "w": 1254,
           "h": 1254,
@@ -71,7 +75,7 @@
         {
           "arquivo": "003.jpg",
           "legenda": "",
-          "grupo": null,
+          "grupo": "Máquina",
           "cicatrizada": false,
           "w": 1254,
           "h": 1254,
@@ -82,7 +86,7 @@
         {
           "arquivo": "004.jpg",
           "legenda": "",
-          "grupo": null,
+          "grupo": "Pokechine",
           "cicatrizada": false,
           "w": 820,
           "h": 784,
@@ -93,7 +97,7 @@
         {
           "arquivo": "005.jpg",
           "legenda": "",
-          "grupo": null,
+          "grupo": "Máquina",
           "cicatrizada": false,
           "w": 897,
           "h": 997,
@@ -104,7 +108,7 @@
         {
           "arquivo": "006.jpg",
           "legenda": "",
-          "grupo": null,
+          "grupo": "Máquina",
           "cicatrizada": false,
           "w": 1080,
           "h": 1080,
@@ -115,7 +119,7 @@
         {
           "arquivo": "007.png",
           "legenda": "",
-          "grupo": null,
+          "grupo": "Handpoke",
           "cicatrizada": false,
           "w": 1080,
           "h": 1440,
@@ -126,7 +130,7 @@
         {
           "arquivo": "008.png",
           "legenda": "",
-          "grupo": null,
+          "grupo": "Handpoke",
           "cicatrizada": false,
           "w": 1080,
           "h": 1069,
@@ -137,8 +141,8 @@
         {
           "arquivo": "009.jpg",
           "legenda": "",
-          "grupo": null,
-          "cicatrizada": false,
+          "grupo": "Handpoke",
+          "cicatrizada": true,
           "w": 1050,
           "h": 1050,
           "t": "assets/obras/tattoos/009-t.webp",
@@ -210,17 +214,6 @@
           "t": "assets/obras/tattoos/015-t.webp",
           "g": "assets/obras/tattoos/015-g.webp",
           "m": "assets/obras/tattoos/015-m.webp"
-        },
-        {
-          "arquivo": "016.jpg",
-          "legenda": "",
-          "grupo": "Handpoke",
-          "cicatrizada": true,
-          "w": 720,
-          "h": 1280,
-          "t": "assets/obras/tattoos/016-t.webp",
-          "g": "assets/obras/tattoos/016-g.webp",
-          "m": "assets/obras/tattoos/016-m.webp"
         },
         {
           "arquivo": "017.jpg",
@@ -401,7 +394,7 @@
         {
           "arquivo": "033.jpeg",
           "legenda": "",
-          "grupo": "Pokechine",
+          "grupo": "Handpoke",
           "cicatrizada": true,
           "w": 960,
           "h": 1280,
@@ -412,7 +405,7 @@
         {
           "arquivo": "034.jpeg",
           "legenda": "",
-          "grupo": "Pokechine",
+          "grupo": "Handpoke",
           "cicatrizada": true,
           "w": 1163,
           "h": 1171,
@@ -605,8 +598,8 @@
         {
           "arquivo": "060.jpg",
           "legenda": "",
-          "grupo": null,
-          "cicatrizada": null,
+          "grupo": "Handpoke",
+          "cicatrizada": true,
           "origem": "instagram",
           "w": 1440,
           "h": 1799,
@@ -617,8 +610,8 @@
         {
           "arquivo": "059.jpg",
           "legenda": "",
-          "grupo": null,
-          "cicatrizada": null,
+          "grupo": "Handpoke",
+          "cicatrizada": false,
           "origem": "instagram",
           "w": 1440,
           "h": 1800,
@@ -629,8 +622,8 @@
         {
           "arquivo": "058.jpg",
           "legenda": "",
-          "grupo": null,
-          "cicatrizada": null,
+          "grupo": "Handpoke",
+          "cicatrizada": false,
           "origem": "instagram",
           "w": 1080,
           "h": 1080,
@@ -641,8 +634,8 @@
         {
           "arquivo": "057.jpg",
           "legenda": "",
-          "grupo": null,
-          "cicatrizada": null,
+          "grupo": "Handpoke",
+          "cicatrizada": false,
           "origem": "instagram",
           "w": 1440,
           "h": 1800,
