@@ -601,8 +601,6 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
 .historia-card p:last-child { margin: 0; color: var(--apagado); font-size: 16px; }
 .historia-card em { color: var(--texto); }
 
-.foto-galeria { margin: 0; border: 1px solid var(--linha); border-radius: var(--raio); overflow: hidden; background: var(--placa); }
-.foto-galeria img { display: block; width: 100%; height: auto; }
 .coelho-dac {
   margin: 0; aspect-ratio: 1; display: grid; place-items: center;
   background: radial-gradient(circle at 50% 55%, color-mix(in srgb, var(--neon-fundo) 14%, transparent), transparent 62%), var(--preto);
