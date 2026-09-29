@@ -352,7 +352,7 @@ h3 { font-size: clamp(26px, 3.4vw, 36px); }
   font: 700 18px/1 var(--f-rotulo); transition: border-color var(--t), color var(--t);
 }
 .caixa-btn:hover { border-color: var(--menta); color: var(--menta); }
-.caixa-nav { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,.5); }
+.caixa-nav { position: absolute; top: calc(50% - 24px); background: rgba(0,0,0,.5); } /* centraliza sem transform: o clique fofo anima o transform */
 .caixa-nav.ant { left: 8px; }
 .caixa-nav.prox { right: 8px; }
 .caixa-legenda { color: var(--texto); }
@@ -736,3 +736,41 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
 .peca-codigo dt { font-size: 11px; }
 .peca-rotulo small { font-size: 11px; }
 @media (max-width: 640px) { .hero-sub.linhas { font-size: 11px; letter-spacing: .03em; } }
+
+/* ---------- mobile refinado (30/09) ---------- */
+/* visualização ampliada no celular: a obra ocupa a tela; setas em par, centralizadas embaixo */
+.caixa-palco img { will-change: transform; user-select: none; -webkit-user-drag: none; }
+@media (max-width: 700px), (pointer: coarse) {
+  .caixa-topo, .caixa-rodape { padding: 10px 16px; }
+  .caixa-palco { padding: 0 8px 72px; }
+  .caixa-nav { top: auto; bottom: 12px; background: rgba(12, 12, 14, .82); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+  .caixa-nav.ant { left: calc(50% - 60px); }
+  .caixa-nav.prox { right: calc(50% - 60px); left: auto; }
+  .caixa-rodape { padding-bottom: max(12px, env(safe-area-inset-bottom)); }
+}
+
+/* menu: cabe em qualquer largura de celular (inclusive com escala de texto do Android);
+   se ainda assim faltar espaço, rola de lado em vez de cortar */
+@media (max-width: 640px) {
+  .menu { justify-content: space-between; gap: 0; padding: 0 10px; overflow-x: auto; scrollbar-width: none; }
+  .menu::-webkit-scrollbar { display: none; }
+  .menu li { flex: none; }
+  .menu a { font-size: clamp(11px, 3.1vw, 12px); letter-spacing: .02em; padding: 16px 2px; }
+  .menu .ext::after { font-size: .85em; }
+}
+
+/* telas de toque: sem hover "grudado" depois do toque (o retorno visual é o clique fofo) */
+@media (hover: none) {
+  .menu a:not([aria-current="page"]):hover { color: var(--apagado); }
+  .menu a:not([aria-current="page"]):hover::before { transform: scaleX(0); }
+  .botao:hover { box-shadow: none; }
+  .botao.vazado:hover { background: transparent; }
+  .filtro:not([aria-pressed="true"]):hover { color: var(--apagado); border-color: var(--linha); }
+  .obra:hover img { transform: none; }
+  .caixa-btn:hover { border-color: var(--linha); color: var(--texto); }
+  .opcoes label:hover input:not(:checked) + span { border-color: var(--linha); color: var(--apagado); }
+  .zap:hover { transform: none; }
+  .rodape a:hover { color: var(--apagado); }
+  .assinatura a:hover { color: var(--texto); border-bottom-color: transparent; }
+  .produto h3 a:hover { color: inherit; }
+}

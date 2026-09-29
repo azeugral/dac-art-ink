@@ -27,27 +27,39 @@
   // Clique fofo: o elemento afunda ao toque e volta com um quique leve.
   // O menu e o logo ficam de fora: eles participam da transição de página e não podem ser fotografados no meio do quique.
   const TOCAVEIS = ".botao, .filtro, .obra, .produto-foto, .caixa-btn, .zap, .opcoes span, .faixa-cab > a";
+  // No toque (celular), o aperto só começa depois de 90 ms e é cancelado se o dedo se mover:
+  // assim, rolar a página por cima de uma imagem não faz ela encolher.
   if (!calmo) {
-    let apertado = null;
-    const soltar = () => {
+    let apertado = null, pendente = null;
+    const afundar = (el) => {
+      apertado = el;
+      const a = el.animate([{ transform: "scale(1)" }, { transform: "scale(.95)" }], { duration: 110, easing: "ease-out", fill: "forwards" });
+      a.id = "aperto";
+    };
+    const largar = (quique) => {
       if (!apertado) return;
       const el = apertado;
       apertado = null;
       el.getAnimations().forEach((a) => a.id === "aperto" && a.cancel());
-      el.animate(
-        [{ transform: "scale(.95)" }, { transform: "scale(1.025)", offset: 0.55 }, { transform: "scale(1)" }],
-        { duration: 420, easing: suave }
-      );
+      if (quique) el.animate([{ transform: "scale(.95)" }, { transform: "scale(1.025)", offset: 0.55 }, { transform: "scale(1)" }], { duration: 420, easing: suave });
     };
+    const limpar = () => { if (pendente) { clearTimeout(pendente.t); pendente = null; } };
     addEventListener("pointerdown", (e) => {
       const el = e.target.closest(TOCAVEIS);
       if (!el || e.button > 0) return;
-      apertado = el;
-      const a = el.animate([{ transform: "scale(1)" }, { transform: "scale(.95)" }], { duration: 110, easing: "ease-out", fill: "forwards" });
-      a.id = "aperto";
+      limpar();
+      if (e.pointerType === "touch") pendente = { el, x: e.clientX, y: e.clientY, t: setTimeout(() => { afundar(el); pendente = null; }, 90) };
+      else afundar(el);
     });
-    ["pointerup", "pointercancel", "dragstart"].forEach((t) => addEventListener(t, soltar));
-    addEventListener("pointerleave", soltar);
+    addEventListener("pointermove", (e) => {
+      if (pendente && Math.hypot(e.clientX - pendente.x, e.clientY - pendente.y) > 8) limpar();
+    }, { passive: true });
+    addEventListener("pointerup", () => {
+      if (pendente) { const el = pendente.el; limpar(); afundar(el); } // toque rápido: aperta e já solta com o quique
+      largar(true);
+    });
+    addEventListener("pointercancel", () => { limpar(); largar(false); }); // virou rolagem: volta sem quique
+    addEventListener("dragstart", () => { limpar(); largar(false); });
   }
 
   // Seções aparecem ao entrar na tela. Só o que ainda está abaixo da dobra é escondido,
@@ -123,7 +135,7 @@
   }
 
   /* ---------- visualização ampliada ---------- */
-  let caixa, atual = [], pos = 0;
+  let caixa, atual = [], pos = 0, arrastou = false;
   function montarCaixa() {
     caixa = document.createElement("dialog");
     caixa.className = "caixa";
@@ -143,20 +155,49 @@
     caixa.querySelector(".caixa-palco img").addEventListener("load", (e) => e.target.classList.remove("trocando"));
     caixa.querySelector(".ant").onclick = () => ir(-1);
     caixa.querySelector(".prox").onclick = () => ir(1);
-    caixa.addEventListener("click", (e) => { if (e.target === caixa || e.target.classList.contains("caixa-palco")) fechar(); });
+    caixa.addEventListener("click", (e) => {
+      if (arrastou) { arrastou = false; return; } // o arrasto não conta como toque para fechar
+      if (e.target === caixa || e.target.classList.contains("caixa-palco")) fechar();
+    });
     caixa.addEventListener("keydown", (e) => {
       if (e.key === "ArrowLeft") ir(-1);
       if (e.key === "ArrowRight") ir(1);
     });
-    let x0 = null;
+    // Arrastar: a imagem acompanha o dedo; soltando longe (ou rápido) troca, perto volta para o lugar.
     const palco = caixa.querySelector(".caixa-palco");
-    palco.addEventListener("pointerdown", (e) => { x0 = e.clientX; });
-    palco.addEventListener("pointerup", (e) => {
-      if (x0 === null) return;
-      const dx = e.clientX - x0;
-      x0 = null;
-      if (Math.abs(dx) > 50) ir(dx < 0 ? 1 : -1);
+    const foto = palco.querySelector("img");
+    let x0 = null, y0 = 0, t0 = 0, dx = 0;
+    palco.addEventListener("pointerdown", (e) => {
+      if (e.target.closest(".caixa-btn") || atual.length < 2) return;
+      x0 = e.clientX; y0 = e.clientY; t0 = performance.now(); dx = 0; arrastou = false;
     });
+    palco.addEventListener("pointermove", (e) => {
+      if (x0 === null) return;
+      dx = e.clientX - x0;
+      if (!arrastou && Math.abs(dx) > 8 && Math.abs(dx) > Math.abs(e.clientY - y0)) {
+        arrastou = true;
+        try { palco.setPointerCapture(e.pointerId); } catch {}
+        foto.getAnimations().forEach((a) => a.cancel());
+      }
+      if (arrastou) {
+        foto.style.transform = `translateX(${dx}px)`;
+        foto.style.opacity = String(1 - Math.min(Math.abs(dx) / 700, 0.35));
+      }
+    });
+    const soltarFoto = (e) => {
+      if (x0 === null) return;
+      x0 = null;
+      if (!arrastou) return;
+      const rapido = Math.abs(dx) / Math.max(performance.now() - t0, 1) > 0.45;
+      if (Math.abs(dx) > 70 || (rapido && Math.abs(dx) > 24)) ir(dx < 0 ? 1 : -1, dx);
+      else {
+        const de = foto.style.transform;
+        foto.style.transform = ""; foto.style.opacity = "";
+        if (!calmo) foto.animate([{ transform: de }, { transform: "none" }], { duration: 260, easing: suave });
+      }
+    };
+    palco.addEventListener("pointerup", soltarFoto);
+    palco.addEventListener("pointercancel", soltarFoto);
     caixa.addEventListener("close", () => { document.documentElement.style.overflow = ""; });
   }
   function fechar() {
@@ -181,10 +222,20 @@
     const sm = document.createElement("small");
     sm.textContent = leg ? s.titulo : "";
     caixa.querySelector(".caixa-legenda").append(t, sm);
-    const prox = atual[(pos + 1) % atual.length];
-    if (prox) new Image().src = prox.it.g;
+    // pré-carrega as vizinhas nos dois sentidos
+    [1, -1].forEach((k) => { const v = atual[(pos + k + atual.length) % atual.length]; if (v) new Image().src = v.it.g; });
   }
-  function ir(d) { pos = (pos + d + atual.length) % atual.length; mostrar(); }
+  // Troca com deslize: a nova entra pelo lado de onde o dedo "puxou" (ou da seta).
+  function ir(d, deArrasto = 0) {
+    pos = (pos + d + atual.length) % atual.length;
+    const foto = caixa.querySelector(".caixa-palco img");
+    foto.style.transform = ""; foto.style.opacity = "";
+    mostrar();
+    if (calmo) return;
+    foto.getAnimations().forEach((a) => a.cancel());
+    const inicio = d * Math.max(60, Math.min(Math.abs(deArrasto) * 0.6, 140));
+    foto.animate([{ transform: `translateX(${inicio}px)`, opacity: 0 }, { transform: "none", opacity: 1 }], { duration: 340, easing: suave });
+  }
   function abrir(lista, i) {
     if (!caixa) montarCaixa();
     atual = lista;
