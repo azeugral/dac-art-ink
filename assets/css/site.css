@@ -449,24 +449,18 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
 .rodape { border-top: 1px solid var(--linha); background: var(--preto); }
 .rodape-in { max-width: var(--max); margin: 0 auto; padding: clamp(40px, 5vw, 64px) var(--gutter) 28px; }
 
-/* mesmo formato do rodapé do Maronez: marca com contatos · Páginas · Redes */
-.rodape-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 20px; padding-bottom: clamp(32px, 4vw, 44px); }
-.rodape-marca { grid-column: 1 / -1; }
-@media (min-width: 720px) {
-  .rodape-cols { grid-template-columns: 1.4fr 1fr 1fr; gap: 32px; }
-  .rodape-marca { grid-column: auto; }
+/* rodapé: só o DAC, centralizado; embaixo Páginas e Redes, também centralizadas */
+.rodape-logo { display: block; width: fit-content; margin: 0 auto clamp(28px, 4vw, 40px); padding: 0 !important; }
+.rodape-logo img { width: clamp(150px, 18vw, 210px); height: auto; filter: drop-shadow(0 0 14px color-mix(in srgb, var(--menta) 25%, transparent)); }
+.rodape-cols {
+  display: grid; grid-template-columns: repeat(2, minmax(0, max-content)); justify-content: center;
+  gap: 28px clamp(48px, 10vw, 140px); text-align: center; padding-bottom: clamp(32px, 4vw, 44px);
 }
-.rodape-marca img { width: 160px; height: auto; }
-.rodape-marca p { margin: 16px 0 0; max-width: 36ch; color: var(--apagado); font-size: 15px; }
-.rodape-contato { margin-top: 14px !important; }
-.rodape-contato li, .rodape-contato a { color: var(--texto); }
-.rodape-contato li { padding: 4px 0; }
-.rodape-contato li:has(a) { padding: 0; }
 .rodape h2 { font: 700 11px/1 var(--f-rotulo); letter-spacing: .18em; text-transform: uppercase; color: var(--neon); margin: 0 0 14px; }
 .rodape ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
 .rodape li { font-size: 15px; color: var(--apagado); overflow-wrap: anywhere; }
 .rodape a { text-decoration: none; color: var(--apagado); display: inline-block; padding: 6px 0; transition: color var(--t); }
-.rodape a:hover, .rodape-contato a:hover { color: var(--menta); }
+.rodape a:hover { color: var(--menta); }
 
 .rodape-fim {
   display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px 24px;
@@ -661,3 +655,25 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
   :root { --parede: .7; }
   .parede::before { background-image: url("../img/parede-mobile.webp"); }
 }
+
+/* ---------- rodada de ajustes da Dani (29/09) ---------- */
+/* fundo: mais discreto para não atrapalhar a leitura */
+:root { --parede: .55; }
+@media (max-width: 700px), (max-aspect-ratio: 4/5) { :root { --parede: .42; } }
+/* home: as tattoos agora vêm logo depois da abertura */
+.hero + .secao { padding-top: clamp(24px, 4vw, 40px); }
+.rodape-fim { justify-content: center; text-align: center; }
+@media (min-width: 720px) { .rodape-fim { justify-content: space-between; text-align: left; } }
+@media (max-width: 640px) { .rodape-fim { align-items: center; } }
+/* técnicas: 4 cards (Handpoke, Máquina, Pokechine, Máquina artesanal) */
+@media (min-width: 600px) { .cartoes.cartoes-4 { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1000px) { .cartoes.cartoes-4 { grid-template-columns: repeat(4, 1fr); } }
+/* sobre: os dois vídeos alinhados */
+.video:nth-child(2) { margin-top: 0; }
+.videos { align-items: stretch; }
+.video video { height: 100%; }
+/* rodapé: o logo precisa vencer a regra ".rodape a" (inline-block) para centralizar */
+.rodape .rodape-logo { display: block; }
+/* descrição da abertura: 3 linhas em caixa alta, como a Dani escreveu */
+.hero-sub.linhas { text-transform: uppercase; letter-spacing: .12em; font-size: 13px; line-height: 2; max-width: none; }
+@media (max-width: 640px) { .hero-sub.linhas { font-size: clamp(9.5px, 2.75vw, 12px); letter-spacing: .06em; } }

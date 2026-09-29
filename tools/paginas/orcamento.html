@@ -1,6 +1,6 @@
 <!--
 titulo: Orçamento de tattoo · DAC ART INK
-descricao: Peça seu orçamento de tatuagem handpoke, híbrida ou com máquina artesanal com Dani Coelho em São José dos Campos. A mensagem chega pronta no WhatsApp.
+descricao: Peça seu orçamento de tatuagem autoral em handpoke, máquina, pokechine ou máquina artesanal com Dani Coelho em São José dos Campos. A mensagem chega pronta no WhatsApp.
 ativo: orcamento.html
 -->
     <div class="miolo">
@@ -27,7 +27,7 @@ ativo: orcamento.html
             </fieldset>
             <div class="campo">
               <label for="ideia">A ideia</label>
-              <textarea id="ideia" name="ideia" required placeholder="Ex.: o coelho da coleção neøkid, com traço fino. Ou descreva o que você imagina, com detalhes e referências."></textarea>
+              <textarea id="ideia" name="ideia" required placeholder="Ex.: o desenho de coelho com serra elétrica na mão"></textarea>
               <p class="ajuda">Se tiver imagem de referência, manda no WhatsApp depois.</p>
             </div>
             <div class="campo">
@@ -42,15 +42,6 @@ ativo: orcamento.html
                 <label><input type="radio" name="cor" value="Não sei ainda"><span>Não sei ainda</span></label>
               </div>
             </fieldset>
-            <fieldset class="campo">
-              <legend>Técnica</legend>
-              <div class="opcoes grade-2">
-                <label><input type="radio" name="tecnica" value="Handpoke"><span>Handpoke</span></label>
-                <label><input type="radio" name="tecnica" value="Híbrida"><span>Híbrida</span></label>
-                <label><input type="radio" name="tecnica" value="Máquina artesanal"><span>Máquina artesanal</span></label>
-                <label><input type="radio" name="tecnica" value="Quero a indicação da Dani"><span>Me indica</span></label>
-              </div>
-            </fieldset>
             <div class="campo">
               <label for="cidade">Sua cidade</label>
               <input id="cidade" name="cidade" autocomplete="address-level2" placeholder="Ex.: São José dos Campos">
@@ -60,7 +51,7 @@ ativo: orcamento.html
             <button class="botao" type="submit">Enviar pelo WhatsApp</button>
           </form>
 
-          <div>
+          <div id="regras">
             <p class="rotulo">Antes de enviar</p>
             <h2>Regras <span class="neon">do sinal</span></h2>
             <ul class="regras" style="margin-top:24px">
@@ -68,8 +59,6 @@ ativo: orcamento.html
               <li><strong>O sinal cobre a preparação.</strong> Ele garante o horário e o tempo dedicado ao desenvolvimento do seu desenho.</li>
               <li><strong>1 reagendamento.</strong> Pode remarcar uma vez, avisando com pelo menos 48 horas de antecedência.</li>
               <li><strong>Sem devolução</strong> em caso de cancelamento ou falta sem aviso.</li>
-              <li><strong>Artes autorais são únicas.</strong> Alguns desenhos podem ser tatuados em mais de uma pessoa, mas cada um recebe alterações: nenhuma tattoo sai igual à outra.</li>
-              <li><strong>Ideia sua, estilo meu.</strong> Desenhos customizados são feitos dentro da minha linguagem artística.</li>
             </ul>
             <p class="aviso">Eu garanto que a sua tattoo nova vai ser incrível e muito estilosa! ;)</p>
           </div>
@@ -78,11 +67,12 @@ ativo: orcamento.html
 
       <section class="secao">
         <p class="rotulo">Técnicas</p>
-        <h2>Como eu <span class="menta">tatuo</span></h2>
-        <div class="cartoes">
-          <article class="cartao"><h3>Handpoke</h3><p>Tatuagem sem máquina, ponto a ponto. Menos dor e mais estilo.</p></article>
-          <article class="cartao"><h3>Híbrida</h3><p>A fusão entre handpoke e máquina, numa técnica que desenvolvi.</p><span class="selo">técnica exclusiva</span></article>
-          <article class="cartao"><h3>Máquina artesanal</h3><p>Prison tattoo machine: tatuagem com máquina feita à mão.</p></article>
+        <h2>Como eu <span class="menta">trabalho</span></h2>
+        <div class="cartoes cartoes-4">
+          <article class="cartao"><h3>Handpoke</h3><p>Tatuagem sem máquina, feita manualmente. Menos agressão à pele e recuperação mais tranquila.</p></article>
+          <article class="cartao"><h3>Máquina</h3><p>Tatuagem feita com máquina de tatuagem convencional.</p></article>
+          <article class="cartao"><h3>Pokechine</h3><p>Fusão entre máquina + handpoke. Técnica própria que desenvolvi.</p><span class="selo">técnica própria</span></article>
+          <article class="cartao"><h3>Máquina artesanal</h3><p>Máquina construída artesanalmente, utilizada em projetos específicos.</p></article>
         </div>
         <p class="rotulo" style="margin-top:40px">Não faço</p>
         <ul class="nao-faco">
@@ -92,24 +82,13 @@ ativo: orcamento.html
         </ul>
       </section>
 
-      <section class="secao">
-        <div class="faixa-cab">
-          <div>
-            <p class="rotulo">Flash</p>
-            <h2>Artes <span class="lima">para tatuar</span></h2>
-          </div>
-          <a href="https://instagram.com/dac.artink" target="_blank" rel="noopener">Mais no Instagram →</a>
-        </div>
-        <p class="intro" style="margin:0 0 24px">Desenhos autorais prontos para tatuar. Escolha um e cite no orçamento.</p>
-        <div class="grade" data-faixa="flash"></div>
-      </section>
 
       <section class="secao">
         <p class="rotulo">Onde</p>
         <h2>Onde eu <span class="menta">atendo</span></h2>
         <div class="locais">
           <article class="cartao"><h3>Jardim Oriente</h3><p>Estúdio privado, zona sul de São José dos Campos. Endereço combinado no agendamento.</p></article>
-          <article class="cartao"><h3>Sakamoto Studio</h3><p>Dentro do Momentum Lounge Café, ao lado do Shopping Center Vale, em São José dos Campos.</p></article>
+          <article class="cartao"><h3>Tattoo Atômica</h3><p>Estúdio na zona sul de São José dos Campos.</p></article>
         </div>
         <p class="intro">Mora longe? Me chama: eu também tatuo em outras cidades.</p>
       </section>

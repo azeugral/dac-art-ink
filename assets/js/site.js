@@ -401,7 +401,6 @@
         ...campo("tipo", "Tipo"),
         ...campo("local", "Local do corpo"),
         ...campo("cor", "Cor"),
-        ...campo("tecnica", "Técnica"),
         ...campo("cidade", "Cidade"),
         "",
         "Li as regras do sinal e os cuidados.",
