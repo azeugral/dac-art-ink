@@ -23,6 +23,12 @@ for frag in sorted((RAIZ / "tools" / "paginas").glob("*.html")):
     cab = re.sub(r'(<meta property="og:title" content=")[^"]*', lambda m: m.group(1) + html.escape(meta["titulo"], quote=True), cab)
     cab = re.sub(r'(<meta property="og:description" content=")[^"]*', lambda m: m.group(1) + html.escape(meta["descricao"], quote=True), cab)
     cab = cab.replace('<link rel="preload" as="image" href="assets/img/logo.webp">\n', "")
+    # endereço próprio da página (canonical e og:url); a 404 não entra no Google
+    url = f"https://dacartink.com/{frag.name}"
+    cab = cab.replace('<link rel="canonical" href="https://dacartink.com/">', f'<link rel="canonical" href="{url}">')
+    cab = cab.replace('<meta property="og:url" content="https://dacartink.com/">', f'<meta property="og:url" content="{url}">')
+    if frag.name == "404.html":
+        cab = cab.replace(f'  <link rel="canonical" href="{url}">\n', '  <meta name="robots" content="noindex">\n')
     cab = cab.replace("<body>", '<body class="interna">', 1)  # logo menor nas páginas internas
     if meta.get("ativo"):
         cab = cab.replace(f'<a href="{meta["ativo"]}">', f'<a href="{meta["ativo"]}" aria-current="page">', 1)

@@ -3,7 +3,8 @@
 Site da Dani Coelho (@dac.artink): tattoo, arte autoral e atalho para a loja. Substitui o Linktree e o Adobe Portfolio.
 HTML, CSS e JS puros, sem build. Publicado no GitHub Pages.
 
-**Status: prévia.** As páginas têm `noindex` até o domínio definitivo ser publicado.
+**Status: no ar em https://dacartink.com** (domínio no arquivo `CNAME`). Indexação liberada: `robots.txt` + `sitemap.xml`; só a 404 tem `noindex`.
+Ao criar página nova, acrescente em `sitemap.xml`.
 
 ## Páginas
 | Arquivo | O que é |
@@ -73,4 +74,3 @@ Fontes provisórias: Big Shoulders Display, Space Mono e Instrument Sans (CONFIR
 - Fontes originais e logo em vetor
 - Originais das imagens (as atuais vieram do Portfolio e do Instagram)
 - Flash ainda disponíveis
-- Domínio. Depois: tirar o `noindex` das páginas e o bloqueio do `robots.txt`, ajustar `og:image` e criar `sitemap.xml`
