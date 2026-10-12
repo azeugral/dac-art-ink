@@ -6,6 +6,50 @@
       "texto": "Handpoke, híbrida (handpoke + máquina) e máquina artesanal. A maioria das fotos é da tatuagem já cicatrizada.",
       "itens": [
         {
+          "arquivo": "065.webp",
+          "legenda": "",
+          "grupo": "Pokechine",
+          "cicatrizada": false,
+          "w": 1054,
+          "h": 1054,
+          "t": "assets/obras/tattoos/065-t.webp",
+          "m": "assets/obras/tattoos/065-m.webp",
+          "g": "assets/obras/tattoos/065-g.webp"
+        },
+        {
+          "arquivo": "066.webp",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": false,
+          "w": 1147,
+          "h": 1147,
+          "t": "assets/obras/tattoos/066-t.webp",
+          "m": "assets/obras/tattoos/066-m.webp",
+          "g": "assets/obras/tattoos/066-g.webp"
+        },
+        {
+          "arquivo": "067.webp",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": false,
+          "w": 1254,
+          "h": 1254,
+          "t": "assets/obras/tattoos/067-t.webp",
+          "m": "assets/obras/tattoos/067-m.webp",
+          "g": "assets/obras/tattoos/067-g.webp"
+        },
+        {
+          "arquivo": "068.webp",
+          "legenda": "",
+          "grupo": "Máquina",
+          "cicatrizada": false,
+          "w": 762,
+          "h": 822,
+          "t": "assets/obras/tattoos/068-t.webp",
+          "m": "assets/obras/tattoos/068-m.webp",
+          "g": "assets/obras/tattoos/068-g.webp"
+        },
+        {
           "arquivo": "052.jpg",
           "legenda": "",
           "grupo": "Handpoke",
