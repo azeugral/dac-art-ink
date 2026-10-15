@@ -146,6 +146,18 @@
           "g": "assets/obras/tattoos/subverso-024-g.webp"
         },
         {
+          "arquivo": "subverso-the-end.png",
+          "legenda": "",
+          "grupo": "Handpoke",
+          "cicatrizada": false,
+          "cat": "subverso",
+          "w": 1080,
+          "h": 1080,
+          "t": "assets/obras/tattoos/subverso-the-end-t.webp",
+          "m": "assets/obras/tattoos/subverso-the-end-m.webp",
+          "g": "assets/obras/tattoos/subverso-the-end-g.webp"
+        },
+        {
           "arquivo": "subverso-023.png",
           "legenda": "",
           "grupo": "Handpoke",
@@ -420,18 +432,6 @@
           "t": "assets/obras/tattoos/subverso-001-t.webp",
           "m": "assets/obras/tattoos/subverso-001-m.webp",
           "g": "assets/obras/tattoos/subverso-001-g.webp"
-        },
-        {
-          "arquivo": "subverso-the-end.png",
-          "legenda": "",
-          "grupo": "Handpoke",
-          "cicatrizada": false,
-          "cat": "subverso",
-          "w": 1080,
-          "h": 1080,
-          "t": "assets/obras/tattoos/subverso-the-end-t.webp",
-          "m": "assets/obras/tattoos/subverso-the-end-m.webp",
-          "g": "assets/obras/tattoos/subverso-the-end-g.webp"
         },
         {
           "arquivo": "flashes-019.jpg",
