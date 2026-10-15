@@ -30,6 +30,15 @@ Ao criar página nova, acrescente em `sitemap.xml`.
 
 Os originais ficam **fora do Git** (`.gitignore`). Só as versões otimizadas sobem.
 
+### Tattoos por categoria
+As tattoos são divididas em 4 categorias: Projetos, Subverso, Flashes e Minimalistas.
+- No `obras.json`, a série `tattoos` lista as categorias em `"categorias"` (slug, título e capa) e cada tattoo tem `"cat"` (a categoria) e `"grupo"` (a técnica, que aparece na legenda).
+- Originais em `originais/tattoos/<categoria>-NNN.ext`. Tattoo nova: copie o arquivo, rode o script (ela entra no fim) e preencha `"cat"` e `"grupo"` no JSON.
+- Capa de cada categoria em `assets/img/categorias/<categoria>.webp` (800×1000).
+- Na home, a seção "Na pele" mostra um cartão por categoria. Cada um abre `trabalhos.html#tattoos-<categoria>`.
+- Vídeo: item com `"video"` (mp4 em `assets/video/tattoos/`), `"poster"` (jpg), `"w"`, `"h"` e `"cat"`, sem `"arquivo"`. Na grade toca mudo em loop; na ampliada tem controles.
+- As tattoos antigas (até out/2026) estão guardadas em `originais/_removidas/tattoos-ate-2026-10/`.
+
 ### Arquivo de acervo (aba em Trabalhos)
 Registro das peças do acervo para exposição, escrito à mão (sem script de dados):
 1. Em `tools/paginas/trabalhos.html`, dentro de `<template id="acervo">`, copie um `<article class="peca">` inteiro por peça.

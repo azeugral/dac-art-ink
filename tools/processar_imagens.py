@@ -8,6 +8,8 @@ Uso:  python tools/processar_imagens.py
     <nome>-t.webp  miniatura 4:5, 800x1000 (faixas da home e do orçamento)
     <nome>-m.webp  galeria da página Trabalhos, proporção original, altura até 720 px
     <nome>-g.webp  visualização ampliada, proporção original, lado maior até 2000 px
+- Itens com "video" (mp4 + "poster" em assets/video/) passam direto para o site.
+- Tattoos: cada item tem "cat" (a categoria) e a série lista as categorias em "categorias".
 - Escreve assets/js/obras.js, que o site lê.
 Só reprocessa o que mudou. Precisa de Python 3 e Pillow (pip install pillow).
 """
@@ -78,7 +80,7 @@ def main():
     total, feitos = 0, 0
     for serie in dados["series"]:
         pasta = ORIG / serie["slug"]
-        conhecidos = {i["arquivo"] for i in serie["itens"]}
+        conhecidos = {i["arquivo"] for i in serie["itens"] if i.get("arquivo")}
         if pasta.exists():
             for f in sorted(pasta.iterdir()):
                 if f.suffix.lower() in EXTS and f.name not in conhecidos:
@@ -87,6 +89,8 @@ def main():
         destino = SAIDA / serie["slug"]
         destino.mkdir(parents=True, exist_ok=True)
         for item in serie["itens"]:
+            if item.get("video"):  # vídeo: mp4 + capa já ficam em assets/video/, nada a gerar aqui
+                continue
             src = pasta / item["arquivo"]
             if not src.exists():
                 print(f"  ! não encontrado: {src.relative_to(RAIZ)}")
@@ -121,8 +125,9 @@ def main():
 
     CONTEUDO.write_text(json.dumps(dados, ensure_ascii=False, indent=2), encoding="utf-8")
     publico = {"series": [{k: v for k, v in s.items()} | {"itens": [
-        {k: i[k] for k in ("t", "m", "g", "w", "h", "legenda", "grupo", "ano", "cicatrizada", "animada") if i.get(k) not in (None, "")}
-        for i in s["itens"] if "t" in i]} for s in dados["series"]]}
+        {k: i[k] for k in ("t", "m", "g", "w", "h", "legenda", "grupo", "ano", "cicatrizada", "animada", "cat", "video", "poster")
+         if i.get(k) not in (None, "")}
+        for i in s["itens"] if "t" in i or i.get("video")]} for s in dados["series"]]}
     js = RAIZ / "assets" / "js" / "obras.js"
     js.parent.mkdir(parents=True, exist_ok=True)
     js.write_text("// Gerado por tools/processar_imagens.py. Não editar à mão: edite conteudo/obras.json.\nwindow.OBRAS = "

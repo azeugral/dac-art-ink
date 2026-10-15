@@ -41,7 +41,7 @@
 
   // Clique fofo: o elemento afunda ao toque e volta com um quique leve.
   // O menu e o logo ficam de fora: eles participam da transição de página e não podem ser fotografados no meio do quique.
-  const TOCAVEIS = ".botao, .filtro, .obra, .produto-foto, .caixa-btn, .caixa-nav, .zap, .peca-foto, .peca-galeria button, .opcoes span, .faixa-cab > a";
+  const TOCAVEIS = ".botao, .filtro, .obra, .produto-foto, .caixa-btn, .caixa-nav, .zap, .peca-foto, .peca-galeria button, .categoria, .subfiltros a, .opcoes span, .faixa-cab > a";
   // No toque (celular), o aperto só começa depois de 90 ms e é cancelado se o dedo se mover:
   // assim, rolar a página por cima de uma imagem não faz ela encolher.
   if (!calmo) {
@@ -107,7 +107,7 @@
     });
   }
   const REVELAVEIS = [
-    ".vitrine .faixa-cab", ".produto", ".vitrine-cta", ".secao > .faixa-cab", "[data-faixa] > .obra",
+    ".vitrine .faixa-cab", ".produto", ".vitrine-cta", ".secao > .faixa-cab", "[data-faixa] > .obra", "[data-categorias] > .categoria",
     ".como-cab > *", ".passos > li", ".como-fim",
     ".cabeca-pagina", ".cartao", ".bloco", ".regras > li", ".nao-faco", ".form", ".aviso", ".locais + .intro",
     ".retrato", ".texto", ".fatos", ".secao .duas > img", ".processo-txt", ".video", ".historia > h2", ".historia-card", ".coelho-dac",
@@ -125,20 +125,38 @@
     return partes.join(" · ");
   }
 
+  const vigiaVideo = new IntersectionObserver((es) => es.forEach((e) => {
+    if (e.isIntersecting) e.target.play().catch(() => {});
+    else e.target.pause();
+  }), { threshold: 0.35 });
+
   function botaoObra(s, it, i, lista, galeria = false) {
     const b = document.createElement("button");
     b.type = "button";
     b.className = galeria ? "obra solta" : "obra";
     const leg = legendaDe(s, it);
     b.setAttribute("aria-label", `Ampliar: ${s.titulo}${leg ? ", " + leg : ""}`);
-    const img = galeria ? new Image(it.w, it.h) : new Image(800, 1000);
-    img.alt = "";
-    img.loading = i < 8 ? "eager" : "lazy";
-    img.decoding = "async";
-    img.addEventListener("load", () => b.classList.add("pronta"), { once: true });
-    img.src = galeria ? it.m : it.t;
-    if (img.complete) b.classList.add("pronta");
-    b.append(img);
+    if (it.video) {
+      // vídeo: capa + loop mudo que só toca enquanto está na tela
+      const v = document.createElement("video");
+      v.muted = true; v.loop = true; v.playsInline = true; v.preload = "none";
+      v.poster = it.poster;
+      v.src = it.video;
+      v.setAttribute("aria-hidden", "true");
+      v.addEventListener("loadeddata", () => b.classList.add("pronta"), { once: true });
+      b.classList.add("pronta", "tem-video");
+      b.append(v);
+      if (!calmo) vigiaVideo.observe(v);
+    } else {
+      const img = galeria ? new Image(it.w, it.h) : new Image(800, 1000);
+      img.alt = "";
+      img.loading = i < 8 ? "eager" : "lazy";
+      img.decoding = "async";
+      img.addEventListener("load", () => b.classList.add("pronta"), { once: true });
+      img.src = galeria ? it.m : it.t;
+      if (img.complete) b.classList.add("pronta");
+      b.append(img);
+    }
     if (leg) {
       const e = document.createElement("span");
       e.className = "etq";
@@ -161,6 +179,7 @@
       <div class="caixa-palco">
         <button class="caixa-nav ant" aria-label="Anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 4 7 12l8 8"/></svg></button>
         <img alt="">
+        <video class="caixa-video" controls playsinline loop muted hidden></video>
         <button class="caixa-nav prox" aria-label="Próxima"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 4 8 8-8 8"/></svg></button>
       </div>
       <div class="caixa-rodape"><p class="caixa-legenda"></p></div>`;
@@ -180,7 +199,8 @@
     });
     // Arrastar: a imagem acompanha o dedo; soltando longe (ou rápido) troca, perto volta para o lugar.
     const palco = caixa.querySelector(".caixa-palco");
-    const foto = palco.querySelector("img");
+    const fotoImg = palco.querySelector("img"), fotoVideo = palco.querySelector("video");
+    const ativa = () => (fotoVideo.hidden ? fotoImg : fotoVideo);
     let x0 = null, y0 = 0, t0 = 0, dx = 0;
     palco.addEventListener("pointerdown", (e) => {
       if (e.target.closest(".caixa-btn, .caixa-nav") || atual.length < 2) return;
@@ -192,11 +212,11 @@
       if (!arrastou && Math.abs(dx) > 8 && Math.abs(dx) > Math.abs(e.clientY - y0)) {
         arrastou = true;
         try { palco.setPointerCapture(e.pointerId); } catch {}
-        foto.getAnimations().forEach((a) => a.cancel());
+        ativa().getAnimations().forEach((a) => a.cancel());
       }
       if (arrastou) {
-        foto.style.transform = `translateX(${dx}px)`;
-        foto.style.opacity = String(1 - Math.min(Math.abs(dx) / 700, 0.35));
+        ativa().style.transform = `translateX(${dx}px)`;
+        ativa().style.opacity = String(1 - Math.min(Math.abs(dx) / 700, 0.35));
       }
     });
     const soltarFoto = (e) => {
@@ -206,14 +226,17 @@
       const rapido = Math.abs(dx) / Math.max(performance.now() - t0, 1) > 0.45;
       if (Math.abs(dx) > 70 || (rapido && Math.abs(dx) > 24)) ir(dx < 0 ? 1 : -1, dx);
       else {
-        const de = foto.style.transform;
+        const foto = ativa(), de = foto.style.transform;
         foto.style.transform = ""; foto.style.opacity = "";
         if (!calmo) foto.animate([{ transform: de }, { transform: "none" }], { duration: 260, easing: suave });
       }
     };
     palco.addEventListener("pointerup", soltarFoto);
     palco.addEventListener("pointercancel", soltarFoto);
-    caixa.addEventListener("close", () => { document.documentElement.style.overflow = ""; });
+    caixa.addEventListener("close", () => {
+      document.documentElement.style.overflow = "";
+      fotoVideo.pause();
+    });
   }
   function fechar() {
     if (!caixa.open) return;
@@ -223,6 +246,22 @@
   function mostrar() {
     const { s, it } = atual[pos];
     const img = caixa.querySelector(".caixa-palco img");
+    const vid = caixa.querySelector(".caixa-video");
+    vid.hidden = !it.video;
+    img.hidden = Boolean(it.video);
+    if (it.video) {
+      if (vid.getAttribute("src") !== it.video) { vid.poster = it.poster; vid.src = it.video; }
+      vid.currentTime = 0;
+      vid.play().catch(() => {});
+    } else vid.pause();
+    if (it.video) {
+      caixa.querySelector(".caixa-cont").textContent = atual.length < 2 ? "" : `${pos + 1} / ${atual.length}`;
+      caixa.classList.toggle("uma", atual.length < 2);
+      const leg = legendaDe(s, it);
+      caixa.querySelector(".caixa-legenda").replaceChildren(Object.assign(document.createElement("span"), { textContent: leg || s.titulo }));
+      [1, -1].forEach((k) => { const v = atual[(pos + k + atual.length) % atual.length]; if (v && !v.it.video) new Image().src = v.it.g; });
+      return;
+    }
     if (img.getAttribute("src") !== it.g) img.classList.add("trocando");
     img.src = it.g;
     if (img.complete) img.classList.remove("trocando");
@@ -239,15 +278,15 @@
     sm.textContent = leg ? s.titulo : "";
     caixa.querySelector(".caixa-legenda").append(t, sm);
     // pré-carrega as vizinhas nos dois sentidos
-    [1, -1].forEach((k) => { const v = atual[(pos + k + atual.length) % atual.length]; if (v) new Image().src = v.it.g; });
+    [1, -1].forEach((k) => { const v = atual[(pos + k + atual.length) % atual.length]; if (v && !v.it.video) new Image().src = v.it.g; });
   }
   // Troca com deslize: a nova entra pelo lado de onde o dedo "puxou" (ou da seta).
   function ir(d, deArrasto = 0) {
     if (atual.length < 2) return; // uma foto só: nada para trocar (evita a foto "piscar")
     pos = (pos + d + atual.length) % atual.length;
-    const foto = caixa.querySelector(".caixa-palco img");
-    foto.style.transform = ""; foto.style.opacity = "";
+    caixa.querySelectorAll(".caixa-palco img, .caixa-video").forEach((el) => { el.style.transform = ""; el.style.opacity = ""; });
     mostrar();
+    const foto = atual[pos].it.video ? caixa.querySelector(".caixa-video") : caixa.querySelector(".caixa-palco img");
     if (calmo) return;
     foto.getAnimations().forEach((a) => a.cancel());
     const inicio = d * Math.max(60, Math.min(Math.abs(deArrasto) * 0.6, 140));
@@ -402,7 +441,12 @@
 
     function render(slug, rolar) {
       if (slug === "acervo" && modeloAcervo) return renderAcervo(rolar);
+      // tattoos-<categoria> abre só aquela categoria (ex.: #tattoos-subverso)
+      let catAtiva = "";
+      if (slug.startsWith("tattoos-")) { catAtiva = slug.slice(8); slug = "tattoos"; }
       const s = porSlug[slug] && !porSlug[slug].oculta ? porSlug[slug] : visiveis[0];
+      const cats = s.categorias || [];
+      if (!cats.some((c) => c.slug === catAtiva)) catAtiva = "";
       filtros.querySelectorAll(".filtro").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.slug === s.slug)));
       const ativo = filtros.querySelector(`[data-slug="${s.slug}"]`);
       filtros.scrollTo({ left: ativo.offsetLeft - (filtros.clientWidth - ativo.offsetWidth) / 2, behavior: rolar ? "smooth" : "auto" });
@@ -421,10 +465,28 @@
       }
       alvo.append(cab);
 
+      // Tattoos: categorias (projetos, subverso...) viram blocos, com botões para ver uma só.
+      if (cats.length) {
+        const sub = document.createElement("nav");
+        sub.className = "subfiltros";
+        sub.setAttribute("aria-label", "Categorias de tattoo");
+        [{ slug: "", titulo: "Todas" }, ...cats].forEach((c) => {
+          const a = document.createElement("a");
+          a.href = "#" + (c.slug ? "tattoos-" + c.slug : "tattoos");
+          const qtd = c.slug ? s.itens.filter((i) => i.cat === c.slug).length : s.itens.length;
+          a.innerHTML = `${c.titulo} <small>${qtd}</small>`;
+          if (c.slug === catAtiva) a.setAttribute("aria-current", "true");
+          sub.append(a);
+        });
+        alvo.append(sub);
+      }
       // Nas tattoos o grupo é a técnica e aparece na legenda; nas outras séries cada grupo vira um bloco com título.
-      const usaGrupos = s.slug !== "tattoos" && s.itens.some((i) => i.grupo);
-      const grupos = usaGrupos ? [...new Set(s.itens.map((i) => i.grupo || ""))] : [""];
-      const blocos = grupos.map((g) => ({ g, itens: usaGrupos ? s.itens.filter((i) => (i.grupo || "") === g) : s.itens }));
+      const usaGrupos = !cats.length && s.itens.some((i) => i.grupo);
+      const grupos = cats.length ? cats.filter((c) => !catAtiva || c.slug === catAtiva).map((c) => c.titulo)
+        : usaGrupos ? [...new Set(s.itens.map((i) => i.grupo || ""))] : [""];
+      const daCat = (titulo) => cats.find((c) => c.titulo === titulo)?.slug;
+      const blocos = grupos.map((g) => ({ g, itens: cats.length ? s.itens.filter((i) => i.cat === daCat(g))
+        : usaGrupos ? s.itens.filter((i) => (i.grupo || "") === g) : s.itens }));
       const lista = blocos.flatMap((b) => b.itens.map((it) => ({ s, it })));
       let n = 0;
       blocos.forEach(({ g, itens }) => {
@@ -450,7 +512,8 @@
         justificar(galeria);
       });
 
-      document.title = `${s.titulo} · Trabalhos · DAC ART INK`;
+      const nomeCat = cats.find((c) => c.slug === catAtiva)?.titulo;
+      document.title = `${nomeCat ? nomeCat + " · " : ""}${s.titulo} · Trabalhos · DAC ART INK`;
       if (rolar) {
         const y = alvo.getBoundingClientRect().top + scrollY - (parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--altura-topo")) || 64) - filtros.offsetHeight - 8;
         if (y < scrollY) scrollTo({ top: y, behavior: calmo ? "auto" : "smooth" });
@@ -479,9 +542,22 @@
     const [slug, qtd] = el.dataset.faixa.split(":");
     const s = porSlug[slug];
     if (!s) return;
-    const itens = s.itens.slice(0, Number(qtd) || s.itens.length);
+    const itens = s.itens.filter((it) => !it.video).slice(0, Number(qtd) || s.itens.length);
     const lista = itens.map((it) => ({ s, it }));
     itens.forEach((it, i) => el.append(botaoObra(s, it, i + 8, lista)));
+  });
+
+  /* ---------- categorias de tattoo na home: cada cartão abre a categoria em Trabalhos ---------- */
+  document.querySelectorAll("[data-categorias]").forEach((el) => {
+    const s = porSlug[el.dataset.categorias];
+    (s?.categorias || []).forEach((c) => {
+      const qtd = s.itens.filter((i) => i.cat === c.slug).length;
+      const a = document.createElement("a");
+      a.className = "categoria";
+      a.href = `trabalhos.html#${s.slug}-${c.slug}`;
+      a.innerHTML = `<img src="${c.capa}" alt="" width="800" height="1000" loading="lazy"><span class="categoria-nome">${c.titulo}</span><span class="categoria-qtd">${qtd} ${qtd === 1 ? "tattoo" : "tattoos"}</span>`;
+      el.append(a);
+    });
   });
 
   /* ---------- orçamento ---------- */

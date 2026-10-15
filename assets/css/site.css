@@ -829,3 +829,57 @@ fieldset.campo { border: 0; margin: 0; padding: 0; }
 /* acervo: campo ainda sem dado */
 .a-preencher { font: italic 400 13px/1.4 var(--f-rotulo); letter-spacing: .02em; color: #6f6f78; }
 .peca-titulo .a-preencher { font-size: 15px; }
+
+/* ---------- tattoos por categoria ---------- */
+/* home: um cartão por categoria, cada um abre a categoria em Trabalhos */
+.categorias { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; padding-bottom: 64px; }
+@media (min-width: 900px) { .categorias { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; } }
+.categoria {
+  position: relative; display: block; overflow: hidden; aspect-ratio: 4 / 5; isolation: isolate;
+  border: 1px solid var(--linha); background: var(--placa); color: var(--texto); text-decoration: none;
+}
+.categoria img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; transition: transform 700ms var(--suave), filter var(--t); }
+.categoria::before {
+  content: ""; position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(to top, rgba(0, 0, 0, .88) 0%, rgba(0, 0, 0, .35) 38%, transparent 62%);
+}
+.categoria::after {
+  content: "→"; position: absolute; top: 12px; right: 14px; font: 700 18px/1 var(--f-rotulo); color: var(--menta);
+  opacity: 0; transform: translateX(-6px); transition: opacity var(--t), transform var(--t);
+}
+.categoria-nome {
+  position: absolute; left: clamp(12px, 1.6vw, 20px); right: 12px; bottom: clamp(30px, 3.4vw, 42px);
+  font: 800 clamp(26px, 3.4vw, 44px)/.9 var(--f-titulo); text-transform: uppercase; letter-spacing: .01em;
+}
+.categoria-qtd {
+  position: absolute; left: clamp(12px, 1.6vw, 20px); bottom: clamp(12px, 1.4vw, 18px);
+  font: 700 11px/1 var(--f-rotulo); letter-spacing: .16em; text-transform: uppercase; color: var(--menta);
+}
+@media (hover: hover) {
+  .categoria:hover { border-color: color-mix(in srgb, var(--menta) 55%, transparent); }
+  .categoria:hover img { transform: scale(1.04); }
+  .categoria:hover::after { opacity: 1; transform: none; }
+}
+.categoria:focus-visible { outline: 2px solid var(--menta); outline-offset: 3px; }
+
+/* Trabalhos › Tattoos: atalhos para as categorias */
+.subfiltros { display: flex; flex-wrap: wrap; gap: 0 24px; margin: -14px 0 clamp(18px, 3vw, 30px); }
+.subfiltros a {
+  position: relative; display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0; font: 700 12px/1 var(--f-rotulo); letter-spacing: .14em; text-transform: uppercase;
+  color: var(--apagado); text-decoration: none; transition: color var(--t);
+}
+.subfiltros a small { font-size: 11px; font-weight: 400; letter-spacing: .04em; color: color-mix(in srgb, var(--apagado) 70%, transparent); }
+.subfiltros a::after { content: ""; position: absolute; left: 0; right: 0; bottom: 8px; height: 2px; background: var(--menta); transform: scaleX(0); transform-origin: left; transition: transform var(--t); }
+.subfiltros a[aria-current] { color: var(--texto); }
+.subfiltros a[aria-current]::after { transform: scaleX(1); }
+@media (hover: hover) { .subfiltros a:hover { color: var(--texto); } }
+@media (max-width: 640px) { .subfiltros { gap: 0 16px; } }
+
+/* vídeos na galeria e na visualização ampliada */
+.obra video { display: block; width: 100%; height: 100%; object-fit: cover; }
+.obra.tem-video::before {
+  content: ""; position: absolute; top: 10px; right: 10px; z-index: 2; width: 26px; height: 26px; border-radius: 2px;
+  background: rgba(0, 0, 0, .55) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 7v10l8-5z' fill='%2300e080'/%3E%3C/svg%3E") center / 18px no-repeat;
+}
+.caixa-video { max-width: 100%; max-height: 100%; width: auto; height: auto; background: #000; }
+.caixa-video[hidden], .caixa-palco img[hidden] { display: none; }
